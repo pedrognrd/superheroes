@@ -35,7 +35,14 @@ const WIKI = {
 // Lugares fijados a mano con una imagen concreta de Fandom: textos que no son un
 // lugar (el de Alien es "Your chest :)") o que tienen muchas variantes (la escuela
 // Xavier aparece escrita de 15 formas). `match` es el texto exacto o un patrón.
+// Con `file` se toma la imagen de Fandom; con `image`, esa URL directamente.
 const MANUAL = [
+  {
+    match: 'Bizarro World',
+    image: 'https://static.dc.com/dc/files/default_images/1567_400x600.jpg?w=600',
+    title: 'Superman: Tales of the Bizarro World',
+    page: 'https://www.dc.com/graphic-novels/superman-tales-of-the-bizarro-world',
+  },
   { match: 'Your chest :)', host: 'avp.fandom.com', file: 'ALIEN chestburster1280.jpg', title: 'Chestburster', page: 'Chestburster' },
   {
     match: /^(the |professor )?(charles )?xavier('s)? (institute|insitute|school)/i,
@@ -171,14 +178,19 @@ for (const h of heroes) {
 
 const out = await readJson(OUT, {})
 for (const m of MANUAL) {
-  const info = await fandom(m.host, { action: 'query', titles: `File:${m.file}`, prop: 'imageinfo', iiprop: 'url', iiurlwidth: '600' })
-  const url = info?.query?.pages?.[0]?.imageinfo?.[0]?.thumburl
+  let url = m.image
+  let page = m.page
+  if (m.file) {
+    const info = await fandom(m.host, { action: 'query', titles: `File:${m.file}`, prop: 'imageinfo', iiprop: 'url', iiurlwidth: '600' })
+    url = info?.query?.pages?.[0]?.imageinfo?.[0]?.thumburl
+    page = `https://${m.host}/wiki/${encodeURI(m.page)}`
+  }
   if (!url) {
     console.log(`Manual: no se encontró ${m.file} en ${m.host}`)
     continue
   }
   for (const q of places.keys()) {
-    if (manualFor(q) === m) out[q] = { image: url, title: m.title, page: `https://${m.host}/wiki/${encodeURI(m.page)}` }
+    if (manualFor(q) === m) out[q] = { image: url, title: m.title, page }
   }
 }
 await writeFile(OUT, JSON.stringify(out, null, 2) + '\n')

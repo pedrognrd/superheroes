@@ -317,7 +317,11 @@
   },
   "The Bar with No Name, Medina County, Ohio": null,
   "A mutant relocation camp in an undisclosed location on an alternate 21st Century Earth": null,
-  "Bizarro World": null,
+  "Bizarro World": {
+    "image": "https://static.dc.com/dc/files/default_images/1567_400x600.jpg?w=600",
+    "title": "Superman: Tales of the Bizarro World",
+    "page": "https://www.dc.com/graphic-novels/superman-tales-of-the-bizarro-world"
+  },
   "Kahndaq, Egypt": {
     "image": "https://static.wikia.nocookie.net/marvel_dc/images/2/2c/Shiruta_002.jpg/revision/latest/scale-to-width-down/600?cb=20151117030117",
     "title": "Kahndaq",
