@@ -44,15 +44,13 @@ export function MapPanel({ title, place, variant, align, className = '' }: MapPa
             <Recenter coords={coords} />
           </MapContainer>
         ) : (
-          <div className={`map-panel__empty${!query ? ' map-panel__empty--unknown' : ''}`}>
+          <div className={`map-panel__empty${status !== 'loading' ? ' map-panel__empty--unknown' : ''}`}>
             {status === 'loading' ? (
               'Locating…'
-            ) : query ? (
-              'Location not found'
             ) : (
               <>
                 <span className="map-panel__globe" aria-hidden="true" />
-                No known location
+                {query ? 'Location not found' : 'No known location'}
               </>
             )}
           </div>

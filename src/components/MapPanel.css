@@ -47,7 +47,7 @@
   padding: 1rem;
 }
 
-/* Sin lugar conocido: texto grande con el globo encima, del mismo color (máscara) */
+/* Sin ubicación (desconocida o no encontrada): texto grande con el globo encima, del mismo color (máscara) */
 .map-panel__empty--unknown {
   font-size: 3rem;
   line-height: 3rem;
