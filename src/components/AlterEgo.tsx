@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react'
+import { findRelativeHero } from '../data/heroLookup'
 import type { Hero } from '../types'
 import { isEmpty, parseRelatives, type RelativeStatus } from '../utils/parse'
 import { HeartIcon, Silhouette, SkullIcon } from './icons'
@@ -47,6 +48,29 @@ const STATUS_ICON: Record<RelativeStatus, ReactNode> = {
   alive: <HeartIcon />,
 }
 
+/** Nombre del familiar; si también está en la base de datos, enlaza a su ficha */
+function RelativeName({ name, relation, hero }: { name: string; relation: string; hero: Hero }) {
+  const match = findRelativeHero(name, relation, hero)
+  const text = (
+    <>
+      {name}
+      {relation && ` (${relation})`}
+    </>
+  )
+  if (!match) return <span className="rows__text rows__text--right">{text}</span>
+  return (
+    <a
+      className="rows__text rows__text--right rows__link"
+      href={`#${match.id}`}
+      title={`Go to ${match.name}`}
+      // La ficha nueva se ve desde arriba
+      onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+    >
+      {text}
+    </a>
+  )
+}
+
 export function RelativesPanel({ hero }: { hero: Hero }) {
   const relatives = parseRelatives(hero.connections.relatives)
   return (
@@ -58,10 +82,7 @@ export function RelativesPanel({ hero }: { hero: Hero }) {
             <span className="rows__icon" title={r.status}>
               {STATUS_ICON[r.status]}
             </span>
-            <span className="rows__text rows__text--right">
-              {r.name}
-              {r.relation && ` (${r.relation})`}
-            </span>
+            <RelativeName name={r.name} relation={r.relation} hero={hero} />
           </li>
         ))}
       </ul>

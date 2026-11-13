@@ -190,6 +190,21 @@ a { color: var(--accent); }
 }
 .rows__text--right { text-align: right; }
 
+/* Familiar que también está en la base de datos */
+.rows__link {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 3px;
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+.rows__link:hover,
+.rows__link:focus-visible {
+  color: #fff;
+  text-decoration-color: var(--accent);
+  outline: none;
+}
+
 .rows__icon {
   display: grid;
   place-items: center;
