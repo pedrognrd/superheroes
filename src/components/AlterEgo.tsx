@@ -49,7 +49,14 @@ const STATUS_ICON: Record<RelativeStatus, ReactNode> = {
 }
 
 /** Nombre del familiar; si también está en la base de datos, enlaza a su ficha */
-function RelativeName({ name, relation, hero }: { name: string; relation: string; hero: Hero }) {
+interface RelativeNameProps {
+  name: string
+  relation: string
+  hero: Hero
+  onSelect: (id: string) => void
+}
+
+function RelativeName({ name, relation, hero, onSelect }: RelativeNameProps) {
   const match = findRelativeHero(name, relation, hero)
   const text = (
     <>
@@ -61,17 +68,19 @@ function RelativeName({ name, relation, hero }: { name: string; relation: string
   return (
     <a
       className="rows__text rows__text--right rows__link"
-      href={`#${match.id}`}
+      href={window.location.pathname}
       title={`Go to ${match.name}`}
-      // La ficha nueva se ve desde arriba
-      onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+      onClick={(e) => {
+        e.preventDefault()
+        onSelect(match.id)
+      }}
     >
       {text}
     </a>
   )
 }
 
-export function RelativesPanel({ hero }: { hero: Hero }) {
+export function RelativesPanel({ hero, onSelect }: { hero: Hero; onSelect: (id: string) => void }) {
   const relatives = parseRelatives(hero.connections.relatives)
   return (
     <Panel title="Relatives" align="right" className="list-panel relatives">
@@ -82,7 +91,7 @@ export function RelativesPanel({ hero }: { hero: Hero }) {
             <span className="rows__icon" title={r.status}>
               {STATUS_ICON[r.status]}
             </span>
-            <RelativeName name={r.name} relation={r.relation} hero={hero} />
+            <RelativeName name={r.name} relation={r.relation} hero={hero} onSelect={onSelect} />
           </li>
         ))}
       </ul>

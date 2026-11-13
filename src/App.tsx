@@ -19,23 +19,33 @@ function randomHeroId() {
   return strong.length ? pickOne(strong).id : DEFAULT_ID
 }
 
-/** El héroe seleccionado vive en la URL (#620) para poder compartir enlaces.
-    Sin hash válido (carga normal), se muestra uno aleatorio. */
-const readHash = (fallback: string) => {
-  const id = window.location.hash.slice(1)
-  return heroById(id) ? id : fallback
+/** El héroe seleccionado se guarda en el historial del navegador, no en la URL:
+    la dirección siempre es la de la portada y el botón "atrás" vuelve al anterior.
+    Los enlaces antiguos con #id se siguen abriendo y luego se limpia la dirección.
+    Al recargar se mantiene el héroe; en una visita nueva se muestra uno aleatorio. */
+const BASE_URL = window.location.pathname
+
+/** Héroe al cargar: enlace antiguo con #id, el que había antes de recargar, o el aleatorio */
+const initialId = (fallback: string) => {
+  const fromHash = window.location.hash.slice(1)
+  if (heroById(fromHash)) return fromHash
+  const fromHistory = window.history.state?.id
+  return heroById(fromHistory) ? fromHistory : fallback
 }
 
 function useSelectedHero() {
   const [fallback] = useState(randomHeroId)
-  const [id, setId] = useState(() => readHash(fallback))
+  const [id, setId] = useState(() => initialId(fallback))
   useEffect(() => {
-    const onHash = () => setId(readHash(fallback))
-    window.addEventListener('hashchange', onHash)
-    return () => window.removeEventListener('hashchange', onHash)
+    window.history.replaceState({ id }, '', BASE_URL)
+    const onPop = (e: PopStateEvent) => setId(e.state?.id && heroById(e.state.id) ? e.state.id : fallback)
+    window.addEventListener('popstate', onPop)
+    return () => window.removeEventListener('popstate', onPop)
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- solo al montar: guarda el héroe inicial
   }, [fallback])
   const select = (next: string) => {
-    window.location.hash = next
+    if (next !== id) window.history.pushState({ id: next }, '', BASE_URL)
+    setId(next)
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
   return [heroById(id) ?? heroes[0], select] as const
@@ -90,7 +100,7 @@ export default function App() {
               className="birth-map map-panel--left-label"
             />
             <AppearancePanel hero={hero} />
-            <RelativesPanel hero={hero} />
+            <RelativesPanel hero={hero} onSelect={select} />
             <OccupationBar hero={hero} />
           </div>
         </section>

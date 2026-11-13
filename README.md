@@ -72,7 +72,7 @@ npm run update:data                  # héroes nuevos → Comic Vine → Fandom 
 npm run update:data -- --skip-covers --skip-places  # solo héroes nuevos + informe
 ```
 
-La API no tiene listado, así que `fetch:heroes` pide ids por encima del último hasta encontrar 5 seguidos inexistentes. Todo es incremental: solo procesa lo nuevo o pendiente. El informe final lista los héroes nuevos, los posibles duplicados y los que siguen sin portada, agrupados por editorial. Los duplicados confirmados van en `src/data/duplicates.ts` (se ocultan y su `#id` abre el original).
+La API no tiene listado, así que `fetch:heroes` pide ids por encima del último hasta encontrar 5 seguidos inexistentes. Todo es incremental: solo procesa lo nuevo o pendiente. El informe final lista los héroes nuevos, los posibles duplicados y los que siguen sin portada, agrupados por editorial. Los duplicados confirmados van en `src/data/duplicates.ts` (se ocultan y, si se piden por id, abren el original).
 
 ## Publicación
 
@@ -84,7 +84,8 @@ Cada push a `main` la vuelve a publicar con GitHub Actions (`.github/workflows/d
 
 ```
 src/
-├── App.tsx                  maqueta general + héroe seleccionado (#id en la URL)
+├── App.tsx                  maqueta general + héroe seleccionado (en el historial; la URL
+│                            no cambia y los enlaces antiguos con #id siguen funcionando)
 ├── data/heroes.ts           carga los héroes y lista de editoriales
 ├── data/publisherFixes.ts   corrige editoriales mal etiquetadas en la API
 ├── data/covers.ts           portadas (Comic Vine + Fandom + correcciones)
