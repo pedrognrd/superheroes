@@ -2,10 +2,10 @@ import raw from './heroes.json'
 import type { Hero } from '../types'
 import { DUPLICATES, isDuplicate } from './duplicates'
 import { fixPublisher } from './publisherFixes'
-import { fixPlaceOfBirth } from './biographyFixes'
+import { fixPlaceOfBirth, fixRelatives } from './biographyFixes'
 import { PORTRAITS } from './portraits'
 
-/** Todos los héroes de la API (sin duplicados), con la editorial y el lugar de nacimiento corregidos */
+/** Todos los héroes de la API (sin duplicados), con la editorial, el lugar de nacimiento y los familiares corregidos */
 export const heroes: Hero[] = (raw as Hero[])
   .filter((h) => !isDuplicate(h.id))
   .map((h) => ({
@@ -15,6 +15,7 @@ export const heroes: Hero[] = (raw as Hero[])
       publisher: fixPublisher(h.id, h.biography.publisher),
       'place-of-birth': fixPlaceOfBirth(h.id, h.biography['place-of-birth']),
     },
+    connections: { ...h.connections, relatives: fixRelatives(h.id, h.connections.relatives) },
     image: PORTRAITS[h.id] ? { ...h.image, url: PORTRAITS[h.id].url } : h.image,
   }))
 
