@@ -81,6 +81,54 @@ const MANUAL = [
       page: 'https://dc.fandom.com/wiki/Metropolis',
     },
   },
+  // Wakanda: la bandera (horizontal) en Place of birth; en Base, la vista de Wakanda
+  {
+    match: /^Wakanda\b/,
+    host: 'marvel.fandom.com',
+    file: 'Flag of Wakanda from Black Panther Vol 6 4 0001.jpg',
+    title: 'Wakanda',
+    page: 'Wakanda',
+    base: { host: 'marvel.fandom.com', file: 'Wakanda from Black Panther Vol 6 4 0001.jpg', title: 'Wakanda', page: 'Wakanda' },
+  },
+  // Keystone City: en Base, una viñeta vertical
+  {
+    match: /^Keystone City\b/,
+    host: 'dc.fandom.com',
+    file: 'Keystone City 01.jpg',
+    title: 'Keystone City',
+    page: 'Keystone_City',
+    base: { host: 'dc.fandom.com', file: 'Keystone City 004.jpg', title: 'Keystone City', page: 'Keystone_City' },
+  },
+  // Sauron: Arda, el mundo de Tolkien (ilustración del artículo de Dimitra Fimi)
+  {
+    match: 'Arda',
+    image: 'https://dimitrafimi.org/wp-content/uploads/2023/09/il_1588xN.3612989696_n521-1024x710.jpg',
+    title: "Tolkien's Arda",
+    page: 'https://dimitrafimi.org/tolkiens-arda-an-introduction/',
+  },
+  // Apocalypse: la nave celestial
+  {
+    match: /^Celestial Ship\b/,
+    host: 'marvel.fandom.com',
+    file: 'Celestial Ship (Clone) (Earth-616) from Uncanny X-Force Vol 1 14 0001.jpg',
+    title: 'Celestial Ship',
+    page: 'Celestial_Ship_(Clone)_(Earth-616)',
+  },
+  // Silver Surfer: "mobile throughout the universe" → los Pilares de la Creación (JWST, dominio público)
+  {
+    match: /^mobile throughout the universe$/i,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Pillars_of_Creation_%28NIRCam_Image%29.jpg/500px-Pillars_of_Creation_%28NIRCam_Image%29.jpg',
+    title: 'The universe · Pillars of Creation (JWST)',
+    page: 'https://commons.wikimedia.org/wiki/File:Pillars_of_Creation_(NIRCam_Image).jpg',
+  },
+  // Goku y Vegeta: Planet Vegeta (imagen de la wiki polaca de Dragon Ball; enlace a la inglesa)
+  {
+    match: 'Planet Vegeta',
+    image:
+      'https://static.wikia.nocookie.net/pldragonball/images/9/95/Planeta_Vegeta_%285%29_%28DBS%2C_film_001%29.jpg/revision/latest/scale-to-width-down/600?cb=20190203191626',
+    title: 'Planet Vegeta',
+    page: 'https://dragonball.fandom.com/wiki/Planet_Vegeta',
+  },
   {
     match: 'Bizarro World',
     image: 'https://static.dc.com/dc/files/default_images/1567_400x600.jpg?w=600',

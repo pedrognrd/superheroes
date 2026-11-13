@@ -160,7 +160,11 @@
       -122.40752
     ]
   },
-  "Celestial Ship, mobile": null,
+  "Celestial Ship, mobile": {
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/2/2c/Celestial_Ship_%28Clone%29_%28Earth-616%29_from_Uncanny_X-Force_Vol_1_14_0001.jpg/revision/latest?cb=20200404022512",
+    "title": "Celestial Ship",
+    "page": "https://marvel.fandom.com/wiki/Celestial_Ship_(Clone)_(Earth-616)"
+  },
   "Akkaba, Egypt": {
     "image": "https://static.wikia.nocookie.net/marveldatabase/images/3/3c/Akkaba_%28Egypt%29_from_Rise_of_Apocalypse_Vol_1_1_0001.jpg/revision/latest/scale-to-width-down/600?cb=20160720092256",
     "title": "Akkaba (Egypt)",
@@ -355,14 +359,24 @@
   },
   "Mobile, formerly Serpent Citadel": null,
   "Wakanda, Mobile": {
-    "image": "https://static.wikia.nocookie.net/marveldatabase/images/c/c5/Wakanda_from_Black_Panther_Vol_6_4_0001.jpg/revision/latest/scale-to-width-down/600?cb=20160727172642",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/4/44/Flag_of_Wakanda_from_Black_Panther_Vol_6_4_0001.jpg/revision/latest/scale-to-width-down/600?cb=20261111171704",
     "title": "Wakanda",
-    "page": "https://marvel.fandom.com/wiki/Wakanda"
+    "page": "https://marvel.fandom.com/wiki/Wakanda",
+    "base": {
+      "image": "https://static.wikia.nocookie.net/marveldatabase/images/c/c5/Wakanda_from_Black_Panther_Vol_6_4_0001.jpg/revision/latest/scale-to-width-down/600?cb=20160727172642",
+      "title": "Wakanda",
+      "page": "https://marvel.fandom.com/wiki/Wakanda"
+    }
   },
   "Wakanda, Africa": {
-    "image": "https://static.wikia.nocookie.net/marveldatabase/images/c/c5/Wakanda_from_Black_Panther_Vol_6_4_0001.jpg/revision/latest/scale-to-width-down/600?cb=20160727172642",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/4/44/Flag_of_Wakanda_from_Black_Panther_Vol_6_4_0001.jpg/revision/latest/scale-to-width-down/600?cb=20261111171704",
     "title": "Wakanda",
-    "page": "https://marvel.fandom.com/wiki/Wakanda"
+    "page": "https://marvel.fandom.com/wiki/Wakanda",
+    "base": {
+      "image": "https://static.wikia.nocookie.net/marveldatabase/images/c/c5/Wakanda_from_Black_Panther_Vol_6_4_0001.jpg/revision/latest/scale-to-width-down/600?cb=20160727172642",
+      "title": "Wakanda",
+      "page": "https://marvel.fandom.com/wiki/Wakanda"
+    }
   },
   "Professional Criminal": {
     "coords": [
@@ -820,7 +834,12 @@
   "Keystone City, Kansas": {
     "image": "https://static.wikia.nocookie.net/marvel_dc/images/7/74/Keystone_City_01.jpg/revision/latest?cb=20080804011426",
     "title": "Keystone City",
-    "page": "https://dc.fandom.com/wiki/Keystone_City"
+    "page": "https://dc.fandom.com/wiki/Keystone_City",
+    "base": {
+      "image": "https://static.wikia.nocookie.net/marvel_dc/images/7/77/Keystone_City_004.jpg/revision/latest/scale-to-width-down/600?cb=20160703044846",
+      "title": "Keystone City",
+      "page": "https://dc.fandom.com/wiki/Keystone_City"
+    }
   },
   "Hibbardsville, Kansas": null,
   "Central City, Missouri": {
@@ -1718,7 +1737,11 @@
     "title": "Sims Tower",
     "page": "https://marvel.fandom.com/wiki/Sims_Tower"
   },
-  "mobile throughout the universe": null,
+  "mobile throughout the universe": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Pillars_of_Creation_%28NIRCam_Image%29.jpg/500px-Pillars_of_Creation_%28NIRCam_Image%29.jpg",
+    "title": "The universe · Pillars of Creation (JWST)",
+    "page": "https://commons.wikimedia.org/wiki/File:Pillars_of_Creation_(NIRCam_Image).jpg"
+  },
   "Zenn-La": {
     "image": "https://static.wikia.nocookie.net/marveldatabase/images/e/e3/Zenn-La_from_Silver_Surfer_Vol_3_101_0001.png/revision/latest?cb=20140218065734",
     "title": "Zenn-La",
@@ -1906,7 +1929,12 @@
   "Keystone City": {
     "image": "https://static.wikia.nocookie.net/marvel_dc/images/7/74/Keystone_City_01.jpg/revision/latest?cb=20080804011426",
     "title": "Keystone City",
-    "page": "https://dc.fandom.com/wiki/Keystone_City"
+    "page": "https://dc.fandom.com/wiki/Keystone_City",
+    "base": {
+      "image": "https://static.wikia.nocookie.net/marvel_dc/images/7/77/Keystone_City_004.jpg/revision/latest/scale-to-width-down/600?cb=20160703044846",
+      "title": "Keystone City",
+      "page": "https://dc.fandom.com/wiki/Keystone_City"
+    }
   },
   "Created in Cresskill, New Jersey": null,
   "Jotunheim": {
@@ -2108,5 +2136,15 @@
     "image": "https://static.wikia.nocookie.net/marveldatabase/images/e/ee/Xandar_from_Imperial_Vol_1_3_0001.jpeg/revision/latest/scale-to-width-down/600?cb=20250820102416",
     "title": "Xandar",
     "page": "https://marvel.fandom.com/wiki/Xandar"
+  },
+  "Arda": {
+    "image": "https://dimitrafimi.org/wp-content/uploads/2023/09/il_1588xN.3612989696_n521-1024x710.jpg",
+    "title": "Tolkien's Arda",
+    "page": "https://dimitrafimi.org/tolkiens-arda-an-introduction/"
+  },
+  "Planet Vegeta": {
+    "image": "https://static.wikia.nocookie.net/pldragonball/images/9/95/Planeta_Vegeta_%285%29_%28DBS%2C_film_001%29.jpg/revision/latest/scale-to-width-down/600?cb=20190203191626",
+    "title": "Planet Vegeta",
+    "page": "https://dragonball.fandom.com/wiki/Planet_Vegeta"
   }
 }

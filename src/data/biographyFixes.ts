@@ -3,6 +3,9 @@
 // id del héroe → lugar correcto
 const PLACE_OF_BIRTH: Record<string, string> = {
   '233': 'Heidelberg, Germany', // Dr Manhattan (Jon Osterman); la API trae "-"
+  '574': 'Arda', // Sauron (Tolkien); la API trae "-"
+  '289': 'Planet Vegeta', // Goku; la API trae "-"
+  '686': 'Planet Vegeta', // Vegeta; la API trae "-"
 }
 
 export function fixPlaceOfBirth(id: string, place: string): string {
