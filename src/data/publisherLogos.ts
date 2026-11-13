@@ -7,6 +7,7 @@ import dragonBall from '../assets/publishers/dragon-ball.svg'
 import harryPotter from '../assets/publishers/harry-potter.svg'
 import heroesHelix from '../assets/publishers/heroes-helix.svg'
 import iconComics from '../assets/publishers/icon-comics.svg'
+import jamesBond from '../assets/publishers/james-bond.svg'
 import idw from '../assets/publishers/idw-publishing.svg'
 import image from '../assets/publishers/image.svg'
 import marvel from '../assets/publishers/marvel.svg'
@@ -40,8 +41,9 @@ const LOGOS: Record<string, string> = {
 }
 
 // Logos por personaje cuando la editorial agrupa obras distintas
-// (Shueisha publica Dragon Ball, Naruto y One Punch Man)
+// (Shueisha publica Dragon Ball, Naruto y One Punch Man; Titan Books, mucho más que 007)
 const BY_HERO: Record<string, string> = {
+  '352': jamesBond, // James Bond
   '289': dragonBall, // Goku
   '686': dragonBall, // Vegeta
 }
