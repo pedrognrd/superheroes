@@ -45,6 +45,13 @@ const MANUAL = [
   },
   { match: 'Your chest :)', host: 'avp.fandom.com', file: 'ALIEN chestburster1280.jpg', title: 'Chestburster', page: 'Chestburster' },
   {
+    match: /^Earth-Prime\b/,
+    host: 'dc.fandom.com',
+    file: 'Earth-Prime.JPG',
+    title: 'Earth-Prime',
+    page: 'Earth-Prime',
+  },
+  {
     match: /^(the |professor )?(charles )?xavier('s)? (institute|insitute|school)/i,
     host: 'marvel.fandom.com',
     file: 'Graymalkin Prison from Uncanny X-Men Vol 6 27 001.jpg',

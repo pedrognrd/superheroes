@@ -81,7 +81,7 @@ export function parseRelatives(text: string): Relative[] {
 /** Primer lugar utilizable de un texto como "Mobile; formerly Manhattan, Hellcarrier" */
 export function primaryPlace(text: string): string | null {
   if (isEmpty(text)) return null
-  const first = text
+  let first = text
     .split(';')[0]
     .replace(/\(.*?\)/g, '')
     // "Formerly Krypton" → "Krypton"; "Formerly the Savage Land, now mobile" → "Savage Land";
@@ -89,7 +89,17 @@ export function primaryPlace(text: string): string | null {
     .replace(/^\s*((currently\s+)?mobile[.,]\s*)?formerly,?\s+(the\s+)?/i, '')
     .replace(/,?\s*now mobile\s*$/i, '')
     .trim()
-  if (!first || /^mobile$/i.test(first)) return null
+  // "currently a recreation of Earth-Prime, formerly Qward" → "Earth-Prime";
+  // "currently New York City, formerly Asgard" → "New York City"
+  if (/^currently\s+/i.test(first)) {
+    first = first
+      .replace(/^currently\s+/i, '')
+      .replace(/^(a\s+)?recreation of\s+/i, '')
+      .replace(/,?\s*formerly\b.*$/i, '')
+      .trim()
+  }
+  // "Mobile", "unrevealed, formerly Asteroid M"… no es un lugar
+  if (!first || /^(mobile|unrevealed|unknown)$/i.test(first.split(',')[0].trim())) return null
   return first
 }
 
