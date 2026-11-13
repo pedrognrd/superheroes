@@ -95,6 +95,8 @@ export function primaryPlace(text: string): string | null {
     .replace(/,?\s*now mobile\s*$/i, '')
     // "Island of Attilan, Atlantic Ocean" → "Attilan, Atlantic Ocean"
     .replace(/^\s*island of attilan\b/i, 'Attilan')
+    // "City of Asgard, Asgard" → "Asgard"
+    .replace(/^\s*city of asgard\b(,\s*asgard\b)?/i, 'Asgard')
     .trim()
   // "currently a recreation of Earth-Prime, formerly Qward" → "Earth-Prime";
   // "currently New York City, formerly Asgard" → "New York City"

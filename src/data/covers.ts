@@ -38,19 +38,20 @@ const MANUAL: Record<string, Cover> = {
     page: 'https://en.wikipedia.org/wiki/Captain_Atom',
     source: 'Wikipedia',
   },
-  // Ozymandias: Comic Vine da DC Spotlight #1 (1985, número promocional)
-  '508': {
-    image: 'https://static.wikia.nocookie.net/marvel_dc/images/c/ca/Watchmen_1.jpg/revision/latest?cb=20080618074453',
-    title: 'Watchmen Vol. 1 #1',
-    page: 'https://dc.fandom.com/wiki/Watchmen_Vol_1_1',
-    source: 'Fandom',
-  },
 }
+
+// Números de Comic Vine que no son primeras apariciones (resúmenes o promocionales
+// donde salen muchos personajes): se ignoran y se usa la siguiente fuente.
+const COMIC_VINE_IGNORED = new Set([
+  'History of the DC Universe #2', // Booster Gold, Captain Atom, Kilowog
+  'DC Spotlight #1', // Ozymandias
+])
 
 export function getCover(heroId: string): Cover | null {
   if (MANUAL[heroId]) return MANUAL[heroId]
   for (const [source, data] of SOURCES) {
     const c = data[heroId]
+    if (source === 'Comic Vine' && c?.title && COMIC_VINE_IGNORED.has(c.title)) continue
     if (c?.image) return { image: c.image, title: c.title ?? '', page: c.page ?? undefined, source }
   }
   return null
