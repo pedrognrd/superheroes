@@ -1314,7 +1314,11 @@
       -73.82831
     ]
   },
-  "Prometheus Corporation": null,
+  "Prometheus Corporation": {
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/5/51/Prometheus_Gentech%2C_Inc._from_Invincible_Iron_Man_Vol_1_21_001.png/revision/latest?cb=20110914111808",
+    "title": "Prometheus Gentech, Inc.",
+    "page": "https://marvel.fandom.com/wiki/Prometheus_Gentech,_Inc."
+  },
   "China": {
     "coords": [
       34.54123,

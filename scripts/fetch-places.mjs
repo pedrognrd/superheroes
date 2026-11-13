@@ -61,6 +61,14 @@ const MANUAL = [
     title: 'Earth-6311',
     page: 'Earth-6311',
   },
+  // Mandarin
+  {
+    match: 'Prometheus Corporation',
+    host: 'marvel.fandom.com',
+    file: 'Prometheus Gentech, Inc. from Invincible Iron Man Vol 1 21 001.png',
+    title: 'Prometheus Gentech, Inc.',
+    page: 'Prometheus_Gentech,_Inc.',
+  },
   {
     match: 'Faltine Dimension',
     host: 'marvelcinematicuniverse.fandom.com',
