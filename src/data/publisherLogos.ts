@@ -50,3 +50,12 @@ const BY_HERO: Record<string, string> = {
 
 export const publisherLogo = (publisher: string, heroId: string): string | null =>
   BY_HERO[heroId] ?? LOGOS[publisher] ?? null
+
+// Color del logo (por defecto el del texto del HUD)
+const COLORS: Record<string, string> = {
+  'Marvel Comics': 'rgb(224, 69, 122)',
+  'Dark Horse Comics': 'rgb(240, 118, 58)',
+  'Image Comics': 'rgb(240, 197, 138)',
+}
+
+export const publisherColor = (publisher: string): string | undefined => COLORS[publisher]

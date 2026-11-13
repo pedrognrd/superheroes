@@ -1,7 +1,7 @@
 import { useState, type ReactNode } from 'react'
 import { getCover } from '../data/covers'
 import { publisherLink } from '../data/publisherLinks'
-import { publisherLogo } from '../data/publisherLogos'
+import { publisherColor, publisherLogo } from '../data/publisherLogos'
 import type { Hero } from '../types'
 import { isEmpty } from '../utils/parse'
 import { MaskIcon } from './icons'
@@ -11,7 +11,16 @@ import { Panel } from './Panel'
 function PublisherLogo({ publisher, heroId }: { publisher: string; heroId: string }) {
   const logo = publisherLogo(publisher, heroId)
   if (!logo) return <span className="logo">{publisher}</span>
-  return <MaskIcon src={logo} width={190} height={120} className="logo logo--image" label={publisher} />
+  return (
+    <MaskIcon
+      src={logo}
+      width={190}
+      height={120}
+      className="logo logo--image"
+      color={publisherColor(publisher)}
+      label={publisher}
+    />
+  )
 }
 /** Enlace externo a la fuente, o el contenido tal cual si no hay enlace */
 function SourceLink({ href, title, children }: { href?: string | null; title: string; children: ReactNode }) {
