@@ -37,6 +37,7 @@ const WIKI = {
 // Xavier aparece escrita de 15 formas). `match` es el texto exacto o un patrón.
 // Con `file` se toma la imagen de Fandom; con `image`, esa URL directamente.
 // Con `base` (mismo formato) se usa otra imagen en el panel Base, que es vertical.
+// Con `coords` se muestra el mapa en ese punto (cuando Nominatim no acierta).
 const MANUAL = [
   // Krypton: el mapa de "The Krypton Chronicles" (a 900 px desde el original de 1920 px),
   // horizontal para Place of birth; en Base, la imagen vertical de Fandom
@@ -158,6 +159,8 @@ const MANUAL = [
       page: 'Asgard_(Realm)',
     },
   },
+  // X-Man: "America Northeast" (Nominatim lo llevaba a Minneapolis); centro del noreste de EE. UU.
+  { match: 'America Northeast', coords: [42.4, -72.6] },
   // One Punch Man: Z-City (Nominatim lo confundía con un lugar real)
   { match: 'Z-City', host: 'onepunchman.fandom.com', file: 'Z-city manga colored.jpg', title: 'Z-City', page: 'Z-City' },
   {
@@ -357,6 +360,7 @@ for (const h of heroes) {
 const out = await readJson(OUT, {})
 /** Imagen de una entrada manual: archivo de Fandom (`file`) o URL directa (`image`) */
 async function resolveManual(m) {
+  if (m.coords) return { coords: m.coords }
   if (!m.file) return { image: m.image, title: m.title, page: m.page }
   const info = await fandom(m.host, { action: 'query', titles: `File:${m.file}`, prop: 'imageinfo', iiprop: 'url', iiurlwidth: '600' })
   const image = info?.query?.pages?.[0]?.imageinfo?.[0]?.thumburl

@@ -81,6 +81,8 @@ export function parseRelatives(text: string): Relative[] {
 /** Lugares descritos con una frase → lugar que se muestra (y se busca en el mapa) */
 const PLACE_ALIASES: Record<string, string> = {
   'a castle on the Hudson River in upstate New York that is owned by the High Evolutionary': 'New York', // Quicksilver
+  'Unrevealed location in former East Germany': 'East Germany', // Agent Zero
+  'American Northeast of Earth-295': 'America Northeast', // X-Man
 }
 
 /** Primer lugar utilizable de un texto como "Mobile; formerly Manhattan, Hellcarrier" */

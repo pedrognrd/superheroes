@@ -2158,5 +2158,16 @@
     "image": "https://static.wikia.nocookie.net/pldragonball/images/9/95/Planeta_Vegeta_%285%29_%28DBS%2C_film_001%29.jpg/revision/latest/scale-to-width-down/600?cb=20190203191626",
     "title": "Planet Vegeta",
     "page": "https://dragonball.fandom.com/wiki/Planet_Vegeta"
+  },
+  "East Germany": {
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/8/8d/Germany_from_Marvel_Atlas_Vol_1_1_0001.jpg/revision/latest/scale-to-width-down/600?cb=20200515221646",
+    "title": "Germany",
+    "page": "https://marvel.fandom.com/wiki/Germany"
+  },
+  "America Northeast": {
+    "coords": [
+      42.4,
+      -72.6
+    ]
   }
 }
