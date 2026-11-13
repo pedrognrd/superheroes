@@ -45,25 +45,35 @@ export function PublisherPanel({ hero }: { hero: Hero }) {
   )
 }
 
+/** Año del texto de primera aparición de la API ("Casino Royale, 1953 novel" → 1953) */
+const yearInText = (text: string) => text.match(/\b(1[89]\d\d|20\d\d)\b/)?.[1]
+
 export function FirstAppearancePanel({ hero }: { hero: Hero }) {
   const text = hero.biography['first-appearance']
   const cover = getCover(hero.id)
   const [failed, setFailed] = useState<string | null>(null)
   const showCover = cover && failed !== cover.image
+  const year = cover?.year ?? (isEmpty(text) ? undefined : yearInText(text))
   return (
     <Panel title="First appearance" align="center" className="first-appearance">
       <div className="center-box">
         {showCover ? (
-          <SourceLink href={cover.page} title={`${cover.title} · ${cover.source ?? ''}`}>
-            <img
-              className="cover"
-              src={cover.image}
-              alt={cover.title}
-              // Fandom sirve una imagen genérica si la petición trae Referer de otra web
-              referrerPolicy="no-referrer"
-              onError={() => setFailed(cover.image)}
-            />
-          </SourceLink>
+          <figure className="cover-figure">
+            <SourceLink href={cover.page} title={`${cover.title} · ${cover.source ?? ''}`}>
+              <img
+                className="cover"
+                src={cover.image}
+                alt={cover.title}
+                // Fandom sirve una imagen genérica si la petición trae Referer de otra web
+                referrerPolicy="no-referrer"
+                onError={() => setFailed(cover.image)}
+              />
+            </SourceLink>
+            <figcaption className="cover-caption">
+              {year && <span className="cover-caption__year">{year}</span>}
+              <span className="cover-caption__title">{cover.title}</span>
+            </figcaption>
+          </figure>
         ) : (
           <div className="cover cover--placeholder">
             <span>{isEmpty(text) ? 'Unknown' : text}</span>

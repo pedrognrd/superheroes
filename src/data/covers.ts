@@ -10,9 +10,30 @@ export interface Cover {
   page?: string
   /** Nombre de la fuente, para el título del enlace */
   source?: string
+  /** Año de publicación o estreno, si la fuente lo da */
+  year?: string
 }
 
-type Generated = Record<string, { image?: string | null; title?: string; page?: string | null } | null>
+type Generated = Record<
+  string,
+  { image?: string | null; title?: string; page?: string | null; coverDate?: string; year?: number } | null
+>
+
+const YEAR_IN_TITLE = /\s*\((\d{4})\)\s*$/
+
+/** Título limpio y año: "Predator (1987)" → Predator / 1987; "Casino Royale (novel)" → Casino Royale */
+function titleAndYear(source: string, c: NonNullable<Generated[string]>) {
+  let title = c.title ?? ''
+  let year = c.coverDate?.slice(0, 4) ?? (c.year ? String(c.year) : undefined)
+  const inTitle = title.match(YEAR_IN_TITLE)
+  if (inTitle) {
+    year ??= inTitle[1]
+    title = title.replace(YEAR_IN_TITLE, '')
+  }
+  // Wikipedia: quitar la desambiguación del artículo ("(novel)", "(1986 film)"…)
+  if (source === 'Wikipedia') title = title.replace(/\s*\([^)]*\)\s*$/, '')
+  return { title, year }
+}
 
 // covers-tmdb.json   → `npm run fetch:covers:tmdb` (cine y TV, ver screenWorks.ts)
 // covers-wikipedia.json → `npm run fetch:covers:wikipedia` (cine/TV/libros, ver wikipediaWorks.ts)
@@ -48,11 +69,12 @@ const COMIC_VINE_IGNORED = new Set([
 ])
 
 export function getCover(heroId: string): Cover | null {
-  if (MANUAL[heroId]) return MANUAL[heroId]
+  const manual = MANUAL[heroId]
+  if (manual) return { ...manual, ...titleAndYear(manual.source ?? '', { title: manual.title }) }
   for (const [source, data] of SOURCES) {
     const c = data[heroId]
     if (source === 'Comic Vine' && c?.title && COMIC_VINE_IGNORED.has(c.title)) continue
-    if (c?.image) return { image: c.image, title: c.title ?? '', page: c.page ?? undefined, source }
+    if (c?.image) return { image: c.image, page: c.page ?? undefined, source, ...titleAndYear(source, c) }
   }
   return null
 }
