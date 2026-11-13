@@ -83,7 +83,7 @@ export default function App() {
               <PublisherPanel hero={hero} />
               <FirstAppearancePanel hero={hero} />
             </div>
-            <MapPanel title="Base" place={hero.work.base} align="right" className="base-map" />
+            <MapPanel title="Base" kind="base" place={hero.work.base} align="right" className="base-map" />
           </div>
         </section>
 

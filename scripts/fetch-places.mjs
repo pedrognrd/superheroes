@@ -36,10 +36,13 @@ const WIKI = {
 // lugar (el de Alien es "Your chest :)") o que tienen muchas variantes (la escuela
 // Xavier aparece escrita de 15 formas). `match` es el texto exacto o un patrón.
 // Con `file` se toma la imagen de Fandom; con `image`, esa URL directamente.
+// Con `base` (mismo formato) se usa otra imagen en el panel Base, que es vertical.
 const MANUAL = [
-  // Krypton: el mapa de "The Krypton Chronicles" (a 900 px desde el original de 1920 px)
+  // Krypton: el mapa de "The Krypton Chronicles" (a 900 px desde el original de 1920 px),
+  // horizontal para Place of birth; en Base, la imagen vertical de Fandom
   {
     match: 'Krypton',
+    base: { host: 'dc.fandom.com', file: 'Krypton 001.jpg', title: 'Krypton', page: 'Krypton' },
     image:
       'https://images.theconversation.com/files/115988/original/image-20160322-32323-6qoi9x.jpg?ixlib=rb-4.1.1&q=75&auto=format&w=900&fit=clip',
     title: 'Map of Krypton',
@@ -232,20 +235,22 @@ for (const h of heroes) {
 }
 
 const out = await readJson(OUT, {})
+/** Imagen de una entrada manual: archivo de Fandom (`file`) o URL directa (`image`) */
+async function resolveManual(m) {
+  if (!m.file) return { image: m.image, title: m.title, page: m.page }
+  const info = await fandom(m.host, { action: 'query', titles: `File:${m.file}`, prop: 'imageinfo', iiprop: 'url', iiurlwidth: '600' })
+  const image = info?.query?.pages?.[0]?.imageinfo?.[0]?.thumburl
+  if (!image) console.log(`Manual: no se encontró ${m.file} en ${m.host}`)
+  return image ? { image, title: m.title, page: `https://${m.host}/wiki/${encodeURI(m.page)}` } : null
+}
+
 for (const m of MANUAL) {
-  let url = m.image
-  let page = m.page
-  if (m.file) {
-    const info = await fandom(m.host, { action: 'query', titles: `File:${m.file}`, prop: 'imageinfo', iiprop: 'url', iiurlwidth: '600' })
-    url = info?.query?.pages?.[0]?.imageinfo?.[0]?.thumburl
-    page = `https://${m.host}/wiki/${encodeURI(m.page)}`
-  }
-  if (!url) {
-    console.log(`Manual: no se encontró ${m.file} en ${m.host}`)
-    continue
-  }
+  const entry = await resolveManual(m)
+  if (!entry) continue
+  // `base`: imagen alternativa para el panel Base (vertical), si la principal es horizontal
+  if (m.base) entry.base = await resolveManual(m.base)
   for (const q of places.keys()) {
-    if (manualFor(q) === m) out[q] = { image: url, title: m.title, page }
+    if (manualFor(q) === m) out[q] = entry
   }
 }
 await writeFile(OUT, JSON.stringify(out, null, 2) + '\n')

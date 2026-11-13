@@ -698,7 +698,12 @@
   "Krypton": {
     "image": "https://images.theconversation.com/files/115988/original/image-20160322-32323-6qoi9x.jpg?ixlib=rb-4.1.1&q=75&auto=format&w=900&fit=clip",
     "title": "Map of Krypton",
-    "page": "https://theconversation.com/how-astronomers-could-find-the-real-planet-krypton-56646"
+    "page": "https://theconversation.com/how-astronomers-could-find-the-real-planet-krypton-56646",
+    "base": {
+      "image": "https://static.wikia.nocookie.net/marvel_dc/images/d/d0/Krypton_001.jpg/revision/latest/scale-to-width-down/600?cb=20091112074830",
+      "title": "Krypton",
+      "page": "https://dc.fandom.com/wiki/Krypton"
+    }
   },
   "The Dimension of Manifestations": null,
   "Faltine Dimension": {

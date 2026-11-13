@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { CircleMarker, MapContainer, TileLayer, useMap, ZoomControl } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
-import { useGeocode, type LatLng } from '../hooks/useGeocode'
+import { useGeocode, type LatLng, type PlaceKind } from '../hooks/useGeocode'
 import { placeLabel, primaryPlace } from '../utils/parse'
 import { Panel } from './Panel'
 import './MapPanel.css'
@@ -10,6 +10,8 @@ interface MapPanelProps {
   title: string
   /** Texto libre de la API ("New York, New York") */
   place: string
+  /** Base (hueco vertical) o lugar de nacimiento: algunos lugares tienen imagen distinta */
+  kind?: PlaceKind
   variant?: 'dark' | 'light'
   align?: 'left' | 'right'
   className?: string
@@ -24,9 +26,19 @@ function Recenter({ coords }: { coords: LatLng }) {
   return null
 }
 
-export function MapPanel({ title, place, variant, align, className = '' }: MapPanelProps) {
+/** Nombre de la web de origen para el título del enlace: "Fandom", "dc.com"… */
+const sourceName = (url: string) => {
+  try {
+    const host = new URL(url).hostname.replace(/^www\./, '')
+    return host.endsWith('fandom.com') ? 'Fandom' : host
+  } catch {
+    return ''
+  }
+}
+
+export function MapPanel({ title, place, kind = 'birth', variant, align, className = '' }: MapPanelProps) {
   const query = primaryPlace(place)
-  const { status, coords, image } = useGeocode(query)
+  const { status, coords, image } = useGeocode(query, kind)
 
   return (
     <Panel title={title} variant={variant} align={align} className={`map-panel ${className}`}>
@@ -44,8 +56,14 @@ export function MapPanel({ title, place, variant, align, className = '' }: MapPa
             <Recenter coords={coords} />
           </MapContainer>
         ) : image ? (
-          // Lugar ficticio: imagen de su página en Fandom
-          <a className="map-panel__place" href={image.page} target="_blank" rel="noreferrer" title={`${image.title} · Fandom`}>
+          // Lugar ficticio: imagen de su página (Fandom casi siempre)
+          <a
+            className="map-panel__place"
+            href={image.page}
+            target="_blank"
+            rel="noreferrer"
+            title={`${image.title} · ${sourceName(image.page)}`}
+          >
             <img src={image.image} alt={image.title} referrerPolicy="no-referrer" />
           </a>
         ) : (

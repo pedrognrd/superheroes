@@ -17,7 +17,9 @@ type State = {
 // places.json lo genera `npm run fetch:places`: coordenadas de cada lugar, o la
 // imagen de Fandom si es ficticio. Solo los lugares que no estén ahí (héroes
 // nuevos) se consultan en vivo a Nominatim.
-type Entry = { coords?: LatLng; image?: string; title?: string; page?: string } | null
+type ImageEntry = { image?: string; title?: string; page?: string }
+// `base`: imagen alternativa (vertical) para el panel Base
+type Entry = ({ coords?: LatLng; base?: ImageEntry | null } & ImageEntry) | null
 const PLACES = precomputed as unknown as Record<string, Entry>
 
 // Nominatim (OpenStreetMap) pide como máximo 1 petición/segundo, así que
@@ -61,16 +63,19 @@ function geocode(place: string): Promise<LatLng | null> {
   return job
 }
 
-function fromPrecomputed(place: string): State | null {
+export type PlaceKind = 'base' | 'birth'
+
+function fromPrecomputed(place: string, kind: PlaceKind): State | null {
   if (!(place in PLACES)) return null
   const e = PLACES[place]
   if (e?.coords) return { status: 'done', coords: e.coords }
-  if (e?.image) return { status: 'done', coords: null, image: { image: e.image, title: e.title ?? '', page: e.page ?? '' } }
+  const img = (kind === 'base' && e?.base?.image ? e.base : e) ?? null
+  if (img?.image) return { status: 'done', coords: null, image: { image: img.image, title: img.title ?? '', page: img.page ?? '' } }
   return { status: 'done', coords: null }
 }
 
-export function useGeocode(place: string | null): State {
-  const known = place ? fromPrecomputed(place) : null
+export function useGeocode(place: string | null, kind: PlaceKind = 'birth'): State {
+  const known = place ? fromPrecomputed(place, kind) : null
   const isKnown = known !== null
   const [state, setState] = useState<State & { place: string | null }>({ status: 'idle', coords: null, place: null })
 
