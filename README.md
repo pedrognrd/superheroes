@@ -50,7 +50,7 @@ La API no tiene listado, así que `fetch:heroes` pide ids por encima del último
 
 ## Publicación
 
-Web: **https://pedrodoscerebros.github.io/superheroes/** · Repo: https://github.com/Pedrodoscerebros/superheroes
+Web: **https://pedrognrd.github.io/superheroes/** · Repo: https://github.com/pedrognrd/superheroes
 
 Cada push a `main` la vuelve a publicar con GitHub Actions (`.github/workflows/deploy.yml`, ~1 min). Vite usa `base: '/superheroes/'` solo al hacer build. Las claves de `.env.local` no se suben (`*.local` está en `.gitignore`) y solo las usan los scripts locales: después de `npm run update:data`, haz commit de `src/data/*.json` y push para publicar los datos nuevos.
 
