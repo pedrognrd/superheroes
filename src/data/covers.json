@@ -2934,6 +2934,222 @@
   "issueId": 40574,
   "issueNumber": "29"
  },
+ "554": null,
+ "555": null,
+ "556": {
+  "character": "Rhino",
+  "characterId": 2126,
+  "score": 10,
+  "issueId": 8873,
+  "issueNumber": "41"
+ },
+ "557": {
+  "character": "Rick Flag",
+  "characterId": 39769,
+  "score": 8,
+  "issueId": 494913,
+  "issueNumber": "52"
+ },
+ "558": {
+  "character": "Riddler",
+  "characterId": 3718,
+  "score": 10,
+  "issueId": 112214,
+  "issueNumber": "140"
+ },
+ "559": {
+  "character": "Rip Hunter",
+  "characterId": 4937,
+  "score": 10,
+  "issueId": 4319,
+  "issueNumber": "20"
+ },
+ "560": {
+  "character": "Ripcord",
+  "characterId": 194343,
+  "score": 5,
+  "issueId": 1089472,
+  "issueNumber": "2"
+ },
+ "561": {
+  "character": "Dick Grayson",
+  "characterId": 1691,
+  "score": 9,
+  "issueId": 111907,
+  "issueNumber": "38"
+ },
+ "562": {
+  "character": "Jason Todd",
+  "characterId": 6849,
+  "score": 5,
+  "issueId": 22911,
+  "issueNumber": "357"
+ },
+ "563": {
+  "character": "Tim Drake",
+  "characterId": 9290,
+  "score": 7,
+  "issueId": 32089,
+  "issueNumber": "436"
+ },
+ "564": {
+  "character": "Damian Wayne",
+  "characterId": 42413,
+  "score": 5,
+  "issueId": 154206,
+  "issueNumber": "1"
+ },
+ "565": {
+  "character": "Carrie Kelley",
+  "characterId": 13164,
+  "score": 5,
+  "issueId": 26264,
+  "issueNumber": "1"
+ },
+ "566": {
+  "character": "Rocket Raccoon",
+  "characterId": 32814,
+  "score": 10,
+  "issueId": 16513,
+  "issueNumber": "7"
+ },
+ "567": {
+  "character": "Rogue",
+  "characterId": 1446,
+  "score": 10,
+  "issueId": 20918,
+  "issueNumber": "10"
+ },
+ "568": null,
+ "569": {
+  "character": "Rorschach",
+  "characterId": 40444,
+  "score": 8,
+  "issueId": 376362,
+  "issueNumber": "115"
+ },
+ "570": {
+  "character": "Sabretooth",
+  "characterId": 4563,
+  "score": 10,
+  "issueId": 17685,
+  "issueNumber": "14"
+ },
+ "571": {
+  "character": "Sage",
+  "characterId": 4559,
+  "score": 7,
+  "issueId": 20333,
+  "issueNumber": "132"
+ },
+ "572": {
+  "character": "Sandman",
+  "characterId": 3544,
+  "score": 10,
+  "issueId": 6685,
+  "issueNumber": "4"
+ },
+ "573": {
+  "character": "Sasquatch",
+  "characterId": 1478,
+  "score": 8,
+  "issueId": 19455,
+  "issueNumber": "120"
+ },
+ "574": null,
+ "575": {
+  "character": "Savage Dragon",
+  "characterId": 5209,
+  "score": 8,
+  "issueId": 199160,
+  "issueNumber": "1"
+ },
+ "576": {
+  "character": "Scarecrow",
+  "characterId": 3726,
+  "score": 10,
+  "issueId": 115066,
+  "issueNumber": "3"
+ },
+ "577": null,
+ "578": null,
+ "579": {
+  "character": "Scarlet Witch",
+  "characterId": 1466,
+  "score": 8,
+  "issueId": 7032,
+  "issueNumber": "4"
+ },
+ "580": {
+  "character": "Scorpia",
+  "characterId": 11540,
+  "score": 10,
+  "issueId": 137377,
+  "issueNumber": "2"
+ },
+ "581": {
+  "character": "Scorpion",
+  "characterId": 4484,
+  "score": 10,
+  "issueId": 7481,
+  "issueNumber": "19"
+ },
+ "582": {
+  "character": "Sebastian Shaw",
+  "characterId": 2175,
+  "score": 8,
+  "issueId": 20114,
+  "issueNumber": "129"
+ },
+ "583": {
+  "character": "Sentry",
+  "characterId": 1454,
+  "score": 8,
+  "issueId": 68433,
+  "issueNumber": "1"
+ },
+ "584": {
+  "character": "Shadow King",
+  "characterId": 14889,
+  "score": 10,
+  "issueId": 19210,
+  "issueNumber": "117"
+ },
+ "585": {
+  "character": "Shadow Lass",
+  "characterId": 1261,
+  "score": 10,
+  "issueId": 114927,
+  "issueNumber": "365"
+ },
+ "586": {
+  "character": "Kitty Pryde",
+  "characterId": 3548,
+  "score": 7,
+  "issueId": 383567,
+  "issueNumber": "1"
+ },
+ "587": {
+  "character": "Shang-Chi",
+  "characterId": 12716,
+  "score": 10,
+  "issueId": 13893,
+  "issueNumber": "15"
+ },
+ "588": {
+  "character": "Shatterstar",
+  "characterId": 2156,
+  "score": 8,
+  "issueId": 32179,
+  "issueNumber": "6"
+ },
+ "589": {
+  "character": "She-Hulk",
+  "characterId": 1449,
+  "score": 8,
+  "issueId": 336193,
+  "issueNumber": "49"
+ },
  "620": {
   "character": "Spider-Man",
   "characterId": 1443,
