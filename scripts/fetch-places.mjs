@@ -161,6 +161,9 @@ const MANUAL = [
   },
   // X-Man: "America Northeast" (Nominatim lo llevaba a Minneapolis); centro del noreste de EE. UU.
   { match: 'America Northeast', coords: [42.4, -72.6] },
+  // Star Wars (Nominatim los llevaba a un lugar de California)
+  { match: 'Death Star', host: 'starwars.fandom.com', file: 'DSI-HDapproach.png', title: 'Death Star', page: 'Death_Star' },
+  { match: 'Tatooine', host: 'starwars.fandom.com', file: 'Jawa moisture farm ANH.jpg', title: 'Tatooine', page: 'Tatooine' },
   // One Punch Man: Z-City (Nominatim lo confundía con un lugar real)
   { match: 'Z-City', host: 'onepunchman.fandom.com', file: 'Z-city manga colored.jpg', title: 'Z-City', page: 'Z-City' },
   {

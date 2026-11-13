@@ -671,16 +671,14 @@
     "page": "https://starwars.fandom.com/wiki/Dathomir"
   },
   "Death Star": {
-    "coords": [
-      34.56326,
-      -117.12067
-    ]
+    "image": "https://static.wikia.nocookie.net/starwars/images/7/70/DSI-HDapproach.png/revision/latest/scale-to-width-down/600?cb=20130221005853",
+    "title": "Death Star",
+    "page": "https://starwars.fandom.com/wiki/Death_Star"
   },
   "Tatooine": {
-    "coords": [
-      34.56315,
-      -117.12062
-    ]
+    "image": "https://static.wikia.nocookie.net/starwars/images/9/91/Jawa_moisture_farm_ANH.jpg/revision/latest/scale-to-width-down/600?cb=20200618145746",
+    "title": "Tatooine",
+    "page": "https://starwars.fandom.com/wiki/Tatooine"
   },
   "Gardendale, Long Island, New York": null,
   "Mobile, Realm of the Just Dead": null,
