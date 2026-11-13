@@ -1,4 +1,9 @@
 {
+  "2": {
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/ad/Hellboy_SoD_TPB_cover.jpg",
+    "title": "Hellboy: Seed of Destruction",
+    "page": "https://en.wikipedia.org/wiki/Hellboy%3A_Seed_of_Destruction"
+  },
   "7": {
     "image": "https://upload.wikimedia.org/wikipedia/en/2/29/Heroes_Season_2.png",
     "title": "Heroes season 2",
@@ -179,6 +184,11 @@
     "title": "No Ordinary Family",
     "page": "https://en.wikipedia.org/wiki/No_Ordinary_Family"
   },
+  "366": {
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/c1/B.P.R.D._Hollow_Earth_and_Other_Stories.jpg",
+    "title": "B.P.R.D.: Hollow Earth and Other Stories",
+    "page": "https://en.wikipedia.org/wiki/B.P.R.D.%3A_Hollow_Earth_and_Other_Stories"
+  },
   "377": {
     "image": "https://upload.wikimedia.org/wikipedia/en/d/d4/Rogue_One%2C_A_Star_Wars_Story_poster.png",
     "title": "Rogue One",
@@ -213,6 +223,11 @@
     "image": "https://upload.wikimedia.org/wikipedia/en/a/a2/Star_Wars_The_Force_Awakens_Theatrical_Poster.jpg",
     "title": "Star Wars: The Force Awakens",
     "page": "https://en.wikipedia.org/wiki/Star_Wars%3A_The_Force_Awakens"
+  },
+  "411": {
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/ad/Hellboy_SoD_TPB_cover.jpg",
+    "title": "Hellboy: Seed of Destruction",
+    "page": "https://en.wikipedia.org/wiki/Hellboy%3A_Seed_of_Destruction"
   },
   "417": {
     "image": "https://upload.wikimedia.org/wikipedia/en/4/46/Heroes_Season_4.png",

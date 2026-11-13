@@ -592,7 +592,11 @@
     "page": "https://marvel.fandom.com/wiki/Paris"
   },
   "Minks, USSR": null,
-  "Dathomir": null,
+  "Dathomir": {
+    "image": "https://static.wikia.nocookie.net/starwars/images/3/34/DathomirJFO.jpg/revision/latest/scale-to-width-down/600?cb=20200222032237",
+    "title": "Dathomir",
+    "page": "https://starwars.fandom.com/wiki/Dathomir"
+  },
   "Death Star": {
     "coords": [
       34.56326,
@@ -1073,7 +1077,11 @@
       -0.12777
     ]
   },
-  "Riverside, Iowa, Earth": null,
+  "Riverside, Iowa, Earth": {
+    "image": "https://static.wikia.nocookie.net/memoryalpha/images/f/fd/Riverside%2C_Iowa.jpg/revision/latest/scale-to-width-down/600?cb=20150912091010&path-prefix=en",
+    "title": "Riverside",
+    "page": "https://memory-alpha.fandom.com/wiki/Riverside"
+  },
   "Naboo": {
     "coords": [
       25.38417,
@@ -1453,7 +1461,11 @@
   "A submarine somewhere in the Atlantic Ocean, formerly London, United Kingdom": null,
   "Serval Industries, Virginia": null,
   "Presumably northern California - not confirmed": null,
-  "Yautja Prime": null,
+  "Yautja Prime": {
+    "image": "https://static.wikia.nocookie.net/avp/images/b/b5/Window4.PNG/revision/latest/scale-to-width-down/600?cb=20120602172018",
+    "title": "Yautja Prime",
+    "page": "https://avp.fandom.com/wiki/Yautja_Prime"
+  },
   "Central Cityplex, 25th Century": {
     "image": "https://static.wikia.nocookie.net/marvel_dc/images/c/c5/Central_City_001.jpg/revision/latest/scale-to-width-down/600?cb=20121004104104",
     "title": "Central City",

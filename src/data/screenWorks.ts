@@ -85,6 +85,21 @@ export const SCREEN_WORKS: Record<string, ScreenWork> = {
   '91': tv('Birdman and the Galaxy Trio', 1967), // Birdman
   '154': tv('South Park', 1997, 14), // Captain Hindsight
 
+  // Dark Horse: personajes de cine/TV con cómics licenciados
+  '18': movie('Alien', 1979), // Alien
+  '526': movie('Predator', 1987), // Predator
+  '650': movie('The Terminator', 1984), // T-800
+  '649': movie('Terminator 2: Judgment Day', 1991), // T-1000
+  '651': movie('Terminator 3: Rise of the Machines', 2003), // T-850
+  '652': movie('Terminator 3: Rise of the Machines', 2003), // T-X
+  '209': movie('The Incredibles', 2004), // Dash
+  '236': movie('The Incredibles', 2004), // Elastigirl
+  '351': movie('The Incredibles', 2004), // Jack-Jack
+  '476': movie('The Incredibles', 2004), // Mr Incredible
+  '696': movie('The Incredibles', 2004), // Violet Parr
+  '140': movie('Buffy the Vampire Slayer', 1992), // Buffy (película de 1992)
+  '23': tv('Buffy the Vampire Slayer', 1997, 1), // Angel
+
   // Cine
   '139': movie('The Fly', 1986), // Brundlefly
   '203': movie('Darkman', 1990), // Darkman

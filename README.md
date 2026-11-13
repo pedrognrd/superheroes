@@ -63,7 +63,7 @@ Prioridad final: `MANUAL` → TMDB → Wikipedia → Comic Vine → Fandom.
 npm run fetch:places   # los que falten (~1 petición/s)
 ```
 
-Geolocaliza de antemano la base y el lugar de nacimiento de cada héroe con Nominatim y guarda el resultado en `src/data/places.json`, así la web no consulta Nominatim en cada visita. En los lugares de Marvel y DC con página de lugar en Fandom, el mapa solo se usa si Nominatim devuelve el mismo nombre y es un lugar importante (New York, London) o de la región indicada ("Queens, New York"). Si no (Gotham City, Metropolis, Attilan, Asgard…), se muestra la imagen de su página de Fandom.
+Geolocaliza de antemano la base y el lugar de nacimiento de cada héroe con Nominatim y guarda el resultado en `src/data/places.json`, así la web no consulta Nominatim en cada visita. En los lugares de Marvel y DC con página de lugar en Fandom, el mapa solo se usa si Nominatim devuelve el mismo nombre y es un lugar importante (New York, London) o de la región indicada ("Queens, New York"). Si no (Gotham City, Metropolis, Attilan, Asgard…), se muestra la imagen de su página de Fandom. Para Dark Horse, Star Wars y Star Trek se consultan sus wikis de franquicia (avp.fandom.com, Wookieepedia, Memory Alpha), donde una página cuenta como lugar si sus categorías lo dicen (Planets, Locations…).
 
 ### Actualizar todo (héroes nuevos + portadas)
 

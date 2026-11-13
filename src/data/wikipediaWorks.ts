@@ -88,6 +88,11 @@ export const WIKIPEDIA_WORKS: Record<string, string[]> = {
   '389': ['King Kong (1933 film)'], // King Kong
   '510': ['Paul Blart: Mall Cop'], // Paul Blart
 
+  // Hellboy (Dark Horse): novelas gráficas sin número
+  '2': ['Hellboy: Seed of Destruction', 'Hellboy'], // Abe Sapien
+  '411': ['Hellboy: Seed of Destruction', 'Hellboy'], // Liz Sherman
+  '366': ['B.P.R.D.: Hollow Earth and Other Stories', 'B.P.R.D.'], // Johann Krauss
+
   // Libros, manga, videojuegos, publicidad
   '47': ['Astro Boy'], // Astro Boy (manga, 1952)
   '310': ["Harry Potter and the Philosopher's Stone"], // Harry Potter

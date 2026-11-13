@@ -18,12 +18,20 @@ import { isDuplicate } from '../src/data/duplicates.ts'
 const UA = 'superhero-database-personal/1.0'
 const OUT = new URL('../src/data/places.json', import.meta.url)
 const HEROES = new URL('../src/data/heroes.json', import.meta.url)
+// Wikis de Fandom donde buscar lugares, por editorial (en orden).
+// Marvel/DC marcan sus lugares con "Location Template"; en las wikis de franquicia
+// (Alien/Predator, Star Wars, Star Trek) se acepta la página si sus categorías
+// indican que es un lugar (Planets, Locations, Cities…).
 const WIKI = {
-  'Marvel Comics': 'marvel.fandom.com',
-  'Icon Comics': 'marvel.fandom.com',
-  'DC Comics': 'dc.fandom.com',
-  Wildstorm: 'dc.fandom.com',
+  'Marvel Comics': ['marvel.fandom.com'],
+  'Icon Comics': ['marvel.fandom.com'],
+  'DC Comics': ['dc.fandom.com'],
+  Wildstorm: ['dc.fandom.com'],
+  'Dark Horse Comics': ['avp.fandom.com', 'darkhorse.fandom.com'],
+  'George Lucas': ['starwars.fandom.com'],
+  'Star Trek': ['memory-alpha.fandom.com'],
 }
+const PLACE_CATEGORY = /(locations?|planets?|moons?|cities|city|places|worlds?|star systems?|countries|regions|space stations?|buildings)\b/i
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 const readJson = async (url, fallback) => {
@@ -104,31 +112,42 @@ async function fandomPlace(host, place) {
     const text = data?.parse?.wikitext
     if (!text) continue
     // Desambiguación ("Asgard" → "Asgard (Realm)"): probar su primer enlace
-    if (/\{\{\s*Disambiguation/i.test(text)) {
+    if (/\{\{\s*Disambig/i.test(text)) {
       const link = text.match(/\[\[([^\]|#]+)/)?.[1]?.trim()
       if (link && !names.includes(link)) names.push(link)
       continue
     }
-    if (!/Location Template/i.test(text)) continue // no es un lugar
+    const title = data.parse.title
+    const page = `https://${host}/wiki/${encodeURIComponent(title.replaceAll(' ', '_'))}`
+    if (!/Location Template/i.test(text)) {
+      // Wikis de franquicia: lugar si lo dicen sus categorías; imagen principal de la página
+      const info = await fandom(host, {
+        action: 'query',
+        titles: title,
+        prop: 'categories|pageimages',
+        cllimit: '50',
+        piprop: 'thumbnail',
+        pithumbsize: '600',
+      })
+      const pg = info?.query?.pages?.[0]
+      const isPlace = (pg?.categories ?? []).some((c) => PLACE_CATEGORY.test(c.title))
+      if (isPlace && pg?.thumbnail?.source) return { image: pg.thumbnail.source, title, page }
+      continue
+    }
     const file = text.match(/^\|\s*Image\s*=\s*(.+\.(?:jpe?g|png|gif|webp))/im)?.[1].trim()
     if (!file) continue
     const info = await fandom(host, { action: 'query', titles: `File:${file}`, prop: 'imageinfo', iiprop: 'url', iiurlwidth: '600' })
     const url = info?.query?.pages?.[0]?.imageinfo?.[0]?.thumburl
-    if (url)
-      return {
-        image: url,
-        title: data.parse.title,
-        page: `https://${host}/wiki/${encodeURIComponent(data.parse.title.replaceAll(' ', '_'))}`,
-      }
+    if (url) return { image: url, title, page }
   }
   return null
 }
 
 // Lugares de todos los héroes, con la wiki de su editorial
 const heroes = (await readJson(HEROES, [])).filter((h) => !isDuplicate(h.id))
-const places = new Map() // lugar → wiki (si alguna editorial la tiene)
+const places = new Map() // lugar → wikis donde buscarlo (si su editorial tiene)
 for (const h of heroes) {
-  const host = WIKI[fixPublisher(h.id, h.biography.publisher)]
+  const host = WIKI[fixPublisher(h.id, h.biography.publisher)] ?? null
   for (const text of [h.work.base, h.biography['place-of-birth']]) {
     const q = primaryPlace(text)
     if (q && (!places.has(q) || (!places.get(q) && host))) places.set(q, host ?? null)
@@ -146,7 +165,11 @@ for (const [q, host] of todo) {
   try {
     const geo = await geocode(q)
     // Marvel/DC: si el lugar tiene página en Fandom y el mapa no es fiable, imagen de Fandom
-    const comic = host ? await fandomPlace(host, q) : null
+    let comic = null
+    for (const wiki of host ?? []) {
+      comic = await fandomPlace(wiki, q)
+      if (comic) break
+    }
     let entry = null
     if (geo && (!comic || trustworthy(q, geo))) entry = { coords: geo.coords }
     else if (comic) entry = comic
