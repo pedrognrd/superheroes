@@ -144,6 +144,20 @@ const MANUAL = [
     title: 'Watchtower',
     page: 'Watchtower_(Sentry)',
   },
+  // Asgard: en Place of birth, la vista de Thor Annual #5 (horizontal); en Base, la de antes
+  {
+    match: /^Asgard\b/,
+    host: 'marvel.fandom.com',
+    file: 'Asgard from Thor Annual Vol 1 5.jpg',
+    title: 'Asgard (Realm)',
+    page: 'Asgard_(Realm)',
+    base: {
+      host: 'marvel.fandom.com',
+      file: 'Asgard (Realm) from Journey Into Mystery Vol 4 622 001.jpg',
+      title: 'Asgard (Realm)',
+      page: 'Asgard_(Realm)',
+    },
+  },
   // One Punch Man: Z-City (Nominatim lo confundía con un lugar real)
   { match: 'Z-City', host: 'onepunchman.fandom.com', file: 'Z-city manga colored.jpg', title: 'Z-City', page: 'Z-City' },
   {

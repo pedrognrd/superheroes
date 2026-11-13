@@ -28,9 +28,14 @@
     ]
   },
   "Asgard": {
-    "image": "https://static.wikia.nocookie.net/marveldatabase/images/4/4e/Asgard_%28Realm%29_from_Journey_Into_Mystery_Vol_4_622_001.jpg/revision/latest/scale-to-width-down/600?cb=20140916145832",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/b/b2/Asgard_from_Thor_Annual_Vol_1_5.jpg/revision/latest/scale-to-width-down/600?cb=20261009171823",
     "title": "Asgard (Realm)",
-    "page": "https://marvel.fandom.com/wiki/Asgard_(Realm)"
+    "page": "https://marvel.fandom.com/wiki/Asgard_(Realm)",
+    "base": {
+      "image": "https://static.wikia.nocookie.net/marveldatabase/images/4/4e/Asgard_%28Realm%29_from_Journey_Into_Mystery_Vol_4_622_001.jpg/revision/latest/scale-to-width-down/600?cb=20140916145832",
+      "title": "Asgard (Realm)",
+      "page": "https://marvel.fandom.com/wiki/Asgard_(Realm)"
+    }
   },
   "Metropolis": {
     "image": "https://static.wikia.nocookie.net/marvel_dc/images/b/bb/Metropolis_001.jpg/revision/latest/scale-to-width-down/600?cb=20170822195321",
@@ -1947,9 +1952,14 @@
     ]
   },
   "Asgard, later New York City area, later Defenders Mansion, Colorado.": {
-    "image": "https://static.wikia.nocookie.net/marveldatabase/images/4/4e/Asgard_%28Realm%29_from_Journey_Into_Mystery_Vol_4_622_001.jpg/revision/latest/scale-to-width-down/600?cb=20140916145832",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/b/b2/Asgard_from_Thor_Annual_Vol_1_5.jpg/revision/latest/scale-to-width-down/600?cb=20261009171823",
     "title": "Asgard (Realm)",
-    "page": "https://marvel.fandom.com/wiki/Asgard_(Realm)"
+    "page": "https://marvel.fandom.com/wiki/Asgard_(Realm)",
+    "base": {
+      "image": "https://static.wikia.nocookie.net/marveldatabase/images/4/4e/Asgard_%28Realm%29_from_Journey_Into_Mystery_Vol_4_622_001.jpg/revision/latest/scale-to-width-down/600?cb=20140916145832",
+      "title": "Asgard (Realm)",
+      "page": "https://marvel.fandom.com/wiki/Asgard_(Realm)"
+    }
   },
   "Presumably Asgard": null,
   "former) Factor Three headquarters, Europe": null,
