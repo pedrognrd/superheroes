@@ -1012,7 +1012,11 @@
     "title": "Duckworld",
     "page": "https://marvel.fandom.com/wiki/Duckworld"
   },
-  "Hulkbuster Base, New Mexico,  mobile, but prefers New Mexico": null,
+  "Hulkbuster Base, New Mexico,  mobile, but prefers New Mexico": {
+    "image": "https://static.wikia.nocookie.net/marvelanimated/images/a/a6/Gamma_Base.jpg/revision/latest?cb=20160619050134",
+    "title": "Gamma Base",
+    "page": "https://marvelanimated.fandom.com/wiki/Gamma_Base"
+  },
   "Pier Four, New York City": {
     "image": "https://static.wikia.nocookie.net/marveldatabase/images/6/6e/Pier_Four_from_Fantastic_Four_Vol_3_35_001.png/revision/latest/scale-to-width-down/600?cb=20130521112818",
     "title": "Pier Four",

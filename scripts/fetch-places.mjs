@@ -61,6 +61,14 @@ const MANUAL = [
     title: 'Earth-6311',
     page: 'Earth-6311',
   },
+  // Hulk
+  {
+    match: /^Hulkbuster Base\b/,
+    host: 'marvelanimated.fandom.com',
+    file: 'Gamma Base.jpg',
+    title: 'Gamma Base',
+    page: 'Gamma_Base',
+  },
   // Mandarin
   {
     match: 'Prometheus Corporation',
