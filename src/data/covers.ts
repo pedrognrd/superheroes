@@ -30,7 +30,15 @@ const SOURCES: [string, Generated][] = [
 
 // Correcciones manuales: id del héroe → portada. Tienen prioridad sobre todo lo demás.
 // Para una imagen local, guárdala en /public/covers y usa '/covers/archivo.jpg'.
-const MANUAL: Record<string, Cover> = {}
+const MANUAL: Record<string, Cover> = {
+  // Ozymandias: Comic Vine da DC Spotlight #1 (1985, número promocional)
+  '508': {
+    image: 'https://static.wikia.nocookie.net/marvel_dc/images/c/ca/Watchmen_1.jpg/revision/latest?cb=20080618074453',
+    title: 'Watchmen Vol. 1 #1',
+    page: 'https://dc.fandom.com/wiki/Watchmen_Vol_1_1',
+    source: 'Fandom',
+  },
+}
 
 export function getCover(heroId: string): Cover | null {
   if (MANUAL[heroId]) return MANUAL[heroId]
