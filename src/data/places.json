@@ -1165,7 +1165,11 @@
   },
   "Mobile, formerly New Warriors and Avengers Headquarters, Camp Hammond": null,
   "Galactic Empire": null,
-  "Other Earth, 31st century": null,
+  "Other Earth, 31st century": {
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/2/21/Earth-6311_from_Avengers_Vol_1_23_001.png/revision/latest?cb=20201031004127",
+    "title": "Earth-6311",
+    "page": "https://marvel.fandom.com/wiki/Earth-6311"
+  },
   "Bloomington, Indiana, Earth": {
     "coords": [
       39.16682,
@@ -1748,10 +1752,9 @@
   },
   "Mobile, formerly Sanctuary II, Titan": null,
   "Titan": {
-    "coords": [
-      13.07188,
-      77.55607
-    ]
+    "image": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/5/54/AW_1_Trailer_pic.png/revision/latest/scale-to-width-down/600?cb=20220205173457",
+    "title": "Titan",
+    "page": "https://marvelcinematicuniverse.fandom.com/wiki/Titan"
   },
   "Baxter Building, New York City, New York  Four Freedoms Plaza, Pier Four": {
     "image": "https://static.wikia.nocookie.net/marveldatabase/images/c/c6/Baxter_Building_from_Fantastic_Four_Vol_3_40_001.jpg/revision/latest/scale-to-width-down/600?cb=20250908034851",
@@ -1974,7 +1977,11 @@
   },
   "New Warriors and Avengers Headquarters, Camp Hammond": null,
   "New Warriors headquarters and Atlantis": null,
-  "Sanctuary II, Titan": null,
+  "Sanctuary II, Titan": {
+    "image": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/b/b4/Avengers_Endgame_Special_Look.png/revision/latest/scale-to-width-down/600?cb=20190418183619",
+    "title": "Sanctuary II",
+    "page": "https://marvelcinematicuniverse.fandom.com/wiki/Sanctuary_II"
+  },
   "Avengers Mansion, New York City and Avengers Compound": {
     "image": "https://static.wikia.nocookie.net/marveldatabase/images/4/43/Avengers_Mansion_from_New_Avengers_Vol_2_1_001.jpg/revision/latest?cb=20120505192941",
     "title": "Avengers Mansion",

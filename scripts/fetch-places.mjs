@@ -44,6 +44,23 @@ const MANUAL = [
     page: 'https://www.dc.com/graphic-novels/superman-tales-of-the-bizarro-world',
   },
   { match: 'Your chest :)', host: 'avp.fandom.com', file: 'ALIEN chestburster1280.jpg', title: 'Chestburster', page: 'Chestburster' },
+  // Thanos: Sanctuary II (base) y Titan (nacimiento; Nominatim lo confundía con un lugar real)
+  {
+    match: /^Sanctuary II\b/,
+    host: 'marvelcinematicuniverse.fandom.com',
+    file: 'Avengers Endgame Special Look.png',
+    title: 'Sanctuary II',
+    page: 'Sanctuary_II',
+  },
+  { match: 'Titan', host: 'marvelcinematicuniverse.fandom.com', file: 'AW 1 Trailer pic.png', title: 'Titan', page: 'Titan' },
+  // Kang: la Tierra del siglo XXXI (Earth-6311)
+  {
+    match: /^Other Earth\b/,
+    host: 'marvel.fandom.com',
+    file: 'Earth-6311 from Avengers Vol 1 23 001.png',
+    title: 'Earth-6311',
+    page: 'Earth-6311',
+  },
   {
     match: 'Faltine Dimension',
     host: 'marvelcinematicuniverse.fandom.com',
