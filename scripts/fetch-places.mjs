@@ -48,6 +48,19 @@ const MANUAL = [
     title: 'Map of Krypton',
     page: 'https://theconversation.com/how-astronomers-could-find-the-real-planet-krypton-56646',
   },
+  // Smallville: en Base, el cartel "Home of Smallville" de Cloverdale (rodaje de la serie), de Wikimedia Commons
+  {
+    match: /^Smallville\b/,
+    host: 'dc.fandom.com',
+    file: 'Smallville Kansas 0001.jpg',
+    title: 'Smallville, Kansas',
+    page: 'Smallville,_Kansas',
+    base: {
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Smallville-sign1.jpg/500px-Smallville-sign1.jpg',
+      title: 'Smallville',
+      page: 'https://en.wikipedia.org/wiki/Smallville_(comics)',
+    },
+  },
   {
     match: 'Bizarro World',
     image: 'https://static.dc.com/dc/files/default_images/1567_400x600.jpg?w=600',

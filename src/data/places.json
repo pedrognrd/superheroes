@@ -1229,7 +1229,12 @@
   "Smallville, Kansas": {
     "image": "https://static.wikia.nocookie.net/marvel_dc/images/c/cf/Smallville_Kansas_0001.jpg/revision/latest/scale-to-width-down/600?cb=20151224223045",
     "title": "Smallville, Kansas",
-    "page": "https://dc.fandom.com/wiki/Smallville%2C_Kansas"
+    "page": "https://dc.fandom.com/wiki/Smallville,_Kansas",
+    "base": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Smallville-sign1.jpg/500px-Smallville-sign1.jpg",
+      "title": "Smallville",
+      "page": "https://en.wikipedia.org/wiki/Smallville_(comics)"
+    }
   },
   "Oa,formerly New York City, Los Angeles": {
     "image": "https://static.wikia.nocookie.net/marvel_dc/images/d/d3/Oa_002.jpg/revision/latest/scale-to-width-down/600?cb=20101024030929",
