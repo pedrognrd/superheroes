@@ -22,15 +22,13 @@ function randomHeroId() {
 /** El héroe seleccionado se guarda en el historial del navegador, no en la URL:
     la dirección siempre es la de la portada y el botón "atrás" vuelve al anterior.
     Los enlaces antiguos con #id se siguen abriendo y luego se limpia la dirección.
-    Al recargar se mantiene el héroe; en una visita nueva se muestra uno aleatorio. */
+    Cada carga o recarga de la página muestra un héroe aleatorio. */
 const BASE_URL = window.location.pathname
 
-/** Héroe al cargar: enlace antiguo con #id, el que había antes de recargar, o el aleatorio */
+/** Héroe al cargar: el de un enlace antiguo con #id o, si no, el aleatorio */
 const initialId = (fallback: string) => {
   const fromHash = window.location.hash.slice(1)
-  if (heroById(fromHash)) return fromHash
-  const fromHistory = window.history.state?.id
-  return heroById(fromHistory) ? fromHistory : fallback
+  return heroById(fromHash) ? fromHash : fallback
 }
 
 function useSelectedHero() {
