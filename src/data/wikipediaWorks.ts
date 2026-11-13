@@ -95,6 +95,7 @@ export const WIKIPEDIA_WORKS: Record<string, string[]> = {
 
   // Libros, manga, videojuegos, publicidad
   '352': ['Casino Royale (novel)'], // James Bond
+  '453': ['Dracula'], // Minna Murray (Mina Harker), antes de The League of Extraordinary Gentlemen
   '47': ['Astro Boy'], // Astro Boy (manga, 1952)
   '310': ["Harry Potter and the Philosopher's Stone"], // Harry Potter
   '355': ['The Bourne Identity (novel)'], // Jason Bourne

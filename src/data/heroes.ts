@@ -3,6 +3,7 @@ import type { Hero } from '../types'
 import { DUPLICATES, isDuplicate } from './duplicates'
 import { fixPublisher } from './publisherFixes'
 import { fixPlaceOfBirth } from './biographyFixes'
+import { PORTRAITS } from './portraits'
 
 /** Todos los héroes de la API (sin duplicados), con la editorial y el lugar de nacimiento corregidos */
 export const heroes: Hero[] = (raw as Hero[])
@@ -14,6 +15,7 @@ export const heroes: Hero[] = (raw as Hero[])
       publisher: fixPublisher(h.id, h.biography.publisher),
       'place-of-birth': fixPlaceOfBirth(h.id, h.biography['place-of-birth']),
     },
+    image: PORTRAITS[h.id] ? { ...h.image, url: PORTRAITS[h.id].url } : h.image,
   }))
 
 /** Editoriales ordenadas por número de héroes */

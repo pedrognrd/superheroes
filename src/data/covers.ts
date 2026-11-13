@@ -30,15 +30,7 @@ const SOURCES: [string, Generated][] = [
 
 // Correcciones manuales: id del héroe → portada. Tienen prioridad sobre todo lo demás.
 // Para una imagen local, guárdala en /public/covers y usa '/covers/archivo.jpg'.
-const MANUAL: Record<string, Cover> = {
-  // Mina Murray: Winona Ryder en Bram Stoker's Dracula (1992), en vez del póster
-  '453': {
-    image: 'https://static.wikia.nocookie.net/dracula/images/a/af/Mina_Murray_1992_film.png/revision/latest?cb=20150204190355',
-    title: "Mina Harker · Bram Stoker's Dracula (1992)",
-    page: 'https://dracula.fandom.com/wiki/Mina_Harker_(1992_film)',
-    source: 'Fandom',
-  },
-}
+const MANUAL: Record<string, Cover> = {}
 
 export function getCover(heroId: string): Cover | null {
   if (MANUAL[heroId]) return MANUAL[heroId]

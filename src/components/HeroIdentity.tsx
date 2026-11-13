@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { PORTRAITS } from '../data/portraits'
 import type { Hero } from '../types'
 import { isEmpty } from '../utils/parse'
 import './HeroIdentity.css'
@@ -15,7 +16,12 @@ export function HeroIdentity({ hero }: { hero: Hero }) {
       <div className="identity__frame">
         <div className="identity__portrait">
           {showImage ? (
-            <img src={hero.image.url} alt={hero.name} onError={() => setFailed(hero.image.url)} />
+            <img
+              src={hero.image.url}
+              alt={hero.name}
+              style={{ objectPosition: PORTRAITS[hero.id]?.position }}
+              onError={() => setFailed(hero.image.url)}
+            />
           ) : (
             <div className="identity__noimg">No image</div>
           )}
