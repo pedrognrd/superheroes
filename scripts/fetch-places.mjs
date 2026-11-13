@@ -161,6 +161,22 @@ const MANUAL = [
   },
   // X-Man: "America Northeast" (Nominatim lo llevaba a Minneapolis); centro del noreste de EE. UU.
   { match: 'America Northeast', coords: [42.4, -72.6] },
+  // Onslaught: Central Park Citadel → 350 Park Avenue (Wikimedia Commons, vertical)
+  {
+    match: /^Central Park Citadel\b/,
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/350_Park_Avenue_photomontage%2C_northern_aerial_view.jpg/500px-350_Park_Avenue_photomontage%2C_northern_aerial_view.jpg',
+    title: 'Central Park Citadel',
+    page: 'https://en.wikipedia.org/wiki/350_Park_Avenue',
+  },
+  // Gamora: Zen-Whoberi (wiki del MCU)
+  {
+    match: /\bZen[- ]Whoberi\b/i,
+    host: 'marvelcinematicuniverse.fandom.com',
+    file: 'Zen-Whoberi (Massacred).png',
+    title: 'Zen-Whoberi',
+    page: 'Zen-Whoberi',
+  },
   // Star Wars (Nominatim los llevaba a un lugar de California)
   { match: 'Death Star', host: 'starwars.fandom.com', file: 'DSI-HDapproach.png', title: 'Death Star', page: 'Death_Star' },
   { match: 'Tatooine', host: 'starwars.fandom.com', file: 'Jawa moisture farm ANH.jpg', title: 'Tatooine', page: 'Tatooine' },

@@ -891,7 +891,11 @@
       -90.06295
     ]
   },
-  "Planet Zen Whoberi, Silican System, Milky Way": null,
+  "Planet Zen Whoberi, Silican System, Milky Way": {
+    "image": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/7/7b/Zen-Whoberi_%28Massacred%29.png/revision/latest/scale-to-width-down/600?cb=20240811065143",
+    "title": "Zen-Whoberi",
+    "page": "https://marvelcinematicuniverse.fandom.com/wiki/Zen-Whoberi"
+  },
   "Mobile, Quentin Carnival": null,
   "Waukegan, Illinois": {
     "coords": [
@@ -1570,7 +1574,11 @@
     "title": "Z-City",
     "page": "https://onepunchman.fandom.com/wiki/Z-City"
   },
-  "Central Park Citadel, Astral Fortress": null,
+  "Central Park Citadel, Astral Fortress": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/350_Park_Avenue_photomontage%2C_northern_aerial_view.jpg/500px-350_Park_Avenue_photomontage%2C_northern_aerial_view.jpg",
+    "title": "Central Park Citadel",
+    "page": "https://en.wikipedia.org/wiki/350_Park_Avenue"
+  },
   "Metropolis, formerly Gotham City": {
     "image": "https://static.wikia.nocookie.net/marvel_dc/images/b/bb/Metropolis_001.jpg/revision/latest/scale-to-width-down/600?cb=20170822195321",
     "title": "Metropolis",
