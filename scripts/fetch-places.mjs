@@ -37,6 +37,14 @@ const WIKI = {
 // Xavier aparece escrita de 15 formas). `match` es el texto exacto o un patrón.
 // Con `file` se toma la imagen de Fandom; con `image`, esa URL directamente.
 const MANUAL = [
+  // Krypton: el mapa de "The Krypton Chronicles" (a 900 px desde el original de 1920 px)
+  {
+    match: 'Krypton',
+    image:
+      'https://images.theconversation.com/files/115988/original/image-20160322-32323-6qoi9x.jpg?ixlib=rb-4.1.1&q=75&auto=format&w=900&fit=clip',
+    title: 'Map of Krypton',
+    page: 'https://theconversation.com/how-astronomers-could-find-the-real-planet-krypton-56646',
+  },
   {
     match: 'Bizarro World',
     image: 'https://static.dc.com/dc/files/default_images/1567_400x600.jpg?w=600',
