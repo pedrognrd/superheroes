@@ -84,8 +84,9 @@ export function primaryPlace(text: string): string | null {
   const first = text
     .split(';')[0]
     .replace(/\(.*?\)/g, '')
-    // "Formerly Krypton" → "Krypton"; "Formerly the Savage Land, now mobile" → "Savage Land"
-    .replace(/^\s*formerly\s+(the\s+)?/i, '')
+    // "Formerly Krypton" → "Krypton"; "Formerly the Savage Land, now mobile" → "Savage Land";
+    // "Mobile. Formerly Avengers Mansion" → "Avengers Mansion"
+    .replace(/^\s*((currently\s+)?mobile[.,]\s*)?formerly,?\s+(the\s+)?/i, '')
     .replace(/,?\s*now mobile\s*$/i, '')
     .trim()
   if (!first || /^mobile$/i.test(first)) return null
