@@ -14,6 +14,7 @@ import { readFile, writeFile } from 'node:fs/promises'
 import { primaryPlace } from '../src/utils/parse.ts'
 import { fixPublisher } from '../src/data/publisherFixes.ts'
 import { isDuplicate } from '../src/data/duplicates.ts'
+import { fixPlaceOfBirth } from '../src/data/biographyFixes.ts'
 
 const UA = 'superhero-database-personal/1.0'
 const OUT = new URL('../src/data/places.json', import.meta.url)
@@ -31,11 +32,20 @@ const WIKI = {
   'George Lucas': ['starwars.fandom.com'],
   'Star Trek': ['memory-alpha.fandom.com'],
 }
-// Lugares fijados a mano: textos que no son un lugar real ni una página de lugar
-// (el de Alien es "Your chest :)"). Se resuelven siempre con esta imagen de Fandom.
-const MANUAL = {
-  'Your chest :)': { host: 'avp.fandom.com', file: 'ALIEN chestburster1280.jpg', title: 'Chestburster', page: 'Chestburster' },
-}
+// Lugares fijados a mano con una imagen concreta de Fandom: textos que no son un
+// lugar (el de Alien es "Your chest :)") o que tienen muchas variantes (la escuela
+// Xavier aparece escrita de 15 formas). `match` es el texto exacto o un patrón.
+const MANUAL = [
+  { match: 'Your chest :)', host: 'avp.fandom.com', file: 'ALIEN chestburster1280.jpg', title: 'Chestburster', page: 'Chestburster' },
+  {
+    match: /^(the |professor )?(charles )?xavier('s)? (institute|insitute|school)/i,
+    host: 'marvel.fandom.com',
+    file: 'Graymalkin Prison from Uncanny X-Men Vol 6 27 001.jpg',
+    title: "Xavier's School for Gifted Youngsters",
+    page: "Xavier's_School_for_Gifted_Youngsters",
+  },
+]
+const manualFor = (q) => MANUAL.find((m) => (typeof m.match === 'string' ? m.match === q : m.match.test(q)))
 const PLACE_CATEGORY = /(locations?|planets?|moons?|cities|city|places|worlds?|star systems?|countries|regions|space stations?|buildings)\b/i
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
@@ -153,22 +163,27 @@ const heroes = (await readJson(HEROES, [])).filter((h) => !isDuplicate(h.id))
 const places = new Map() // lugar → wikis donde buscarlo (si su editorial tiene)
 for (const h of heroes) {
   const host = WIKI[fixPublisher(h.id, h.biography.publisher)] ?? null
-  for (const text of [h.work.base, h.biography['place-of-birth']]) {
+  for (const text of [h.work.base, fixPlaceOfBirth(h.id, h.biography['place-of-birth'])]) {
     const q = primaryPlace(text)
     if (q && (!places.has(q) || (!places.get(q) && host))) places.set(q, host ?? null)
   }
 }
 
 const out = await readJson(OUT, {})
-for (const [q, m] of Object.entries(MANUAL)) {
+for (const m of MANUAL) {
   const info = await fandom(m.host, { action: 'query', titles: `File:${m.file}`, prop: 'imageinfo', iiprop: 'url', iiurlwidth: '600' })
   const url = info?.query?.pages?.[0]?.imageinfo?.[0]?.thumburl
-  if (url) out[q] = { image: url, title: m.title, page: `https://${m.host}/wiki/${m.page}` }
-  else console.log(`Manual: no se encontró ${m.file} en ${m.host}`)
+  if (!url) {
+    console.log(`Manual: no se encontró ${m.file} en ${m.host}`)
+    continue
+  }
+  for (const q of places.keys()) {
+    if (manualFor(q) === m) out[q] = { image: url, title: m.title, page: `https://${m.host}/wiki/${encodeURI(m.page)}` }
+  }
 }
 await writeFile(OUT, JSON.stringify(out, null, 2) + '\n')
 const only = process.argv.slice(2)
-const todo = [...places].filter(([q]) => !(q in MANUAL) && (only.length ? only.includes(q) : !(q in out)))
+const todo = [...places].filter(([q]) => !manualFor(q) && (only.length ? only.includes(q) : !(q in out)))
 console.log(`${places.size} lugares; ${todo.length} por procesar`)
 
 let i = 0
