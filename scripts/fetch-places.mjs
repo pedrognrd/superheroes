@@ -31,6 +31,11 @@ const WIKI = {
   'George Lucas': ['starwars.fandom.com'],
   'Star Trek': ['memory-alpha.fandom.com'],
 }
+// Lugares fijados a mano: textos que no son un lugar real ni una página de lugar
+// (el de Alien es "Your chest :)"). Se resuelven siempre con esta imagen de Fandom.
+const MANUAL = {
+  'Your chest :)': { host: 'avp.fandom.com', file: 'ALIEN chestburster1280.jpg', title: 'Chestburster', page: 'Chestburster' },
+}
 const PLACE_CATEGORY = /(locations?|planets?|moons?|cities|city|places|worlds?|star systems?|countries|regions|space stations?|buildings)\b/i
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
@@ -155,8 +160,15 @@ for (const h of heroes) {
 }
 
 const out = await readJson(OUT, {})
+for (const [q, m] of Object.entries(MANUAL)) {
+  const info = await fandom(m.host, { action: 'query', titles: `File:${m.file}`, prop: 'imageinfo', iiprop: 'url', iiurlwidth: '600' })
+  const url = info?.query?.pages?.[0]?.imageinfo?.[0]?.thumburl
+  if (url) out[q] = { image: url, title: m.title, page: `https://${m.host}/wiki/${m.page}` }
+  else console.log(`Manual: no se encontró ${m.file} en ${m.host}`)
+}
+await writeFile(OUT, JSON.stringify(out, null, 2) + '\n')
 const only = process.argv.slice(2)
-const todo = [...places].filter(([q]) => (only.length ? only.includes(q) : !(q in out)))
+const todo = [...places].filter(([q]) => !(q in MANUAL) && (only.length ? only.includes(q) : !(q in out)))
 console.log(`${places.size} lugares; ${todo.length} por procesar`)
 
 let i = 0

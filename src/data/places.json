@@ -97,10 +97,9 @@
     "page": "https://dc.fandom.com/wiki/Wayne_Manor"
   },
   "Your chest :)": {
-    "coords": [
-      53.35761,
-      -6.26403
-    ]
+    "image": "https://static.wikia.nocookie.net/avp/images/4/46/ALIEN_chestburster1280.jpg/revision/latest/scale-to-width-down/600?cb=20140123001323",
+    "title": "Chestburster",
+    "page": "https://avp.fandom.com/wiki/Chestburster"
   },
   "The Secret Wing of the British Museum, London": null,
   "New York City": {
