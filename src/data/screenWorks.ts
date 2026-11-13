@@ -108,5 +108,4 @@ export const SCREEN_WORKS: Record<string, ScreenWork> = {
   '308': movie('Hancock', 2008), // Hancock
   '389': movie('King Kong', 1933), // King Kong
   '510': movie('Paul Blart: Mall Cop', 2009), // Paul Blart
-  '453': movie("Bram Stoker's Dracula", 1992), // Minna Murray (Mina Harker), en la película de Coppola
 }
