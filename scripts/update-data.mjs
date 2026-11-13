@@ -4,10 +4,12 @@
 //   3. portadas de Fandom para lo que quede    (fetch-covers-fandom.mjs)
 //   4. pósters de TMDB (cine/TV)               (fetch-covers-tmdb.mjs)
 //   5. imágenes de Wikipedia (libros, juegos…) (fetch-covers-wikipedia.mjs)
+//   6. lugares: coordenadas o imagen de Fandom (fetch-places.mjs)
 //   4. informe: héroes sin portada
 //
 // Uso: npm run update:data
-//      npm run update:data -- --skip-covers   (solo héroes + informe)
+//      npm run update:data -- --skip-covers   (sin portadas)
+//      npm run update:data -- --skip-places   (sin lugares)
 import { spawnSync } from 'node:child_process'
 import { fileURLToPath } from 'node:url'
 import { readFile } from 'node:fs/promises'
@@ -17,6 +19,7 @@ import { isDuplicate } from '../src/data/duplicates.ts'
 const ENV = fileURLToPath(new URL('../.env.local', import.meta.url))
 const script = (name) => fileURLToPath(new URL(`./${name}`, import.meta.url))
 const skipCovers = process.argv.includes('--skip-covers')
+const skipPlaces = process.argv.includes('--skip-places')
 
 function run(title, file) {
   console.log(`\n━━ ${title} ━━`)
@@ -37,15 +40,16 @@ const readJson = async (rel, fallback) => {
 
 const before = new Set((await readJson('../src/data/heroes.json', [])).map((h) => h.id))
 
-run('1/5 Héroes', 'fetch-heroes.mjs')
+run('1/6 Héroes', 'fetch-heroes.mjs')
 if (!skipCovers) {
-  run('2/5 Portadas · Comic Vine', 'fetch-covers.mjs')
-  run('3/5 Portadas · Fandom', 'fetch-covers-fandom.mjs')
+  run('2/6 Portadas · Comic Vine', 'fetch-covers.mjs')
+  run('3/6 Portadas · Fandom', 'fetch-covers-fandom.mjs')
   if (process.env.TMDB_API_KEY || /^TMDB_API_KEY=./m.test(await readFile(ENV, 'utf8').catch(() => '')))
-    run('4/5 Pósters · TMDB', 'fetch-covers-tmdb.mjs')
-  else console.log('\n━━ 4/5 Pósters · TMDB ━━\nSin TMDB_API_KEY en .env.local: se omite')
-  run('5/5 Imágenes · Wikipedia', 'fetch-covers-wikipedia.mjs')
+    run('4/6 Pósters · TMDB', 'fetch-covers-tmdb.mjs')
+  else console.log('\n━━ 4/6 Pósters · TMDB ━━\nSin TMDB_API_KEY en .env.local: se omite')
+  run('5/6 Imágenes · Wikipedia', 'fetch-covers-wikipedia.mjs')
 }
+if (!skipPlaces) run('6/6 Lugares · Nominatim + Fandom', 'fetch-places.mjs')
 
 // ── Informe ──────────────────────────────────────────────
 const allHeroes = await readJson('../src/data/heroes.json', [])

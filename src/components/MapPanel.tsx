@@ -26,7 +26,7 @@ function Recenter({ coords }: { coords: LatLng }) {
 
 export function MapPanel({ title, place, variant, align, className = '' }: MapPanelProps) {
   const query = primaryPlace(place)
-  const { status, coords } = useGeocode(query)
+  const { status, coords, image } = useGeocode(query)
 
   return (
     <Panel title={title} variant={variant} align={align} className={`map-panel ${className}`}>
@@ -43,6 +43,11 @@ export function MapPanel({ title, place, variant, align, className = '' }: MapPa
             <CircleMarker center={coords} radius={9} pathOptions={{ color: '#7fc4ea', fillColor: '#7fc4ea', fillOpacity: 0.5 }} />
             <Recenter coords={coords} />
           </MapContainer>
+        ) : image ? (
+          // Lugar ficticio: imagen de su página en Fandom
+          <a className="map-panel__place" href={image.page} target="_blank" rel="noreferrer" title={`${image.title} · Fandom`}>
+            <img src={image.image} alt={image.title} referrerPolicy="no-referrer" />
+          </a>
         ) : (
           <div className={`map-panel__empty${status !== 'loading' ? ' map-panel__empty--unknown' : ''}`}>
             {status === 'loading' ? (

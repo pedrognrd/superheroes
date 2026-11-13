@@ -6,28 +6,40 @@
   "characterId": 22634,
   "score": 7,
   "issueId": 4466,
-  "issueNumber": "22"
+  "issueNumber": "22",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/4066-1770-4466-1-showcase.jpg",
+  "title": "Showcase #22",
+  "coverDate": "1959-10-31"
  },
  "4": {
   "character": "Abomination",
   "characterId": 3489,
   "score": 10,
   "issueId": 9300,
-  "issueNumber": "90"
+  "issueNumber": "90",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3396986-untitled.jpg",
+  "title": "Tales to Astonish #90",
+  "coverDate": "1967-04-30"
  },
  "5": {
   "character": "Abraxas",
   "characterId": 13488,
   "score": 8,
   "issueId": 13977,
-  "issueNumber": "22"
+  "issueNumber": "22",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/12456-2469-13977-1-amazing-adventures.jpg",
+  "title": "Amazing Adventures #22",
+  "coverDate": "1974-01-01"
  },
  "6": {
   "character": "Absorbing Man",
   "characterId": 1779,
   "score": 8,
   "issueId": 7668,
-  "issueNumber": "114"
+  "issueNumber": "114",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/7013-1497-7668-1-journey-into-mystery.jpg",
+  "title": "Journey into Mystery #114",
+  "coverDate": "1965-03-01"
  },
  "7": null,
  "8": {
@@ -35,14 +47,20 @@
   "characterId": 4604,
   "score": 8,
   "issueId": 4075,
-  "issueNumber": "17"
+  "issueNumber": "17",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/3701-1770-4075-1-showcase.jpg",
+  "title": "Showcase #17",
+  "coverDate": "1958-12-31"
  },
  "9": {
   "character": "Sharon Carter",
   "characterId": 38227,
   "score": 9,
   "issueId": 8432,
-  "issueNumber": "75"
+  "issueNumber": "75",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2678773-talesofsuspense75.jpg",
+  "title": "Tales of Suspense #75",
+  "coverDate": "1966-03-01"
  },
  "10": null,
  "11": {
@@ -50,28 +68,40 @@
   "characterId": 135953,
   "score": 5,
   "issueId": 117056,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/225760-19571-117056-1-young-allies-comics.jpg",
+  "title": "Young Allies #1",
+  "coverDate": "1941-06-30"
  },
  "12": {
   "character": "Air-Walker",
   "characterId": 7126,
   "score": 10,
   "issueId": 12053,
-  "issueNumber": "120"
+  "issueNumber": "120",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/10926-2045-12053-1-fantastic-four.jpg",
+  "title": "Fantastic Four #120",
+  "coverDate": "1972-03-31"
  },
  "13": {
   "character": "Ajax",
   "characterId": 20609,
   "score": 7,
   "issueId": 44806,
-  "issueNumber": "14"
+  "issueNumber": "14",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/26526/490589-13893_20051129161521_large.jpg",
+  "title": "Deadpool #14",
+  "coverDate": "1998-03-01"
  },
  "14": {
   "character": "Alan Scott",
   "characterId": 12663,
   "score": 8,
   "issueId": 144069,
-  "issueNumber": "2"
+  "issueNumber": "2",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/26751/630322-a2.jpg",
+  "title": "All-Star Comics #2",
+  "coverDate": "1940-07-01"
  },
  "15": null,
  "16": null,
@@ -80,7 +110,10 @@
   "characterId": 5556,
   "score": 10,
   "issueId": 112011,
-  "issueNumber": "16"
+  "issueNumber": "16",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/158883-796-112011-1-batman.jpg",
+  "title": "Batman #16",
+  "coverDate": "1943-04-30"
  },
  "18": null,
  "19": {
@@ -88,21 +121,30 @@
   "characterId": 22207,
   "score": 5,
   "issueId": 361087,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124613/2639812-king_solomons_mines_pagecover.jpg",
+  "title": "King Solomon's Mines #1",
+  "coverDate": "1951-01-01"
  },
  "20": {
   "character": "Amazo",
   "characterId": 3737,
   "score": 7,
   "issueId": 4835,
-  "issueNumber": "30"
+  "issueNumber": "30",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/3668128-30.jpg",
+  "title": "The Brave and the Bold #30",
+  "coverDate": "1960-07-01"
  },
  "21": {
   "character": "Ammo",
   "characterId": 29689,
   "score": 7,
   "issueId": 29370,
-  "issueNumber": "252"
+  "issueNumber": "252",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/26454-2190-29370-1-daredevil.jpg",
+  "title": "Daredevil #252",
+  "coverDate": "1988-03-01"
  },
  "22": null,
  "23": null,
@@ -111,21 +153,30 @@
   "characterId": 2112,
   "score": 8,
   "issueId": 6694,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/5344/1355017-uxm_v1_001_01.jpg",
+  "title": "The X-Men #1",
+  "coverDate": "1963-09-01"
  },
  "25": {
   "character": "Angel Dust",
   "characterId": 45613,
   "score": 7,
   "issueId": 150064,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/4366781-01.jpg",
+  "title": "Morlocks #1",
+  "coverDate": "2002-06-01"
  },
  "26": {
   "character": "Angel Salvadore",
   "characterId": 40593,
   "score": 7,
   "issueId": 78322,
-  "issueNumber": "118"
+  "issueNumber": "118",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/74852-9121-78322-1-new-x-men.jpg",
+  "title": "New X-Men #118",
+  "coverDate": "2001-11-01"
  },
  "27": null,
  "28": {
@@ -133,21 +184,30 @@
   "characterId": 22707,
   "score": 10,
   "issueId": 8014,
-  "issueNumber": "180"
+  "issueNumber": "180",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/7292-1328-8014-1-strange-adventures.jpg",
+  "title": "Strange Adventures #180",
+  "coverDate": "1965-09-01"
  },
  "29": {
   "character": "Annihilus",
   "characterId": 10964,
   "score": 10,
   "issueId": 110105,
-  "issueNumber": "6"
+  "issueNumber": "6",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3950897-ffan6nm9m034.jpg",
+  "title": "Fantastic Four Annual #6",
+  "coverDate": "1968-11-01"
  },
  "30": {
   "character": "Hank Pym",
   "characterId": 2247,
   "score": 7,
   "issueId": 110743,
-  "issueNumber": "75"
+  "issueNumber": "75",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/137822-18066-110743-1-strange-tales.jpg",
+  "title": "Strange Tales #75",
+  "coverDate": "1960-06-01"
  },
  "31": null,
  "32": {
@@ -155,35 +215,50 @@
   "characterId": 12165,
   "score": 5,
   "issueId": 496826,
-  "issueNumber": "71"
+  "issueNumber": "71",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/4725740-tar71.jpg",
+  "title": "Superman Taschenbuch #71",
+  "coverDate": "1985-04-01"
  },
  "33": {
   "character": "Jason Wynn",
   "characterId": 3391,
   "score": 7,
   "issueId": 1065493,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/9431735-coc-spawn.jpg",
+  "title": "Crusade of Comics Presents Spawn #1",
+  "coverDate": "1992-01-01"
  },
  "34": {
   "character": "Anti-Venom",
   "characterId": 173759,
   "score": 7,
   "issueId": 136526,
-  "issueNumber": "569"
+  "issueNumber": "569",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/40/517721-asm569.jpg",
+  "title": "The Amazing Spider-Man #569",
+  "coverDate": "2008-10-01"
  },
  "35": {
   "character": "Apocalypse",
   "characterId": 7612,
   "score": 8,
   "issueId": 117738,
-  "issueNumber": "17"
+  "issueNumber": "17",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/1714/230211-3144-117738-1-marvel-graphic-novel.jpg",
+  "title": "Marvel Graphic Novel #17",
+  "coverDate": "1985-10-01"
  },
  "36": {
   "character": "Aquababy",
   "characterId": 38292,
   "score": 10,
   "issueId": 7997,
-  "issueNumber": "23"
+  "issueNumber": "23",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/7275-2050-7997-1-aquaman.jpg",
+  "title": "Aquaman #23",
+  "coverDate": "1965-10-01"
  },
  "37": null,
  "38": {
@@ -191,14 +266,20 @@
   "characterId": 2357,
   "score": 7,
   "issueId": 116392,
-  "issueNumber": "73"
+  "issueNumber": "73",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111224684/5079966-more%20fun%20comics-000.jpg",
+  "title": "More Fun Comics #73",
+  "coverDate": "1941-11-30"
  },
  "39": {
   "character": "Julia Carpenter",
   "characterId": 16197,
   "score": 9,
   "issueId": 57509,
-  "issueNumber": "6"
+  "issueNumber": "6",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2407781-marvelsuperheroessecretwars06.jpg",
+  "title": "Marvel Super Heroes Secret Wars #6",
+  "coverDate": "1984-10-01"
  },
  "40": null,
  "41": {
@@ -206,63 +287,90 @@
   "characterId": 13369,
   "score": 10,
   "issueId": 107057,
-  "issueNumber": "210"
+  "issueNumber": "210",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/4144029-xmen210nm92m094.jpg",
+  "title": "The Uncanny X-Men #210",
+  "coverDate": "1986-10-01"
  },
  "42": {
   "character": "Ardina",
   "characterId": 11363,
   "score": 8,
   "issueId": 122392,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/11307/298857-20444-122392-1-the-silver-surfer.jpg",
+  "title": "The Silver Surfer #1",
+  "coverDate": "1978-01-01"
  },
  "43": {
   "character": "Ares",
   "characterId": 11940,
   "score": 5,
   "issueId": 116239,
-  "issueNumber": "6"
+  "issueNumber": "6",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/219497-19070-116239-1-daring-mystery-comic.jpg",
+  "title": "Daring Mystery Comics #6",
+  "coverDate": "1940-09-30"
  },
  "44": {
   "character": "Ariel",
   "characterId": 37928,
   "score": 8,
   "issueId": 254000,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/1595065-01.jpg",
+  "title": "Disney's The Little Mermaid #1",
+  "coverDate": "1990-01-01"
  },
  "45": {
   "character": "Armor",
   "characterId": 4442,
   "score": 10,
   "issueId": 93543,
-  "issueNumber": "4"
+  "issueNumber": "4",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/9/91005/1654297-4_6.jpg",
+  "title": "Astonishing X-Men #4",
+  "coverDate": "2004-10-01"
  },
  "46": {
   "character": "Arsenal",
   "characterId": 133935,
   "score": 5,
   "issueId": 116128,
-  "issueNumber": "485"
+  "issueNumber": "485",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/8015/218874-3105-116128-1-adventure-comics.jpg",
+  "title": "Adventure Comics #485",
+  "coverDate": "1981-09-01"
  },
  "47": {
   "character": "Astro Boy",
   "characterId": 47767,
   "score": 5,
   "issueId": 1051581,
-  "issueNumber": "195104"
+  "issueNumber": "195104",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11159/111591278/9335089-1951-04.jpg",
+  "title": "Shōnen #195104",
+  "coverDate": "1951-04-01"
  },
  "48": {
   "character": "Atlas",
   "characterId": 3277,
   "score": 6,
   "issueId": 8101,
-  "issueNumber": "21"
+  "issueNumber": "21",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2464714-avengers021.jpg",
+  "title": "The Avengers #21",
+  "coverDate": "1965-10-01"
  },
  "49": {
   "character": "Atlas",
   "characterId": 28129,
   "score": 5,
   "issueId": 539022,
-  "issueNumber": "196810"
+  "issueNumber": "196810",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/5313411-sup196810.jpg",
+  "title": "Supermann #196810",
+  "coverDate": "1968-10-01"
  },
  "50": null,
  "51": null,
@@ -272,42 +380,60 @@
   "characterId": 34685,
   "score": 7,
   "issueId": 5454,
-  "issueNumber": "34"
+  "issueNumber": "34",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/5013-1770-5454-1-showcase.jpg",
+  "title": "Showcase #34",
+  "coverDate": "1961-10-31"
  },
  "54": {
   "character": "Adam Cray",
   "characterId": 68435,
   "score": 7,
   "issueId": 33054,
-  "issueNumber": "44"
+  "issueNumber": "44",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/3184049-44.jpg",
+  "title": "Suicide Squad #44",
+  "coverDate": "1990-08-31"
  },
  "55": {
   "character": "Ryan Choi",
   "characterId": 2352,
   "score": 7,
   "issueId": 120848,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4115/268351-20244-120848-1-the-dc-comics-encycl.jpg",
+  "title": "The DC Comics Encyclopedia #1",
+  "coverDate": "2004-01-01"
  },
  "56": {
   "character": "Aurora",
   "characterId": 3189,
   "score": 8,
   "issueId": 19455,
-  "issueNumber": "120"
+  "issueNumber": "120",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/4330464-xmen120vf7m012.jpg",
+  "title": "The X-Men #120",
+  "coverDate": "1979-04-01"
  },
  "57": {
   "character": "Azazel",
   "characterId": 40526,
   "score": 7,
   "issueId": 105326,
-  "issueNumber": "428"
+  "issueNumber": "428",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/308/78609-3092-105326-3-uncanny-x-men-the.jpg",
+  "title": "The Uncanny X-Men #428",
+  "coverDate": "2003-10-01"
  },
  "58": {
   "character": "Azrael",
   "characterId": 46934,
   "score": 5,
   "issueId": 115427,
-  "issueNumber": "51"
+  "issueNumber": "51",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/7113/207014-3324-115427-1-tales-of-the-teen-ti.jpg",
+  "title": "Tales of the Teen Titans #51",
+  "coverDate": "1985-03-01"
  },
  "59": null,
  "60": {
@@ -315,28 +441,40 @@
   "characterId": 6129,
   "score": 7,
   "issueId": 131755,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/4197509-batmanrevofbane1nm94m103.jpg",
+  "title": "Batman: Vengeance of Bane Special #1",
+  "coverDate": "1993-01-01"
  },
  "61": {
   "character": "Banshee",
   "characterId": 9708,
   "score": 10,
   "issueId": 9098,
-  "issueNumber": "28"
+  "issueNumber": "28",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/8240-2133-9098-1-x-men.jpg",
+  "title": "The X-Men #28",
+  "coverDate": "1967-01-01"
  },
  "62": {
   "character": "Bantam",
   "characterId": 8718,
   "score": 5,
   "issueId": 34895,
-  "issueNumber": "282"
+  "issueNumber": "282",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/56044/1656389-uncanny_x_men__1963__282.jpeg",
+  "title": "The Uncanny X-Men #282",
+  "coverDate": "1991-11-01"
  },
  "63": {
   "character": "Barbara Gordon",
   "characterId": 5368,
   "score": 9,
   "issueId": 112609,
-  "issueNumber": "359"
+  "issueNumber": "359",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/6060/163742-18058-112609-1-detective-comics.JPG",
+  "title": "Detective Comics #359",
+  "coverDate": "1967-01-31"
  },
  "64": null,
  "65": null,
@@ -345,7 +483,10 @@
   "characterId": 65230,
   "score": 5,
   "issueId": 45915,
-  "issueNumber": "567"
+  "issueNumber": "567",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/40708-796-45915-1-batman.jpg",
+  "title": "Batman #567",
+  "coverDate": "1999-07-01"
  },
  "67": null,
  "68": {
@@ -353,7 +494,10 @@
   "characterId": 6156,
   "score": 7,
   "issueId": 113118,
-  "issueNumber": "647"
+  "issueNumber": "647",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/6060/167915-18058-113118-1-detective-comics.jpg",
+  "title": "Detective Comics #647",
+  "coverDate": "1992-08-01"
  },
  "69": {
   "character": "Terry McGinnis",
@@ -380,14 +524,20 @@
   "characterId": 1691,
   "score": 5,
   "issueId": 111907,
-  "issueNumber": "38"
+  "issueNumber": "38",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/58127/2118850-detective_38.jpg",
+  "title": "Detective Comics #38",
+  "coverDate": "1940-04-01"
  },
  "72": {
   "character": "Battlestar",
   "characterId": 13744,
   "score": 10,
   "issueId": 27378,
-  "issueNumber": "323"
+  "issueNumber": "323",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/24608-2400-27378-1-captain-america.jpg",
+  "title": "Captain America #323",
+  "coverDate": "1986-11-01"
  },
  "73": null,
  "74": {
@@ -395,21 +545,30 @@
   "characterId": 3188,
   "score": 8,
   "issueId": 66995,
-  "issueNumber": "117"
+  "issueNumber": "117",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/51153-9121-66995-1-new-x-men.jpg",
+  "title": "New X-Men #117",
+  "coverDate": "2001-10-01"
  },
  "75": {
   "character": "Beast",
   "characterId": 1462,
   "score": 10,
   "issueId": 6694,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/5344/1355017-uxm_v1_001_01.jpg",
+  "title": "The X-Men #1",
+  "coverDate": "1963-09-01"
  },
  "76": {
   "character": "Beast Boy",
   "characterId": 3586,
   "score": 10,
   "issueId": 8138,
-  "issueNumber": "99"
+  "issueNumber": "99",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/7392-2177-8138-1-doom-patrol-the.jpg",
+  "title": "Doom Patrol #99",
+  "coverDate": "1965-11-30"
  },
  "77": null,
  "78": null,
@@ -418,35 +577,50 @@
   "characterId": 6139,
   "score": 7,
   "issueId": 23647,
-  "issueNumber": "337"
+  "issueNumber": "337",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/4107297-thor337nm9m085.jpg",
+  "title": "Thor #337",
+  "coverDate": "1983-11-01"
  },
  "80": {
   "character": "Beyonder",
   "characterId": 10300,
   "score": 7,
   "issueId": 57504,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2407772-marvelsuperheroessecretwars01.jpg",
+  "title": "Marvel Super Heroes Secret Wars #1",
+  "coverDate": "1984-05-01"
  },
  "81": {
   "character": "Big Barda",
   "characterId": 3628,
   "score": 10,
   "issueId": 11703,
-  "issueNumber": "4"
+  "issueNumber": "4",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/10624-2504-11703-1-mister-miracle.jpg",
+  "title": "Mister Miracle #4",
+  "coverDate": "1971-10-31"
  },
  "82": {
   "character": "Big Daddy",
   "characterId": 57159,
   "score": 5,
   "issueId": 136527,
-  "issueNumber": "4"
+  "issueNumber": "4",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/2515099-04_regular.jpg",
+  "title": "Kick-Ass #4",
+  "coverDate": "2008-10-01"
  },
  "83": {
   "character": "Frederick Foswell",
   "characterId": 12356,
   "score": 7,
   "issueId": 7024,
-  "issueNumber": "10"
+  "issueNumber": "10",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2676469-amazingspiderman010.jpg",
+  "title": "The Amazing Spider-Man #10",
+  "coverDate": "1964-03-01"
  },
  "84": null,
  "85": {
@@ -454,14 +628,20 @@
   "characterId": 10521,
   "score": 10,
   "issueId": 36264,
-  "issueNumber": "5"
+  "issueNumber": "5",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/56044/2466976-spawn__1992__005d.jpeg",
+  "title": "Spawn #5",
+  "coverDate": "1992-10-01"
  },
  "86": {
   "character": "Carol Danvers",
   "characterId": 21561,
   "score": 9,
   "issueId": 115904,
-  "issueNumber": "13"
+  "issueNumber": "13",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2481695-marvelsuper_heroes13.jpg",
+  "title": "Marvel Super-Heroes #13",
+  "coverDate": "1968-03-31"
  },
  "87": null,
  "88": {
@@ -469,14 +649,20 @@
   "characterId": 30056,
   "score": 5,
   "issueId": 28603,
-  "issueNumber": "55"
+  "issueNumber": "55",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/25743-3234-28603-1-new-mutants-the.jpg",
+  "title": "The New Mutants #55",
+  "coverDate": "1987-09-01"
  },
  "89": {
   "character": "Bird-Man",
   "characterId": 14503,
   "score": 7,
   "issueId": 8102,
-  "issueNumber": "10"
+  "issueNumber": "10",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/7366-2190-8102-1-daredevil.jpg",
+  "title": "Daredevil #10",
+  "coverDate": "1965-10-01"
  },
  "90": null,
  "91": null,
@@ -485,70 +671,100 @@
   "characterId": 1503,
   "score": 10,
   "issueId": 34895,
-  "issueNumber": "282"
+  "issueNumber": "282",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/56044/1656389-uncanny_x_men__1963__282.jpeg",
+  "title": "The Uncanny X-Men #282",
+  "coverDate": "1991-11-01"
  },
  "93": {
   "character": "Bizarro",
   "characterId": 8312,
   "score": 10,
   "issueId": 123995,
-  "issueNumber": "68"
+  "issueNumber": "68",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/317147-19154-123995-1-superboy.jpg",
+  "title": "Superboy #68",
+  "coverDate": "1958-10-31"
  },
  "94": {
   "character": "Black Abbott",
   "characterId": 31578,
   "score": 7,
   "issueId": 24797,
-  "issueNumber": "146"
+  "issueNumber": "146",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2432830-marvelteam_up146.jpg",
+  "title": "Marvel Team-Up #146",
+  "coverDate": "1984-10-31"
  },
  "95": {
   "character": "Black Adam",
   "characterId": 4916,
   "score": 10,
   "issueId": 119538,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/251573-1066-119538-1-marvel-family-the.jpg",
+  "title": "The Marvel Family #1",
+  "coverDate": "1945-12-01"
  },
  "96": {
   "character": "Black Bolt",
   "characterId": 4329,
   "score": 10,
   "issueId": 8231,
-  "issueNumber": "45"
+  "issueNumber": "45",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/7477-2045-8231-1-fantastic-four.jpg",
+  "title": "Fantastic Four #45",
+  "coverDate": "1965-12-01"
  },
  "97": {
   "character": "Black Canary",
   "characterId": 1689,
   "score": 6,
   "issueId": 361382,
-  "issueNumber": "5"
+  "issueNumber": "5",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/2642461-ecl5.jpg",
+  "title": "Eclipso #5",
+  "coverDate": "1969-04-01"
  },
  "98": {
   "character": "Black Canary",
   "characterId": 1689,
   "score": 6,
   "issueId": 361382,
-  "issueNumber": "5"
+  "issueNumber": "5",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/2642461-ecl5.jpg",
+  "title": "Eclipso #5",
+  "coverDate": "1969-04-01"
  },
  "99": {
   "character": "Black Cat",
   "characterId": 1479,
   "score": 10,
   "issueId": 19634,
-  "issueNumber": "194"
+  "issueNumber": "194",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2437319-amazingspider_man194.jpg",
+  "title": "The Amazing Spider-Man #194",
+  "coverDate": "1979-07-31"
  },
  "100": {
   "character": "Black Flash",
   "characterId": 43141,
   "score": 7,
   "issueId": 45015,
-  "issueNumber": "138"
+  "issueNumber": "138",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/10369/850232-human_race.jpg",
+  "title": "The Flash #138",
+  "coverDate": "1998-06-01"
  },
  "101": {
   "character": "Black Goliath",
   "characterId": 3470,
   "score": 5,
   "issueId": 8808,
-  "issueNumber": "32"
+  "issueNumber": "32",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2464740-avengers032.jpg",
+  "title": "The Avengers #32",
+  "coverDate": "1966-09-01"
  },
  "102": null,
  "103": {
@@ -556,105 +772,150 @@
   "characterId": 45180,
   "score": 7,
   "issueId": 120455,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/9295550-tangentflash.jpg",
+  "title": "Tangent Comics/ The Flash #1",
+  "coverDate": "1997-12-01"
  },
  "104": {
   "character": "Black Mamba",
   "characterId": 30719,
   "score": 10,
   "issueId": 20461,
-  "issueNumber": "64"
+  "issueNumber": "64",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/18287-2696-20461-1-marvel-two-in-one.jpg",
+  "title": "Marvel Two-in-One #64",
+  "coverDate": "1980-06-01"
  },
  "105": {
   "character": "Black Manta",
   "characterId": 8345,
   "score": 7,
   "issueId": 9580,
-  "issueNumber": "35"
+  "issueNumber": "35",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/8673-2050-9580-1-aquaman.jpg",
+  "title": "Aquaman #35",
+  "coverDate": "1967-10-01"
  },
  "106": {
   "character": "Black Panther",
   "characterId": 1477,
   "score": 10,
   "issueId": 8666,
-  "issueNumber": "52"
+  "issueNumber": "52",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/7851-2045-8666-1-fantastic-four.jpg",
+  "title": "Fantastic Four #52",
+  "coverDate": "1966-07-01"
  },
  "107": {
   "character": "Black Widow",
   "characterId": 3200,
   "score": 7,
   "issueId": 7072,
-  "issueNumber": "52"
+  "issueNumber": "52",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2678802-talesofsuspense52.jpg",
+  "title": "Tales of Suspense #52",
+  "coverDate": "1964-04-01"
  },
  "108": {
   "character": "Yelena Belova",
   "characterId": 19397,
   "score": 5,
   "issueId": 98508,
-  "issueNumber": "5"
+  "issueNumber": "5",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/65511-6213-98508-1-inhumans.jpg",
+  "title": "Inhumans #5",
+  "coverDate": "1999-03-01"
  },
  "109": {
   "character": "Blackout",
   "characterId": 41820,
   "score": 7,
   "issueId": 66418,
-  "issueNumber": "2"
+  "issueNumber": "2",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/50610-4397-66418-1-ghost-rider.jpg",
+  "title": "Ghost Rider #2",
+  "coverDate": "1990-06-01"
  },
  "110": {
   "character": "Blackwing",
   "characterId": 14571,
   "score": 10,
   "issueId": 15050,
-  "issueNumber": "118"
+  "issueNumber": "118",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/2999054-tn.jpg",
+  "title": "Daredevil #118",
+  "coverDate": "1975-02-28"
  },
  "111": {
   "character": "Blackwulf",
   "characterId": 25913,
   "score": 10,
   "issueId": 38843,
-  "issueNumber": "6"
+  "issueNumber": "6",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/34777-5055-38843-1-thunderstrike.jpg",
+  "title": "Thunderstrike #6",
+  "coverDate": "1994-03-01"
  },
  "112": {
   "character": "Blade",
   "characterId": 7570,
   "score": 10,
   "issueId": 13404,
-  "issueNumber": "10"
+  "issueNumber": "10",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/3015057-tomb%20of%20dracula%20%2310%20-%20page%201.jpg",
+  "title": "Tomb of Dracula #10",
+  "coverDate": "1973-07-31"
  },
  "113": {
   "character": "Blaquesmith",
   "characterId": 15159,
   "score": 5,
   "issueId": 41136,
-  "issueNumber": "21"
+  "issueNumber": "21",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/36790-4993-41136-1-cable.jpg",
+  "title": "Cable #21",
+  "coverDate": "1995-07-01"
  },
  "114": {
   "character": "Bling!",
   "characterId": 40669,
   "score": 10,
   "issueId": 106170,
-  "issueNumber": "171"
+  "issueNumber": "171",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/88555-10731-106170-1-x-men.jpg",
+  "title": "X-Men #171",
+  "coverDate": "2005-08-01"
  },
  "115": {
   "character": "Blink",
   "characterId": 12548,
   "score": 10,
   "issueId": 39830,
-  "issueNumber": "317"
+  "issueNumber": "317",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/35672-3092-39830-1-uncanny-x-men-the.jpg",
+  "title": "The Uncanny X-Men #317",
+  "coverDate": "1994-10-01"
  },
  "116": {
   "character": "Blizzard (Shapanka)",
   "characterId": 86265,
   "score": 7,
   "issueId": 6692,
-  "issueNumber": "45"
+  "issueNumber": "45",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2678812-talesofsuspense45.jpg",
+  "title": "Tales of Suspense #45",
+  "coverDate": "1963-09-01"
  },
  "117": {
   "character": "Blizzard",
   "characterId": 4808,
   "score": 5,
   "issueId": 28689,
-  "issueNumber": "223"
+  "issueNumber": "223",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/25823-2407-28689-1-iron-man.jpg",
+  "title": "Iron Man #223",
+  "coverDate": "1987-10-01"
  },
  "118": null,
  "119": {
@@ -662,28 +923,40 @@
   "characterId": 3182,
   "score": 10,
   "issueId": 6946,
-  "issueNumber": "3"
+  "issueNumber": "3",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/5344/1355038-01.jpg",
+  "title": "The X-Men #3",
+  "coverDate": "1964-01-01"
  },
  "120": {
   "character": "Bloodaxe",
   "characterId": 23675,
   "score": 10,
   "issueId": 29718,
-  "issueNumber": "392"
+  "issueNumber": "392",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/26780-2294-29718-1-thor.jpg",
+  "title": "Thor #392",
+  "coverDate": "1988-06-01"
  },
  "121": {
   "character": "Bloodhawk",
   "characterId": 41424,
   "score": 10,
   "issueId": 135422,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/23749/494437-46611_20060627184200_large.jpg",
+  "title": "2099 Sketchbook #1",
+  "coverDate": "1993-01-01"
  },
  "122": {
   "character": "Bloodwraith",
   "characterId": 19934,
   "score": 10,
   "issueId": 32959,
-  "issueNumber": "2"
+  "issueNumber": "2",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2559713-02.jpg",
+  "title": "Black Knight #2",
+  "coverDate": "1990-07-01"
  },
  "123": null,
  "124": null,
@@ -695,42 +968,60 @@
   "characterId": 10577,
   "score": 5,
   "issueId": 41521,
-  "issueNumber": "8"
+  "issueNumber": "8",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/37105-5066-41521-1-x-men-unlimited.jpg",
+  "title": "X-Men Unlimited #8",
+  "coverDate": "1995-10-01"
  },
  "129": {
   "character": "Bomb Queen",
   "characterId": 40609,
   "score": 7,
   "issueId": 106515,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/978/91797-18192-106515-1-bomb-queen.jpg",
+  "title": "Bomb Queen #1",
+  "coverDate": "2006-02-01"
  },
  "130": {
   "character": "Boom-Boom",
   "characterId": 2159,
   "score": 8,
   "issueId": 114771,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/40/196626-19177-114771-1-marvel-age-annual.jpg",
+  "title": "Marvel Age Annual #1",
+  "coverDate": "1985-07-01"
  },
  "131": {
   "character": "Boomer",
   "characterId": 87971,
   "score": 5,
   "issueId": 28816,
-  "issueNumber": "3"
+  "issueNumber": "3",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/2203937-03.jpg",
+  "title": "The Transformers: Headmasters #3",
+  "coverDate": "1987-11-01"
  },
  "132": {
   "character": "Booster Gold",
   "characterId": 1786,
   "score": 8,
   "issueId": 27540,
-  "issueNumber": "2"
+  "issueNumber": "2",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11112/111120209/4768676-ccf%20hdcu%20%232%20front%2008262015.jpg",
+  "title": "History of the DC Universe #2",
+  "coverDate": "1986-02-01"
  },
  "133": {
   "character": "Roger Bochs",
   "characterId": 31581,
   "score": 7,
   "issueId": 23361,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/20946-3217-23361-1-alpha-flight.jpg",
+  "title": "Alpha Flight #1",
+  "coverDate": "1983-08-01"
  },
  "134": null,
  "135": {
@@ -738,21 +1029,30 @@
   "characterId": 24399,
   "score": 5,
   "issueId": 23361,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/20946-3217-23361-1-alpha-flight.jpg",
+  "title": "Alpha Flight #1",
+  "coverDate": "1983-08-01"
  },
  "136": {
   "character": "Brainiac",
   "characterId": 4684,
   "score": 7,
   "issueId": 121191,
-  "issueNumber": "242"
+  "issueNumber": "242",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3715921-actioncomics242.jpg",
+  "title": "Action Comics #242",
+  "coverDate": "1958-07-31"
  },
  "137": {
   "character": "Brainiac 5",
   "characterId": 1255,
   "score": 8,
   "issueId": 114604,
-  "issueNumber": "276"
+  "issueNumber": "276",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3664/195400-18005-114604-1-action-comics.jpg",
+  "title": "Action Comics #276",
+  "coverDate": "1961-05-31"
  },
  "138": null,
  "139": null,
@@ -762,42 +1062,60 @@
   "characterId": 4647,
   "score": 10,
   "issueId": 16163,
-  "issueNumber": "131"
+  "issueNumber": "131",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3996686-dd131nm9m073.jpg",
+  "title": "Daredevil #131",
+  "coverDate": "1976-03-31"
  },
  "142": {
   "character": "Bumblebee",
   "characterId": 3576,
   "score": 10,
   "issueId": 131877,
-  "issueNumber": "45"
+  "issueNumber": "45",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/23749/427974-20836_20060502010450_large.jpg",
+  "title": "Teen Titans #45",
+  "coverDate": "1976-12-01"
  },
  "143": {
   "character": "Bumbleboy",
   "characterId": 72275,
   "score": 7,
   "issueId": 106247,
-  "issueNumber": "153"
+  "issueNumber": "153",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/56044/1630132-x_men__1991__153.jpeg",
+  "title": "New X-Men #153",
+  "coverDate": "2004-04-01"
  },
  "144": {
   "character": "Bushido",
   "characterId": 42490,
   "score": 8,
   "issueId": 219783,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67310/1268201-annual_the_titans_annual_v2000__1___page_1.jpg",
+  "title": "The Titans Annual #1",
+  "coverDate": "2000-09-30"
  },
  "145": {
   "character": "Cable",
   "characterId": 2157,
   "score": 6,
   "issueId": 26413,
-  "issueNumber": "201"
+  "issueNumber": "201",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/3754362-201.jpg",
+  "title": "The Uncanny X-Men #201",
+  "coverDate": "1986-01-01"
  },
  "146": {
   "character": "Callisto",
   "characterId": 3423,
   "score": 10,
   "issueId": 23139,
-  "issueNumber": "169"
+  "issueNumber": "169",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3676064-%24_57.jpg",
+  "title": "The Uncanny X-Men #169",
+  "coverDate": "1983-05-01"
  },
  "147": null,
  "148": {
@@ -805,35 +1123,50 @@
   "characterId": 1496,
   "score": 10,
   "issueId": 21793,
-  "issueNumber": "4"
+  "issueNumber": "4",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/19522-3144-21793-1-marvel-graphic-novel.jpg",
+  "title": "Marvel Graphic Novel #4",
+  "coverDate": "1982-10-01"
  },
  "149": {
   "character": "Captain America",
   "characterId": 1442,
   "score": 8,
   "issueId": 107870,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2677627-captainamericacomics01.jpg",
+  "title": "Captain America Comics #1",
+  "coverDate": "1941-03-01"
  },
  "150": {
   "character": "Captain Atom",
   "characterId": 2050,
   "score": 6,
   "issueId": 27540,
-  "issueNumber": "2"
+  "issueNumber": "2",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11112/111120209/4768676-ccf%20hdcu%20%232%20front%2008262015.jpg",
+  "title": "History of the DC Universe #2",
+  "coverDate": "1986-02-01"
  },
  "151": {
   "character": "Captain Britain",
   "characterId": 7477,
   "score": 8,
   "issueId": 327528,
-  "issueNumber": "50"
+  "issueNumber": "50",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/85763/2279872-titans50.jpg",
+  "title": "Titans #50",
+  "coverDate": "1976-09-01"
  },
  "152": {
   "character": "Captain Cold",
   "characterId": 2392,
   "score": 8,
   "issueId": 3064,
-  "issueNumber": "8"
+  "issueNumber": "8",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/2830-1770-3064-1-showcase.jpg",
+  "title": "Showcase #8",
+  "coverDate": "1957-06-18"
  },
  "153": null,
  "154": null,
@@ -843,14 +1176,20 @@
   "characterId": 2350,
   "score": 7,
   "issueId": 251584,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/1585105-thrill.jpg",
+  "title": "Thrill Comics #1",
+  "coverDate": "1940-01-01"
  },
  "157": {
   "character": "Carol Danvers",
   "characterId": 21561,
   "score": 7,
   "issueId": 115904,
-  "issueNumber": "13"
+  "issueNumber": "13",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2481695-marvelsuper_heroes13.jpg",
+  "title": "Marvel Super-Heroes #13",
+  "coverDate": "1968-03-31"
  },
  "158": null,
  "159": null,
@@ -860,21 +1199,30 @@
   "characterId": 27193,
   "score": 7,
   "issueId": 19715,
-  "issueNumber": "8"
+  "issueNumber": "8",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/2764611-tn.jpg",
+  "title": "Micronauts #8",
+  "coverDate": "1979-08-01"
  },
  "162": {
   "character": "Cletus Kasady",
   "characterId": 85179,
   "score": 9,
   "issueId": 33866,
-  "issueNumber": "344"
+  "issueNumber": "344",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/56044/1743859-amazing_spider_man__1963_1998_1st_series__344d.jpeg",
+  "title": "The Amazing Spider-Man #344",
+  "coverDate": "1991-02-28"
  },
  "163": {
   "character": "Shirlee Bryant",
   "characterId": 40594,
   "score": 7,
   "issueId": 12644,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/11392-2565-12644-1-cat-the.jpg",
+  "title": "The Cat #1",
+  "coverDate": "1972-11-30"
  },
  "164": null,
  "165": {
@@ -882,42 +1230,60 @@
   "characterId": 1698,
   "score": 8,
   "issueId": 105811,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/978/85946-796-105811-1-batman.jpg",
+  "title": "Batman #1",
+  "coverDate": "1940-04-01"
  },
  "166": {
   "character": "Cecilia Reyes",
   "characterId": 14177,
   "score": 6,
   "issueId": 414931,
-  "issueNumber": "25"
+  "issueNumber": "25",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/9/96747/3142506-25.jpg",
+  "title": "X-mannen Special #25",
+  "coverDate": "1997-01-30"
  },
  "167": {
   "character": "Century",
   "characterId": 14222,
   "score": 5,
   "issueId": 39427,
-  "issueNumber": "159"
+  "issueNumber": "159",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/35299-4058-39427-1-marvel-comics-presen.jpg",
+  "title": "Marvel Comics Presents #159",
+  "coverDate": "1994-07-01"
  },
  "168": {
   "character": "Cerebra",
   "characterId": 41318,
   "score": 10,
   "issueId": 135422,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/23749/494437-46611_20060627184200_large.jpg",
+  "title": "2099 Sketchbook #1",
+  "coverDate": "1993-01-01"
  },
  "169": {
   "character": "Chamber",
   "characterId": 2244,
   "score": 8,
   "issueId": 269988,
-  "issueNumber": "4"
+  "issueNumber": "4",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/66029/1806758-1994.jpg",
+  "title": "Marvel Annual Report #4",
+  "coverDate": "1994-01-01"
  },
  "170": {
   "character": "Chameleon",
   "characterId": 4458,
   "score": 5,
   "issueId": 6422,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2676366-amazingspiderman001.jpg",
+  "title": "The Amazing Spider-Man #1",
+  "coverDate": "1963-03-01"
  },
  "171": null,
  "172": {
@@ -925,14 +1291,20 @@
   "characterId": 80815,
   "score": 9,
   "issueId": 108794,
-  "issueNumber": "6"
+  "issueNumber": "6",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/1093/112878-18525-108794-1-wonder-woman.jpg",
+  "title": "Wonder Woman #6",
+  "coverDate": "1943-07-01"
  },
  "173": {
   "character": "Deborah Domaine",
   "characterId": 80817,
   "score": 7,
   "issueId": 109729,
-  "issueNumber": "274"
+  "issueNumber": "274",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/1093/123397-18525-109729-1-wonder-woman.gif",
+  "title": "Wonder Woman #274",
+  "coverDate": "1980-12-01"
  },
  "174": null,
  "175": null,
@@ -942,7 +1314,10 @@
   "characterId": 43296,
   "score": 6,
   "issueId": 287478,
-  "issueNumber": "29"
+  "issueNumber": "29",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/1972389-29.jpg",
+  "title": "DC Universe #29",
+  "coverDate": "2007-01-01"
  },
  "178": null,
  "179": {
@@ -950,28 +1325,40 @@
   "characterId": 2216,
   "score": 8,
   "issueId": 110997,
-  "issueNumber": "126"
+  "issueNumber": "126",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/139941-18066-110997-1-strange-tales.jpg",
+  "title": "Strange Tales #126",
+  "coverDate": "1964-11-30"
  },
  "180": {
   "character": "Cloak",
   "characterId": 1474,
   "score": 10,
   "issueId": 22024,
-  "issueNumber": "64"
+  "issueNumber": "64",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2529457-spectacularspider_man064.jpg",
+  "title": "Peter Parker, the Spectacular Spider-Man #64",
+  "coverDate": "1982-03-01"
  },
  "181": {
   "character": "Clock King",
   "characterId": 10186,
   "score": 10,
   "issueId": 122441,
-  "issueNumber": "111"
+  "issueNumber": "111",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/299510-18006-122441-1-world-s-finest-comic.jpg",
+  "title": "World's Finest Comics #111",
+  "coverDate": "1960-08-31"
  },
  "182": {
   "character": "Cogliostro",
   "characterId": 23462,
   "score": 10,
   "issueId": 36954,
-  "issueNumber": "9"
+  "issueNumber": "9",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/3182093-09.jpg",
+  "title": "Spawn #9",
+  "coverDate": "1993-03-01"
  },
  "183": null,
  "184": {
@@ -979,105 +1366,150 @@
   "characterId": 1271,
   "score": 5,
   "issueId": 114602,
-  "issueNumber": "267"
+  "issueNumber": "267",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3664/195389-18005-114602-1-action-comics.jpg",
+  "title": "Action Comics #267",
+  "coverDate": "1960-08-31"
  },
  "185": {
   "character": "Colossus",
   "characterId": 1460,
   "score": 10,
   "issueId": 14890,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/13286-2763-14890-1-giant-size-x-men.jpg",
+  "title": "Giant-Size X-Men #1",
+  "coverDate": "1975-05-31"
  },
  "186": {
   "character": "Copycat",
   "characterId": 13311,
   "score": 8,
   "issueId": 33921,
-  "issueNumber": "98"
+  "issueNumber": "98",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/4203666-nm98nm96m101.jpg",
+  "title": "The New Mutants #98",
+  "coverDate": "1991-02-28"
  },
  "187": {
   "character": "Corsair",
   "characterId": 7591,
   "score": 8,
   "issueId": 17371,
-  "issueNumber": "104"
+  "issueNumber": "104",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/4038239-%24_57.jpg",
+  "title": "The X-Men #104",
+  "coverDate": "1977-04-30"
  },
  "188": {
   "character": "Cottonmouth",
   "characterId": 22584,
   "score": 10,
   "issueId": 25974,
-  "issueNumber": "310"
+  "issueNumber": "310",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/23296-2400-25974-1-captain-america.jpg",
+  "title": "Captain America #310",
+  "coverDate": "1985-10-01"
  },
  "189": {
   "character": "Crimson Crusader",
   "characterId": 25584,
   "score": 8,
   "issueId": 157259,
-  "issueNumber": "132"
+  "issueNumber": "132",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/1867/798781-132_1.jpg",
+  "title": "Marvel Age #132",
+  "coverDate": "1994-01-01"
  },
  "190": {
   "character": "Crimson Dynamo (Vanko)",
   "characterId": 7234,
   "score": 7,
   "issueId": 6739,
-  "issueNumber": "46"
+  "issueNumber": "46",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2678811-talesofsuspense46.jpg",
+  "title": "Tales of Suspense #46",
+  "coverDate": "1963-10-01"
  },
  "191": {
   "character": "Crystal",
   "characterId": 2115,
   "score": 8,
   "issueId": 8231,
-  "issueNumber": "45"
+  "issueNumber": "45",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/7477-2045-8231-1-fantastic-four.jpg",
+  "title": "Fantastic Four #45",
+  "coverDate": "1965-12-01"
  },
  "192": {
   "character": "The Curse",
   "characterId": 25975,
   "score": 5,
   "issueId": 40301,
-  "issueNumber": "27"
+  "issueNumber": "27",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/36088-4937-40301-1-spawn.jpg",
+  "title": "Spawn #27",
+  "coverDate": "1995-01-01"
  },
  "193": {
   "character": "Cy-Gor",
   "characterId": 24220,
   "score": 5,
   "issueId": 41759,
-  "issueNumber": "38"
+  "issueNumber": "38",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/37297-4937-41759-1-spawn.jpg",
+  "title": "Spawn #38",
+  "coverDate": "1995-12-01"
  },
  "194": {
   "character": "Cyborg",
   "characterId": 2388,
   "score": 10,
   "issueId": 20700,
-  "issueNumber": "26"
+  "issueNumber": "26",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3537405-dccp26nm9m054.jpg",
+  "title": "DC Comics Presents #26",
+  "coverDate": "1980-10-31"
  },
  "195": {
   "character": "Cyborg Superman",
   "characterId": 12926,
   "score": 6,
   "issueId": 32583,
-  "issueNumber": "465"
+  "issueNumber": "465",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/3586252-465.jpg",
+  "title": "Adventures of Superman #465",
+  "coverDate": "1990-04-30"
  },
  "196": {
   "character": "Cyclops",
   "characterId": 1459,
   "score": 10,
   "issueId": 6694,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/5344/1355017-uxm_v1_001_01.jpg",
+  "title": "The X-Men #1",
+  "coverDate": "1963-09-01"
  },
  "197": {
   "character": "Cypher",
   "characterId": 14559,
   "score": 10,
   "issueId": 24127,
-  "issueNumber": "13"
+  "issueNumber": "13",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/21634-3234-24127-1-new-mutants-the.jpg",
+  "title": "The New Mutants #13",
+  "coverDate": "1984-03-01"
  },
  "198": {
   "character": "Dagger",
   "characterId": 1935,
   "score": 10,
   "issueId": 22024,
-  "issueNumber": "64"
+  "issueNumber": "64",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2529457-spectacularspider_man064.jpg",
+  "title": "Peter Parker, the Spectacular Spider-Man #64",
+  "coverDate": "1982-03-01"
  },
  "199": null,
  "200": null,
@@ -1086,14 +1518,20 @@
   "characterId": 24694,
   "score": 8,
   "issueId": 7067,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2677618-daredevil001.jpg",
+  "title": "Daredevil #1",
+  "coverDate": "1964-04-01"
  },
  "202": {
   "character": "Darkhawk",
   "characterId": 2111,
   "score": 8,
   "issueId": 145986,
-  "issueNumber": "97"
+  "issueNumber": "97",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/26751/641737-97.jpg",
+  "title": "Marvel Age #97",
+  "coverDate": "1991-02-01"
  },
  "203": null,
  "204": {
@@ -1101,7 +1539,10 @@
   "characterId": 2349,
   "score": 10,
   "issueId": 115210,
-  "issueNumber": "134"
+  "issueNumber": "134",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/8182/204435-19172-115210-1-superman-s-pal-jimmy.jpg",
+  "title": "Superman's Pal, Jimmy Olsen #134",
+  "coverDate": "1970-12-31"
  },
  "205": null,
  "206": null,
@@ -1114,63 +1555,90 @@
   "characterId": 1498,
   "score": 8,
   "issueId": 336193,
-  "issueNumber": "49"
+  "issueNumber": "49",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/110802/2350513-bookcover_cj049.jpg",
+  "title": "The Comics Journal #49",
+  "coverDate": "1979-09-01"
  },
  "212": {
   "character": "Deadman",
   "characterId": 5690,
   "score": 10,
   "issueId": 9658,
-  "issueNumber": "205"
+  "issueNumber": "205",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/8747-1328-9658-1-strange-adventures.jpg",
+  "title": "Strange Adventures #205",
+  "coverDate": "1967-10-31"
  },
  "213": {
   "character": "Deadpool",
   "characterId": 7606,
   "score": 8,
   "issueId": 33921,
-  "issueNumber": "98"
+  "issueNumber": "98",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/4203666-nm98nm96m101.jpg",
+  "title": "The New Mutants #98",
+  "coverDate": "1991-02-28"
  },
  "214": {
   "character": "Deadshot",
   "characterId": 5763,
   "score": 10,
   "issueId": 120827,
-  "issueNumber": "59"
+  "issueNumber": "59",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/13211/267418-796-120827-1-batman.jpg",
+  "title": "Batman #59",
+  "coverDate": "1950-06-30"
  },
  "215": {
   "character": "Deathlok",
   "characterId": 7258,
   "score": 7,
   "issueId": 14481,
-  "issueNumber": "25"
+  "issueNumber": "25",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/12910-2470-14481-1-astonishing-tales.jpg",
+  "title": "Astonishing Tales #25",
+  "coverDate": "1974-08-01"
  },
  "216": {
   "character": "Deathstroke",
   "characterId": 3588,
   "score": 10,
   "issueId": 20839,
-  "issueNumber": "2"
+  "issueNumber": "2",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3537372-ntt2nm94m054.jpg",
+  "title": "The New Teen Titans #2",
+  "coverDate": "1980-12-31"
  },
  "217": {
   "character": "Demogoblin",
   "characterId": 15272,
   "score": 5,
   "issueId": 30901,
-  "issueNumber": "147"
+  "issueNumber": "147",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2696112-spectacularspider_man147.jpg",
+  "title": "The Spectacular Spider-Man #147",
+  "coverDate": "1989-02-01"
  },
  "218": {
   "character": "Destroyer",
   "characterId": 7940,
   "score": 7,
   "issueId": 7894,
-  "issueNumber": "118"
+  "issueNumber": "118",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/7201-1497-7894-1-journey-into-mystery.jpg",
+  "title": "Journey into Mystery #118",
+  "coverDate": "1965-07-01"
  },
  "219": {
   "character": "Willis Stryker",
   "characterId": 44388,
   "score": 9,
   "issueId": 12266,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/6606937-4179961455-STL093571",
+  "title": "Hero for Hire #1",
+  "coverDate": "1972-06-30"
  },
  "220": null,
  "221": {
@@ -1178,84 +1646,120 @@
   "characterId": 4315,
   "score": 10,
   "issueId": 11546,
-  "issueNumber": "141"
+  "issueNumber": "141",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3398711-untitled.jpg",
+  "title": "The Incredible Hulk #141",
+  "coverDate": "1971-07-31"
  },
  "222": {
   "character": "Doctor Doom",
   "characterId": 1468,
   "score": 10,
   "issueId": 5974,
-  "issueNumber": "5"
+  "issueNumber": "5",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/10/108995/3593371-ff%20005_cf_bk_hk.jpg",
+  "title": "Fantastic Four #5",
+  "coverDate": "1962-07-01"
  },
  "223": {
   "character": "Kristoff Vernard",
   "characterId": 11829,
   "score": 7,
   "issueId": 22518,
-  "issueNumber": "247"
+  "issueNumber": "247",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/20182-2045-22518-1-fantastic-four.jpg",
+  "title": "Fantastic Four #247",
+  "coverDate": "1982-10-31"
  },
  "224": {
   "character": "Kent Nelson",
   "characterId": 6599,
   "score": 7,
   "issueId": 116387,
-  "issueNumber": "55"
+  "issueNumber": "55",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/221340-19320-116387-1-more-fun-comics.jpg",
+  "title": "More Fun Comics #55",
+  "coverDate": "1940-05-01"
  },
  "225": {
   "character": "Doctor Octopus",
   "characterId": 1485,
   "score": 8,
   "issueId": 6595,
-  "issueNumber": "3"
+  "issueNumber": "3",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2676381-amazingspiderman003.jpg",
+  "title": "The Amazing Spider-Man #3",
+  "coverDate": "1963-07-01"
  },
  "226": {
   "character": "Doctor Strange",
   "characterId": 1456,
   "score": 8,
   "issueId": 110835,
-  "issueNumber": "110"
+  "issueNumber": "110",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/138224-18066-110835-1-strange-tales.jpg",
+  "title": "Strange Tales #110",
+  "coverDate": "1963-07-01"
  },
  "227": {
   "character": "Domino",
   "characterId": 2161,
   "score": 8,
   "issueId": 373894,
-  "issueNumber": "20"
+  "issueNumber": "20",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/81074/2764067-comics_scene_v1987__20__1991____page_1.jpg",
+  "title": "Comics Scene #20",
+  "coverDate": "1991-08-01"
  },
  "228": {
   "character": "Donatello",
   "characterId": 44709,
   "score": 5,
   "issueId": 121041,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9245/273043-20281-121041-1-teenage-mutant-ninja.jpg",
+  "title": "Teenage Mutant Ninja Turtles #1",
+  "coverDate": "1984-05-31"
  },
  "229": {
   "character": "Donna Troy",
   "characterId": 4913,
   "score": 8,
   "issueId": 109209,
-  "issueNumber": "155"
+  "issueNumber": "155",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/1093/118096-18525-109209-1-wonder-woman.jpg",
+  "title": "Wonder Woman #155",
+  "coverDate": "1965-07-31"
  },
  "230": {
   "character": "Doomsday",
   "characterId": 9989,
   "score": 10,
   "issueId": 36430,
-  "issueNumber": "17"
+  "issueNumber": "17",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/32659-4571-36430-1-superman-the-man-of.jpg",
+  "title": "Superman: The Man of Steel #17",
+  "coverDate": "1992-11-01"
  },
  "231": {
   "character": "Doppelganger",
   "characterId": 15274,
   "score": 7,
   "issueId": 35783,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/1918219-01.jpg",
+  "title": "The Infinity War #1",
+  "coverDate": "1992-06-30"
  },
  "232": {
   "character": "Dormammu",
   "characterId": 2205,
   "score": 10,
   "issueId": 110997,
-  "issueNumber": "126"
+  "issueNumber": "126",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/139941-18066-110997-1-strange-tales.jpg",
+  "title": "Strange Tales #126",
+  "coverDate": "1964-11-30"
  },
  "233": null,
  "234": {
@@ -1263,14 +1767,20 @@
   "characterId": 6807,
   "score": 10,
   "issueId": 12928,
-  "issueNumber": "55"
+  "issueNumber": "55",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2844051-ironman055.jpg",
+  "title": "Iron Man #55",
+  "coverDate": "1973-02-01"
  },
  "235": {
   "character": "Ego",
   "characterId": 19936,
   "score": 10,
   "issueId": 8817,
-  "issueNumber": "132"
+  "issueNumber": "132",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/31666/1114190-thor132.jpg",
+  "title": "Thor #132",
+  "coverDate": "1966-09-30"
  },
  "236": null,
  "237": {
@@ -1278,14 +1788,20 @@
   "characterId": 3228,
   "score": 10,
   "issueId": 6985,
-  "issueNumber": "9"
+  "issueNumber": "9",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2676441-amazingspiderman009.jpg",
+  "title": "The Amazing Spider-Man #9",
+  "coverDate": "1964-02-09"
  },
  "238": {
   "character": "Elektra",
   "characterId": 1802,
   "score": 8,
   "issueId": 336202,
-  "issueNumber": "58"
+  "issueNumber": "58",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/110802/2350523-bookcover_cj0581.jpg",
+  "title": "The Comics Journal #58",
+  "coverDate": "1980-09-01"
  },
  "239": null,
  "240": {
@@ -1293,21 +1809,30 @@
   "characterId": 4437,
   "score": 8,
   "issueId": 4771,
-  "issueNumber": "112"
+  "issueNumber": "112",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/4259149-112.jpg",
+  "title": "The Flash #112",
+  "coverDate": "1960-05-01"
  },
  "241": {
   "character": "Emma Frost",
   "characterId": 1457,
   "score": 8,
   "issueId": 383567,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/10/100239/2843915-__extras___art_of_john_byrne_v9999___page_1.jpg",
+  "title": "The Art of John Byrne #1",
+  "coverDate": "1980-01-01"
  },
  "242": {
   "character": "Enchantress",
   "characterId": 31464,
   "score": 10,
   "issueId": 8475,
-  "issueNumber": "187"
+  "issueNumber": "187",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/7680-1328-8475-1-strange-adventures.jpg",
+  "title": "Strange Adventures #187",
+  "coverDate": "1966-04-01"
  },
  "243": null,
  "244": null,
@@ -1317,42 +1842,60 @@
   "characterId": 7367,
   "score": 7,
   "issueId": 12384,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/6868542-01.jpg",
+  "title": "The Demon #1",
+  "coverDate": "1972-09-30"
  },
  "247": {
   "character": "Evil Deadpool",
   "characterId": 80880,
   "score": 10,
   "issueId": 294322,
-  "issueNumber": "44"
+  "issueNumber": "44",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/2083878-44.jpg",
+  "title": "Deadpool #44",
+  "coverDate": "2011-12-01"
  },
  "248": {
   "character": "Evilhawk",
   "characterId": 9463,
   "score": 10,
   "issueId": 36305,
-  "issueNumber": "20"
+  "issueNumber": "20",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/32549-4587-36305-1-darkhawk.jpg",
+  "title": "Darkhawk #20",
+  "coverDate": "1992-10-01"
  },
  "249": {
   "character": "Exodus",
   "characterId": 4567,
   "score": 10,
   "issueId": 37532,
-  "issueNumber": "92"
+  "issueNumber": "92",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/33614-3657-37532-1-x-factor.jpg",
+  "title": "X-Factor #92",
+  "coverDate": "1993-07-01"
  },
  "250": {
   "character": "Fabian Cortez",
   "characterId": 9728,
   "score": 10,
   "issueId": 34784,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/56044/1629813-x_men__1991__001d.jpg",
+  "title": "X-Men #1",
+  "coverDate": "1991-10-31"
  },
  "251": {
   "character": "Sam Wilson",
   "characterId": 1451,
   "score": 9,
   "issueId": 10402,
-  "issueNumber": "117"
+  "issueNumber": "117",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/3074404-captainamerica117.jpg",
+  "title": "Captain America #117",
+  "coverDate": "1969-09-01"
  },
  "252": null,
  "253": {
@@ -1360,98 +1903,140 @@
   "characterId": 30666,
   "score": 7,
   "issueId": 121710,
-  "issueNumber": "471"
+  "issueNumber": "471",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11112/111120209/3974604-ac%20471%2007202014.jpg",
+  "title": "Action Comics #471",
+  "coverDate": "1977-05-31"
  },
  "254": {
   "character": "Feral",
   "characterId": 2160,
   "score": 10,
   "issueId": 34025,
-  "issueNumber": "99"
+  "issueNumber": "99",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/13/131380/6181776-nm99.jpg",
+  "title": "The New Mutants #99",
+  "coverDate": "1991-03-31"
  },
  "255": {
   "character": "Fighting Spirit",
   "characterId": 59070,
   "score": 8,
   "issueId": 69337,
-  "issueNumber": "12"
+  "issueNumber": "12",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/2207752-12.jpg",
+  "title": "Tom Strong #12",
+  "coverDate": "2001-06-01"
  },
  "256": {
   "character": "Fin Fang Foom",
   "characterId": 8145,
   "score": 5,
   "issueId": 110751,
-  "issueNumber": "89"
+  "issueNumber": "89",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/137837-18066-110751-1-strange-tales.jpg",
+  "title": "Strange Tales #89",
+  "coverDate": "1961-10-31"
  },
  "257": {
   "character": "Firebird",
   "characterId": 3323,
   "score": 10,
   "issueId": 21662,
-  "issueNumber": "265"
+  "issueNumber": "265",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/19404-2406-21662-1-incredible-hulk-the.jpg",
+  "title": "The Incredible Hulk #265",
+  "coverDate": "1981-11-30"
  },
  "258": {
   "character": "Firelord",
   "characterId": 7108,
   "score": 10,
   "issueId": 14439,
-  "issueNumber": "225"
+  "issueNumber": "225",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/12873-2294-14439-1-thor.jpg",
+  "title": "Thor #225",
+  "coverDate": "1974-07-31"
  },
  "259": {
   "character": "Firestar",
   "characterId": 2101,
   "score": 8,
   "issueId": 156077,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/56044/1772215-spider_man_and_his_amazing_friends__1981__1.jpeg",
+  "title": "Spider-Man and His Amazing Friends #1",
+  "coverDate": "1981-12-31"
  },
  "260": {
   "character": "Firestorm",
   "characterId": 2353,
   "score": 7,
   "issueId": 107911,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3229/103883-18409-107911-1-firestorm-the-nucle.jpg",
+  "title": "Firestorm #1",
+  "coverDate": "1978-03-31"
  },
  "261": {
   "character": "Firestorm",
   "characterId": 2353,
   "score": 8,
   "issueId": 107911,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3229/103883-18409-107911-1-firestorm-the-nucle.jpg",
+  "title": "Firestorm #1",
+  "coverDate": "1978-03-31"
  },
  "262": {
   "character": "Fixer",
   "characterId": 3282,
   "score": 10,
   "issueId": 111083,
-  "issueNumber": "141"
+  "issueNumber": "141",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/141115-18066-111083-1-strange-tales.jpg",
+  "title": "Strange Tales #141",
+  "coverDate": "1966-02-01"
  },
  "263": {
   "character": "Flash",
   "characterId": 45114,
   "score": 7,
   "issueId": 120435,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/909016-greenlantern.jpg",
+  "title": "Tangent Comics/ Green Lantern #1",
+  "coverDate": "1997-12-01"
  },
  "264": {
   "character": "Flash Gordon",
   "characterId": 7953,
   "score": 8,
   "issueId": 209030,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/1202166-kc1.jpg",
+  "title": "King Comics #1",
+  "coverDate": "1936-04-01"
  },
  "265": {
   "character": "Barry Allen",
   "characterId": 22804,
   "score": 5,
   "issueId": 315490,
-  "issueNumber": "3"
+  "issueNumber": "3",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/9/99041/2196945-3.jpg",
+  "title": "The Hundred Comic Monthly #3",
+  "coverDate": "1956-01-01"
  },
  "266": {
   "character": "Wally West",
   "characterId": 23879,
   "score": 7,
   "issueId": 4625,
-  "issueNumber": "110"
+  "issueNumber": "110",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/4222-1995-4625-1-flash-the.jpg",
+  "title": "The Flash #110",
+  "coverDate": "1960-01-01"
  },
  "267": null,
  "268": {
@@ -1459,28 +2044,40 @@
   "characterId": 4279,
   "score": 7,
   "issueId": 24620,
-  "issueNumber": "184"
+  "issueNumber": "184",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/22068-3092-24620-1-uncanny-x-men-the.jpg",
+  "title": "The Uncanny X-Men #184",
+  "coverDate": "1984-08-01"
  },
  "269": {
   "character": "Franklin Richards",
   "characterId": 2469,
   "score": 10,
   "issueId": 110105,
-  "issueNumber": "6"
+  "issueNumber": "6",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3950897-ffan6nm9m034.jpg",
+  "title": "Fantastic Four Annual #6",
+  "coverDate": "1968-11-01"
  },
  "270": {
   "character": "Franklin Storm",
   "characterId": 42081,
   "score": 8,
   "issueId": 7373,
-  "issueNumber": "31"
+  "issueNumber": "31",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/6756-2045-7373-1-fantastic-four.jpg",
+  "title": "Fantastic Four #31",
+  "coverDate": "1964-10-01"
  },
  "271": {
   "character": "Frenzy",
   "characterId": 2163,
   "score": 10,
   "issueId": 26808,
-  "issueNumber": "4"
+  "issueNumber": "4",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/24068-3657-26808-1-x-factor.jpg",
+  "title": "X-Factor #4",
+  "coverDate": "1986-05-01"
  },
  "272": null,
  "273": {
@@ -1488,28 +2085,40 @@
   "characterId": 2149,
   "score": 10,
   "issueId": 8428,
-  "issueNumber": "48"
+  "issueNumber": "48",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/7641-2045-8428-1-fantastic-four.jpg",
+  "title": "Fantastic Four #48",
+  "coverDate": "1966-03-01"
  },
  "274": {
   "character": "Gambit",
   "characterId": 1499,
   "score": 8,
   "issueId": 33137,
-  "issueNumber": "266"
+  "issueNumber": "266",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/56044/1596256-5315331970_3a9c62fae0_b.jpg",
+  "title": "The Uncanny X-Men #266",
+  "coverDate": "1990-08-01"
  },
  "275": {
   "character": "Gamora",
   "characterId": 6806,
   "score": 10,
   "issueId": 15291,
-  "issueNumber": "180"
+  "issueNumber": "180",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2849189-strangetales180.jpg",
+  "title": "Strange Tales #180",
+  "coverDate": "1975-06-30"
  },
  "276": {
   "character": "Garbage Man",
   "characterId": 75263,
   "score": 10,
   "issueId": 254697,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/60408/1602170-weird_worlds__001.jpg",
+  "title": "Weird Worlds #1",
+  "coverDate": "2011-03-01"
  },
  "277": null,
  "278": {
@@ -1517,21 +2126,30 @@
   "characterId": 13075,
   "score": 8,
   "issueId": 126389,
-  "issueNumber": "283"
+  "issueNumber": "283",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9541/344932-3105-126389-1-adventure-comics.jpg",
+  "title": "Adventure Comics #283",
+  "coverDate": "1961-04-01"
  },
  "279": {
   "character": "Genesis",
   "characterId": 25193,
   "score": 10,
   "issueId": 33921,
-  "issueNumber": "98"
+  "issueNumber": "98",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/4203666-nm98nm96m101.jpg",
+  "title": "The New Mutants #98",
+  "coverDate": "1991-02-28"
  },
  "280": {
   "character": "Ghost Rider (Blaze)",
   "characterId": 6108,
   "score": 7,
   "issueId": 12422,
-  "issueNumber": "5"
+  "issueNumber": "5",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/11215-2516-12422-1-marvel-spotlight.jpg",
+  "title": "Marvel Spotlight #5",
+  "coverDate": "1972-08-31"
  },
  "281": null,
  "282": {
@@ -1539,7 +2157,10 @@
   "characterId": 2247,
   "score": 7,
   "issueId": 110743,
-  "issueNumber": "75"
+  "issueNumber": "75",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/137822-18066-110743-1-strange-tales.jpg",
+  "title": "Strange Tales #75",
+  "coverDate": "1960-06-01"
  },
  "283": null,
  "284": {
@@ -1547,14 +2168,20 @@
   "characterId": 10882,
   "score": 10,
   "issueId": 108797,
-  "issueNumber": "9"
+  "issueNumber": "9",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/1093/112881-18525-108797-1-wonder-woman.jpg",
+  "title": "Wonder Woman #9",
+  "coverDate": "1944-04-01"
  },
  "285": {
   "character": "Gladiator",
   "characterId": 4653,
   "score": 10,
   "issueId": 17894,
-  "issueNumber": "107"
+  "issueNumber": "107",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/3754298-107.jpg",
+  "title": "The X-Men #107",
+  "coverDate": "1977-10-31"
  },
  "286": null,
  "287": null,
@@ -1563,14 +2190,20 @@
   "characterId": 55664,
   "score": 5,
   "issueId": 124024,
-  "issueNumber": "13"
+  "issueNumber": "13",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9241/526330-0002.jpg",
+  "title": "Justice Society of America #13",
+  "coverDate": "2008-04-01"
  },
  "289": {
   "character": "Goku",
   "characterId": 19765,
   "score": 8,
   "issueId": 300054,
-  "issueNumber": "838"
+  "issueNumber": "838",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9874522-001.jpg",
+  "title": "Weekly Shonen Jump #838",
+  "coverDate": "1984-12-03"
  },
  "290": null,
  "291": null,
@@ -1579,7 +2212,10 @@
   "characterId": 2247,
   "score": 7,
   "issueId": 110743,
-  "issueNumber": "75"
+  "issueNumber": "75",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/137822-18066-110743-1-strange-tales.jpg",
+  "title": "Strange Tales #75",
+  "coverDate": "1960-06-01"
  },
  "293": null,
  "294": {
@@ -1587,21 +2223,30 @@
   "characterId": 2380,
   "score": 10,
   "issueId": 4275,
-  "issueNumber": "106"
+  "issueNumber": "106",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/3882-1995-4275-1-flash-the.jpg",
+  "title": "The Flash #106",
+  "coverDate": "1959-05-01"
  },
  "295": {
   "character": "Granny Goodness",
   "characterId": 3629,
   "score": 5,
   "issueId": 11472,
-  "issueNumber": "2"
+  "issueNumber": "2",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3167889-%24t2ec16fhjhiffhtgvfjvbr31rm%28fbg~~60_57.jpg",
+  "title": "Mister Miracle #2",
+  "coverDate": "1971-06-30"
  },
  "296": {
   "character": "Gravity",
   "characterId": 40452,
   "score": 10,
   "issueId": 107112,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/308/99780-18300-107112-1-gravity.jpg",
+  "title": "Gravity #1",
+  "coverDate": "2005-08-31"
  },
  "297": null,
  "298": {
@@ -1609,14 +2254,20 @@
   "characterId": 5936,
   "score": 6,
   "issueId": 139585,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/23749/562386-46063_20060708061138_large.jpg",
+  "title": "Leading Comics #1",
+  "coverDate": "1941-10-01"
  },
  "299": {
   "character": "Norman Osborn",
   "characterId": 58812,
   "score": 9,
   "issueId": 7198,
-  "issueNumber": "14"
+  "issueNumber": "14",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/6591-2127-7198-1-amazing-spider-man-.jpg",
+  "title": "The Amazing Spider-Man #14",
+  "coverDate": "1964-07-31"
  },
  "300": null,
  "301": null,
@@ -1626,28 +2277,40 @@
   "characterId": 24341,
   "score": 10,
   "issueId": 5056,
-  "issueNumber": "13"
+  "issueNumber": "13",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/4639-2008-5056-1-tales-to-astonish.jpg",
+  "title": "Tales to Astonish #13",
+  "coverDate": "1960-11-30"
  },
  "304": {
   "character": "Guardian",
   "characterId": 5047,
   "score": 8,
   "issueId": 18267,
-  "issueNumber": "109"
+  "issueNumber": "109",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/3754300-109.jpg",
+  "title": "The X-Men #109",
+  "coverDate": "1978-02-28"
  },
  "305": {
   "character": "Guy Gardner",
   "characterId": 1791,
   "score": 10,
   "issueId": 106439,
-  "issueNumber": "59"
+  "issueNumber": "59",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/54/90948-2013-106439-1-green-lantern.jpg",
+  "title": "Green Lantern #59",
+  "coverDate": "1968-03-31"
  },
  "306": {
   "character": "Hal Jordan",
   "characterId": 11202,
   "score": 10,
   "issueId": 4466,
-  "issueNumber": "22"
+  "issueNumber": "22",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/4066-1770-4466-1-showcase.jpg",
+  "title": "Showcase #22",
+  "coverDate": "1959-10-31"
  },
  "307": null,
  "308": null,
@@ -1656,7 +2319,10 @@
   "characterId": 1696,
   "score": 8,
   "issueId": 37736,
-  "issueNumber": "12"
+  "issueNumber": "12",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/33794-4716-37736-1-batman-adventures-t.jpg",
+  "title": "The Batman Adventures #12",
+  "coverDate": "1993-09-01"
  },
  "310": null,
  "311": {
@@ -1664,14 +2330,20 @@
   "characterId": 3546,
   "score": 8,
   "issueId": 10107,
-  "issueNumber": "54"
+  "issueNumber": "54",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/9152-2133-10107-1-x-men.jpg",
+  "title": "The X-Men #54",
+  "coverDate": "1969-03-01"
  },
  "312": {
   "character": "Hawkman",
   "characterId": 8337,
   "score": 5,
   "issueId": 116418,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/221438-19438-116418-1-flash-comics.jpg",
+  "title": "Flash Comics #1",
+  "coverDate": "1940-01-31"
  },
  "313": {
   "character": "Hawkeye",
@@ -1689,21 +2361,30 @@
   "characterId": 6903,
   "score": 10,
   "issueId": 116418,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/221438-19438-116418-1-flash-comics.jpg",
+  "title": "Flash Comics #1",
+  "coverDate": "1940-01-31"
  },
  "316": {
   "character": "Hawkman",
   "characterId": 8337,
   "score": 10,
   "issueId": 116418,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/221438-19438-116418-1-flash-comics.jpg",
+  "title": "Flash Comics #1",
+  "coverDate": "1940-01-31"
  },
  "317": {
   "character": "Hawkwoman",
   "characterId": 5693,
   "score": 10,
   "issueId": 5174,
-  "issueNumber": "34"
+  "issueNumber": "34",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/4751-1683-5174-1-brave-and-the-bold-.jpg",
+  "title": "The Brave and the Bold #34",
+  "coverDate": "1961-03-31"
  },
  "318": null,
  "319": null,
@@ -1712,42 +2393,60 @@
   "characterId": 7651,
   "score": 10,
   "issueId": 6753,
-  "issueNumber": "140"
+  "issueNumber": "140",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111224684/4482509-the%20flash%20%281959-1985%29%20140-000.jpg",
+  "title": "The Flash #140",
+  "coverDate": "1963-11-01"
  },
  "321": {
   "character": "Hela",
   "characterId": 4342,
   "score": 7,
   "issueId": 7027,
-  "issueNumber": "102"
+  "issueNumber": "102",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/6431-1497-7027-1-journey-into-mystery.jpg",
+  "title": "Journey into Mystery #102",
+  "coverDate": "1964-03-01"
  },
  "322": {
   "character": "Hellboy",
   "characterId": 5466,
   "score": 8,
   "issueId": 325730,
-  "issueNumber": "4"
+  "issueNumber": "4",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/9/99729/2269136-dimepress004.jpg",
+  "title": "Dime Press #4",
+  "coverDate": "1993-05-01"
  },
  "323": {
   "character": "Hellcat",
   "characterId": 3316,
   "score": 8,
   "issueId": 130534,
-  "issueNumber": "2"
+  "issueNumber": "2",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/393631-21618-130534-1-miss-america-magazin.jpg",
+  "title": "Miss America Magazine #2",
+  "coverDate": "1944-11-01"
  },
  "324": {
   "character": "Hellstorm",
   "characterId": 14695,
   "score": 8,
   "issueId": 13577,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/12128-2636-13577-1-ghost-rider.jpg",
+  "title": "Ghost Rider #1",
+  "coverDate": "1973-09-01"
  },
  "325": {
   "character": "Hercules",
   "characterId": 2503,
   "score": 8,
   "issueId": 139065,
-  "issueNumber": "16"
+  "issueNumber": "16",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/546955-1.jpg",
+  "title": "Young Allies #16",
+  "coverDate": "1945-06-01"
  },
  "326": null,
  "327": null,
@@ -1756,84 +2455,120 @@
   "characterId": 7605,
   "score": 7,
   "issueId": 20469,
-  "issueNumber": "43"
+  "issueNumber": "43",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2528958-spectacularspider_man043.jpg",
+  "title": "The Spectacular Spider-Man #43",
+  "coverDate": "1980-06-30"
  },
  "329": {
   "character": "Hollow",
   "characterId": 10573,
   "score": 7,
   "issueId": 109931,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3848/127643-18634-109931-1-generation-x.jpg",
+  "title": "Generation X Preview #1",
+  "coverDate": "1994-07-01"
  },
  "330": {
   "character": "Hope Summers",
   "characterId": 49329,
   "score": 10,
   "issueId": 118499,
-  "issueNumber": "205"
+  "issueNumber": "205",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/110017/2769270-x_men__205_000a.jpg",
+  "title": "X-Men #205",
+  "coverDate": "2008-01-01"
  },
  "331": {
   "character": "Howard the Duck",
   "characterId": 6803,
   "score": 7,
   "issueId": 13882,
-  "issueNumber": "19"
+  "issueNumber": "19",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/12387-2472-13882-1-fear.jpg",
+  "title": "Fear #19",
+  "coverDate": "1973-12-31"
  },
  "332": {
   "character": "Hulk",
   "characterId": 2267,
   "score": 8,
   "issueId": 5883,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/795700-1.jpg",
+  "title": "The Incredible Hulk #1",
+  "coverDate": "1962-05-31"
  },
  "333": {
   "character": "Human Torch",
   "characterId": 2120,
   "score": 8,
   "issueId": 5558,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2677624-ff001.jpg",
+  "title": "Fantastic Four #1",
+  "coverDate": "1961-11-30"
  },
  "334": {
   "character": "Huntress (Bertinelli)",
   "characterId": 1690,
   "score": 7,
   "issueId": 410716,
-  "issueNumber": "157"
+  "issueNumber": "157",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124613/3103739-the%20comic%20reader%20v1970%20157%20%281978%29%20pagecover.jpg",
+  "title": "The Comic Reader #157",
+  "coverDate": "1978-06-12"
  },
  "335": {
   "character": "Husk",
   "characterId": 3426,
   "score": 8,
   "issueId": 27116,
-  "issueNumber": "42"
+  "issueNumber": "42",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/3754291-42.jpg",
+  "title": "The New Mutants #42",
+  "coverDate": "1986-08-31"
  },
  "336": {
   "character": "Hybrid",
   "characterId": 24129,
   "score": 8,
   "issueId": 35474,
-  "issueNumber": "21"
+  "issueNumber": "21",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/1918384-21.jpg",
+  "title": "The New Warriors #21",
+  "coverDate": "1992-03-01"
  },
  "337": {
   "character": "Hydro-Man",
   "characterId": 4457,
   "score": 10,
   "issueId": 20961,
-  "issueNumber": "212"
+  "issueNumber": "212",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/18745-2127-20961-1-amazing-spider-man-.jpg",
+  "title": "The Amazing Spider-Man #212",
+  "coverDate": "1981-01-31"
  },
  "338": {
   "character": "Hyperion",
   "characterId": 6911,
   "score": 8,
   "issueId": 11273,
-  "issueNumber": "85"
+  "issueNumber": "85",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2478346-avengers085.jpg",
+  "title": "The Avengers #85",
+  "coverDate": "1971-02-01"
  },
  "339": {
   "character": "Iceman",
   "characterId": 1464,
   "score": 8,
   "issueId": 6694,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/5344/1355017-uxm_v1_001_01.jpg",
+  "title": "The X-Men #1",
+  "coverDate": "1963-09-01"
  },
  "340": null,
  "341": null,
@@ -1842,7 +2577,10 @@
   "characterId": 60712,
   "score": 7,
   "issueId": 119950,
-  "issueNumber": "25"
+  "issueNumber": "25",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/56044/1774853-green_lantern__2005__3rd_series__025a.jpeg",
+  "title": "Green Lantern #25",
+  "coverDate": "2008-01-01"
  },
  "343": null,
  "344": {
@@ -1850,35 +2588,50 @@
   "characterId": 2190,
   "score": 10,
   "issueId": 5558,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2677624-ff001.jpg",
+  "title": "Fantastic Four #1",
+  "coverDate": "1961-11-30"
  },
  "345": {
   "character": "Iron Fist",
   "characterId": 1492,
   "score": 7,
   "issueId": 47481,
-  "issueNumber": "15"
+  "issueNumber": "15",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/31666/4284988-marvel%20premiere%20015-000.jpg",
+  "title": "Marvel Premiere #15",
+  "coverDate": "1974-05-01"
  },
  "346": {
   "character": "Iron Man",
   "characterId": 1455,
   "score": 8,
   "issueId": 6428,
-  "issueNumber": "39"
+  "issueNumber": "39",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2678822-talesofsuspense39.jpg",
+  "title": "Tales of Suspense #39",
+  "coverDate": "1963-03-31"
  },
  "347": {
   "character": "Obadiah Stane",
   "characterId": 31197,
   "score": 7,
   "issueId": 22523,
-  "issueNumber": "163"
+  "issueNumber": "163",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11112/111121457/4317655-im163_01.jpg",
+  "title": "Iron Man #163",
+  "coverDate": "1982-10-01"
  },
  "348": {
   "character": "Isis",
   "characterId": 10915,
   "score": 8,
   "issueId": 16657,
-  "issueNumber": "25"
+  "issueNumber": "25",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/14927-2622-16657-1-shazam-.jpg",
+  "title": "Shazam! #25",
+  "coverDate": "1976-10-01"
  },
  "349": null,
  "350": {
@@ -1886,7 +2639,10 @@
   "characterId": 7213,
   "score": 10,
   "issueId": 16164,
-  "issueNumber": "22"
+  "issueNumber": "22",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/14458-2675-16164-1-deadly-hands-of-kung.jpg",
+  "title": "The Deadly Hands of Kung Fu #22",
+  "coverDate": "1976-03-31"
  },
  "351": null,
  "352": null,
@@ -1898,7 +2654,10 @@
   "characterId": 3552,
   "score": 10,
   "issueId": 6694,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/5344/1355017-uxm_v1_001_01.jpg",
+  "title": "The X-Men #1",
+  "coverDate": "1963-09-01"
  },
  "357": null,
  "358": {
@@ -1906,28 +2665,40 @@
   "characterId": 8139,
   "score": 10,
   "issueId": 12738,
-  "issueNumber": "11"
+  "issueNumber": "11",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/11468-2472-12738-1-fear.jpg",
+  "title": "Fear #11",
+  "coverDate": "1972-12-31"
  },
  "359": {
   "character": "Jesse Chambers",
   "characterId": 9345,
   "score": 7,
   "issueId": 119596,
-  "issueNumber": "16"
+  "issueNumber": "16",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/252015-19724-119596-1-amazing-world-of-dc.jpg",
+  "title": "The Amazing World of DC Comics #16",
+  "coverDate": "1977-12-01"
  },
  "360": {
   "character": "Jessica Cruz",
   "characterId": 89628,
   "score": 10,
   "issueId": 404656,
-  "issueNumber": "20"
+  "issueNumber": "20",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/66303/3057673-green%20lantern.jpg",
+  "title": "Green Lantern #20",
+  "coverDate": "2013-07-31"
  },
  "361": {
   "character": "Jessica Jones",
   "characterId": 2265,
   "score": 8,
   "issueId": 77721,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/74700-9452-77721-1-alias.jpg",
+  "title": "Alias #1",
+  "coverDate": "2001-11-01"
  },
  "362": null,
  "363": {
@@ -1935,7 +2706,10 @@
   "characterId": 1538,
   "score": 8,
   "issueId": 16860,
-  "issueNumber": "162"
+  "issueNumber": "162",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/4036184-3542492-tngtf.jpg",
+  "title": "The Amazing Spider-Man #162",
+  "coverDate": "1976-11-30"
  },
  "364": null,
  "365": null,
@@ -1945,70 +2719,100 @@
   "characterId": 3329,
   "score": 8,
   "issueId": 344999,
-  "issueNumber": "3"
+  "issueNumber": "3",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/62392/2453703-2453700-dcsampler3.jpg",
+  "title": "DC Sampler #3",
+  "coverDate": "1984-01-01"
  },
  "368": {
   "character": "John Stewart",
   "characterId": 10451,
   "score": 10,
   "issueId": 11824,
-  "issueNumber": "87"
+  "issueNumber": "87",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/10733-2013-11824-1-green-lantern.jpg",
+  "title": "Green Lantern #87",
+  "coverDate": "1971-12-31"
  },
  "369": {
   "character": "John Wraith",
   "characterId": 3205,
   "score": 8,
   "issueId": 20526,
-  "issueNumber": "220"
+  "issueNumber": "220",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/18345-2045-20526-1-fantastic-four.jpg",
+  "title": "Fantastic Four #220",
+  "coverDate": "1980-07-31"
  },
  "370": {
   "character": "Joker",
   "characterId": 1702,
   "score": 7,
   "issueId": 105811,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/978/85946-796-105811-1-batman.jpg",
+  "title": "Batman #1",
+  "coverDate": "1940-04-01"
  },
  "371": {
   "character": "Jolt",
   "characterId": 3284,
   "score": 10,
   "issueId": 43591,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/4026957-tb1.jpg",
+  "title": "Thunderbolts #1",
+  "coverDate": "1997-04-30"
  },
  "372": {
   "character": "Jubilee",
   "characterId": 4562,
   "score": 10,
   "issueId": 31230,
-  "issueNumber": "244"
+  "issueNumber": "244",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/4026603-1694955-uncanny_x_men__1963__244.jpg",
+  "title": "The Uncanny X-Men #244",
+  "coverDate": "1989-05-01"
  },
  "373": {
   "character": "Judge Dredd",
   "characterId": 30061,
   "score": 8,
   "issueId": 124963,
-  "issueNumber": "2"
+  "issueNumber": "2",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/326810-19752-124963-1-2000-a-d.jpg",
+  "title": "2000 AD #2",
+  "coverDate": "1977-03-05"
  },
  "374": {
   "character": "Juggernaut",
   "characterId": 1445,
   "score": 10,
   "issueId": 7900,
-  "issueNumber": "12"
+  "issueNumber": "12",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/7207-2133-7900-1-x-men.jpg",
+  "title": "The X-Men #12",
+  "coverDate": "1965-07-01"
  },
  "375": {
   "character": "Junkpile",
   "characterId": 41324,
   "score": 7,
   "issueId": 105839,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/3417219-01.jpg",
+  "title": "X-Men 2099 #1",
+  "coverDate": "1993-10-31"
  },
  "376": {
   "character": "Justice",
   "characterId": 4811,
   "score": 10,
   "issueId": 15375,
-  "issueNumber": "5"
+  "issueNumber": "5",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/13720-2681-15375-1-giant-size-defenders.jpg",
+  "title": "Giant-Size Defenders #5",
+  "coverDate": "1975-07-01"
  },
  "377": null,
  "378": null,
@@ -2017,7 +2821,10 @@
   "characterId": 2264,
   "score": 10,
   "issueId": 6735,
-  "issueNumber": "19"
+  "issueNumber": "19",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/10/108995/3593334-ff%20019_cc_bp_hk.jpg",
+  "title": "Fantastic Four #19",
+  "coverDate": "1963-10-01"
  },
  "380": null,
  "381": null,
@@ -2027,7 +2834,10 @@
   "characterId": 51840,
   "score": 6,
   "issueId": 124020,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/2515097-01_regular.jpg",
+  "title": "Kick-Ass #1",
+  "coverDate": "2008-04-01"
  },
  "384": null,
  "385": null,
@@ -2036,21 +2846,30 @@
   "characterId": 3725,
   "score": 8,
   "issueId": 112936,
-  "issueNumber": "523"
+  "issueNumber": "523",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/6060/166209-18058-112936-1-detective-comics.jpg",
+  "title": "Detective Comics #523",
+  "coverDate": "1983-02-01"
  },
  "387": {
   "character": "Killer Frost (Snow)",
   "characterId": 107901,
   "score": 5,
   "issueId": 395309,
-  "issueNumber": "18"
+  "issueNumber": "18",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/2952095-18.jpg",
+  "title": "The Fury of Firestorm: The Nuclear Man #18",
+  "coverDate": "2013-05-01"
  },
  "388": {
   "character": "Kilowog",
   "characterId": 6952,
   "score": 5,
   "issueId": 27540,
-  "issueNumber": "2"
+  "issueNumber": "2",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11112/111120209/4768676-ccf%20hdcu%20%232%20front%2008262015.jpg",
+  "title": "History of the DC Universe #2",
+  "coverDate": "1986-02-01"
  },
  "389": null,
  "390": {
@@ -2058,21 +2877,30 @@
   "characterId": 17772,
   "score": 8,
   "issueId": 39763,
-  "issueNumber": null
+  "issueNumber": null,
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/35611-5261-39763-1-superboy.jpg",
+  "title": "Superboy #0",
+  "coverDate": "1994-10-31"
  },
  "391": {
   "character": "Kingpin",
   "characterId": 1483,
   "score": 10,
   "issueId": 9483,
-  "issueNumber": "50"
+  "issueNumber": "50",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/4365805-50.jpg",
+  "title": "The Amazing Spider-Man #50",
+  "coverDate": "1967-07-31"
  },
  "392": {
   "character": "Klaw",
   "characterId": 3171,
   "score": 10,
   "issueId": 8732,
-  "issueNumber": "53"
+  "issueNumber": "53",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/6731767-1497083520-STL103768",
+  "title": "Fantastic Four #53",
+  "coverDate": "1966-08-01"
  },
  "393": null,
  "394": {
@@ -2080,28 +2908,40 @@
   "characterId": 24652,
   "score": 7,
   "issueId": 43388,
-  "issueNumber": "243"
+  "issueNumber": "243",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/38616-2870-43388-1-spectacular-spider-m.jpg",
+  "title": "The Spectacular Spider-Man #243",
+  "coverDate": "1997-02-01"
  },
  "395": {
   "character": "Kraven the Hunter",
   "characterId": 2475,
   "score": 10,
   "issueId": 7253,
-  "issueNumber": "15"
+  "issueNumber": "15",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/6644-2127-7253-1-amazing-spider-man-.jpg",
+  "title": "The Amazing Spider-Man #15",
+  "coverDate": "1964-08-01"
  },
  "396": {
   "character": "Krypto",
   "characterId": 8332,
   "score": 7,
   "issueId": 128752,
-  "issueNumber": "210"
+  "issueNumber": "210",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9541/370179-3105-128752-1-adventure-comics.jpg",
+  "title": "Adventure Comics #210",
+  "coverDate": "1955-03-31"
  },
  "397": {
   "character": "Kyle Rayner",
   "characterId": 40431,
   "score": 10,
   "issueId": 38445,
-  "issueNumber": "48"
+  "issueNumber": "48",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11131/111316849/6197218-s-l1600.jpg",
+  "title": "Green Lantern #48",
+  "coverDate": "1994-01-01"
  },
  "398": null,
  "399": {
@@ -2109,35 +2949,50 @@
   "characterId": 55499,
   "score": 5,
   "issueId": 139401,
-  "issueNumber": "111"
+  "issueNumber": "111",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9241/557341-0003.jpg",
+  "title": "Daredevil #111",
+  "coverDate": "2008-11-01"
  },
  "400": {
   "character": "Lady Deathstrike",
   "characterId": 8470,
   "score": 8,
   "issueId": 23366,
-  "issueNumber": "197"
+  "issueNumber": "197",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/20951-2190-23366-1-daredevil.jpg",
+  "title": "Daredevil #197",
+  "coverDate": "1983-08-01"
  },
  "401": {
   "character": "Leader",
   "characterId": 7617,
   "score": 8,
   "issueId": 7490,
-  "issueNumber": "62"
+  "issueNumber": "62",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3397103-untitled.jpg",
+  "title": "Tales to Astonish #62",
+  "coverDate": "1964-12-31"
  },
  "402": {
   "character": "Leech",
   "characterId": 3193,
   "score": 7,
   "issueId": 24112,
-  "issueNumber": "179"
+  "issueNumber": "179",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/21621-3092-24112-1-uncanny-x-men-the.jpg",
+  "title": "The Uncanny X-Men #179",
+  "coverDate": "1984-03-01"
  },
  "403": {
   "character": "Legion",
   "characterId": 13349,
   "score": 8,
   "issueId": 25311,
-  "issueNumber": "25"
+  "issueNumber": "25",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/22690-3234-25311-1-new-mutants-the.jpg",
+  "title": "The New Mutants #25",
+  "coverDate": "1985-03-01"
  },
  "404": null,
  "405": {
@@ -2145,7 +3000,10 @@
   "characterId": 41952,
   "score": 8,
   "issueId": 110651,
-  "issueNumber": "4"
+  "issueNumber": "4",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/137167-773-110651-1-superman.jpg",
+  "title": "Superman #4",
+  "coverDate": "1940-03-01"
  },
  "406": null,
  "407": {
@@ -2153,28 +3011,40 @@
   "characterId": 1253,
   "score": 8,
   "issueId": 114594,
-  "issueNumber": "247"
+  "issueNumber": "247",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3664/195370-3105-114594-1-adventure-comics.jpg",
+  "title": "Adventure Comics #247",
+  "coverDate": "1958-04-30"
  },
  "408": {
   "character": "Lightning Lord",
   "characterId": 3592,
   "score": 8,
   "issueId": 5415,
-  "issueNumber": "147"
+  "issueNumber": "147",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/4976-773-5415-1-superman.jpg",
+  "title": "Superman #147",
+  "coverDate": "1961-08-01"
  },
  "409": {
   "character": "Living Brain",
   "characterId": 30091,
   "score": 7,
   "issueId": 6937,
-  "issueNumber": "8"
+  "issueNumber": "8",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2676439-amazingspiderman008.jpg",
+  "title": "The Amazing Spider-Man #8",
+  "coverDate": "1964-01-08"
  },
  "410": {
   "character": "Living Tribunal",
   "characterId": 6811,
   "score": 7,
   "issueId": 111071,
-  "issueNumber": "157"
+  "issueNumber": "157",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/141013-18066-111071-1-strange-tales.jpg",
+  "title": "Strange Tales #157",
+  "coverDate": "1967-06-01"
  },
  "411": null,
  "412": {
@@ -2182,35 +3052,50 @@
   "characterId": 1488,
   "score": 10,
   "issueId": 6778,
-  "issueNumber": "6"
+  "issueNumber": "6",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2676421-amazingspiderman006.jpg",
+  "title": "The Amazing Spider-Man #6",
+  "coverDate": "1963-11-06"
  },
  "413": {
   "character": "Lobo",
   "characterId": 6578,
   "score": 10,
   "issueId": 23180,
-  "issueNumber": "3"
+  "issueNumber": "3",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/20780-3199-23180-1-omega-men-the.jpg",
+  "title": "The Omega Men #3",
+  "coverDate": "1983-06-01"
  },
  "414": {
   "character": "Loki",
   "characterId": 4324,
   "score": 8,
   "issueId": 117437,
-  "issueNumber": "6"
+  "issueNumber": "6",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/227814-18698-117437-1-venus.JPG",
+  "title": "Venus #6",
+  "coverDate": "1949-08-01"
  },
  "415": {
   "character": "Longshot",
   "characterId": 6757,
   "score": 7,
   "issueId": 25907,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/4197520-longshot1nm92m101.jpg",
+  "title": "Longshot #1",
+  "coverDate": "1985-09-30"
  },
  "416": {
   "character": "Luke Cage",
   "characterId": 1450,
   "score": 10,
   "issueId": 12266,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/6606937-4179961455-STL093571",
+  "title": "Hero for Hire #1",
+  "coverDate": "1972-06-30"
  },
  "417": null,
  "418": null,
@@ -2219,98 +3104,140 @@
   "characterId": 10962,
   "score": 8,
   "issueId": 22007,
-  "issueNumber": "240"
+  "issueNumber": "240",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/19722-2045-22007-1-fantastic-four.jpg",
+  "title": "Fantastic Four #240",
+  "coverDate": "1982-03-31"
  },
  "420": {
   "character": "Lyja",
   "characterId": 11892,
   "score": 10,
   "issueId": 24202,
-  "issueNumber": "265"
+  "issueNumber": "265",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/21698-2045-24202-1-fantastic-four.jpg",
+  "title": "Fantastic Four #265",
+  "coverDate": "1984-04-30"
  },
  "421": {
   "character": "Abner Jenkins",
   "characterId": 147129,
   "score": 5,
   "issueId": 3766,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/3412-1866-3766-1-challengers-of-the-u.jpg",
+  "title": "Challengers of the Unknown #1",
+  "coverDate": "1958-05-31"
  },
  "422": {
   "character": "Machine Man",
   "characterId": 7242,
   "score": 5,
   "issueId": 17587,
-  "issueNumber": "8"
+  "issueNumber": "8",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/15782-2854-17587-1-2001-a-space-odysse.jpg",
+  "title": "2001, A Space Odyssey #8",
+  "coverDate": "1977-07-01"
  },
  "423": {
   "character": "Magneto",
   "characterId": 1441,
   "score": 7,
   "issueId": 6694,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/5344/1355017-uxm_v1_001_01.jpg",
+  "title": "The X-Men #1",
+  "coverDate": "1963-09-01"
  },
  "424": {
   "character": "Magog",
   "characterId": 41481,
   "score": 8,
   "issueId": 42353,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/3446484-01.jpg",
+  "title": "Kingdom Come #1",
+  "coverDate": "1996-05-01"
  },
  "425": {
   "character": "Magus",
   "characterId": 14619,
   "score": 5,
   "issueId": 15076,
-  "issueNumber": "178"
+  "issueNumber": "178",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2849188-strangetales178.jpg",
+  "title": "Strange Tales #178",
+  "coverDate": "1975-02-28"
  },
  "426": {
   "character": "Man of Miracles",
   "characterId": 52321,
   "score": 7,
   "issueId": 45226,
-  "issueNumber": "75"
+  "issueNumber": "75",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/58047/1106844-img042.gif",
+  "title": "Spawn #75",
+  "coverDate": "1998-08-01"
  },
  "427": {
   "character": "Man-Bat",
   "characterId": 6131,
   "score": 10,
   "issueId": 111569,
-  "issueNumber": "400"
+  "issueNumber": "400",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4690/152620-18058-111569-1-detective-comics.jpg",
+  "title": "Detective Comics #400",
+  "coverDate": "1970-06-30"
  },
  "428": {
   "character": "Man-Thing",
   "characterId": 4988,
   "score": 8,
   "issueId": 11437,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/80654/1880689-010001.jpg",
+  "title": "Savage Tales #1",
+  "coverDate": "1971-05-31"
  },
  "429": {
   "character": "John Jameson",
   "characterId": 4456,
   "score": 9,
   "issueId": 6422,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2676366-amazingspiderman001.jpg",
+  "title": "The Amazing Spider-Man #1",
+  "coverDate": "1963-03-01"
  },
  "430": {
   "character": "Mandarin",
   "characterId": 3530,
   "score": 10,
   "issueId": 6990,
-  "issueNumber": "50"
+  "issueNumber": "50",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2678806-talesofsuspense50.jpg",
+  "title": "Tales of Suspense #50",
+  "coverDate": "1964-02-01"
  },
  "431": {
   "character": "Mantis",
   "characterId": 3324,
   "score": 7,
   "issueId": 13265,
-  "issueNumber": "112"
+  "issueNumber": "112",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2478954-avengers112.jpg",
+  "title": "The Avengers #112",
+  "coverDate": "1973-06-01"
  },
  "432": {
   "character": "Martian Manhunter",
   "characterId": 2047,
   "score": 10,
   "issueId": 106648,
-  "issueNumber": "225"
+  "issueNumber": "225",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3892149-93472-18058-106648-1-detective-comics.jpg",
+  "title": "Detective Comics #225",
+  "coverDate": "1955-11-30"
  },
  "433": null,
  "434": null,
@@ -2320,7 +3247,10 @@
   "characterId": 41258,
   "score": 5,
   "issueId": 42872,
-  "issueNumber": "32"
+  "issueNumber": "32",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/38182-5261-42872-1-superboy.jpg",
+  "title": "Superboy #32",
+  "coverDate": "1996-10-01"
  },
  "437": null,
  "438": {
@@ -2328,14 +3258,20 @@
   "characterId": 8307,
   "score": 5,
   "issueId": 35379,
-  "issueNumber": "5"
+  "issueNumber": "5",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/56044/1630101-x_men__1991__005.jpeg",
+  "title": "X-Men #5",
+  "coverDate": "1992-02-01"
  },
  "439": {
   "character": "Maxima",
   "characterId": 10034,
   "score": 5,
   "issueId": 31596,
-  "issueNumber": "458"
+  "issueNumber": "458",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11112/111120209/5934417-aos%20%23458%20final.jpg",
+  "title": "Adventures of Superman #458",
+  "coverDate": "1989-09-30"
  },
  "440": null,
  "441": {
@@ -2343,7 +3279,10 @@
   "characterId": 4327,
   "score": 10,
   "issueId": 7667,
-  "issueNumber": "36"
+  "issueNumber": "36",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/6731766-1973583674-STL103767",
+  "title": "Fantastic Four #36",
+  "coverDate": "1965-03-01"
  },
  "442": null,
  "443": {
@@ -2351,42 +3290,60 @@
   "characterId": 2635,
   "score": 5,
   "issueId": 188199,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/54649/1063411-bible_tales_for_young_folk_1.jpg",
+  "title": "Bible Tales for Young Folk #1",
+  "coverDate": "1953-08-01"
  },
  "444": {
   "character": "Mera",
   "characterId": 14654,
   "score": 10,
   "issueId": 6657,
-  "issueNumber": "11"
+  "issueNumber": "11",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/6091-2050-6657-1-aquaman.jpg",
+  "title": "Aquaman #11",
+  "coverDate": "1963-10-01"
  },
  "445": {
   "character": "Metallo",
   "characterId": 4689,
   "score": 6,
   "issueId": 105683,
-  "issueNumber": "252"
+  "issueNumber": "252",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/1061/84187-18005-105683-1-action-comics.jpg",
+  "title": "Action Comics #252",
+  "coverDate": "1959-05-31"
  },
  "446": {
   "character": "Metamorpho",
   "characterId": 2384,
   "score": 10,
   "issueId": 7451,
-  "issueNumber": "57"
+  "issueNumber": "57",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/6831-1683-7451-1-brave-and-the-bold-.jpg",
+  "title": "The Brave and the Bold #57",
+  "coverDate": "1965-01-01"
  },
  "447": {
   "character": "Meteorite",
   "characterId": 34089,
   "score": 5,
   "issueId": 47263,
-  "issueNumber": "48"
+  "issueNumber": "48",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/41671-6020-47263-1-thunderbolts.jpg",
+  "title": "Thunderbolts #48",
+  "coverDate": "2001-03-01"
  },
  "448": {
   "character": "Metron",
   "characterId": 3616,
   "score": 10,
   "issueId": 11260,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/10226-2505-11260-1-new-gods-the.jpg",
+  "title": "The New Gods #1",
+  "coverDate": "1971-03-01"
  },
  "449": null,
  "450": null,
@@ -2395,14 +3352,20 @@
   "characterId": 1265,
   "score": 5,
   "issueId": 123853,
-  "issueNumber": "212"
+  "issueNumber": "212",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/16281/316147-19154-123853-1-superboy.jpg",
+  "title": "Superboy #212",
+  "coverDate": "1975-10-01"
  },
  "452": {
   "character": "Mimic",
   "characterId": 12546,
   "score": 10,
   "issueId": 8498,
-  "issueNumber": "19"
+  "issueNumber": "19",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/7703-2133-8498-1-x-men.jpg",
+  "title": "The X-Men #19",
+  "coverDate": "1966-04-01"
  },
  "453": null,
  "454": {
@@ -2410,14 +3373,20 @@
   "characterId": 9939,
   "score": 10,
   "issueId": 114001,
-  "issueNumber": "96"
+  "issueNumber": "96",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/574/185016-6498-114001-1-birds-of-prey.jpg",
+  "title": "Birds of Prey #96",
+  "coverDate": "2006-09-01"
  },
  "455": {
   "character": "Miss Martian",
   "characterId": 41145,
   "score": 10,
   "issueId": 111172,
-  "issueNumber": "37"
+  "issueNumber": "37",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/574/143129-10414-111172-1-teen-titans.jpg",
+  "title": "Teen Titans #37",
+  "coverDate": "2006-08-01"
  },
  "456": null,
  "457": null,
@@ -2426,14 +3395,20 @@
   "characterId": 81150,
   "score": 7,
   "issueId": 17604,
-  "issueNumber": "11"
+  "issueNumber": "11",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/15799-2774-17604-1-marvel-preview.jpg",
+  "title": "Marvel Preview #11",
+  "coverDate": "1977-06-30"
  },
  "459": {
   "character": "Mr. Mxyzptlk",
   "characterId": 27436,
   "score": 9,
   "issueId": 119056,
-  "issueNumber": "30"
+  "issueNumber": "30",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/248434-773-119056-1-superman.jpg",
+  "title": "Superman #30",
+  "coverDate": "1944-09-30"
  },
  "460": null,
  "461": null,
@@ -2442,7 +3417,10 @@
   "characterId": 2497,
   "score": 10,
   "issueId": 11484,
-  "issueNumber": "6"
+  "issueNumber": "6",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/10432-2470-11484-1-astonishing-tales.jpg",
+  "title": "Astonishing Tales #6",
+  "coverDate": "1971-06-30"
  },
  "463": null,
  "464": {
@@ -2450,7 +3428,10 @@
   "characterId": 41919,
   "score": 10,
   "issueId": 25447,
-  "issueNumber": "188"
+  "issueNumber": "188",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/119838/2962076-greenlantern188.jpg",
+  "title": "Green Lantern #188",
+  "coverDate": "1985-05-31"
  },
  "465": null,
  "466": {
@@ -2458,21 +3439,30 @@
   "characterId": 37922,
   "score": 5,
   "issueId": 10975,
-  "issueNumber": "224"
+  "issueNumber": "224",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/9968-796-10975-1-batman.jpg",
+  "title": "Batman #224",
+  "coverDate": "1970-08-01"
  },
  "467": {
   "character": "Molten Man",
   "characterId": 11554,
   "score": 10,
   "issueId": 8028,
-  "issueNumber": "28"
+  "issueNumber": "28",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/7305-2127-8028-1-amazing-spider-man-.jpg",
+  "title": "The Amazing Spider-Man #28",
+  "coverDate": "1965-09-01"
  },
  "468": {
   "character": "Monarch",
   "characterId": 12940,
   "score": 7,
   "issueId": 34156,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3907689-%24_57.jpg",
+  "title": "Armageddon 2001 #1",
+  "coverDate": "1991-05-01"
  },
  "469": null,
  "470": {
@@ -2480,35 +3470,50 @@
   "characterId": 1493,
   "score": 10,
   "issueId": 15507,
-  "issueNumber": "32"
+  "issueNumber": "32",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/13845-2584-15507-1-werewolf-by-night.jpg",
+  "title": "Werewolf by Night #32",
+  "coverDate": "1975-08-01"
  },
  "471": {
   "character": "Moonstone",
   "characterId": 3279,
   "score": 10,
   "issueId": 15856,
-  "issueNumber": "192"
+  "issueNumber": "192",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/14172-2400-15856-1-captain-america.jpg",
+  "title": "Captain America #192",
+  "coverDate": "1975-12-01"
  },
  "472": {
   "character": "Morlun",
   "characterId": 17613,
   "score": 10,
   "issueId": 113461,
-  "issueNumber": "30"
+  "issueNumber": "30",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/56044/1715461-amazing_spider_man__1998__2nd_series__030_.jpeg",
+  "title": "The Amazing Spider-Man #30",
+  "coverDate": "2001-06-01"
  },
  "473": {
   "character": "Morph",
   "characterId": 12547,
   "score": 5,
   "issueId": 9565,
-  "issueNumber": "35"
+  "issueNumber": "35",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/8663-2133-9565-1-x-men.jpg",
+  "title": "The X-Men #35",
+  "coverDate": "1967-08-01"
  },
  "474": {
   "character": "Moses Magnum",
   "characterId": 11915,
   "score": 10,
   "issueId": 121299,
-  "issueNumber": "4"
+  "issueNumber": "4",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3950130-gssm4nm9m041.jpg",
+  "title": "Giant-Size Spider-Man #4",
+  "coverDate": "1975-04-01"
  },
  "475": null,
  "476": null,
@@ -2517,7 +3522,10 @@
   "characterId": 20604,
   "score": 5,
   "issueId": 25893,
-  "issueNumber": "27"
+  "issueNumber": "27",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/23223-3245-25893-1-thing-the.jpg",
+  "title": "The Thing #27",
+  "coverDate": "1985-09-01"
  },
  "478": null,
  "479": {
@@ -2525,49 +3533,70 @@
   "characterId": 4333,
   "score": 10,
   "issueId": 7156,
-  "issueNumber": "13"
+  "issueNumber": "13",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/6984935-13.jpg",
+  "title": "The Amazing Spider-Man #13",
+  "coverDate": "1964-06-01"
  },
  "480": {
   "character": "Mystique",
   "characterId": 1469,
   "score": 10,
   "issueId": 18425,
-  "issueNumber": "16"
+  "issueNumber": "16",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/16538-2910-18425-1-ms-marvel.jpg",
+  "title": "Ms. Marvel #16",
+  "coverDate": "1978-04-01"
  },
  "481": {
   "character": "Namor",
   "characterId": 1476,
   "score": 7,
   "issueId": 159689,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/27396/5881932-00%20-%20motionpicturesfunnies001%28p%29.jpg",
+  "title": "Motion Picture Funnies Weekly #1",
+  "coverDate": "1939-04-01"
  },
  "482": {
   "character": "Namor",
   "characterId": 1476,
   "score": 5,
   "issueId": 159689,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/27396/5881932-00%20-%20motionpicturesfunnies001%28p%29.jpg",
+  "title": "Motion Picture Funnies Weekly #1",
+  "coverDate": "1939-04-01"
  },
  "483": {
   "character": "Namora",
   "characterId": 2177,
   "score": 8,
   "issueId": 135493,
-  "issueNumber": "14"
+  "issueNumber": "14",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/495635-2.jpg",
+  "title": "Blonde Phantom Comics #14",
+  "coverDate": "1947-04-01"
  },
  "484": {
   "character": "Namorita",
   "characterId": 2113,
   "score": 7,
   "issueId": 12277,
-  "issueNumber": "50"
+  "issueNumber": "50",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/11102-2413-12277-1-sub-mariner.jpg",
+  "title": "Sub-Mariner #50",
+  "coverDate": "1972-06-30"
  },
  "485": {
   "character": "Naruto Uzumaki",
   "characterId": 44238,
   "score": 5,
   "issueId": 523540,
-  "issueNumber": "3"
+  "issueNumber": "3",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11142/111429705/7588759-1997-03.jpg",
+  "title": "Akamaru Jump #3",
+  "coverDate": "1997-09-28"
  },
  "486": null,
  "487": {
@@ -2575,28 +3604,40 @@
   "characterId": 14558,
   "score": 7,
   "issueId": 25674,
-  "issueNumber": "257"
+  "issueNumber": "257",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/23020-2128-25674-1-avengers-the.jpg",
+  "title": "The Avengers #257",
+  "coverDate": "1985-07-01"
  },
  "488": {
   "character": "Negasonic Teenage Warhead",
   "characterId": 41178,
   "score": 8,
   "issueId": 66993,
-  "issueNumber": "115"
+  "issueNumber": "115",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/51151-9121-66993-1-new-x-men.jpg",
+  "title": "New X-Men #115",
+  "coverDate": "2001-08-01"
  },
  "489": {
   "character": "Nick Fury",
   "characterId": 3202,
   "score": 10,
   "issueId": 6508,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/5951-6724-6508-1-sgt-fury.jpg",
+  "title": "Sgt. Fury #1",
+  "coverDate": "1963-05-31"
  },
  "490": {
   "character": "Nightcrawler",
   "characterId": 1461,
   "score": 10,
   "issueId": 14890,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/13286-2763-14890-1-giant-size-x-men.jpg",
+  "title": "Giant-Size X-Men #1",
+  "coverDate": "1975-05-31"
  },
  "491": {
   "character": "Dick Grayson",
@@ -2616,42 +3657,60 @@
   "characterId": 3190,
   "score": 10,
   "issueId": 19455,
-  "issueNumber": "120"
+  "issueNumber": "120",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/4330464-xmen120vf7m012.jpg",
+  "title": "The X-Men #120",
+  "coverDate": "1979-04-01"
  },
  "496": {
   "character": "Nova",
   "characterId": 2105,
   "score": 8,
   "issueId": 828916,
-  "issueNumber": "129"
+  "issueNumber": "129",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124613/7820823-comicreader%2Cthev1970129%281976%29pagecover.jpg",
+  "title": "The Comic Reader #129",
+  "coverDate": "1976-04-01"
  },
  "497": {
   "character": "Frankie Raye",
   "characterId": 11605,
   "score": 9,
   "issueId": 15780,
-  "issueNumber": "164"
+  "issueNumber": "164",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3542771-ff164nm9m044.jpg",
+  "title": "Fantastic Four #164",
+  "coverDate": "1975-11-30"
  },
  "498": {
   "character": "Odin",
   "characterId": 3507,
   "score": 10,
   "issueId": 6116,
-  "issueNumber": "85"
+  "issueNumber": "85",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/5595-1497-6116-1-journey-into-mystery.jpg",
+  "title": "Journey into Mystery #85",
+  "coverDate": "1962-10-01"
  },
  "499": {
   "character": "Offspring",
   "characterId": 43304,
   "score": 6,
   "issueId": 347036,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/10/100559/2485070-the_kingdom_tpb.jpg",
+  "title": "The Kingdom #1",
+  "coverDate": "1999-01-01"
  },
  "500": {
   "character": "Omega Red",
   "characterId": 9729,
   "score": 5,
   "issueId": 35273,
-  "issueNumber": "33"
+  "issueNumber": "33",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11112/111121983/5334853-what%20if%20%2333.jpg",
+  "title": "What If...? #33",
+  "coverDate": "1992-01-01"
  },
  "501": null,
  "502": {
@@ -2659,56 +3718,80 @@
   "characterId": 93547,
   "score": 7,
   "issueId": 387140,
-  "issueNumber": "20120614"
+  "issueNumber": "20120614",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11161/111615891/8997004--tonarinoyoungjump.jpg",
+  "title": "Tonari no Young Jump #20120614",
+  "coverDate": "2012-06-14"
  },
  "503": {
   "character": "One-Above-All",
   "characterId": 44473,
   "score": 7,
   "issueId": 16253,
-  "issueNumber": "13"
+  "issueNumber": "13",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/14543-2676-16253-1-doctor-strange.jpg",
+  "title": "Doctor Strange #13",
+  "coverDate": "1976-04-30"
  },
  "504": {
   "character": "Onslaught",
   "characterId": 13352,
   "score": 8,
   "issueId": 272006,
-  "issueNumber": "12"
+  "issueNumber": "12",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/1831559-cs12.jpg",
+  "title": "Cracked Super #12",
+  "coverDate": "1996-01-01"
  },
  "505": {
   "character": "Oracle",
   "characterId": 115774,
   "score": 8,
   "issueId": 467594,
-  "issueNumber": "35"
+  "issueNumber": "35",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/66303/4143030-batgirl%2001.jpg",
+  "title": "Batgirl #35",
+  "coverDate": "2014-12-31"
  },
  "506": {
   "character": "Osiris",
   "characterId": 23063,
   "score": 8,
   "issueId": 106747,
-  "issueNumber": "23"
+  "issueNumber": "23",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/113/95344-18053-106747-1-52.jpg",
+  "title": "52 #23",
+  "coverDate": "2006-10-11"
  },
  "507": {
   "character": "Overtkill",
   "characterId": 26135,
   "score": 8,
   "issueId": 36384,
-  "issueNumber": "6"
+  "issueNumber": "6",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/56044/2466977-spawn__1992__006.jpeg",
+  "title": "Spawn #6",
+  "coverDate": "1992-11-01"
  },
  "508": {
   "character": "Ozymandias",
   "characterId": 43221,
   "score": 8,
   "issueId": 177271,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/51078/998434-dc1.jpeg",
+  "title": "DC Spotlight #1",
+  "coverDate": "1985-09-01"
  },
  "509": {
   "character": "Parademon",
   "characterId": 9998,
   "score": 5,
   "issueId": 27864,
-  "issueNumber": "3"
+  "issueNumber": "3",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11112/111120209/5928963-sm%20%233%20final.jpg",
+  "title": "Superman #3",
+  "coverDate": "1987-03-31"
  },
  "510": null,
  "511": {
@@ -2716,7 +3799,10 @@
   "characterId": 196732,
   "score": 5,
   "issueId": 1144101,
-  "issueNumber": "18"
+  "issueNumber": "18",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/110017/9917744-wwww.jpg",
+  "title": "Ultimates #18",
+  "coverDate": "2026-01-01"
  },
  "512": null,
  "513": null,
@@ -2725,7 +3811,10 @@
   "characterId": 4885,
   "score": 10,
   "issueId": 112089,
-  "issueNumber": "58"
+  "issueNumber": "58",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/6060/160657-18058-112089-1-detective-comics.jpg",
+  "title": "Detective Comics #58",
+  "coverDate": "1941-12-01"
  },
  "515": null,
  "516": {
@@ -2733,14 +3822,20 @@
   "characterId": 1257,
   "score": 8,
   "issueId": 114604,
-  "issueNumber": "276"
+  "issueNumber": "276",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3664/195400-18005-114604-1-action-comics.jpg",
+  "title": "Action Comics #276",
+  "coverDate": "1961-05-31"
  },
  "517": {
   "character": "Jean Grey",
   "characterId": 3552,
   "score": 9,
   "issueId": 6694,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/5344/1355017-uxm_v1_001_01.jpg",
+  "title": "The X-Men #1",
+  "coverDate": "1963-09-01"
  },
  "518": null,
  "519": null,
@@ -2749,42 +3844,60 @@
   "characterId": 6270,
   "score": 8,
   "issueId": 127149,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/351928-21167-127149-1-police-comics.jpg",
+  "title": "Police Comics #1",
+  "coverDate": "1941-08-01"
  },
  "521": {
   "character": "Plastique",
   "characterId": 25441,
   "score": 10,
   "issueId": 22641,
-  "issueNumber": "7"
+  "issueNumber": "7",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/20293-3115-22641-1-fury-of-firestorm-t.jpg",
+  "title": "The Fury of Firestorm #7",
+  "coverDate": "1982-12-31"
  },
  "522": {
   "character": "Poison Ivy",
   "characterId": 1697,
   "score": 8,
   "issueId": 8577,
-  "issueNumber": "181"
+  "issueNumber": "181",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/7769-796-8577-1-batman.jpg",
+  "title": "Batman #181",
+  "coverDate": "1966-06-30"
  },
  "523": {
   "character": "Polaris",
   "characterId": 1473,
   "score": 8,
   "issueId": 123674,
-  "issueNumber": "49"
+  "issueNumber": "49",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/16281/315180-2133-123674-1-x-men.jpg",
+  "title": "The X-Men #49",
+  "coverDate": "1968-10-01"
  },
  "524": {
   "character": "Power Girl",
   "characterId": 4915,
   "score": 7,
   "issueId": 15958,
-  "issueNumber": "58"
+  "issueNumber": "58",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/56044/2352244-all_star_comics__1940_1978__58.jpeg",
+  "title": "All-Star Comics #58",
+  "coverDate": "1976-02-29"
  },
  "525": {
   "character": "Luke Cage",
   "characterId": 1450,
   "score": 7,
   "issueId": 12266,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/6606937-4179961455-STL093571",
+  "title": "Hero for Hire #1",
+  "coverDate": "1972-06-30"
  },
  "526": null,
  "527": {
@@ -2792,14 +3905,20 @@
   "characterId": 1505,
   "score": 10,
   "issueId": 6694,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/5344/1355017-uxm_v1_001_01.jpg",
+  "title": "The X-Men #1",
+  "coverDate": "1963-09-01"
  },
  "528": {
   "character": "Eobard Thawne",
   "characterId": 18340,
   "score": 9,
   "issueId": 6660,
-  "issueNumber": "139"
+  "issueNumber": "139",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/4377161-139.jpg",
+  "title": "The Flash #139",
+  "coverDate": "1963-09-01"
  },
  "529": null,
  "530": {
@@ -2807,21 +3926,30 @@
   "characterId": 1525,
   "score": 5,
   "issueId": 410707,
-  "issueNumber": "100"
+  "issueNumber": "100",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124613/3103696-the%20comic%20reader%20v1970%20100%20%281973%29%20pagecover.jpg",
+  "title": "The Comic Reader #100",
+  "coverDate": "1973-08-12"
  },
  "531": {
   "character": "Purple Man",
   "characterId": 3227,
   "score": 10,
   "issueId": 7372,
-  "issueNumber": "4"
+  "issueNumber": "4",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2677619-daredevil004.jpg",
+  "title": "Daredevil #4",
+  "coverDate": "1964-10-01"
  },
  "532": {
   "character": "Pyro",
   "characterId": 3554,
   "score": 8,
   "issueId": 20988,
-  "issueNumber": "141"
+  "issueNumber": "141",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/4134088-xmen141nm92m093.jpg",
+  "title": "The X-Men #141",
+  "coverDate": "1981-01-31"
  },
  "533": null,
  "534": null,
@@ -2830,28 +3958,40 @@
   "characterId": 3211,
   "score": 7,
   "issueId": 9383,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/8496-2330-9383-1-blue-beetle.jpg",
+  "title": "Blue Beetle #1",
+  "coverDate": "1967-06-01"
  },
  "536": {
   "character": "Quicksilver",
   "characterId": 1467,
   "score": 10,
   "issueId": 7032,
-  "issueNumber": "4"
+  "issueNumber": "4",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/5344/1356279-01.jpg",
+  "title": "The X-Men #4",
+  "coverDate": "1964-03-01"
  },
  "537": {
   "character": "Quill",
   "characterId": 41149,
   "score": 10,
   "issueId": 105907,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/787/86871-18078-105907-1-new-x-men.jpg",
+  "title": "New X-Men #1",
+  "coverDate": "2004-07-01"
  },
  "538": {
   "character": "Ra's al Ghul",
   "characterId": 40816,
   "score": 10,
   "issueId": 11463,
-  "issueNumber": "232"
+  "issueNumber": "232",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/10411-796-11463-1-batman.jpg",
+  "title": "Batman #232",
+  "coverDate": "1971-06-30"
  },
  "539": null,
  "540": null,
@@ -2860,21 +4000,30 @@
   "characterId": 23788,
   "score": 5,
   "issueId": 32134,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/2083740-01.jpg",
+  "title": "Books of Magic #1",
+  "coverDate": "1990-12-01"
  },
  "542": {
   "character": "Raven",
   "characterId": 3584,
   "score": 7,
   "issueId": 20700,
-  "issueNumber": "26"
+  "issueNumber": "26",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3537405-dccp26nm9m054.jpg",
+  "title": "DC Comics Presents #26",
+  "coverDate": "1980-10-31"
  },
  "543": {
   "character": "Ray",
   "characterId": 2049,
   "score": 6,
   "issueId": 119594,
-  "issueNumber": "14"
+  "issueNumber": "14",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/9767914-theamazingworldofdccomics14.jpg",
+  "title": "The Amazing World of DC Comics #14",
+  "coverDate": "1977-03-01"
  },
  "544": null,
  "545": {
@@ -2882,14 +4031,20 @@
   "characterId": 3404,
   "score": 7,
   "issueId": 139585,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/23749/562386-46063_20060708061138_large.jpg",
+  "title": "Leading Comics #1",
+  "coverDate": "1941-10-01"
  },
  "546": {
   "character": "Jason Todd",
   "characterId": 6849,
   "score": 7,
   "issueId": 22911,
-  "issueNumber": "357"
+  "issueNumber": "357",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/20533-796-22911-1-batman.jpg",
+  "title": "Batman #357",
+  "coverDate": "1983-03-01"
  },
  "547": null,
  "548": {
@@ -2897,42 +4052,60 @@
   "characterId": 59157,
   "score": 5,
   "issueId": 149287,
-  "issueNumber": "5"
+  "issueNumber": "5",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9241/664021-kick_ass__001.jpg",
+  "title": "Kick-Ass #5",
+  "coverDate": "2009-02-01"
  },
  "549": {
   "character": "Tim Drake",
   "characterId": 9290,
   "score": 9,
   "issueId": 32089,
-  "issueNumber": "436"
+  "issueNumber": "436",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/56044/1717003-batman__1940__436.jpeg",
+  "title": "Batman #436",
+  "coverDate": "1989-08-01"
  },
  "550": {
   "character": "Red Skull",
   "characterId": 2250,
   "score": 5,
   "issueId": 117551,
-  "issueNumber": "7"
+  "issueNumber": "7",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/77/228328-1628-117551-1-captain-america-comi.jpg",
+  "title": "Captain America Comics #7",
+  "coverDate": "1941-10-31"
  },
  "551": {
   "character": "Red Tornado",
   "characterId": 1688,
   "score": 7,
   "issueId": 114357,
-  "issueNumber": "64"
+  "issueNumber": "64",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11122/111224684/4480754-justice%20league%20of%20america%20%281960-1987%29%20064-000.jpg",
+  "title": "Justice League of America #64",
+  "coverDate": "1968-08-01"
  },
  "552": {
   "character": "Phil Timper",
   "characterId": 157014,
   "score": 7,
   "issueId": 40836,
-  "issueNumber": "31"
+  "issueNumber": "31",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/36547-4937-40836-1-spawn.jpg",
+  "title": "Spawn #31",
+  "coverDate": "1995-05-01"
  },
  "553": {
   "character": "Eddie Frank",
   "characterId": 156823,
   "score": 5,
   "issueId": 40574,
-  "issueNumber": "29"
+  "issueNumber": "29",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/36329-4937-40574-1-spawn.jpg",
+  "title": "Spawn #29",
+  "coverDate": "1995-03-01"
  },
  "554": null,
  "555": null,
@@ -2941,84 +4114,120 @@
   "characterId": 2126,
   "score": 10,
   "issueId": 8873,
-  "issueNumber": "41"
+  "issueNumber": "41",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/4365796-41.jpg",
+  "title": "The Amazing Spider-Man #41",
+  "coverDate": "1966-10-01"
  },
  "557": {
   "character": "Rick Flag",
   "characterId": 39769,
   "score": 8,
   "issueId": 494913,
-  "issueNumber": "52"
+  "issueNumber": "52",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/4681510-sup52.jpg",
+  "title": "Superman Taschenbuch #52",
+  "coverDate": "1983-04-01"
  },
  "558": {
   "character": "Riddler",
   "characterId": 3718,
   "score": 10,
   "issueId": 112214,
-  "issueNumber": "140"
+  "issueNumber": "140",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/6060/161668-18058-112214-1-detective-comics.jpg",
+  "title": "Detective Comics #140",
+  "coverDate": "1948-10-01"
  },
  "559": {
   "character": "Rip Hunter",
   "characterId": 4937,
   "score": 10,
   "issueId": 4319,
-  "issueNumber": "20"
+  "issueNumber": "20",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/3924-1770-4319-1-showcase.jpg",
+  "title": "Showcase #20",
+  "coverDate": "1959-06-30"
  },
  "560": {
   "character": "Ripcord",
   "characterId": 194343,
   "score": 5,
   "issueId": 1089472,
-  "issueNumber": "2"
+  "issueNumber": "2",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/110017/9592171-wwww.jpg",
+  "title": "All-New Venom #2",
+  "coverDate": "2025-03-01"
  },
  "561": {
   "character": "Dick Grayson",
   "characterId": 1691,
   "score": 9,
   "issueId": 111907,
-  "issueNumber": "38"
+  "issueNumber": "38",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/58127/2118850-detective_38.jpg",
+  "title": "Detective Comics #38",
+  "coverDate": "1940-04-01"
  },
  "562": {
   "character": "Jason Todd",
   "characterId": 6849,
   "score": 5,
   "issueId": 22911,
-  "issueNumber": "357"
+  "issueNumber": "357",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/20533-796-22911-1-batman.jpg",
+  "title": "Batman #357",
+  "coverDate": "1983-03-01"
  },
  "563": {
   "character": "Tim Drake",
   "characterId": 9290,
   "score": 7,
   "issueId": 32089,
-  "issueNumber": "436"
+  "issueNumber": "436",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/56044/1717003-batman__1940__436.jpeg",
+  "title": "Batman #436",
+  "coverDate": "1989-08-01"
  },
  "564": {
   "character": "Damian Wayne",
   "characterId": 42413,
   "score": 5,
   "issueId": 154206,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/6066379-7414584562-copyO.jpg",
+  "title": "Batman: Son of the Demon #1",
+  "coverDate": "1987-06-01"
  },
  "565": {
   "character": "Carrie Kelley",
   "characterId": 13164,
   "score": 5,
   "issueId": 26264,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/4133781-bmtdkr1nm94m093.jpg",
+  "title": "Batman: The Dark Knight #1",
+  "coverDate": "1986-02-28"
  },
  "566": {
   "character": "Rocket Raccoon",
   "characterId": 32814,
   "score": 10,
   "issueId": 16513,
-  "issueNumber": "7"
+  "issueNumber": "7",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/14791-2774-16513-1-marvel-preview.jpg",
+  "title": "Marvel Preview #7",
+  "coverDate": "1976-06-30"
  },
  "567": {
   "character": "Rogue",
   "characterId": 1446,
   "score": 10,
   "issueId": 20918,
-  "issueNumber": "10"
+  "issueNumber": "10",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/18703-2350-20918-1-avengers-annual.jpg",
+  "title": "The Avengers Annual #10",
+  "coverDate": "1981-12-31"
  },
  "568": null,
  "569": {
@@ -3026,35 +4235,50 @@
   "characterId": 40444,
   "score": 8,
   "issueId": 376362,
-  "issueNumber": "115"
+  "issueNumber": "115",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124613/2779521-amazing_heroes_v1981_115__1987__pagecover.jpg",
+  "title": "Amazing Heroes #115",
+  "coverDate": "1985-04-15"
  },
  "570": {
   "character": "Sabretooth",
   "characterId": 4563,
   "score": 10,
   "issueId": 17685,
-  "issueNumber": "14"
+  "issueNumber": "14",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/15873-2766-17685-1-iron-fist.jpg",
+  "title": "Iron Fist #14",
+  "coverDate": "1977-08-01"
  },
  "571": {
   "character": "Sage",
   "characterId": 4559,
   "score": 7,
   "issueId": 20333,
-  "issueNumber": "132"
+  "issueNumber": "132",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3542392-xmen132nm9m092.jpg",
+  "title": "The X-Men #132",
+  "coverDate": "1980-04-01"
  },
  "572": {
   "character": "Sandman",
   "characterId": 3544,
   "score": 10,
   "issueId": 6685,
-  "issueNumber": "4"
+  "issueNumber": "4",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2676416-amazingspiderman004.jpg",
+  "title": "The Amazing Spider-Man #4",
+  "coverDate": "1963-09-01"
  },
  "573": {
   "character": "Sasquatch",
   "characterId": 1478,
   "score": 8,
   "issueId": 19455,
-  "issueNumber": "120"
+  "issueNumber": "120",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/4330464-xmen120vf7m012.jpg",
+  "title": "The X-Men #120",
+  "coverDate": "1979-04-01"
  },
  "574": null,
  "575": {
@@ -3062,14 +4286,20 @@
   "characterId": 5209,
   "score": 8,
   "issueId": 199160,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/1147795-graphicfantasy1a.jpg",
+  "title": "Graphic Fantasy #1",
+  "coverDate": "1982-06-02"
  },
  "576": {
   "character": "Scarecrow",
   "characterId": 3726,
   "score": 10,
   "issueId": 115066,
-  "issueNumber": "3"
+  "issueNumber": "3",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3830799-worldsfinestcomics3.jpg",
+  "title": "World's Finest Comics #3",
+  "coverDate": "1941-07-01"
  },
  "577": null,
  "578": null,
@@ -3078,126 +4308,180 @@
   "characterId": 1466,
   "score": 8,
   "issueId": 7032,
-  "issueNumber": "4"
+  "issueNumber": "4",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/5344/1356279-01.jpg",
+  "title": "The X-Men #4",
+  "coverDate": "1964-03-01"
  },
  "580": {
   "character": "Scorpia",
   "characterId": 11540,
   "score": 10,
   "issueId": 137377,
-  "issueNumber": "2"
+  "issueNumber": "2",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/25835/528169-002.jpg",
+  "title": "Spider-Man: The Power of Terror #2",
+  "coverDate": "1995-02-01"
  },
  "581": {
   "character": "Scorpion",
   "characterId": 4484,
   "score": 10,
   "issueId": 7481,
-  "issueNumber": "19"
+  "issueNumber": "19",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/6860-2127-7481-1-amazing-spider-man-.jpg",
+  "title": "The Amazing Spider-Man #19",
+  "coverDate": "1964-12-01"
  },
  "582": {
   "character": "Sebastian Shaw",
   "characterId": 2175,
   "score": 8,
   "issueId": 20114,
-  "issueNumber": "129"
+  "issueNumber": "129",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/4141671-xmen129nm9m094.jpg",
+  "title": "The X-Men #129",
+  "coverDate": "1980-01-01"
  },
  "583": {
   "character": "Sentry",
   "characterId": 1454,
   "score": 8,
   "issueId": 68433,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/51498-9136-68433-1-sentry.jpg",
+  "title": "Sentry #1",
+  "coverDate": "2000-09-30"
  },
  "584": {
   "character": "Shadow King",
   "characterId": 14889,
   "score": 10,
   "issueId": 19210,
-  "issueNumber": "117"
+  "issueNumber": "117",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/3754308-117.jpg",
+  "title": "The X-Men #117",
+  "coverDate": "1979-01-01"
  },
  "585": {
   "character": "Shadow Lass",
   "characterId": 1261,
   "score": 10,
   "issueId": 114927,
-  "issueNumber": "365"
+  "issueNumber": "365",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3664/198723-3105-114927-1-adventure-comics.jpg",
+  "title": "Adventure Comics #365",
+  "coverDate": "1968-02-01"
  },
  "586": {
   "character": "Kitty Pryde",
   "characterId": 3548,
   "score": 7,
   "issueId": 383567,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/10/100239/2843915-__extras___art_of_john_byrne_v9999___page_1.jpg",
+  "title": "The Art of John Byrne #1",
+  "coverDate": "1980-01-01"
  },
  "587": {
   "character": "Shang-Chi",
   "characterId": 12716,
   "score": 10,
   "issueId": 13893,
-  "issueNumber": "15"
+  "issueNumber": "15",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/12398-2520-13893-1-special-marvel-editi.jpg",
+  "title": "Special Marvel Edition #15",
+  "coverDate": "1973-12-31"
  },
  "588": {
   "character": "Shatterstar",
   "characterId": 2156,
   "score": 8,
   "issueId": 32179,
-  "issueNumber": "6"
+  "issueNumber": "6",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/28968-3356-32179-1-new-mutants-annual-.jpg",
+  "title": "The New Mutants Annual #6",
+  "coverDate": "1990-08-31"
  },
  "589": {
   "character": "She-Hulk",
   "characterId": 1449,
   "score": 8,
   "issueId": 336193,
-  "issueNumber": "49"
+  "issueNumber": "49",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/110802/2350513-bookcover_cj049.jpg",
+  "title": "The Comics Journal #49",
+  "coverDate": "1979-09-01"
  },
  "590": {
   "character": "Sharon Ventura",
   "characterId": 20604,
   "score": 9,
   "issueId": 25893,
-  "issueNumber": "27"
+  "issueNumber": "27",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/23223-3245-25893-1-thing-the.jpg",
+  "title": "The Thing #27",
+  "coverDate": "1985-09-01"
  },
  "591": {
   "character": "Shocker",
   "characterId": 4825,
   "score": 10,
   "issueId": 9223,
-  "issueNumber": "46"
+  "issueNumber": "46",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/4365801-46.jpg",
+  "title": "The Amazing Spider-Man #46",
+  "coverDate": "1967-03-01"
  },
  "592": {
   "character": "Shriek",
   "characterId": 15232,
   "score": 8,
   "issueId": 57288,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/47873-5048-57288-1-spider-man-unlimited.jpg",
+  "title": "Spider-Man Unlimited #1",
+  "coverDate": "1993-05-01"
  },
  "593": {
   "character": "Shrinking Violet",
   "characterId": 12835,
   "score": 5,
   "issueId": 114604,
-  "issueNumber": "276"
+  "issueNumber": "276",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3664/195400-18005-114604-1-action-comics.jpg",
+  "title": "Action Comics #276",
+  "coverDate": "1961-05-31"
  },
  "594": {
   "character": "Sif",
   "characterId": 7200,
   "score": 10,
   "issueId": 7027,
-  "issueNumber": "102"
+  "issueNumber": "102",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/6431-1497-7027-1-journey-into-mystery.jpg",
+  "title": "Journey into Mystery #102",
+  "coverDate": "1964-03-01"
  },
  "595": {
   "character": "Silk",
   "characterId": 101483,
   "score": 8,
   "issueId": 451764,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/3790762-01.jpg",
+  "title": "The Amazing Spider-Man #1",
+  "coverDate": "2014-06-30"
  },
  "596": {
   "character": "Silk Spectre",
   "characterId": 44239,
   "score": 6,
   "issueId": 177271,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/51078/998434-dc1.jpeg",
+  "title": "DC Spotlight #1",
+  "coverDate": "1985-09-01"
  },
  "597": null,
  "598": {
@@ -3205,35 +4489,50 @@
   "characterId": 2502,
   "score": 10,
   "issueId": 8428,
-  "issueNumber": "48"
+  "issueNumber": "48",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/7641-2045-8428-1-fantastic-four.jpg",
+  "title": "Fantastic Four #48",
+  "coverDate": "1966-03-01"
  },
  "599": {
   "character": "Silverclaw",
   "characterId": 11341,
   "score": 10,
   "issueId": 50767,
-  "issueNumber": "8"
+  "issueNumber": "8",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/43407-7084-50767-1-avengers.jpg",
+  "title": "Avengers #8",
+  "coverDate": "1998-09-01"
  },
  "600": {
   "character": "Simon Baz",
   "characterId": 84895,
   "score": 8,
   "issueId": 334480,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/66303/2326229-fcbd12_cvr_11.jpeg",
+  "title": "DC Comics - The New 52 FCBD Special Edition #1",
+  "coverDate": "2012-06-30"
  },
  "601": {
   "character": "Sinestro",
   "characterId": 10448,
   "score": 10,
   "issueId": 5361,
-  "issueNumber": "7"
+  "issueNumber": "7",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/4346357-07.jpg",
+  "title": "Green Lantern #7",
+  "coverDate": "1961-08-01"
  },
  "602": {
   "character": "Siren",
   "characterId": 38926,
   "score": 10,
   "issueId": 7866,
-  "issueNumber": "22"
+  "issueNumber": "22",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/7175-2050-7866-1-aquaman.jpg",
+  "title": "Aquaman #22",
+  "coverDate": "1965-08-01"
  },
  "603": null,
  "604": {
@@ -3241,28 +4540,40 @@
   "characterId": 3181,
   "score": 8,
   "issueId": 21193,
-  "issueNumber": "37"
+  "issueNumber": "37",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/8419433-7626345910-B09TL.jpg",
+  "title": "Spider-Woman #37",
+  "coverDate": "1981-04-01"
  },
  "605": {
   "character": "Skaar",
   "characterId": 48518,
   "score": 5,
   "issueId": 115812,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/10/108980/2198487-what_if___planet_hulk__1__2007_.jpg",
+  "title": "What If? Planet Hulk #1",
+  "coverDate": "2007-12-31"
  },
  "606": {
   "character": "Snake-Eyes",
   "characterId": 70706,
   "score": 5,
   "issueId": 15778,
-  "issueNumber": "18"
+  "issueNumber": "18",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/14100-2675-15778-1-deadly-hands-of-kung.jpg",
+  "title": "The Deadly Hands of Kung Fu #18",
+  "coverDate": "1975-11-30"
  },
  "607": {
   "character": "Snowbird",
   "characterId": 8474,
   "score": 8,
   "issueId": 1094627,
-  "issueNumber": "6"
+  "issueNumber": "6",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/9621337-alb6.jpg",
+  "title": "Gli Albi di Tintin #6",
+  "coverDate": "1966-04-30"
  },
  "608": null,
  "609": {
@@ -3270,14 +4581,20 @@
   "characterId": 8342,
   "score": 10,
   "issueId": 132048,
-  "issueNumber": "61"
+  "issueNumber": "61",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/24485/430335-All-American_061.jpg",
+  "title": "All-American Comics #61",
+  "coverDate": "1944-10-01"
  },
  "610": {
   "character": "Songbird",
   "characterId": 3281,
   "score": 8,
   "issueId": 19713,
-  "issueNumber": "54"
+  "issueNumber": "54",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/17632-2696-19713-1-marvel-two-in-one.jpg",
+  "title": "Marvel Two-in-One #54",
+  "coverDate": "1979-08-01"
  },
  "611": null,
  "612": {
@@ -3285,35 +4602,50 @@
   "characterId": 3381,
   "score": 10,
   "issueId": 1065493,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/9431735-coc-spawn.jpg",
+  "title": "Crusade of Comics Presents Spawn #1",
+  "coverDate": "1992-01-01"
  },
  "613": {
   "character": "Spectre",
   "characterId": 2361,
   "score": 10,
   "issueId": 115983,
-  "issueNumber": "52"
+  "issueNumber": "52",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/8015/217723-19320-115983-1-more-fun-comics.jpg",
+  "title": "More Fun Comics #52",
+  "coverDate": "1940-02-01"
  },
  "614": {
   "character": "Speedball",
   "characterId": 2104,
   "score": 8,
   "issueId": 197621,
-  "issueNumber": "4"
+  "issueNumber": "4",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/37015/2357131-marvel_age_annual4.jpg",
+  "title": "Marvel Age Annual #4",
+  "coverDate": "1988-08-01"
  },
  "615": {
   "character": "Thea Queen",
   "characterId": 86000,
   "score": 7,
   "issueId": 361090,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/7/79073/2640067-ga_01_01.jpg",
+  "title": "Arrow #1",
+  "coverDate": "2012-10-10"
  },
  "616": {
   "character": "Speedy",
   "characterId": 171332,
   "score": 5,
   "issueId": 117519,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/574/228087-19596-117519-1-dc-infinite-hallowee.jpg",
+  "title": "DC Infinite Halloween Special #1",
+  "coverDate": "2007-12-31"
  },
  "617": null,
  "618": {
@@ -3321,14 +4653,20 @@
   "characterId": 3365,
   "score": 5,
   "issueId": 34897,
-  "issueNumber": "31"
+  "issueNumber": "31",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/31349-4249-34897-1-what-if-.jpg",
+  "title": "What If...? #31",
+  "coverDate": "1991-11-01"
  },
  "619": {
   "character": "Gwen Stacy",
   "characterId": 1480,
   "score": 7,
   "issueId": 8228,
-  "issueNumber": "31"
+  "issueNumber": "31",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/7474-2127-8228-1-amazing-spider-man-.jpg",
+  "title": "The Amazing Spider-Man #31",
+  "coverDate": "1965-12-01"
  },
  "620": {
   "character": "Spider-Man",
@@ -3345,21 +4683,30 @@
   "characterId": 40524,
   "score": 7,
   "issueId": 269985,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/66029/1806754-1991_annual.jpg",
+  "title": "Marvel Annual Report #1",
+  "coverDate": "1991-10-01"
  },
  "622": {
   "character": "Miles Morales",
   "characterId": 79420,
   "score": 9,
   "issueId": 283008,
-  "issueNumber": "4"
+  "issueNumber": "4",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/1966577-04a.jpg",
+  "title": "Ultimate Fallout #4",
+  "coverDate": "2011-10-31"
  },
  "623": {
   "character": "Spider-Woman",
   "characterId": 1453,
   "score": 8,
   "issueId": 17194,
-  "issueNumber": "32"
+  "issueNumber": "32",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/56044/1601445-marvel_spotlight__1971_1st_series__32.jpeg",
+  "title": "Marvel Spotlight #32",
+  "coverDate": "1977-02-01"
  },
  "624": null,
  "625": null,
@@ -3368,7 +4715,10 @@
   "characterId": 45770,
   "score": 7,
   "issueId": 113436,
-  "issueNumber": "5"
+  "issueNumber": "5",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/6060/171189-2127-113436-1-amazing-spider-man.jpg",
+  "title": "The Amazing Spider-Man #5",
+  "coverDate": "1999-05-31"
  },
  "627": null,
  "628": {
@@ -3376,56 +4726,80 @@
   "characterId": 47514,
   "score": 8,
   "issueId": 193679,
-  "issueNumber": "110"
+  "issueNumber": "110",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/9116/1100234-110.jpg",
+  "title": "Wizard: The Comics Magazine #110",
+  "coverDate": "2000-11-01"
  },
  "629": {
   "character": "Stacy X",
   "characterId": 11517,
   "score": 5,
   "issueId": 65188,
-  "issueNumber": "399"
+  "issueNumber": "399",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/50058-3092-65188-1-uncanny-x-men-the.jpg",
+  "title": "The Uncanny X-Men #399",
+  "coverDate": "2001-11-01"
  },
  "630": {
   "character": "Star-Lord",
   "characterId": 10957,
   "score": 10,
   "issueId": 16009,
-  "issueNumber": "4"
+  "issueNumber": "4",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/3968788-04.jpg",
+  "title": "Marvel Preview #4",
+  "coverDate": "1976-01-01"
  },
  "631": {
   "character": "Stardust",
   "characterId": 7491,
   "score": 5,
   "issueId": 123207,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/13340/309687-20565-123207-1-stormbreaker-the-sa.jpg",
+  "title": "Stormbreaker: The Saga of Beta Ray Bill #1",
+  "coverDate": "2005-03-01"
  },
  "632": {
   "character": "Starfire",
   "characterId": 2389,
   "score": 10,
   "issueId": 20700,
-  "issueNumber": "26"
+  "issueNumber": "26",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3537405-dccp26nm9m054.jpg",
+  "title": "DC Comics Presents #26",
+  "coverDate": "1980-10-31"
  },
  "633": {
   "character": "Stargirl",
   "characterId": 4897,
   "score": 6,
   "issueId": 174969,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/4/46951/982573-dcuheroessfno001.jpg",
+  "title": "DCU Heroes Secret Files #1",
+  "coverDate": "1999-02-28"
  },
  "634": {
   "character": "Static",
   "characterId": 26578,
   "score": 8,
   "issueId": 143408,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/19859/624157-static_01_00_fc.jpg",
+  "title": "Static #1",
+  "coverDate": "1993-06-01"
  },
  "635": {
   "character": "Steel",
   "characterId": 2031,
   "score": 8,
   "issueId": 496565,
-  "issueNumber": "67"
+  "issueNumber": "67",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/4718845-sup67.jpg",
+  "title": "Superman Taschenbuch #67",
+  "coverDate": "1985-04-01"
  },
  "636": null,
  "637": {
@@ -3433,14 +4807,20 @@
   "characterId": 37500,
   "score": 7,
   "issueId": 11975,
-  "issueNumber": "7"
+  "issueNumber": "7",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3464746-%24%28kgrhqiokp0fjfihw%28pdbstcssczh%21~~60_57.jpg",
+  "title": "The New Gods #7",
+  "coverDate": "1972-03-01"
  },
  "638": {
   "character": "Storm",
   "characterId": 1444,
   "score": 10,
   "issueId": 14890,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/13286-2763-14890-1-giant-size-x-men.jpg",
+  "title": "Giant-Size X-Men #1",
+  "coverDate": "1975-05-31"
  },
  "639": null,
  "640": {
@@ -3448,7 +4828,10 @@
   "characterId": 4644,
   "score": 5,
   "issueId": 761944,
-  "issueNumber": "20"
+  "issueNumber": "20",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/7380275-20.jpg",
+  "title": "Comics Feature #20",
+  "coverDate": "1982-10-01"
  },
  "641": null,
  "642": {
@@ -3456,35 +4839,50 @@
   "characterId": 65293,
   "score": 5,
   "issueId": 21639,
-  "issueNumber": "3"
+  "issueNumber": "3",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11112/111120209/5809343-kc%20%233%20final.jpg",
+  "title": "Krypton Chronicles #3",
+  "coverDate": "1981-11-30"
  },
  "643": {
   "character": "Supergirl",
   "characterId": 2351,
   "score": 8,
   "issueId": 105683,
-  "issueNumber": "252"
+  "issueNumber": "252",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/1061/84187-18005-105683-1-action-comics.jpg",
+  "title": "Action Comics #252",
+  "coverDate": "1959-05-31"
  },
  "644": {
   "character": "Superman",
   "characterId": 1807,
   "score": 7,
   "issueId": 105403,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/2/80536-18005-105403-1-action-comics.jpg",
+  "title": "Action Comics #1",
+  "coverDate": "1938-06-30"
  },
  "645": {
   "character": "Swamp Thing",
   "characterId": 15809,
   "score": 10,
   "issueId": 12549,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/1993137-01.jpg",
+  "title": "Swamp Thing #1",
+  "coverDate": "1972-11-01"
  },
  "646": {
   "character": "Swarm",
   "characterId": 1945,
   "score": 10,
   "issueId": 17594,
-  "issueNumber": "14"
+  "issueNumber": "14",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/2981114-tn.jpg",
+  "title": "The Champions #14",
+  "coverDate": "1977-07-31"
  },
  "647": null,
  "648": {
@@ -3492,7 +4890,10 @@
   "characterId": 10576,
   "score": 10,
   "issueId": 65737,
-  "issueNumber": "36"
+  "issueNumber": "36",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/50280-4605-65737-1-x-men.jpg",
+  "title": "X-Men #36",
+  "coverDate": "1994-09-01"
  },
  "649": null,
  "650": null,
@@ -3503,21 +4904,30 @@
   "characterId": 4578,
   "score": 8,
   "issueId": 20380,
-  "issueNumber": "195"
+  "issueNumber": "195",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3542313-tngrt.jpg",
+  "title": "The Avengers #195",
+  "coverDate": "1980-05-31"
  },
  "654": {
   "character": "Tempest",
   "characterId": 42192,
   "score": 5,
   "issueId": 231845,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/28071/1358408-xmc.jpg",
+  "title": "X-Men: Crossroads #1",
+  "coverDate": "1998-09-01"
  },
  "655": {
   "character": "Thanos",
   "characterId": 7607,
   "score": 10,
   "issueId": 12928,
-  "issueNumber": "55"
+  "issueNumber": "55",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2844051-ironman055.jpg",
+  "title": "Iron Man #55",
+  "coverDate": "1973-02-01"
  },
  "656": null,
  "657": {
@@ -3525,35 +4935,50 @@
   "characterId": 44193,
   "score": 8,
   "issueId": 177271,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/51078/998434-dc1.jpeg",
+  "title": "DC Spotlight #1",
+  "coverDate": "1985-09-01"
  },
  "658": {
   "character": "Thing",
   "characterId": 2114,
   "score": 8,
   "issueId": 5558,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2677624-ff001.jpg",
+  "title": "Fantastic Four #1",
+  "coverDate": "1961-11-30"
  },
  "659": {
   "character": "Thor",
   "characterId": 2268,
   "score": 10,
   "issueId": 6023,
-  "issueNumber": "83"
+  "issueNumber": "83",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/5510-1497-6023-1-journey-into-mystery.jpg",
+  "title": "Journey into Mystery #83",
+  "coverDate": "1962-08-01"
  },
  "660": {
   "character": "Thor Girl",
   "characterId": 12335,
   "score": 10,
   "issueId": 75668,
-  "issueNumber": "22"
+  "issueNumber": "22",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/80654/1873202-thor_vol2_524_022_00.jpg",
+  "title": "Thor #22",
+  "coverDate": "2000-04-01"
  },
  "661": {
   "character": "Thunderbird",
   "characterId": 2174,
   "score": 10,
   "issueId": 14890,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/13286-2763-14890-1-giant-size-x-men.jpg",
+  "title": "Giant-Size X-Men #1",
+  "coverDate": "1975-05-31"
  },
  "662": null,
  "663": null,
@@ -3562,35 +4987,50 @@
   "characterId": 7611,
   "score": 8,
   "issueId": 29602,
-  "issueNumber": "391"
+  "issueNumber": "391",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/26672-2294-29602-1-thor.jpg",
+  "title": "Thor #391",
+  "coverDate": "1988-05-01"
  },
  "665": {
   "character": "Thundra",
   "characterId": 7235,
   "score": 10,
   "issueId": 12737,
-  "issueNumber": "129"
+  "issueNumber": "129",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/4028988-3588028-129.jpg",
+  "title": "Fantastic Four #129",
+  "coverDate": "1972-12-31"
  },
  "666": {
   "character": "Tiger Shark",
   "characterId": 6815,
   "score": 10,
   "issueId": 109020,
-  "issueNumber": "5"
+  "issueNumber": "5",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/115345-2413-109020-1-sub-mariner.jpg",
+  "title": "Sub-Mariner #5",
+  "coverDate": "1968-09-30"
  },
  "667": {
   "character": "Tigra",
   "characterId": 21188,
   "score": 10,
   "issueId": 12644,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/11392-2565-12644-1-cat-the.jpg",
+  "title": "The Cat #1",
+  "coverDate": "1972-11-30"
  },
  "668": {
   "character": "Tinkerer",
   "characterId": 3144,
   "score": 10,
   "issueId": 6503,
-  "issueNumber": "2"
+  "issueNumber": "2",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2676371-amazingspiderman002.jpg",
+  "title": "The Amazing Spider-Man #2",
+  "coverDate": "1963-05-01"
  },
  "669": null,
  "670": {
@@ -3598,21 +5038,30 @@
   "characterId": 1470,
   "score": 10,
   "issueId": 7032,
-  "issueNumber": "4"
+  "issueNumber": "4",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/5344/1356279-01.jpg",
+  "title": "The X-Men #4",
+  "coverDate": "1964-03-01"
  },
  "671": {
   "character": "Toxin",
   "characterId": 40783,
   "score": 7,
   "issueId": 105908,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/1513/86901-18079-105908-1-venom-vs-carnage.jpg",
+  "title": "Venom vs. Carnage #1",
+  "coverDate": "2004-09-30"
  },
  "672": {
   "character": "Eddie Brock",
   "characterId": 6733,
   "score": 7,
   "issueId": 27191,
-  "issueNumber": "18"
+  "issueNumber": "18",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2444216-webofspider_man018.jpg",
+  "title": "Web of Spider-Man #18",
+  "coverDate": "1986-09-01"
  },
  "673": null,
  "674": {
@@ -3620,14 +5069,20 @@
   "characterId": 10460,
   "score": 9,
   "issueId": 4837,
-  "issueNumber": "113"
+  "issueNumber": "113",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/4426-1995-4837-1-flash-the.jpg",
+  "title": "The Flash #113",
+  "coverDate": "1960-07-01"
  },
  "675": {
   "character": "Trigon",
   "characterId": 5310,
   "score": 5,
   "issueId": 20839,
-  "issueNumber": "2"
+  "issueNumber": "2",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/3537372-ntt2nm94m054.jpg",
+  "title": "The New Teen Titans #2",
+  "coverDate": "1980-12-31"
  },
  "676": null,
  "677": {
@@ -3635,42 +5090,60 @@
   "characterId": 11428,
   "score": 10,
   "issueId": 8231,
-  "issueNumber": "45"
+  "issueNumber": "45",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/7477-2045-8231-1-fantastic-four.jpg",
+  "title": "Fantastic Four #45",
+  "coverDate": "1965-12-01"
  },
  "678": {
   "character": "Two-Face",
   "characterId": 5555,
   "score": 8,
   "issueId": 112174,
-  "issueNumber": "66"
+  "issueNumber": "66",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11115/111150179/3973277-detective066-00heritage.jpg",
+  "title": "Detective Comics #66",
+  "coverDate": "1942-08-31"
  },
  "679": {
   "character": "Ultragirl",
   "characterId": 40827,
   "score": 8,
   "issueId": 125021,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/4405168-01.jpg",
+  "title": "Ultragirl #1",
+  "coverDate": "1996-11-01"
  },
  "680": {
   "character": "Ultron",
   "characterId": 2242,
   "score": 10,
   "issueId": 106382,
-  "issueNumber": "54"
+  "issueNumber": "54",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2478314-avengers054.jpg",
+  "title": "The Avengers #54",
+  "coverDate": "1968-07-01"
  },
  "681": {
   "character": "Utgard-Loki",
   "characterId": 195087,
   "score": 5,
   "issueId": 1010047,
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/110017/9067769-wwww.jpg",
+  "title": "The Immortal Thor #1",
+  "coverDate": "2023-10-01"
  },
  "682": {
   "character": "Vagabond",
   "characterId": 41288,
   "score": 10,
   "issueId": 27673,
-  "issueNumber": "325"
+  "issueNumber": "325",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/24883-2400-27673-1-captain-america.jpg",
+  "title": "Captain America #325",
+  "coverDate": "1987-01-01"
  },
  "683": null,
  "684": {
@@ -3678,35 +5151,50 @@
   "characterId": 6809,
   "score": 5,
   "issueId": 8884,
-  "issueNumber": "133"
+  "issueNumber": "133",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/8048-2294-8884-1-thor.jpg",
+  "title": "Thor #133",
+  "coverDate": "1966-10-31"
  },
  "685": {
   "character": "Vanisher",
   "characterId": 6756,
   "score": 7,
   "issueId": 6787,
-  "issueNumber": "2"
+  "issueNumber": "2",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/5344/1355032-01.jpg",
+  "title": "The X-Men #2",
+  "coverDate": "1963-11-01"
  },
  "686": {
   "character": "Vegeta",
   "characterId": 40722,
   "score": 8,
   "issueId": 530940,
-  "issueNumber": "1041"
+  "issueNumber": "1041",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11156/111569227/9993901-001.jpg",
+  "title": "Weekly Shonen Jump #1041",
+  "coverDate": "1989-01-07"
  },
  "687": {
   "character": "Eddie Brock",
   "characterId": 6733,
   "score": 9,
   "issueId": 27191,
-  "issueNumber": "18"
+  "issueNumber": "18",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2444216-webofspider_man018.jpg",
+  "title": "Web of Spider-Man #18",
+  "coverDate": "1986-09-01"
  },
  "688": {
   "character": "Angelo Fortunato",
   "characterId": 6769,
   "score": 7,
   "issueId": 96926,
-  "issueNumber": "6"
+  "issueNumber": "6",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/63930-11066-96926-1-marvel-knights-spide.jpg",
+  "title": "Marvel Knights Spider-Man #6",
+  "coverDate": "2004-11-01"
  },
  "689": null,
  "690": null,
@@ -3716,6 +5204,318 @@
   "characterId": 11278,
   "score": 6,
   "issueId": 344998,
-  "issueNumber": "2"
+  "issueNumber": "2",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/62392/2453699-2453696-dcsampler2.jpg",
+  "title": "DC Sampler #2",
+  "coverDate": "1984-09-01"
+ },
+ "693": null,
+ "694": null,
+ "695": {
+  "character": "Violator",
+  "characterId": 3390,
+  "score": 7,
+  "issueId": 1065493,
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/1/15776/9431735-coc-spawn.jpg",
+  "title": "Crusade of Comics Presents Spawn #1",
+  "coverDate": "1992-01-01"
+ },
+ "696": null,
+ "697": {
+  "character": "Vision",
+  "characterId": 1504,
+  "score": 10,
+  "issueId": 113991,
+  "issueNumber": "57",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2478317-avengers057.jpg",
+  "title": "The Avengers #57",
+  "coverDate": "1968-10-01"
+ },
+ "698": {
+  "character": "Vision",
+  "characterId": 1504,
+  "score": 7,
+  "issueId": 113991,
+  "issueNumber": "57",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2478317-avengers057.jpg",
+  "title": "The Avengers #57",
+  "coverDate": "1968-10-01"
+ },
+ "699": {
+  "character": "Vixen",
+  "characterId": 2551,
+  "score": 6,
+  "issueId": 18858,
+  "issueNumber": "2",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/16928-2942-18858-1-cancelled-comic-cava.jpg",
+  "title": "Cancelled Comic Cavalcade #2",
+  "coverDate": "1978-09-01"
+ },
+ "700": {
+  "character": "Vulcan",
+  "characterId": 21233,
+  "score": 8,
+  "issueId": 373702,
+  "issueNumber": "62",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/2761695-ecl62.jpg",
+  "title": "Eclipso #62",
+  "coverDate": "1978-01-01"
+ },
+ "701": {
+  "character": "Vulture",
+  "characterId": 4459,
+  "score": 10,
+  "issueId": 6503,
+  "issueNumber": "2",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2676371-amazingspiderman002.jpg",
+  "title": "The Amazing Spider-Man #2",
+  "coverDate": "1963-05-01"
+ },
+ "702": {
+  "character": "Walrus",
+  "characterId": 15282,
+  "score": 7,
+  "issueId": 24301,
+  "issueNumber": "131",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/2402233-2031536_417d2356_7524_496a_8cbe_2590e6219624_super.jpg",
+  "title": "The Defenders #131",
+  "coverDate": "1984-05-31"
+ },
+ "703": {
+  "character": "War Machine",
+  "characterId": 1926,
+  "score": 10,
+  "issueId": 19195,
+  "issueNumber": "118",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/8/84205/4036242-im118nm9m054.jpg",
+  "title": "Iron Man #118",
+  "coverDate": "1979-01-01"
+ },
+ "704": {
+  "character": "Warbird",
+  "characterId": 80590,
+  "score": 7,
+  "issueId": 299471,
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/40/2056887-wolvxmen2011001_c.png",
+  "title": "Wolverine & the X-Men #1",
+  "coverDate": "2011-12-01"
+ },
+ "705": {
+  "character": "Adam Warlock",
+  "characterId": 6805,
+  "score": 9,
+  "issueId": 9615,
+  "issueNumber": "66",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/8708-2045-9615-1-fantastic-four.jpg",
+  "title": "Fantastic Four #66",
+  "coverDate": "1967-09-30"
+ },
+ "706": {
+  "character": "Warp",
+  "characterId": 5935,
+  "score": 10,
+  "issueId": 21705,
+  "issueNumber": "14",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/19443-3036-21705-1-new-teen-titans-the.jpg",
+  "title": "The New Teen Titans #14",
+  "coverDate": "1981-12-01"
+ },
+ "707": {
+  "character": "Warpath",
+  "characterId": 2158,
+  "score": 10,
+  "issueId": 24431,
+  "issueNumber": "16",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/21901-3234-24431-1-new-mutants-the.jpg",
+  "title": "The New Mutants #16",
+  "coverDate": "1984-06-01"
+ },
+ "708": {
+  "character": "Wasp",
+  "characterId": 1502,
+  "score": 10,
+  "issueId": 6556,
+  "issueNumber": "44",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2615561-talestoastonish044.jpg",
+  "title": "Tales to Astonish #44",
+  "coverDate": "1963-06-30"
+ },
+ "709": {
+  "character": "Watcher",
+  "characterId": 7120,
+  "score": 10,
+  "issueId": 6463,
+  "issueNumber": "13",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/10/108995/3593345-ff%20013_cc_bp_ha.jpg",
+  "title": "Fantastic Four #13",
+  "coverDate": "1963-04-01"
+ },
+ "710": null,
+ "711": {
+  "character": "White Canary",
+  "characterId": 71585,
+  "score": 7,
+  "issueId": 213468,
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/3/38919/1225553-birds_of_prey_1.jpg",
+  "title": "Birds of Prey #1",
+  "coverDate": "2010-07-01"
+ },
+ "712": null,
+ "713": {
+  "character": "Wildfire",
+  "characterId": 3621,
+  "score": 8,
+  "issueId": 119470,
+  "issueNumber": "195",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3664/251242-19154-119470-1-superboy.jpg",
+  "title": "Superboy #195",
+  "coverDate": "1973-06-01"
+ },
+ "714": {
+  "character": "Bucky Barnes",
+  "characterId": 40470,
+  "score": 9,
+  "issueId": 107870,
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2677627-captainamericacomics01.jpg",
+  "title": "Captain America Comics #1",
+  "coverDate": "1941-03-01"
+ },
+ "715": null,
+ "716": {
+  "character": "Wolfsbane",
+  "characterId": 4557,
+  "score": 8,
+  "issueId": 761944,
+  "issueNumber": "20",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/7380275-20.jpg",
+  "title": "Comics Feature #20",
+  "coverDate": "1982-10-01"
+ },
+ "717": {
+  "character": "Wolverine",
+  "characterId": 1440,
+  "score": 7,
+  "issueId": 14667,
+  "issueNumber": "180",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2851113-hulk180.jpg",
+  "title": "The Incredible Hulk #180",
+  "coverDate": "1974-10-31"
+ },
+ "718": {
+  "character": "Wonder Girl",
+  "characterId": 10885,
+  "score": 8,
+  "issueId": 491738,
+  "issueNumber": "26",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/3125/4620450-sup26.jpg",
+  "title": "Superman Taschenbuch #26",
+  "coverDate": "1980-04-01"
+ },
+ "719": {
+  "character": "Wonder Man",
+  "characterId": 1465,
+  "score": 10,
+  "issueId": 7371,
+  "issueNumber": "9",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2464643-avengers009.jpg",
+  "title": "The Avengers #9",
+  "coverDate": "1964-10-01"
+ },
+ "720": {
+  "character": "Wonder Woman",
+  "characterId": 2048,
+  "score": 7,
+  "issueId": 116412,
+  "issueNumber": "8",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/4/46731/2080568-0dc0354c6b7e9d41316ba3718afb3664.jpg",
+  "title": "All-Star Comics #8",
+  "coverDate": "1941-12-31"
+ },
+ "721": null,
+ "722": {
+  "character": "Wyatt Wingfoot",
+  "characterId": 10275,
+  "score": 10,
+  "issueId": 8546,
+  "issueNumber": "50",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/7744-2045-8546-1-fantastic-four.jpg",
+  "title": "Fantastic Four #50",
+  "coverDate": "1966-05-01"
+ },
+ "723": {
+  "character": "X-23",
+  "characterId": 3560,
+  "score": 10,
+  "issueId": 105411,
+  "issueNumber": "3",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/871/81185-17987-105411-1-nyx.jpg",
+  "title": "NYX #3",
+  "coverDate": "2004-02-04"
+ },
+ "724": {
+  "character": "X-Man",
+  "characterId": 15051,
+  "score": 8,
+  "issueId": 40601,
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/36356-5567-40601-1-x-man.jpg",
+  "title": "X-Man #1",
+  "coverDate": "1995-03-01"
+ },
+ "725": {
+  "character": "Yellow Claw",
+  "characterId": 14525,
+  "score": 7,
+  "issueId": 2732,
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/6/67663/7321661-01.jpg",
+  "title": "Yellow Claw #1",
+  "coverDate": "1956-10-01"
+ },
+ "726": {
+  "character": "Hank Pym",
+  "characterId": 2247,
+  "score": 7,
+  "issueId": 110743,
+  "issueNumber": "75",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/229/137822-18066-110743-1-strange-tales.jpg",
+  "title": "Strange Tales #75",
+  "coverDate": "1960-06-01"
+ },
+ "727": null,
+ "728": {
+  "character": "Ymir",
+  "characterId": 10267,
+  "score": 8,
+  "issueId": 6736,
+  "issueNumber": "97",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/6167-1497-6736-1-journey-into-mystery.jpg",
+  "title": "Journey into Mystery #97",
+  "coverDate": "1963-10-01"
+ },
+ "729": null,
+ "730": {
+  "character": "Zatanna",
+  "characterId": 5691,
+  "score": 10,
+  "issueId": 7339,
+  "issueNumber": "4",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/4/6724-2178-7339-1-hawkman.jpg",
+  "title": "Hawkman #4",
+  "coverDate": "1964-11-01"
+ },
+ "731": {
+  "character": "Zoom",
+  "characterId": 41085,
+  "score": 10,
+  "issueId": 140291,
+  "issueNumber": "3",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/1867/581275-5739_4_3.jpg",
+  "title": "Flash Secret Files #3",
+  "coverDate": "2001-11-30"
  }
 }

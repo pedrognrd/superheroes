@@ -1,10 +1,27 @@
 import { useEffect, useState } from 'react'
+import precomputed from '../data/places.json'
 
 export type LatLng = [number, number]
-type State = { status: 'idle' | 'loading' | 'done' | 'error'; coords: LatLng | null }
+export interface PlaceImage {
+  image: string
+  title: string
+  page: string
+}
+type State = {
+  status: 'idle' | 'loading' | 'done' | 'error'
+  coords: LatLng | null
+  /** Imagen de Fandom para lugares ficticios (Attilan, Kahndaq…) */
+  image?: PlaceImage | null
+}
 
-// Geocodificación gratuita con Nominatim (OpenStreetMap). Su política pide
-// como máximo 1 petición/segundo, así que cacheamos en memoria y en localStorage.
+// places.json lo genera `npm run fetch:places`: coordenadas de cada lugar, o la
+// imagen de Fandom si es ficticio. Solo los lugares que no estén ahí (héroes
+// nuevos) se consultan en vivo a Nominatim.
+type Entry = { coords?: LatLng; image?: string; title?: string; page?: string } | null
+const PLACES = precomputed as unknown as Record<string, Entry>
+
+// Nominatim (OpenStreetMap) pide como máximo 1 petición/segundo, así que
+// cacheamos en memoria y en localStorage.
 const CACHE_KEY = 'geocode-cache-v1'
 const memory: Record<string, LatLng | null> = (() => {
   try {
@@ -28,7 +45,7 @@ function geocode(place: string): Promise<LatLng | null> {
   if (place in memory) return Promise.resolve(memory[place])
   const job = queue.then(async () => {
     if (place in memory) return memory[place]
-    const url = `https://nominatim.openstreetmap.org/search?format=json&limit=1&q=${encodeURIComponent(place)}`
+    const url = `https://nominatim.openstreetmap.org/search?format=json&limit=1&accept-language=en&q=${encodeURIComponent(place)}`
     const res = await fetch(url, { headers: { Accept: 'application/json' } })
     const data = (await res.json()) as { lat: string; lon: string }[]
     const coords: LatLng | null = data[0] ? [Number(data[0].lat), Number(data[0].lon)] : null
@@ -44,11 +61,21 @@ function geocode(place: string): Promise<LatLng | null> {
   return job
 }
 
+function fromPrecomputed(place: string): State | null {
+  if (!(place in PLACES)) return null
+  const e = PLACES[place]
+  if (e?.coords) return { status: 'done', coords: e.coords }
+  if (e?.image) return { status: 'done', coords: null, image: { image: e.image, title: e.title ?? '', page: e.page ?? '' } }
+  return { status: 'done', coords: null }
+}
+
 export function useGeocode(place: string | null): State {
+  const known = place ? fromPrecomputed(place) : null
+  const isKnown = known !== null
   const [state, setState] = useState<State & { place: string | null }>({ status: 'idle', coords: null, place: null })
 
   useEffect(() => {
-    if (!place) return
+    if (!place || isKnown) return
     let cancelled = false
     geocode(place)
       .then((coords) => !cancelled && setState({ status: 'done', coords, place }))
@@ -56,9 +83,10 @@ export function useGeocode(place: string | null): State {
     return () => {
       cancelled = true
     }
-  }, [place])
+  }, [place, isKnown])
 
   if (!place) return { status: 'idle', coords: null }
+  if (known) return known
   if (state.place !== place) return { status: 'loading', coords: null }
   return state
 }

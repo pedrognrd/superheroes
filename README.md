@@ -57,11 +57,19 @@ npm run fetch:covers:tmdb -- 418 87  # rehacer esos ids
 
 Prioridad final: `MANUAL` → TMDB → Wikipedia → Comic Vine → Fandom.
 
+### Lugares de los mapas
+
+```bash
+npm run fetch:places   # los que falten (~1 petición/s)
+```
+
+Geolocaliza de antemano la base y el lugar de nacimiento de cada héroe con Nominatim y guarda el resultado en `src/data/places.json`, así la web no consulta Nominatim en cada visita. En los lugares de Marvel y DC con página de lugar en Fandom, el mapa solo se usa si Nominatim devuelve el mismo nombre y es un lugar importante (New York, London) o de la región indicada ("Queens, New York"). Si no (Gotham City, Metropolis, Attilan, Asgard…), se muestra la imagen de su página de Fandom.
+
 ### Actualizar todo (héroes nuevos + portadas)
 
 ```bash
 npm run update:data                  # héroes nuevos → Comic Vine → Fandom → informe
-npm run update:data -- --skip-covers # solo héroes nuevos + informe
+npm run update:data -- --skip-covers --skip-places  # solo héroes nuevos + informe
 ```
 
 La API no tiene listado, así que `fetch:heroes` pide ids por encima del último hasta encontrar 5 seguidos inexistentes. Todo es incremental: solo procesa lo nuevo o pendiente. El informe final lista los héroes nuevos, los posibles duplicados y los que siguen sin portada, agrupados por editorial. Los duplicados confirmados van en `src/data/duplicates.ts` (se ocultan y su `#id` abre el original).
