@@ -129,6 +129,21 @@ const MANUAL = [
     title: 'Planet Vegeta',
     page: 'https://dragonball.fandom.com/wiki/Planet_Vegeta',
   },
+  // Legion: "Ruth Aldine's mind" → Blindfold (Ruth Aldine), de la Wikipedia
+  {
+    match: /^Ruth Aldine's mind\b/,
+    image: 'https://upload.wikimedia.org/wikipedia/en/e/e1/Blindfold_%28comics%29.jpg',
+    title: "Ruth Aldine's mind",
+    page: 'https://en.wikipedia.org/wiki/Blindfold_(character)',
+  },
+  // Sentry: la Watchtower sobre la torre de los Vengadores (vertical; no la JLA Watchtower)
+  {
+    match: 'The Watchtower',
+    host: 'marvel.fandom.com',
+    file: 'Avengers Tower from New Avengers Vol 1 10 001.png',
+    title: 'Watchtower',
+    page: 'Watchtower_(Sentry)',
+  },
   // One Punch Man: Z-City (Nominatim lo confundía con un lugar real)
   { match: 'Z-City', host: 'onepunchman.fandom.com', file: 'Z-city manga colored.jpg', title: 'Z-City', page: 'Z-City' },
   {

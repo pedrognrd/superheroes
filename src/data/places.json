@@ -1697,10 +1697,9 @@
     ]
   },
   "The Watchtower": {
-    "coords": [
-      -37.35655,
-      146.84122
-    ]
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/a/ae/Avengers_Tower_from_New_Avengers_Vol_1_10_001.png/revision/latest/scale-to-width-down/600?cb=20160708052447",
+    "title": "Watchtower",
+    "page": "https://marvel.fandom.com/wiki/Watchtower_(Sentry)"
   },
   "The Astral Plane": null,
   "Talok VIII": {
@@ -2068,7 +2067,11 @@
     ]
   },
   "Odessa, TX, Costa Verde, CA": null,
-  "Ruth Aldine's mind, Utopia, San Francisco Bay, California": null,
+  "Ruth Aldine's mind, Utopia, San Francisco Bay, California": {
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/Blindfold_%28comics%29.jpg",
+    "title": "Ruth Aldine's mind",
+    "page": "https://en.wikipedia.org/wiki/Blindfold_(character)"
+  },
   "Utopia, San Francisco Bay, California": {
     "image": "https://static.wikia.nocookie.net/marveldatabase/images/3/34/Utopia_%28X-Men_Base%29_from_X-Men_Blue_Vol_1_7_001.jpg/revision/latest/scale-to-width-down/600?cb=20170723233916",
     "title": "Utopia (X-Men Base)",
