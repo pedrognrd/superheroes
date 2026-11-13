@@ -45,6 +45,13 @@ const MANUAL = [
   },
   { match: 'Your chest :)', host: 'avp.fandom.com', file: 'ALIEN chestburster1280.jpg', title: 'Chestburster', page: 'Chestburster' },
   {
+    match: 'Faltine Dimension',
+    host: 'marvelcinematicuniverse.fandom.com',
+    file: 'Dormammu-doctor-strange-2016.png',
+    title: 'Faltine',
+    page: 'Faltine',
+  },
+  {
     match: /^Earth-Prime\b/,
     host: 'dc.fandom.com',
     file: 'Earth-Prime.JPG',

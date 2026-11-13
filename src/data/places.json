@@ -701,7 +701,11 @@
     "page": "https://dc.fandom.com/wiki/Krypton"
   },
   "The Dimension of Manifestations": null,
-  "Faltine Dimension": null,
+  "Faltine Dimension": {
+    "image": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/0/0e/Dormammu-doctor-strange-2016.png/revision/latest/scale-to-width-down/600?cb=20170212070902",
+    "title": "Faltine",
+    "page": "https://marvelcinematicuniverse.fandom.com/wiki/Faltine"
+  },
   "C.I.T.T.": null,
   "Burbank, California": {
     "coords": [
