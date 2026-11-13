@@ -48,6 +48,12 @@ npm run update:data -- --skip-covers # solo héroes nuevos + informe
 
 La API no tiene listado, así que `fetch:heroes` pide ids por encima del último hasta encontrar 5 seguidos inexistentes. Todo es incremental: solo procesa lo nuevo o pendiente. El informe final lista los héroes nuevos, los posibles duplicados y los que siguen sin portada, agrupados por editorial. Los duplicados confirmados van en `src/data/duplicates.ts` (se ocultan y su `#id` abre el original).
 
+## Publicación
+
+Web: **https://pedrodoscerebros.github.io/superheroes/** · Repo: https://github.com/Pedrodoscerebros/superheroes
+
+Cada push a `main` la vuelve a publicar con GitHub Actions (`.github/workflows/deploy.yml`, ~1 min). Vite usa `base: '/superheroes/'` solo al hacer build. Las claves de `.env.local` no se suben (`*.local` está en `.gitignore`) y solo las usan los scripts locales: después de `npm run update:data`, haz commit de `src/data/*.json` y push para publicar los datos nuevos.
+
 ## Estructura
 
 ```
