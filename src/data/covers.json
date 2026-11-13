@@ -1,0 +1,2947 @@
+{
+ "1": null,
+ "2": null,
+ "3": {
+  "character": "Abin Sur",
+  "characterId": 22634,
+  "score": 7,
+  "issueId": 4466,
+  "issueNumber": "22"
+ },
+ "4": {
+  "character": "Abomination",
+  "characterId": 3489,
+  "score": 10,
+  "issueId": 9300,
+  "issueNumber": "90"
+ },
+ "5": {
+  "character": "Abraxas",
+  "characterId": 13488,
+  "score": 8,
+  "issueId": 13977,
+  "issueNumber": "22"
+ },
+ "6": {
+  "character": "Absorbing Man",
+  "characterId": 1779,
+  "score": 8,
+  "issueId": 7668,
+  "issueNumber": "114"
+ },
+ "7": null,
+ "8": {
+  "character": "Adam Strange",
+  "characterId": 4604,
+  "score": 8,
+  "issueId": 4075,
+  "issueNumber": "17"
+ },
+ "9": {
+  "character": "Sharon Carter",
+  "characterId": 38227,
+  "score": 9,
+  "issueId": 8432,
+  "issueNumber": "75"
+ },
+ "10": null,
+ "11": {
+  "character": "Agent Zero",
+  "characterId": 135953,
+  "score": 5,
+  "issueId": 117056,
+  "issueNumber": "1"
+ },
+ "12": {
+  "character": "Air-Walker",
+  "characterId": 7126,
+  "score": 10,
+  "issueId": 12053,
+  "issueNumber": "120"
+ },
+ "13": {
+  "character": "Ajax",
+  "characterId": 20609,
+  "score": 7,
+  "issueId": 44806,
+  "issueNumber": "14"
+ },
+ "14": {
+  "character": "Alan Scott",
+  "characterId": 12663,
+  "score": 8,
+  "issueId": 144069,
+  "issueNumber": "2"
+ },
+ "15": null,
+ "16": null,
+ "17": {
+  "character": "Alfred Pennyworth",
+  "characterId": 5556,
+  "score": 10,
+  "issueId": 112011,
+  "issueNumber": "16"
+ },
+ "18": null,
+ "19": {
+  "character": "Allan Quatermain",
+  "characterId": 22207,
+  "score": 5,
+  "issueId": 361087,
+  "issueNumber": "1"
+ },
+ "20": {
+  "character": "Amazo",
+  "characterId": 3737,
+  "score": 7,
+  "issueId": 4835,
+  "issueNumber": "30"
+ },
+ "21": {
+  "character": "Ammo",
+  "characterId": 29689,
+  "score": 7,
+  "issueId": 29370,
+  "issueNumber": "252"
+ },
+ "22": null,
+ "23": null,
+ "24": {
+  "character": "Angel",
+  "characterId": 2112,
+  "score": 8,
+  "issueId": 6694,
+  "issueNumber": "1"
+ },
+ "25": {
+  "character": "Angel Dust",
+  "characterId": 45613,
+  "score": 7,
+  "issueId": 150064,
+  "issueNumber": "1"
+ },
+ "26": {
+  "character": "Angel Salvadore",
+  "characterId": 40593,
+  "score": 7,
+  "issueId": 78322,
+  "issueNumber": "118"
+ },
+ "27": null,
+ "28": {
+  "character": "Animal Man",
+  "characterId": 22707,
+  "score": 10,
+  "issueId": 8014,
+  "issueNumber": "180"
+ },
+ "29": {
+  "character": "Annihilus",
+  "characterId": 10964,
+  "score": 10,
+  "issueId": 110105,
+  "issueNumber": "6"
+ },
+ "30": {
+  "character": "Hank Pym",
+  "characterId": 2247,
+  "score": 7,
+  "issueId": 110743,
+  "issueNumber": "75"
+ },
+ "31": null,
+ "32": {
+  "character": "Anti-Monitor",
+  "characterId": 12165,
+  "score": 5,
+  "issueId": 496826,
+  "issueNumber": "71"
+ },
+ "33": {
+  "character": "Jason Wynn",
+  "characterId": 3391,
+  "score": 7,
+  "issueId": 1065493,
+  "issueNumber": "1"
+ },
+ "34": {
+  "character": "Anti-Venom",
+  "characterId": 173759,
+  "score": 7,
+  "issueId": 136526,
+  "issueNumber": "569"
+ },
+ "35": {
+  "character": "Apocalypse",
+  "characterId": 7612,
+  "score": 8,
+  "issueId": 117738,
+  "issueNumber": "17"
+ },
+ "36": {
+  "character": "Aquababy",
+  "characterId": 38292,
+  "score": 10,
+  "issueId": 7997,
+  "issueNumber": "23"
+ },
+ "37": null,
+ "38": {
+  "character": "Aquaman",
+  "characterId": 2357,
+  "score": 7,
+  "issueId": 116392,
+  "issueNumber": "73"
+ },
+ "39": {
+  "character": "Julia Carpenter",
+  "characterId": 16197,
+  "score": 9,
+  "issueId": 57509,
+  "issueNumber": "6"
+ },
+ "40": null,
+ "41": {
+  "character": "Arclight",
+  "characterId": 13369,
+  "score": 10,
+  "issueId": 107057,
+  "issueNumber": "210"
+ },
+ "42": {
+  "character": "Ardina",
+  "characterId": 11363,
+  "score": 8,
+  "issueId": 122392,
+  "issueNumber": "1"
+ },
+ "43": {
+  "character": "Ares",
+  "characterId": 11940,
+  "score": 5,
+  "issueId": 116239,
+  "issueNumber": "6"
+ },
+ "44": {
+  "character": "Ariel",
+  "characterId": 37928,
+  "score": 8,
+  "issueId": 254000,
+  "issueNumber": "1"
+ },
+ "45": {
+  "character": "Armor",
+  "characterId": 4442,
+  "score": 10,
+  "issueId": 93543,
+  "issueNumber": "4"
+ },
+ "46": {
+  "character": "Arsenal",
+  "characterId": 133935,
+  "score": 5,
+  "issueId": 116128,
+  "issueNumber": "485"
+ },
+ "47": {
+  "character": "Astro Boy",
+  "characterId": 47767,
+  "score": 5,
+  "issueId": 1051581,
+  "issueNumber": "195104"
+ },
+ "48": {
+  "character": "Atlas",
+  "characterId": 3277,
+  "score": 6,
+  "issueId": 8101,
+  "issueNumber": "21"
+ },
+ "49": {
+  "character": "Atlas",
+  "characterId": 28129,
+  "score": 5,
+  "issueId": 539022,
+  "issueNumber": "196810"
+ },
+ "50": null,
+ "51": null,
+ "52": null,
+ "53": {
+  "character": "Ray Palmer",
+  "characterId": 34685,
+  "score": 7,
+  "issueId": 5454,
+  "issueNumber": "34"
+ },
+ "54": {
+  "character": "Adam Cray",
+  "characterId": 68435,
+  "score": 7,
+  "issueId": 33054,
+  "issueNumber": "44"
+ },
+ "55": {
+  "character": "Ryan Choi",
+  "characterId": 2352,
+  "score": 7,
+  "issueId": 120848,
+  "issueNumber": "1"
+ },
+ "56": {
+  "character": "Aurora",
+  "characterId": 3189,
+  "score": 8,
+  "issueId": 19455,
+  "issueNumber": "120"
+ },
+ "57": {
+  "character": "Azazel",
+  "characterId": 40526,
+  "score": 7,
+  "issueId": 105326,
+  "issueNumber": "428"
+ },
+ "58": {
+  "character": "Azrael",
+  "characterId": 46934,
+  "score": 5,
+  "issueId": 115427,
+  "issueNumber": "51"
+ },
+ "59": null,
+ "60": {
+  "character": "Bane",
+  "characterId": 6129,
+  "score": 7,
+  "issueId": 131755,
+  "issueNumber": "1"
+ },
+ "61": {
+  "character": "Banshee",
+  "characterId": 9708,
+  "score": 10,
+  "issueId": 9098,
+  "issueNumber": "28"
+ },
+ "62": {
+  "character": "Bantam",
+  "characterId": 8718,
+  "score": 5,
+  "issueId": 34895,
+  "issueNumber": "282"
+ },
+ "63": {
+  "character": "Barbara Gordon",
+  "characterId": 5368,
+  "score": 9,
+  "issueId": 112609,
+  "issueNumber": "359"
+ },
+ "64": null,
+ "65": null,
+ "66": {
+  "character": "Cassandra Cain",
+  "characterId": 65230,
+  "score": 5,
+  "issueId": 45915,
+  "issueNumber": "567"
+ },
+ "67": null,
+ "68": {
+  "character": "Stephanie Brown",
+  "characterId": 6156,
+  "score": 7,
+  "issueId": 113118,
+  "issueNumber": "647"
+ },
+ "69": {
+  "character": "Terry McGinnis",
+  "characterId": 40501,
+  "score": 9,
+  "issueId": 254058,
+  "issueNumber": "1",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/58127/1595849-bat007.jpg",
+  "title": "Batman Beyond #1",
+  "coverDate": "1999-01-01"
+ },
+ "70": {
+  "character": "Batman",
+  "characterId": 1699,
+  "score": 8,
+  "issueId": 105764,
+  "issueNumber": "27",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/0/978/85428-18058-105764-1-detective-comics.JPG",
+  "title": "Detective Comics #27",
+  "coverDate": "1939-05-01"
+ },
+ "71": {
+  "character": "Dick Grayson",
+  "characterId": 1691,
+  "score": 5,
+  "issueId": 111907,
+  "issueNumber": "38"
+ },
+ "72": {
+  "character": "Battlestar",
+  "characterId": 13744,
+  "score": 10,
+  "issueId": 27378,
+  "issueNumber": "323"
+ },
+ "73": null,
+ "74": {
+  "character": "Beak",
+  "characterId": 3188,
+  "score": 8,
+  "issueId": 66995,
+  "issueNumber": "117"
+ },
+ "75": {
+  "character": "Beast",
+  "characterId": 1462,
+  "score": 10,
+  "issueId": 6694,
+  "issueNumber": "1"
+ },
+ "76": {
+  "character": "Beast Boy",
+  "characterId": 3586,
+  "score": 10,
+  "issueId": 8138,
+  "issueNumber": "99"
+ },
+ "77": null,
+ "78": null,
+ "79": {
+  "character": "Beta Ray Bill",
+  "characterId": 6139,
+  "score": 7,
+  "issueId": 23647,
+  "issueNumber": "337"
+ },
+ "80": {
+  "character": "Beyonder",
+  "characterId": 10300,
+  "score": 7,
+  "issueId": 57504,
+  "issueNumber": "1"
+ },
+ "81": {
+  "character": "Big Barda",
+  "characterId": 3628,
+  "score": 10,
+  "issueId": 11703,
+  "issueNumber": "4"
+ },
+ "82": {
+  "character": "Big Daddy",
+  "characterId": 57159,
+  "score": 5,
+  "issueId": 136527,
+  "issueNumber": "4"
+ },
+ "83": {
+  "character": "Frederick Foswell",
+  "characterId": 12356,
+  "score": 7,
+  "issueId": 7024,
+  "issueNumber": "10"
+ },
+ "84": null,
+ "85": {
+  "character": "Billy Kincaid",
+  "characterId": 10521,
+  "score": 10,
+  "issueId": 36264,
+  "issueNumber": "5"
+ },
+ "86": {
+  "character": "Carol Danvers",
+  "characterId": 21561,
+  "score": 9,
+  "issueId": 115904,
+  "issueNumber": "13"
+ },
+ "87": null,
+ "88": {
+  "character": "Bird-Brain",
+  "characterId": 30056,
+  "score": 5,
+  "issueId": 28603,
+  "issueNumber": "55"
+ },
+ "89": {
+  "character": "Bird-Man",
+  "characterId": 14503,
+  "score": 7,
+  "issueId": 8102,
+  "issueNumber": "10"
+ },
+ "90": null,
+ "91": null,
+ "92": {
+  "character": "Bishop",
+  "characterId": 1503,
+  "score": 10,
+  "issueId": 34895,
+  "issueNumber": "282"
+ },
+ "93": {
+  "character": "Bizarro",
+  "characterId": 8312,
+  "score": 10,
+  "issueId": 123995,
+  "issueNumber": "68"
+ },
+ "94": {
+  "character": "Black Abbott",
+  "characterId": 31578,
+  "score": 7,
+  "issueId": 24797,
+  "issueNumber": "146"
+ },
+ "95": {
+  "character": "Black Adam",
+  "characterId": 4916,
+  "score": 10,
+  "issueId": 119538,
+  "issueNumber": "1"
+ },
+ "96": {
+  "character": "Black Bolt",
+  "characterId": 4329,
+  "score": 10,
+  "issueId": 8231,
+  "issueNumber": "45"
+ },
+ "97": {
+  "character": "Black Canary",
+  "characterId": 1689,
+  "score": 6,
+  "issueId": 361382,
+  "issueNumber": "5"
+ },
+ "98": {
+  "character": "Black Canary",
+  "characterId": 1689,
+  "score": 6,
+  "issueId": 361382,
+  "issueNumber": "5"
+ },
+ "99": {
+  "character": "Black Cat",
+  "characterId": 1479,
+  "score": 10,
+  "issueId": 19634,
+  "issueNumber": "194"
+ },
+ "100": {
+  "character": "Black Flash",
+  "characterId": 43141,
+  "score": 7,
+  "issueId": 45015,
+  "issueNumber": "138"
+ },
+ "101": {
+  "character": "Black Goliath",
+  "characterId": 3470,
+  "score": 5,
+  "issueId": 8808,
+  "issueNumber": "32"
+ },
+ "102": null,
+ "103": {
+  "character": "Black Lightning",
+  "characterId": 45180,
+  "score": 7,
+  "issueId": 120455,
+  "issueNumber": "1"
+ },
+ "104": {
+  "character": "Black Mamba",
+  "characterId": 30719,
+  "score": 10,
+  "issueId": 20461,
+  "issueNumber": "64"
+ },
+ "105": {
+  "character": "Black Manta",
+  "characterId": 8345,
+  "score": 7,
+  "issueId": 9580,
+  "issueNumber": "35"
+ },
+ "106": {
+  "character": "Black Panther",
+  "characterId": 1477,
+  "score": 10,
+  "issueId": 8666,
+  "issueNumber": "52"
+ },
+ "107": {
+  "character": "Black Widow",
+  "characterId": 3200,
+  "score": 7,
+  "issueId": 7072,
+  "issueNumber": "52"
+ },
+ "108": {
+  "character": "Yelena Belova",
+  "characterId": 19397,
+  "score": 5,
+  "issueId": 98508,
+  "issueNumber": "5"
+ },
+ "109": {
+  "character": "Blackout",
+  "characterId": 41820,
+  "score": 7,
+  "issueId": 66418,
+  "issueNumber": "2"
+ },
+ "110": {
+  "character": "Blackwing",
+  "characterId": 14571,
+  "score": 10,
+  "issueId": 15050,
+  "issueNumber": "118"
+ },
+ "111": {
+  "character": "Blackwulf",
+  "characterId": 25913,
+  "score": 10,
+  "issueId": 38843,
+  "issueNumber": "6"
+ },
+ "112": {
+  "character": "Blade",
+  "characterId": 7570,
+  "score": 10,
+  "issueId": 13404,
+  "issueNumber": "10"
+ },
+ "113": {
+  "character": "Blaquesmith",
+  "characterId": 15159,
+  "score": 5,
+  "issueId": 41136,
+  "issueNumber": "21"
+ },
+ "114": {
+  "character": "Bling!",
+  "characterId": 40669,
+  "score": 10,
+  "issueId": 106170,
+  "issueNumber": "171"
+ },
+ "115": {
+  "character": "Blink",
+  "characterId": 12548,
+  "score": 10,
+  "issueId": 39830,
+  "issueNumber": "317"
+ },
+ "116": {
+  "character": "Blizzard (Shapanka)",
+  "characterId": 86265,
+  "score": 7,
+  "issueId": 6692,
+  "issueNumber": "45"
+ },
+ "117": {
+  "character": "Blizzard",
+  "characterId": 4808,
+  "score": 5,
+  "issueId": 28689,
+  "issueNumber": "223"
+ },
+ "118": null,
+ "119": {
+  "character": "Blob",
+  "characterId": 3182,
+  "score": 10,
+  "issueId": 6946,
+  "issueNumber": "3"
+ },
+ "120": {
+  "character": "Bloodaxe",
+  "characterId": 23675,
+  "score": 10,
+  "issueId": 29718,
+  "issueNumber": "392"
+ },
+ "121": {
+  "character": "Bloodhawk",
+  "characterId": 41424,
+  "score": 10,
+  "issueId": 135422,
+  "issueNumber": "1"
+ },
+ "122": {
+  "character": "Bloodwraith",
+  "characterId": 19934,
+  "score": 10,
+  "issueId": 32959,
+  "issueNumber": "2"
+ },
+ "123": null,
+ "124": null,
+ "125": null,
+ "126": null,
+ "127": null,
+ "128": {
+  "character": "Bolt",
+  "characterId": 10577,
+  "score": 5,
+  "issueId": 41521,
+  "issueNumber": "8"
+ },
+ "129": {
+  "character": "Bomb Queen",
+  "characterId": 40609,
+  "score": 7,
+  "issueId": 106515,
+  "issueNumber": "1"
+ },
+ "130": {
+  "character": "Boom-Boom",
+  "characterId": 2159,
+  "score": 8,
+  "issueId": 114771,
+  "issueNumber": "1"
+ },
+ "131": {
+  "character": "Boomer",
+  "characterId": 87971,
+  "score": 5,
+  "issueId": 28816,
+  "issueNumber": "3"
+ },
+ "132": {
+  "character": "Booster Gold",
+  "characterId": 1786,
+  "score": 8,
+  "issueId": 27540,
+  "issueNumber": "2"
+ },
+ "133": {
+  "character": "Roger Bochs",
+  "characterId": 31581,
+  "score": 7,
+  "issueId": 23361,
+  "issueNumber": "1"
+ },
+ "134": null,
+ "135": {
+  "character": "Madison Jeffries",
+  "characterId": 24399,
+  "score": 5,
+  "issueId": 23361,
+  "issueNumber": "1"
+ },
+ "136": {
+  "character": "Brainiac",
+  "characterId": 4684,
+  "score": 7,
+  "issueId": 121191,
+  "issueNumber": "242"
+ },
+ "137": {
+  "character": "Brainiac 5",
+  "characterId": 1255,
+  "score": 8,
+  "issueId": 114604,
+  "issueNumber": "276"
+ },
+ "138": null,
+ "139": null,
+ "140": null,
+ "141": {
+  "character": "Bullseye",
+  "characterId": 4647,
+  "score": 10,
+  "issueId": 16163,
+  "issueNumber": "131"
+ },
+ "142": {
+  "character": "Bumblebee",
+  "characterId": 3576,
+  "score": 10,
+  "issueId": 131877,
+  "issueNumber": "45"
+ },
+ "143": {
+  "character": "Bumbleboy",
+  "characterId": 72275,
+  "score": 7,
+  "issueId": 106247,
+  "issueNumber": "153"
+ },
+ "144": {
+  "character": "Bushido",
+  "characterId": 42490,
+  "score": 8,
+  "issueId": 219783,
+  "issueNumber": "1"
+ },
+ "145": {
+  "character": "Cable",
+  "characterId": 2157,
+  "score": 6,
+  "issueId": 26413,
+  "issueNumber": "201"
+ },
+ "146": {
+  "character": "Callisto",
+  "characterId": 3423,
+  "score": 10,
+  "issueId": 23139,
+  "issueNumber": "169"
+ },
+ "147": null,
+ "148": {
+  "character": "Cannonball",
+  "characterId": 1496,
+  "score": 10,
+  "issueId": 21793,
+  "issueNumber": "4"
+ },
+ "149": {
+  "character": "Captain America",
+  "characterId": 1442,
+  "score": 8,
+  "issueId": 107870,
+  "issueNumber": "1"
+ },
+ "150": {
+  "character": "Captain Atom",
+  "characterId": 2050,
+  "score": 6,
+  "issueId": 27540,
+  "issueNumber": "2"
+ },
+ "151": {
+  "character": "Captain Britain",
+  "characterId": 7477,
+  "score": 8,
+  "issueId": 327528,
+  "issueNumber": "50"
+ },
+ "152": {
+  "character": "Captain Cold",
+  "characterId": 2392,
+  "score": 8,
+  "issueId": 3064,
+  "issueNumber": "8"
+ },
+ "153": null,
+ "154": null,
+ "155": null,
+ "156": {
+  "character": "Billy Batson",
+  "characterId": 2350,
+  "score": 7,
+  "issueId": 251584,
+  "issueNumber": "1"
+ },
+ "157": {
+  "character": "Carol Danvers",
+  "characterId": 21561,
+  "score": 7,
+  "issueId": 115904,
+  "issueNumber": "13"
+ },
+ "158": null,
+ "159": null,
+ "160": null,
+ "161": {
+  "character": "Captain Universe",
+  "characterId": 27193,
+  "score": 7,
+  "issueId": 19715,
+  "issueNumber": "8"
+ },
+ "162": {
+  "character": "Cletus Kasady",
+  "characterId": 85179,
+  "score": 9,
+  "issueId": 33866,
+  "issueNumber": "344"
+ },
+ "163": {
+  "character": "Shirlee Bryant",
+  "characterId": 40594,
+  "score": 7,
+  "issueId": 12644,
+  "issueNumber": "1"
+ },
+ "164": null,
+ "165": {
+  "character": "Catwoman",
+  "characterId": 1698,
+  "score": 8,
+  "issueId": 105811,
+  "issueNumber": "1"
+ },
+ "166": {
+  "character": "Cecilia Reyes",
+  "characterId": 14177,
+  "score": 6,
+  "issueId": 414931,
+  "issueNumber": "25"
+ },
+ "167": {
+  "character": "Century",
+  "characterId": 14222,
+  "score": 5,
+  "issueId": 39427,
+  "issueNumber": "159"
+ },
+ "168": {
+  "character": "Cerebra",
+  "characterId": 41318,
+  "score": 10,
+  "issueId": 135422,
+  "issueNumber": "1"
+ },
+ "169": {
+  "character": "Chamber",
+  "characterId": 2244,
+  "score": 8,
+  "issueId": 269988,
+  "issueNumber": "4"
+ },
+ "170": {
+  "character": "Chameleon",
+  "characterId": 4458,
+  "score": 5,
+  "issueId": 6422,
+  "issueNumber": "1"
+ },
+ "171": null,
+ "172": {
+  "character": "Cheetah (Rich)",
+  "characterId": 80815,
+  "score": 9,
+  "issueId": 108794,
+  "issueNumber": "6"
+ },
+ "173": {
+  "character": "Deborah Domaine",
+  "characterId": 80817,
+  "score": 7,
+  "issueId": 109729,
+  "issueNumber": "274"
+ },
+ "174": null,
+ "175": null,
+ "176": null,
+ "177": {
+  "character": "Citizen Steel",
+  "characterId": 43296,
+  "score": 6,
+  "issueId": 287478,
+  "issueNumber": "29"
+ },
+ "178": null,
+ "179": {
+  "character": "Clea",
+  "characterId": 2216,
+  "score": 8,
+  "issueId": 110997,
+  "issueNumber": "126"
+ },
+ "180": {
+  "character": "Cloak",
+  "characterId": 1474,
+  "score": 10,
+  "issueId": 22024,
+  "issueNumber": "64"
+ },
+ "181": {
+  "character": "Clock King",
+  "characterId": 10186,
+  "score": 10,
+  "issueId": 122441,
+  "issueNumber": "111"
+ },
+ "182": {
+  "character": "Cogliostro",
+  "characterId": 23462,
+  "score": 10,
+  "issueId": 36954,
+  "issueNumber": "9"
+ },
+ "183": null,
+ "184": {
+  "character": "Colossal Boy",
+  "characterId": 1271,
+  "score": 5,
+  "issueId": 114602,
+  "issueNumber": "267"
+ },
+ "185": {
+  "character": "Colossus",
+  "characterId": 1460,
+  "score": 10,
+  "issueId": 14890,
+  "issueNumber": "1"
+ },
+ "186": {
+  "character": "Copycat",
+  "characterId": 13311,
+  "score": 8,
+  "issueId": 33921,
+  "issueNumber": "98"
+ },
+ "187": {
+  "character": "Corsair",
+  "characterId": 7591,
+  "score": 8,
+  "issueId": 17371,
+  "issueNumber": "104"
+ },
+ "188": {
+  "character": "Cottonmouth",
+  "characterId": 22584,
+  "score": 10,
+  "issueId": 25974,
+  "issueNumber": "310"
+ },
+ "189": {
+  "character": "Crimson Crusader",
+  "characterId": 25584,
+  "score": 8,
+  "issueId": 157259,
+  "issueNumber": "132"
+ },
+ "190": {
+  "character": "Crimson Dynamo (Vanko)",
+  "characterId": 7234,
+  "score": 7,
+  "issueId": 6739,
+  "issueNumber": "46"
+ },
+ "191": {
+  "character": "Crystal",
+  "characterId": 2115,
+  "score": 8,
+  "issueId": 8231,
+  "issueNumber": "45"
+ },
+ "192": {
+  "character": "The Curse",
+  "characterId": 25975,
+  "score": 5,
+  "issueId": 40301,
+  "issueNumber": "27"
+ },
+ "193": {
+  "character": "Cy-Gor",
+  "characterId": 24220,
+  "score": 5,
+  "issueId": 41759,
+  "issueNumber": "38"
+ },
+ "194": {
+  "character": "Cyborg",
+  "characterId": 2388,
+  "score": 10,
+  "issueId": 20700,
+  "issueNumber": "26"
+ },
+ "195": {
+  "character": "Cyborg Superman",
+  "characterId": 12926,
+  "score": 6,
+  "issueId": 32583,
+  "issueNumber": "465"
+ },
+ "196": {
+  "character": "Cyclops",
+  "characterId": 1459,
+  "score": 10,
+  "issueId": 6694,
+  "issueNumber": "1"
+ },
+ "197": {
+  "character": "Cypher",
+  "characterId": 14559,
+  "score": 10,
+  "issueId": 24127,
+  "issueNumber": "13"
+ },
+ "198": {
+  "character": "Dagger",
+  "characterId": 1935,
+  "score": 10,
+  "issueId": 22024,
+  "issueNumber": "64"
+ },
+ "199": null,
+ "200": null,
+ "201": {
+  "character": "Daredevil",
+  "characterId": 24694,
+  "score": 8,
+  "issueId": 7067,
+  "issueNumber": "1"
+ },
+ "202": {
+  "character": "Darkhawk",
+  "characterId": 2111,
+  "score": 8,
+  "issueId": 145986,
+  "issueNumber": "97"
+ },
+ "203": null,
+ "204": {
+  "character": "Darkseid",
+  "characterId": 2349,
+  "score": 10,
+  "issueId": 115210,
+  "issueNumber": "134"
+ },
+ "205": null,
+ "206": null,
+ "207": null,
+ "208": null,
+ "209": null,
+ "210": null,
+ "211": {
+  "character": "Dazzler",
+  "characterId": 1498,
+  "score": 8,
+  "issueId": 336193,
+  "issueNumber": "49"
+ },
+ "212": {
+  "character": "Deadman",
+  "characterId": 5690,
+  "score": 10,
+  "issueId": 9658,
+  "issueNumber": "205"
+ },
+ "213": {
+  "character": "Deadpool",
+  "characterId": 7606,
+  "score": 8,
+  "issueId": 33921,
+  "issueNumber": "98"
+ },
+ "214": {
+  "character": "Deadshot",
+  "characterId": 5763,
+  "score": 10,
+  "issueId": 120827,
+  "issueNumber": "59"
+ },
+ "215": {
+  "character": "Deathlok",
+  "characterId": 7258,
+  "score": 7,
+  "issueId": 14481,
+  "issueNumber": "25"
+ },
+ "216": {
+  "character": "Deathstroke",
+  "characterId": 3588,
+  "score": 10,
+  "issueId": 20839,
+  "issueNumber": "2"
+ },
+ "217": {
+  "character": "Demogoblin",
+  "characterId": 15272,
+  "score": 5,
+  "issueId": 30901,
+  "issueNumber": "147"
+ },
+ "218": {
+  "character": "Destroyer",
+  "characterId": 7940,
+  "score": 7,
+  "issueId": 7894,
+  "issueNumber": "118"
+ },
+ "219": {
+  "character": "Willis Stryker",
+  "characterId": 44388,
+  "score": 9,
+  "issueId": 12266,
+  "issueNumber": "1"
+ },
+ "220": null,
+ "221": {
+  "character": "Doc Samson",
+  "characterId": 4315,
+  "score": 10,
+  "issueId": 11546,
+  "issueNumber": "141"
+ },
+ "222": {
+  "character": "Doctor Doom",
+  "characterId": 1468,
+  "score": 10,
+  "issueId": 5974,
+  "issueNumber": "5"
+ },
+ "223": {
+  "character": "Kristoff Vernard",
+  "characterId": 11829,
+  "score": 7,
+  "issueId": 22518,
+  "issueNumber": "247"
+ },
+ "224": {
+  "character": "Kent Nelson",
+  "characterId": 6599,
+  "score": 7,
+  "issueId": 116387,
+  "issueNumber": "55"
+ },
+ "225": {
+  "character": "Doctor Octopus",
+  "characterId": 1485,
+  "score": 8,
+  "issueId": 6595,
+  "issueNumber": "3"
+ },
+ "226": {
+  "character": "Doctor Strange",
+  "characterId": 1456,
+  "score": 8,
+  "issueId": 110835,
+  "issueNumber": "110"
+ },
+ "227": {
+  "character": "Domino",
+  "characterId": 2161,
+  "score": 8,
+  "issueId": 373894,
+  "issueNumber": "20"
+ },
+ "228": {
+  "character": "Donatello",
+  "characterId": 44709,
+  "score": 5,
+  "issueId": 121041,
+  "issueNumber": "1"
+ },
+ "229": {
+  "character": "Donna Troy",
+  "characterId": 4913,
+  "score": 8,
+  "issueId": 109209,
+  "issueNumber": "155"
+ },
+ "230": {
+  "character": "Doomsday",
+  "characterId": 9989,
+  "score": 10,
+  "issueId": 36430,
+  "issueNumber": "17"
+ },
+ "231": {
+  "character": "Doppelganger",
+  "characterId": 15274,
+  "score": 7,
+  "issueId": 35783,
+  "issueNumber": "1"
+ },
+ "232": {
+  "character": "Dormammu",
+  "characterId": 2205,
+  "score": 10,
+  "issueId": 110997,
+  "issueNumber": "126"
+ },
+ "233": null,
+ "234": {
+  "character": "Drax the Destroyer",
+  "characterId": 6807,
+  "score": 10,
+  "issueId": 12928,
+  "issueNumber": "55"
+ },
+ "235": {
+  "character": "Ego",
+  "characterId": 19936,
+  "score": 10,
+  "issueId": 8817,
+  "issueNumber": "132"
+ },
+ "236": null,
+ "237": {
+  "character": "Electro",
+  "characterId": 3228,
+  "score": 10,
+  "issueId": 6985,
+  "issueNumber": "9"
+ },
+ "238": {
+  "character": "Elektra",
+  "characterId": 1802,
+  "score": 8,
+  "issueId": 336202,
+  "issueNumber": "58"
+ },
+ "239": null,
+ "240": {
+  "character": "Elongated Man",
+  "characterId": 4437,
+  "score": 8,
+  "issueId": 4771,
+  "issueNumber": "112"
+ },
+ "241": {
+  "character": "Emma Frost",
+  "characterId": 1457,
+  "score": 8,
+  "issueId": 383567,
+  "issueNumber": "1"
+ },
+ "242": {
+  "character": "Enchantress",
+  "characterId": 31464,
+  "score": 10,
+  "issueId": 8475,
+  "issueNumber": "187"
+ },
+ "243": null,
+ "244": null,
+ "245": null,
+ "246": {
+  "character": "Etrigan",
+  "characterId": 7367,
+  "score": 7,
+  "issueId": 12384,
+  "issueNumber": "1"
+ },
+ "247": {
+  "character": "Evil Deadpool",
+  "characterId": 80880,
+  "score": 10,
+  "issueId": 294322,
+  "issueNumber": "44"
+ },
+ "248": {
+  "character": "Evilhawk",
+  "characterId": 9463,
+  "score": 10,
+  "issueId": 36305,
+  "issueNumber": "20"
+ },
+ "249": {
+  "character": "Exodus",
+  "characterId": 4567,
+  "score": 10,
+  "issueId": 37532,
+  "issueNumber": "92"
+ },
+ "250": {
+  "character": "Fabian Cortez",
+  "characterId": 9728,
+  "score": 10,
+  "issueId": 34784,
+  "issueNumber": "1"
+ },
+ "251": {
+  "character": "Sam Wilson",
+  "characterId": 1451,
+  "score": 9,
+  "issueId": 10402,
+  "issueNumber": "117"
+ },
+ "252": null,
+ "253": {
+  "character": "Faora Hu-Ul",
+  "characterId": 30666,
+  "score": 7,
+  "issueId": 121710,
+  "issueNumber": "471"
+ },
+ "254": {
+  "character": "Feral",
+  "characterId": 2160,
+  "score": 10,
+  "issueId": 34025,
+  "issueNumber": "99"
+ },
+ "255": {
+  "character": "Fighting Spirit",
+  "characterId": 59070,
+  "score": 8,
+  "issueId": 69337,
+  "issueNumber": "12"
+ },
+ "256": {
+  "character": "Fin Fang Foom",
+  "characterId": 8145,
+  "score": 5,
+  "issueId": 110751,
+  "issueNumber": "89"
+ },
+ "257": {
+  "character": "Firebird",
+  "characterId": 3323,
+  "score": 10,
+  "issueId": 21662,
+  "issueNumber": "265"
+ },
+ "258": {
+  "character": "Firelord",
+  "characterId": 7108,
+  "score": 10,
+  "issueId": 14439,
+  "issueNumber": "225"
+ },
+ "259": {
+  "character": "Firestar",
+  "characterId": 2101,
+  "score": 8,
+  "issueId": 156077,
+  "issueNumber": "1"
+ },
+ "260": {
+  "character": "Firestorm",
+  "characterId": 2353,
+  "score": 7,
+  "issueId": 107911,
+  "issueNumber": "1"
+ },
+ "261": {
+  "character": "Firestorm",
+  "characterId": 2353,
+  "score": 8,
+  "issueId": 107911,
+  "issueNumber": "1"
+ },
+ "262": {
+  "character": "Fixer",
+  "characterId": 3282,
+  "score": 10,
+  "issueId": 111083,
+  "issueNumber": "141"
+ },
+ "263": {
+  "character": "Flash",
+  "characterId": 45114,
+  "score": 7,
+  "issueId": 120435,
+  "issueNumber": "1"
+ },
+ "264": {
+  "character": "Flash Gordon",
+  "characterId": 7953,
+  "score": 8,
+  "issueId": 209030,
+  "issueNumber": "1"
+ },
+ "265": {
+  "character": "Barry Allen",
+  "characterId": 22804,
+  "score": 5,
+  "issueId": 315490,
+  "issueNumber": "3"
+ },
+ "266": {
+  "character": "Wally West",
+  "characterId": 23879,
+  "score": 7,
+  "issueId": 4625,
+  "issueNumber": "110"
+ },
+ "267": null,
+ "268": {
+  "character": "Forge",
+  "characterId": 4279,
+  "score": 7,
+  "issueId": 24620,
+  "issueNumber": "184"
+ },
+ "269": {
+  "character": "Franklin Richards",
+  "characterId": 2469,
+  "score": 10,
+  "issueId": 110105,
+  "issueNumber": "6"
+ },
+ "270": {
+  "character": "Franklin Storm",
+  "characterId": 42081,
+  "score": 8,
+  "issueId": 7373,
+  "issueNumber": "31"
+ },
+ "271": {
+  "character": "Frenzy",
+  "characterId": 2163,
+  "score": 10,
+  "issueId": 26808,
+  "issueNumber": "4"
+ },
+ "272": null,
+ "273": {
+  "character": "Galactus",
+  "characterId": 2149,
+  "score": 10,
+  "issueId": 8428,
+  "issueNumber": "48"
+ },
+ "274": {
+  "character": "Gambit",
+  "characterId": 1499,
+  "score": 8,
+  "issueId": 33137,
+  "issueNumber": "266"
+ },
+ "275": {
+  "character": "Gamora",
+  "characterId": 6806,
+  "score": 10,
+  "issueId": 15291,
+  "issueNumber": "180"
+ },
+ "276": {
+  "character": "Garbage Man",
+  "characterId": 75263,
+  "score": 10,
+  "issueId": 254697,
+  "issueNumber": "1"
+ },
+ "277": null,
+ "278": {
+  "character": "General Zod",
+  "characterId": 13075,
+  "score": 8,
+  "issueId": 126389,
+  "issueNumber": "283"
+ },
+ "279": {
+  "character": "Genesis",
+  "characterId": 25193,
+  "score": 10,
+  "issueId": 33921,
+  "issueNumber": "98"
+ },
+ "280": {
+  "character": "Ghost Rider (Blaze)",
+  "characterId": 6108,
+  "score": 7,
+  "issueId": 12422,
+  "issueNumber": "5"
+ },
+ "281": null,
+ "282": {
+  "character": "Hank Pym",
+  "characterId": 2247,
+  "score": 7,
+  "issueId": 110743,
+  "issueNumber": "75"
+ },
+ "283": null,
+ "284": {
+  "character": "Giganta",
+  "characterId": 10882,
+  "score": 10,
+  "issueId": 108797,
+  "issueNumber": "9"
+ },
+ "285": {
+  "character": "Gladiator",
+  "characterId": 4653,
+  "score": 10,
+  "issueId": 17894,
+  "issueNumber": "107"
+ },
+ "286": null,
+ "287": null,
+ "288": {
+  "character": "Gog",
+  "characterId": 55664,
+  "score": 5,
+  "issueId": 124024,
+  "issueNumber": "13"
+ },
+ "289": {
+  "character": "Goku",
+  "characterId": 19765,
+  "score": 8,
+  "issueId": 300054,
+  "issueNumber": "838"
+ },
+ "290": null,
+ "291": null,
+ "292": {
+  "character": "Hank Pym",
+  "characterId": 2247,
+  "score": 7,
+  "issueId": 110743,
+  "issueNumber": "75"
+ },
+ "293": null,
+ "294": {
+  "character": "Gorilla Grodd",
+  "characterId": 2380,
+  "score": 10,
+  "issueId": 4275,
+  "issueNumber": "106"
+ },
+ "295": {
+  "character": "Granny Goodness",
+  "characterId": 3629,
+  "score": 5,
+  "issueId": 11472,
+  "issueNumber": "2"
+ },
+ "296": {
+  "character": "Gravity",
+  "characterId": 40452,
+  "score": 10,
+  "issueId": 107112,
+  "issueNumber": "1"
+ },
+ "297": null,
+ "298": {
+  "character": "Green Arrow",
+  "characterId": 5936,
+  "score": 6,
+  "issueId": 139585,
+  "issueNumber": "1"
+ },
+ "299": {
+  "character": "Norman Osborn",
+  "characterId": 58812,
+  "score": 9,
+  "issueId": 7198,
+  "issueNumber": "14"
+ },
+ "300": null,
+ "301": null,
+ "302": null,
+ "303": {
+  "character": "Groot",
+  "characterId": 24341,
+  "score": 10,
+  "issueId": 5056,
+  "issueNumber": "13"
+ },
+ "304": {
+  "character": "Guardian",
+  "characterId": 5047,
+  "score": 8,
+  "issueId": 18267,
+  "issueNumber": "109"
+ },
+ "305": {
+  "character": "Guy Gardner",
+  "characterId": 1791,
+  "score": 10,
+  "issueId": 106439,
+  "issueNumber": "59"
+ },
+ "306": {
+  "character": "Hal Jordan",
+  "characterId": 11202,
+  "score": 10,
+  "issueId": 4466,
+  "issueNumber": "22"
+ },
+ "307": null,
+ "308": null,
+ "309": {
+  "character": "Harley Quinn",
+  "characterId": 1696,
+  "score": 8,
+  "issueId": 37736,
+  "issueNumber": "12"
+ },
+ "310": null,
+ "311": {
+  "character": "Havok",
+  "characterId": 3546,
+  "score": 8,
+  "issueId": 10107,
+  "issueNumber": "54"
+ },
+ "312": {
+  "character": "Hawkman",
+  "characterId": 8337,
+  "score": 5,
+  "issueId": 116418,
+  "issueNumber": "1"
+ },
+ "313": {
+  "character": "Hawkeye",
+  "characterId": 1475,
+  "score": 8,
+  "issueId": 7308,
+  "issueNumber": "57",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2678796-talesofsuspense57.jpg",
+  "title": "Tales of Suspense #57",
+  "coverDate": "1964-09-01"
+ },
+ "314": null,
+ "315": {
+  "character": "Hawkgirl",
+  "characterId": 6903,
+  "score": 10,
+  "issueId": 116418,
+  "issueNumber": "1"
+ },
+ "316": {
+  "character": "Hawkman",
+  "characterId": 8337,
+  "score": 10,
+  "issueId": 116418,
+  "issueNumber": "1"
+ },
+ "317": {
+  "character": "Hawkwoman",
+  "characterId": 5693,
+  "score": 10,
+  "issueId": 5174,
+  "issueNumber": "34"
+ },
+ "318": null,
+ "319": null,
+ "320": {
+  "character": "Heat Wave",
+  "characterId": 7651,
+  "score": 10,
+  "issueId": 6753,
+  "issueNumber": "140"
+ },
+ "321": {
+  "character": "Hela",
+  "characterId": 4342,
+  "score": 7,
+  "issueId": 7027,
+  "issueNumber": "102"
+ },
+ "322": {
+  "character": "Hellboy",
+  "characterId": 5466,
+  "score": 8,
+  "issueId": 325730,
+  "issueNumber": "4"
+ },
+ "323": {
+  "character": "Hellcat",
+  "characterId": 3316,
+  "score": 8,
+  "issueId": 130534,
+  "issueNumber": "2"
+ },
+ "324": {
+  "character": "Hellstorm",
+  "characterId": 14695,
+  "score": 8,
+  "issueId": 13577,
+  "issueNumber": "1"
+ },
+ "325": {
+  "character": "Hercules",
+  "characterId": 2503,
+  "score": 8,
+  "issueId": 139065,
+  "issueNumber": "16"
+ },
+ "326": null,
+ "327": null,
+ "328": {
+  "character": "Hobgoblin (Kingsley)",
+  "characterId": 7605,
+  "score": 7,
+  "issueId": 20469,
+  "issueNumber": "43"
+ },
+ "329": {
+  "character": "Hollow",
+  "characterId": 10573,
+  "score": 7,
+  "issueId": 109931,
+  "issueNumber": "1"
+ },
+ "330": {
+  "character": "Hope Summers",
+  "characterId": 49329,
+  "score": 10,
+  "issueId": 118499,
+  "issueNumber": "205"
+ },
+ "331": {
+  "character": "Howard the Duck",
+  "characterId": 6803,
+  "score": 7,
+  "issueId": 13882,
+  "issueNumber": "19"
+ },
+ "332": {
+  "character": "Hulk",
+  "characterId": 2267,
+  "score": 8,
+  "issueId": 5883,
+  "issueNumber": "1"
+ },
+ "333": {
+  "character": "Human Torch",
+  "characterId": 2120,
+  "score": 8,
+  "issueId": 5558,
+  "issueNumber": "1"
+ },
+ "334": {
+  "character": "Huntress (Bertinelli)",
+  "characterId": 1690,
+  "score": 7,
+  "issueId": 410716,
+  "issueNumber": "157"
+ },
+ "335": {
+  "character": "Husk",
+  "characterId": 3426,
+  "score": 8,
+  "issueId": 27116,
+  "issueNumber": "42"
+ },
+ "336": {
+  "character": "Hybrid",
+  "characterId": 24129,
+  "score": 8,
+  "issueId": 35474,
+  "issueNumber": "21"
+ },
+ "337": {
+  "character": "Hydro-Man",
+  "characterId": 4457,
+  "score": 10,
+  "issueId": 20961,
+  "issueNumber": "212"
+ },
+ "338": {
+  "character": "Hyperion",
+  "characterId": 6911,
+  "score": 8,
+  "issueId": 11273,
+  "issueNumber": "85"
+ },
+ "339": {
+  "character": "Iceman",
+  "characterId": 1464,
+  "score": 8,
+  "issueId": 6694,
+  "issueNumber": "1"
+ },
+ "340": null,
+ "341": null,
+ "342": {
+  "character": "Iroque",
+  "characterId": 60712,
+  "score": 7,
+  "issueId": 119950,
+  "issueNumber": "25"
+ },
+ "343": null,
+ "344": {
+  "character": "Invisible Woman",
+  "characterId": 2190,
+  "score": 10,
+  "issueId": 5558,
+  "issueNumber": "1"
+ },
+ "345": {
+  "character": "Iron Fist",
+  "characterId": 1492,
+  "score": 7,
+  "issueId": 47481,
+  "issueNumber": "15"
+ },
+ "346": {
+  "character": "Iron Man",
+  "characterId": 1455,
+  "score": 8,
+  "issueId": 6428,
+  "issueNumber": "39"
+ },
+ "347": {
+  "character": "Obadiah Stane",
+  "characterId": 31197,
+  "score": 7,
+  "issueId": 22523,
+  "issueNumber": "163"
+ },
+ "348": {
+  "character": "Isis",
+  "characterId": 10915,
+  "score": 8,
+  "issueId": 16657,
+  "issueNumber": "25"
+ },
+ "349": null,
+ "350": {
+  "character": "Jack of Hearts",
+  "characterId": 7213,
+  "score": 10,
+  "issueId": 16164,
+  "issueNumber": "22"
+ },
+ "351": null,
+ "352": null,
+ "353": null,
+ "354": null,
+ "355": null,
+ "356": {
+  "character": "Jean Grey",
+  "characterId": 3552,
+  "score": 10,
+  "issueId": 6694,
+  "issueNumber": "1"
+ },
+ "357": null,
+ "358": {
+  "character": "Jennifer Kale",
+  "characterId": 8139,
+  "score": 10,
+  "issueId": 12738,
+  "issueNumber": "11"
+ },
+ "359": {
+  "character": "Jesse Chambers",
+  "characterId": 9345,
+  "score": 7,
+  "issueId": 119596,
+  "issueNumber": "16"
+ },
+ "360": {
+  "character": "Jessica Cruz",
+  "characterId": 89628,
+  "score": 10,
+  "issueId": 404656,
+  "issueNumber": "20"
+ },
+ "361": {
+  "character": "Jessica Jones",
+  "characterId": 2265,
+  "score": 8,
+  "issueId": 77721,
+  "issueNumber": "1"
+ },
+ "362": null,
+ "363": {
+  "character": "Jigsaw",
+  "characterId": 1538,
+  "score": 8,
+  "issueId": 16860,
+  "issueNumber": "162"
+ },
+ "364": null,
+ "365": null,
+ "366": null,
+ "367": {
+  "character": "John Constantine",
+  "characterId": 3329,
+  "score": 8,
+  "issueId": 344999,
+  "issueNumber": "3"
+ },
+ "368": {
+  "character": "John Stewart",
+  "characterId": 10451,
+  "score": 10,
+  "issueId": 11824,
+  "issueNumber": "87"
+ },
+ "369": {
+  "character": "John Wraith",
+  "characterId": 3205,
+  "score": 8,
+  "issueId": 20526,
+  "issueNumber": "220"
+ },
+ "370": {
+  "character": "Joker",
+  "characterId": 1702,
+  "score": 7,
+  "issueId": 105811,
+  "issueNumber": "1"
+ },
+ "371": {
+  "character": "Jolt",
+  "characterId": 3284,
+  "score": 10,
+  "issueId": 43591,
+  "issueNumber": "1"
+ },
+ "372": {
+  "character": "Jubilee",
+  "characterId": 4562,
+  "score": 10,
+  "issueId": 31230,
+  "issueNumber": "244"
+ },
+ "373": {
+  "character": "Judge Dredd",
+  "characterId": 30061,
+  "score": 8,
+  "issueId": 124963,
+  "issueNumber": "2"
+ },
+ "374": {
+  "character": "Juggernaut",
+  "characterId": 1445,
+  "score": 10,
+  "issueId": 7900,
+  "issueNumber": "12"
+ },
+ "375": {
+  "character": "Junkpile",
+  "characterId": 41324,
+  "score": 7,
+  "issueId": 105839,
+  "issueNumber": "1"
+ },
+ "376": {
+  "character": "Justice",
+  "characterId": 4811,
+  "score": 10,
+  "issueId": 15375,
+  "issueNumber": "5"
+ },
+ "377": null,
+ "378": null,
+ "379": {
+  "character": "Kang",
+  "characterId": 2264,
+  "score": 10,
+  "issueId": 6735,
+  "issueNumber": "19"
+ },
+ "380": null,
+ "381": null,
+ "382": null,
+ "383": {
+  "character": "Kick-Ass",
+  "characterId": 51840,
+  "score": 6,
+  "issueId": 124020,
+  "issueNumber": "1"
+ },
+ "384": null,
+ "385": null,
+ "386": {
+  "character": "Killer Croc",
+  "characterId": 3725,
+  "score": 8,
+  "issueId": 112936,
+  "issueNumber": "523"
+ },
+ "387": {
+  "character": "Killer Frost (Snow)",
+  "characterId": 107901,
+  "score": 5,
+  "issueId": 395309,
+  "issueNumber": "18"
+ },
+ "388": {
+  "character": "Kilowog",
+  "characterId": 6952,
+  "score": 5,
+  "issueId": 27540,
+  "issueNumber": "2"
+ },
+ "389": null,
+ "390": {
+  "character": "King Shark",
+  "characterId": 17772,
+  "score": 8,
+  "issueId": 39763,
+  "issueNumber": null
+ },
+ "391": {
+  "character": "Kingpin",
+  "characterId": 1483,
+  "score": 10,
+  "issueId": 9483,
+  "issueNumber": "50"
+ },
+ "392": {
+  "character": "Klaw",
+  "characterId": 3171,
+  "score": 10,
+  "issueId": 8732,
+  "issueNumber": "53"
+ },
+ "393": null,
+ "394": {
+  "character": "Alyosha Kravinoff",
+  "characterId": 24652,
+  "score": 7,
+  "issueId": 43388,
+  "issueNumber": "243"
+ },
+ "395": {
+  "character": "Kraven the Hunter",
+  "characterId": 2475,
+  "score": 10,
+  "issueId": 7253,
+  "issueNumber": "15"
+ },
+ "396": {
+  "character": "Krypto",
+  "characterId": 8332,
+  "score": 7,
+  "issueId": 128752,
+  "issueNumber": "210"
+ },
+ "397": {
+  "character": "Kyle Rayner",
+  "characterId": 40431,
+  "score": 10,
+  "issueId": 38445,
+  "issueNumber": "48"
+ },
+ "398": null,
+ "399": {
+  "character": "Lady Bullseye",
+  "characterId": 55499,
+  "score": 5,
+  "issueId": 139401,
+  "issueNumber": "111"
+ },
+ "400": {
+  "character": "Lady Deathstrike",
+  "characterId": 8470,
+  "score": 8,
+  "issueId": 23366,
+  "issueNumber": "197"
+ },
+ "401": {
+  "character": "Leader",
+  "characterId": 7617,
+  "score": 8,
+  "issueId": 7490,
+  "issueNumber": "62"
+ },
+ "402": {
+  "character": "Leech",
+  "characterId": 3193,
+  "score": 7,
+  "issueId": 24112,
+  "issueNumber": "179"
+ },
+ "403": {
+  "character": "Legion",
+  "characterId": 13349,
+  "score": 8,
+  "issueId": 25311,
+  "issueNumber": "25"
+ },
+ "404": null,
+ "405": {
+  "character": "Lex Luthor",
+  "characterId": 41952,
+  "score": 8,
+  "issueId": 110651,
+  "issueNumber": "4"
+ },
+ "406": null,
+ "407": {
+  "character": "Lightning Lad",
+  "characterId": 1253,
+  "score": 8,
+  "issueId": 114594,
+  "issueNumber": "247"
+ },
+ "408": {
+  "character": "Lightning Lord",
+  "characterId": 3592,
+  "score": 8,
+  "issueId": 5415,
+  "issueNumber": "147"
+ },
+ "409": {
+  "character": "Living Brain",
+  "characterId": 30091,
+  "score": 7,
+  "issueId": 6937,
+  "issueNumber": "8"
+ },
+ "410": {
+  "character": "Living Tribunal",
+  "characterId": 6811,
+  "score": 7,
+  "issueId": 111071,
+  "issueNumber": "157"
+ },
+ "411": null,
+ "412": {
+  "character": "Lizard",
+  "characterId": 1488,
+  "score": 10,
+  "issueId": 6778,
+  "issueNumber": "6"
+ },
+ "413": {
+  "character": "Lobo",
+  "characterId": 6578,
+  "score": 10,
+  "issueId": 23180,
+  "issueNumber": "3"
+ },
+ "414": {
+  "character": "Loki",
+  "characterId": 4324,
+  "score": 8,
+  "issueId": 117437,
+  "issueNumber": "6"
+ },
+ "415": {
+  "character": "Longshot",
+  "characterId": 6757,
+  "score": 7,
+  "issueId": 25907,
+  "issueNumber": "1"
+ },
+ "416": {
+  "character": "Luke Cage",
+  "characterId": 1450,
+  "score": 10,
+  "issueId": 12266,
+  "issueNumber": "1"
+ },
+ "417": null,
+ "418": null,
+ "419": {
+  "character": "Luna",
+  "characterId": 10962,
+  "score": 8,
+  "issueId": 22007,
+  "issueNumber": "240"
+ },
+ "420": {
+  "character": "Lyja",
+  "characterId": 11892,
+  "score": 10,
+  "issueId": 24202,
+  "issueNumber": "265"
+ },
+ "421": {
+  "character": "Abner Jenkins",
+  "characterId": 147129,
+  "score": 5,
+  "issueId": 3766,
+  "issueNumber": "1"
+ },
+ "422": {
+  "character": "Machine Man",
+  "characterId": 7242,
+  "score": 5,
+  "issueId": 17587,
+  "issueNumber": "8"
+ },
+ "423": {
+  "character": "Magneto",
+  "characterId": 1441,
+  "score": 7,
+  "issueId": 6694,
+  "issueNumber": "1"
+ },
+ "424": {
+  "character": "Magog",
+  "characterId": 41481,
+  "score": 8,
+  "issueId": 42353,
+  "issueNumber": "1"
+ },
+ "425": {
+  "character": "Magus",
+  "characterId": 14619,
+  "score": 5,
+  "issueId": 15076,
+  "issueNumber": "178"
+ },
+ "426": {
+  "character": "Man of Miracles",
+  "characterId": 52321,
+  "score": 7,
+  "issueId": 45226,
+  "issueNumber": "75"
+ },
+ "427": {
+  "character": "Man-Bat",
+  "characterId": 6131,
+  "score": 10,
+  "issueId": 111569,
+  "issueNumber": "400"
+ },
+ "428": {
+  "character": "Man-Thing",
+  "characterId": 4988,
+  "score": 8,
+  "issueId": 11437,
+  "issueNumber": "1"
+ },
+ "429": {
+  "character": "John Jameson",
+  "characterId": 4456,
+  "score": 9,
+  "issueId": 6422,
+  "issueNumber": "1"
+ },
+ "430": {
+  "character": "Mandarin",
+  "characterId": 3530,
+  "score": 10,
+  "issueId": 6990,
+  "issueNumber": "50"
+ },
+ "431": {
+  "character": "Mantis",
+  "characterId": 3324,
+  "score": 7,
+  "issueId": 13265,
+  "issueNumber": "112"
+ },
+ "432": {
+  "character": "Martian Manhunter",
+  "characterId": 2047,
+  "score": 10,
+  "issueId": 106648,
+  "issueNumber": "225"
+ },
+ "433": null,
+ "434": null,
+ "435": null,
+ "436": {
+  "character": "Match",
+  "characterId": 41258,
+  "score": 5,
+  "issueId": 42872,
+  "issueNumber": "32"
+ },
+ "437": null,
+ "438": {
+  "character": "Maverick",
+  "characterId": 8307,
+  "score": 5,
+  "issueId": 35379,
+  "issueNumber": "5"
+ },
+ "439": {
+  "character": "Maxima",
+  "characterId": 10034,
+  "score": 5,
+  "issueId": 31596,
+  "issueNumber": "458"
+ },
+ "440": null,
+ "441": {
+  "character": "Medusa",
+  "characterId": 4327,
+  "score": 10,
+  "issueId": 7667,
+  "issueNumber": "36"
+ },
+ "442": null,
+ "443": {
+  "character": "Mephisto",
+  "characterId": 2635,
+  "score": 5,
+  "issueId": 188199,
+  "issueNumber": "1"
+ },
+ "444": {
+  "character": "Mera",
+  "characterId": 14654,
+  "score": 10,
+  "issueId": 6657,
+  "issueNumber": "11"
+ },
+ "445": {
+  "character": "Metallo",
+  "characterId": 4689,
+  "score": 6,
+  "issueId": 105683,
+  "issueNumber": "252"
+ },
+ "446": {
+  "character": "Metamorpho",
+  "characterId": 2384,
+  "score": 10,
+  "issueId": 7451,
+  "issueNumber": "57"
+ },
+ "447": {
+  "character": "Meteorite",
+  "characterId": 34089,
+  "score": 5,
+  "issueId": 47263,
+  "issueNumber": "48"
+ },
+ "448": {
+  "character": "Metron",
+  "characterId": 3616,
+  "score": 10,
+  "issueId": 11260,
+  "issueNumber": "1"
+ },
+ "449": null,
+ "450": null,
+ "451": {
+  "character": "Micro Lad",
+  "characterId": 1265,
+  "score": 5,
+  "issueId": 123853,
+  "issueNumber": "212"
+ },
+ "452": {
+  "character": "Mimic",
+  "characterId": 12546,
+  "score": 10,
+  "issueId": 8498,
+  "issueNumber": "19"
+ },
+ "453": null,
+ "454": {
+  "character": "Misfit",
+  "characterId": 9939,
+  "score": 10,
+  "issueId": 114001,
+  "issueNumber": "96"
+ },
+ "455": {
+  "character": "Miss Martian",
+  "characterId": 41145,
+  "score": 10,
+  "issueId": 111172,
+  "issueNumber": "37"
+ },
+ "456": null,
+ "457": null,
+ "458": {
+  "character": "J'son of Spartax",
+  "characterId": 81150,
+  "score": 7,
+  "issueId": 17604,
+  "issueNumber": "11"
+ },
+ "459": {
+  "character": "Mr. Mxyzptlk",
+  "characterId": 27436,
+  "score": 9,
+  "issueId": 119056,
+  "issueNumber": "30"
+ },
+ "460": null,
+ "461": null,
+ "462": {
+  "character": "Mockingbird",
+  "characterId": 2497,
+  "score": 10,
+  "issueId": 11484,
+  "issueNumber": "6"
+ },
+ "463": null,
+ "464": {
+  "character": "Mogo",
+  "characterId": 41919,
+  "score": 10,
+  "issueId": 25447,
+  "issueNumber": "188"
+ },
+ "465": null,
+ "466": {
+  "character": "Moloch",
+  "characterId": 37922,
+  "score": 5,
+  "issueId": 10975,
+  "issueNumber": "224"
+ },
+ "467": {
+  "character": "Molten Man",
+  "characterId": 11554,
+  "score": 10,
+  "issueId": 8028,
+  "issueNumber": "28"
+ },
+ "468": {
+  "character": "Monarch",
+  "characterId": 12940,
+  "score": 7,
+  "issueId": 34156,
+  "issueNumber": "1"
+ },
+ "469": null,
+ "470": {
+  "character": "Moon Knight",
+  "characterId": 1493,
+  "score": 10,
+  "issueId": 15507,
+  "issueNumber": "32"
+ },
+ "471": {
+  "character": "Moonstone",
+  "characterId": 3279,
+  "score": 10,
+  "issueId": 15856,
+  "issueNumber": "192"
+ },
+ "472": {
+  "character": "Morlun",
+  "characterId": 17613,
+  "score": 10,
+  "issueId": 113461,
+  "issueNumber": "30"
+ },
+ "473": {
+  "character": "Morph",
+  "characterId": 12547,
+  "score": 5,
+  "issueId": 9565,
+  "issueNumber": "35"
+ },
+ "474": {
+  "character": "Moses Magnum",
+  "characterId": 11915,
+  "score": 10,
+  "issueId": 121299,
+  "issueNumber": "4"
+ },
+ "475": null,
+ "476": null,
+ "477": {
+  "character": "Sharon Ventura",
+  "characterId": 20604,
+  "score": 5,
+  "issueId": 25893,
+  "issueNumber": "27"
+ },
+ "478": null,
+ "479": {
+  "character": "Mysterio",
+  "characterId": 4333,
+  "score": 10,
+  "issueId": 7156,
+  "issueNumber": "13"
+ },
+ "480": {
+  "character": "Mystique",
+  "characterId": 1469,
+  "score": 10,
+  "issueId": 18425,
+  "issueNumber": "16"
+ },
+ "481": {
+  "character": "Namor",
+  "characterId": 1476,
+  "score": 7,
+  "issueId": 159689,
+  "issueNumber": "1"
+ },
+ "482": {
+  "character": "Namor",
+  "characterId": 1476,
+  "score": 5,
+  "issueId": 159689,
+  "issueNumber": "1"
+ },
+ "483": {
+  "character": "Namora",
+  "characterId": 2177,
+  "score": 8,
+  "issueId": 135493,
+  "issueNumber": "14"
+ },
+ "484": {
+  "character": "Namorita",
+  "characterId": 2113,
+  "score": 7,
+  "issueId": 12277,
+  "issueNumber": "50"
+ },
+ "485": {
+  "character": "Naruto Uzumaki",
+  "characterId": 44238,
+  "score": 5,
+  "issueId": 523540,
+  "issueNumber": "3"
+ },
+ "486": null,
+ "487": {
+  "character": "Nebula",
+  "characterId": 14558,
+  "score": 7,
+  "issueId": 25674,
+  "issueNumber": "257"
+ },
+ "488": {
+  "character": "Negasonic Teenage Warhead",
+  "characterId": 41178,
+  "score": 8,
+  "issueId": 66993,
+  "issueNumber": "115"
+ },
+ "489": {
+  "character": "Nick Fury",
+  "characterId": 3202,
+  "score": 10,
+  "issueId": 6508,
+  "issueNumber": "1"
+ },
+ "490": {
+  "character": "Nightcrawler",
+  "characterId": 1461,
+  "score": 10,
+  "issueId": 14890,
+  "issueNumber": "1"
+ },
+ "491": {
+  "character": "Dick Grayson",
+  "characterId": 1691,
+  "score": 9,
+  "issueId": 111907,
+  "issueNumber": "38",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/5/58127/2118850-detective_38.jpg",
+  "title": "Detective Comics #38",
+  "coverDate": "1940-04-01"
+ },
+ "492": null,
+ "493": null,
+ "494": null,
+ "495": {
+  "character": "Northstar",
+  "characterId": 3190,
+  "score": 10,
+  "issueId": 19455,
+  "issueNumber": "120"
+ },
+ "496": {
+  "character": "Nova",
+  "characterId": 2105,
+  "score": 8,
+  "issueId": 828916,
+  "issueNumber": "129"
+ },
+ "497": {
+  "character": "Frankie Raye",
+  "characterId": 11605,
+  "score": 9,
+  "issueId": 15780,
+  "issueNumber": "164"
+ },
+ "498": {
+  "character": "Odin",
+  "characterId": 3507,
+  "score": 10,
+  "issueId": 6116,
+  "issueNumber": "85"
+ },
+ "499": {
+  "character": "Offspring",
+  "characterId": 43304,
+  "score": 6,
+  "issueId": 347036,
+  "issueNumber": "1"
+ },
+ "500": {
+  "character": "Omega Red",
+  "characterId": 9729,
+  "score": 5,
+  "issueId": 35273,
+  "issueNumber": "33"
+ },
+ "501": null,
+ "502": {
+  "character": "Saitama",
+  "characterId": 93547,
+  "score": 7,
+  "issueId": 387140,
+  "issueNumber": "20120614"
+ },
+ "503": {
+  "character": "One-Above-All",
+  "characterId": 44473,
+  "score": 7,
+  "issueId": 16253,
+  "issueNumber": "13"
+ },
+ "504": {
+  "character": "Onslaught",
+  "characterId": 13352,
+  "score": 8,
+  "issueId": 272006,
+  "issueNumber": "12"
+ },
+ "505": {
+  "character": "Oracle",
+  "characterId": 115774,
+  "score": 8,
+  "issueId": 467594,
+  "issueNumber": "35"
+ },
+ "506": {
+  "character": "Osiris",
+  "characterId": 23063,
+  "score": 8,
+  "issueId": 106747,
+  "issueNumber": "23"
+ },
+ "507": {
+  "character": "Overtkill",
+  "characterId": 26135,
+  "score": 8,
+  "issueId": 36384,
+  "issueNumber": "6"
+ },
+ "508": {
+  "character": "Ozymandias",
+  "characterId": 43221,
+  "score": 8,
+  "issueId": 177271,
+  "issueNumber": "1"
+ },
+ "509": {
+  "character": "Parademon",
+  "characterId": 9998,
+  "score": 5,
+  "issueId": 27864,
+  "issueNumber": "3"
+ },
+ "510": null,
+ "511": {
+  "character": "Penance",
+  "characterId": 196732,
+  "score": 5,
+  "issueId": 1144101,
+  "issueNumber": "18"
+ },
+ "512": null,
+ "513": null,
+ "514": {
+  "character": "Penguin",
+  "characterId": 4885,
+  "score": 10,
+  "issueId": 112089,
+  "issueNumber": "58"
+ },
+ "515": null,
+ "516": {
+  "character": "Phantom Girl",
+  "characterId": 1257,
+  "score": 8,
+  "issueId": 114604,
+  "issueNumber": "276"
+ },
+ "517": {
+  "character": "Jean Grey",
+  "characterId": 3552,
+  "score": 9,
+  "issueId": 6694,
+  "issueNumber": "1"
+ },
+ "518": null,
+ "519": null,
+ "520": {
+  "character": "Plastic Man",
+  "characterId": 6270,
+  "score": 8,
+  "issueId": 127149,
+  "issueNumber": "1"
+ },
+ "521": {
+  "character": "Plastique",
+  "characterId": 25441,
+  "score": 10,
+  "issueId": 22641,
+  "issueNumber": "7"
+ },
+ "522": {
+  "character": "Poison Ivy",
+  "characterId": 1697,
+  "score": 8,
+  "issueId": 8577,
+  "issueNumber": "181"
+ },
+ "523": {
+  "character": "Polaris",
+  "characterId": 1473,
+  "score": 8,
+  "issueId": 123674,
+  "issueNumber": "49"
+ },
+ "524": {
+  "character": "Power Girl",
+  "characterId": 4915,
+  "score": 7,
+  "issueId": 15958,
+  "issueNumber": "58"
+ },
+ "525": {
+  "character": "Luke Cage",
+  "characterId": 1450,
+  "score": 7,
+  "issueId": 12266,
+  "issueNumber": "1"
+ },
+ "526": null,
+ "527": {
+  "character": "Professor X",
+  "characterId": 1505,
+  "score": 10,
+  "issueId": 6694,
+  "issueNumber": "1"
+ },
+ "528": {
+  "character": "Eobard Thawne",
+  "characterId": 18340,
+  "score": 9,
+  "issueId": 6660,
+  "issueNumber": "139"
+ },
+ "529": null,
+ "530": {
+  "character": "Punisher",
+  "characterId": 1525,
+  "score": 5,
+  "issueId": 410707,
+  "issueNumber": "100"
+ },
+ "531": {
+  "character": "Purple Man",
+  "characterId": 3227,
+  "score": 10,
+  "issueId": 7372,
+  "issueNumber": "4"
+ },
+ "532": {
+  "character": "Pyro",
+  "characterId": 3554,
+  "score": 8,
+  "issueId": 20988,
+  "issueNumber": "141"
+ },
+ "533": null,
+ "534": null,
+ "535": {
+  "character": "Question (Sage)",
+  "characterId": 3211,
+  "score": 7,
+  "issueId": 9383,
+  "issueNumber": "1"
+ },
+ "536": {
+  "character": "Quicksilver",
+  "characterId": 1467,
+  "score": 10,
+  "issueId": 7032,
+  "issueNumber": "4"
+ },
+ "537": {
+  "character": "Quill",
+  "characterId": 41149,
+  "score": 10,
+  "issueId": 105907,
+  "issueNumber": "1"
+ },
+ "538": {
+  "character": "Ra's al Ghul",
+  "characterId": 40816,
+  "score": 10,
+  "issueId": 11463,
+  "issueNumber": "232"
+ },
+ "539": null,
+ "540": null,
+ "541": {
+  "character": "Raphael",
+  "characterId": 23788,
+  "score": 5,
+  "issueId": 32134,
+  "issueNumber": "1"
+ },
+ "542": {
+  "character": "Raven",
+  "characterId": 3584,
+  "score": 7,
+  "issueId": 20700,
+  "issueNumber": "26"
+ },
+ "543": {
+  "character": "Ray",
+  "characterId": 2049,
+  "score": 6,
+  "issueId": 119594,
+  "issueNumber": "14"
+ },
+ "544": null,
+ "545": {
+  "character": "Roy Harper",
+  "characterId": 3404,
+  "score": 7,
+  "issueId": 139585,
+  "issueNumber": "1"
+ },
+ "546": {
+  "character": "Jason Todd",
+  "characterId": 6849,
+  "score": 7,
+  "issueId": 22911,
+  "issueNumber": "357"
+ },
+ "547": null,
+ "548": {
+  "character": "The Red Mist",
+  "characterId": 59157,
+  "score": 5,
+  "issueId": 149287,
+  "issueNumber": "5"
+ },
+ "549": {
+  "character": "Tim Drake",
+  "characterId": 9290,
+  "score": 9,
+  "issueId": 32089,
+  "issueNumber": "436"
+ },
+ "550": {
+  "character": "Red Skull",
+  "characterId": 2250,
+  "score": 5,
+  "issueId": 117551,
+  "issueNumber": "7"
+ },
+ "551": {
+  "character": "Red Tornado",
+  "characterId": 1688,
+  "score": 7,
+  "issueId": 114357,
+  "issueNumber": "64"
+ },
+ "552": {
+  "character": "Phil Timper",
+  "characterId": 157014,
+  "score": 7,
+  "issueId": 40836,
+  "issueNumber": "31"
+ },
+ "553": {
+  "character": "Eddie Frank",
+  "characterId": 156823,
+  "score": 5,
+  "issueId": 40574,
+  "issueNumber": "29"
+ },
+ "620": {
+  "character": "Spider-Man",
+  "characterId": 1443,
+  "score": 8,
+  "issueId": 105342,
+  "issueNumber": "15",
+  "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2431998-amazingfantasy15.jpg",
+  "title": "Amazing Fantasy #15",
+  "coverDate": "1962-08-31"
+ }
+}

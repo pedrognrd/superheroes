@@ -1,0 +1,90 @@
+// Utilidades para convertir los textos libres de la API en datos útiles
+
+/** "-", "null" o vacío significan "sin dato" en la API */
+export const isEmpty = (v?: string | null) => !v || v === '-' || v === 'null'
+
+/** Divide por ; o , ignorando los separadores que están dentro de paréntesis */
+export function splitList(text: string): string[] {
+  if (isEmpty(text)) return []
+  const out: string[] = []
+  let depth = 0
+  let current = ''
+  for (const ch of text) {
+    if (ch === '(') depth++
+    if (ch === ')') depth = Math.max(0, depth - 1)
+    if ((ch === ';' || ch === ',') && depth === 0) {
+      out.push(current)
+      current = ''
+    } else current += ch
+  }
+  out.push(current)
+  return out.map((s) => s.trim().replace(/^and\s+/i, '')).filter(Boolean)
+}
+
+// ---------- Connections ----------
+export interface Connection {
+  name: string
+  formerly: boolean
+}
+
+const NEW_PHRASE = /^(member|leader|ally|agent|partner|alternate|current|founder|co-founder)\b/i
+
+export function parseGroups(text: string): Connection[] {
+  if (isEmpty(text)) return []
+  // "formerly X, Y" afecta a X e Y, pero se corta en el siguiente ";"
+  // o cuando empieza otra frase ("alternate Fantastic Four", "member of…")
+  return text.split(';').flatMap((segment) => {
+    let formerly = false
+    return splitList(segment).map((item) => {
+      if (/^former(ly)?\b/i.test(item)) formerly = true
+      else if (NEW_PHRASE.test(item)) formerly = false
+      return { name: item, formerly }
+    })
+  })
+}
+
+/** Nombre de grupo limpio, para agrupar en filtros: "formerly member of Outlaws" → "Outlaws" */
+export function groupKey(name: string) {
+  return name
+    .replace(/^(formerly|former)\s+/i, '')
+    .replace(/^(member|leader|ally|agent|partner|founder) of\s+(the\s+)?/i, '')
+    .replace(/\s*\(.*\)$/, '')
+    .trim()
+}
+
+// ---------- Relatives ----------
+export type RelativeStatus = 'alive' | 'deceased' | 'alleged'
+
+export interface Relative {
+  name: string
+  relation: string
+  status: RelativeStatus
+}
+
+export function parseRelatives(text: string): Relative[] {
+  return splitList(text).map((item) => {
+    const match = item.match(/^(.*?)\s*\(([^()]*(?:\([^()]*\)[^()]*)*)\)\s*$/)
+    const name = (match ? match[1] : item).trim()
+    const inside = match ? match[2] : ''
+    const lower = inside.toLowerCase()
+    const status: RelativeStatus = /alleged|presumed|unconfirmed/.test(lower) && lower.includes('deceased')
+      ? 'alleged'
+      : lower.includes('deceased')
+        ? 'deceased'
+        : 'alive'
+    const relation = inside.split(',')[0].trim()
+    return { name, relation, status }
+  })
+}
+
+// ---------- Lugares ----------
+/** Primer lugar utilizable de un texto como "Mobile; formerly Manhattan, Hellcarrier" */
+export function primaryPlace(text: string): string | null {
+  if (isEmpty(text)) return null
+  const first = text.split(';')[0].replace(/\(.*?\)/g, '').trim()
+  if (!first || /^mobile$/i.test(first)) return null
+  return first
+}
+
+/** Ciudad corta para la etiqueta del mapa: "New York, New York" → "New York" */
+export const placeLabel = (place: string) => place.split(',')[0].trim()

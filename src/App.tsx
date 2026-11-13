@@ -1,0 +1,104 @@
+import { useEffect, useState } from 'react'
+import { heroById, heroes } from './data/heroes'
+import { STAT_KEYS } from './types'
+import { AppearancePanel, OccupationBar, RelativesPanel } from './components/AlterEgo'
+import { AliasesPanel, ConnectionsPanel } from './components/ConnectionsPanel'
+import { HeroIdentity } from './components/HeroIdentity'
+import { MapPanel } from './components/MapPanel'
+import { PowerStatsPanel } from './components/PowerStatsPanel'
+import { FirstAppearancePanel, PublisherPanel } from './components/PublisherPanel'
+import { SearchBar } from './components/SearchBar'
+
+const DEFAULT_ID = '620' // Spider-Man
+const pickOne = <T,>(list: readonly T[]) => list[Math.floor(Math.random() * list.length)]
+
+/** Héroe inicial: un powerstat al azar y, de entre los que superan 90 en él, uno al azar */
+function randomHeroId() {
+  const stat = pickOne(STAT_KEYS)
+  const strong = heroes.filter((h) => Number(h.powerstats[stat]) > 90)
+  return strong.length ? pickOne(strong).id : DEFAULT_ID
+}
+
+/** El héroe seleccionado vive en la URL (#620) para poder compartir enlaces.
+    Sin hash válido (carga normal), se muestra uno aleatorio. */
+const readHash = (fallback: string) => {
+  const id = window.location.hash.slice(1)
+  return heroById(id) ? id : fallback
+}
+
+function useSelectedHero() {
+  const [fallback] = useState(randomHeroId)
+  const [id, setId] = useState(() => readHash(fallback))
+  useEffect(() => {
+    const onHash = () => setId(readHash(fallback))
+    window.addEventListener('hashchange', onHash)
+    return () => window.removeEventListener('hashchange', onHash)
+  }, [fallback])
+  const select = (next: string) => {
+    window.location.hash = next
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+  return [heroById(id) ?? heroes[0], select] as const
+}
+
+export default function App() {
+  const [hero, select] = useSelectedHero()
+
+  useEffect(() => {
+    document.title = `${hero.name} · Superhero Database`
+  }, [hero])
+
+  return (
+    <div className="app">
+      <header className="app__header">
+        <div className="app__deco" aria-hidden="true" />
+        <SearchBar onSelect={select} />
+      </header>
+
+      <main className="dashboard" key={hero.id}>
+        <aside className="dashboard__identity">
+          <HeroIdentity hero={hero} />
+        </aside>
+
+        <section className="hero-info">
+          <div className="section-head">
+            <span className="section-head__note">// Alignment: {hero.biography.alignment}</span>
+            <h2 className="section-head__title">Superhero information</h2>
+          </div>
+          <div className="hero-info__grid">
+            <PowerStatsPanel hero={hero} />
+            <div className="stack">
+              <ConnectionsPanel hero={hero} />
+              <AliasesPanel hero={hero} />
+            </div>
+            <div className="stack">
+              <PublisherPanel hero={hero} />
+              <FirstAppearancePanel hero={hero} />
+            </div>
+            <MapPanel title="Base" place={hero.work.base} align="right" className="base-map" />
+          </div>
+        </section>
+
+        <section className="alter-ego">
+          <div className="section-head">
+            <h2 className="section-head__title">Alter-ego information</h2>
+          </div>
+          <div className="alter-ego__grid">
+            <MapPanel
+              title="Place of birth"
+              place={hero.biography['place-of-birth']}
+              className="birth-map map-panel--left-label"
+            />
+            <AppearancePanel hero={hero} />
+            <RelativesPanel hero={hero} />
+            <OccupationBar hero={hero} />
+          </div>
+        </section>
+      </main>
+
+      <footer className="app__footer">
+        Data: <a href="https://www.superheroapi.com/">SuperHero API</a> · Maps: © OpenStreetMap · Covers: <a href="https://comicvine.gamespot.com/">Comic Vine</a>, <a href="https://www.fandom.com/">Fandom</a> · Icon: <a href="https://www.flaticon.com/free-icons/strong" title="strong icons">Puckung – Flaticon</a> · Design: Pasajero Gráfico
+      </footer>
+    </div>
+  )
+}
