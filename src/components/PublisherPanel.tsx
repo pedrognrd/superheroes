@@ -1,5 +1,6 @@
-import { useState } from 'react'
+import { useState, type ReactNode } from 'react'
 import { getCover } from '../data/covers'
+import { publisherLink } from '../data/publisherLinks'
 import type { Hero } from '../types'
 import { isEmpty } from '../utils/parse'
 import { Panel } from './Panel'
@@ -20,11 +21,24 @@ function PublisherLogo({ publisher }: { publisher: string }) {
   return <span className="logo">{publisher}</span>
 }
 
+/** Enlace externo a la fuente, o el contenido tal cual si no hay enlace */
+function SourceLink({ href, title, children }: { href?: string | null; title: string; children: ReactNode }) {
+  if (!href) return <>{children}</>
+  return (
+    <a className="source-link" href={href} target="_blank" rel="noopener noreferrer" title={title}>
+      {children}
+    </a>
+  )
+}
+
 export function PublisherPanel({ hero }: { hero: Hero }) {
+  const publisher = hero.biography.publisher
   return (
     <Panel title="Publisher" align="center" className="publisher">
       <div className="center-box">
-        <PublisherLogo publisher={hero.biography.publisher} />
+        <SourceLink href={publisherLink(publisher)} title={`${publisher} · Wikipedia`}>
+          <PublisherLogo publisher={publisher} />
+        </SourceLink>
       </div>
     </Panel>
   )
@@ -39,15 +53,16 @@ export function FirstAppearancePanel({ hero }: { hero: Hero }) {
     <Panel title="First appearance" align="center" className="first-appearance">
       <div className="center-box">
         {showCover ? (
-          <img
-            className="cover"
-            src={cover.image}
-            alt={cover.title}
-            title={cover.title}
-            // Fandom sirve una imagen genérica si la petición trae Referer de otra web
-            referrerPolicy="no-referrer"
-            onError={() => setFailed(cover.image)}
-          />
+          <SourceLink href={cover.page} title={`${cover.title} · ${cover.source ?? ''}`}>
+            <img
+              className="cover"
+              src={cover.image}
+              alt={cover.title}
+              // Fandom sirve una imagen genérica si la petición trae Referer de otra web
+              referrerPolicy="no-referrer"
+              onError={() => setFailed(cover.image)}
+            />
+          </SourceLink>
         ) : (
           <div className="cover cover--placeholder">
             <span>{isEmpty(text) ? 'Unknown' : text}</span>

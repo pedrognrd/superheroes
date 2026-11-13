@@ -146,14 +146,14 @@ for (const [i, hero] of todo.entries()) {
   await save()
 }
 
-// Fase 2: número → portada (lotes de 100)
-const pending = Object.values(covers).filter((c) => c && !c.image)
+// Fase 2: número → portada y página del número en Comic Vine (lotes de 100)
+const pending = Object.values(covers).filter((c) => c && (!c.image || !c.page))
 for (let i = 0; i < pending.length; i += 100) {
   const batch = pending.slice(i, i + 100)
   const ids = [...new Set(batch.map((c) => c.issueId))]
   const issues = await cv('issues', {
     filter: `id:${ids.join('|')}`,
-    field_list: 'id,name,issue_number,volume,image,cover_date',
+    field_list: 'id,name,issue_number,volume,image,cover_date,site_detail_url',
     limit: '100',
   })
   const byId = new Map(issues.map((it) => [it.id, it]))
@@ -163,6 +163,7 @@ for (let i = 0; i < pending.length; i += 100) {
     c.image = it.image?.medium_url ?? it.image?.original_url ?? null
     c.title = `${it.volume?.name ?? ''} #${it.issue_number}`.trim()
     c.coverDate = it.cover_date
+    c.page = it.site_detail_url ?? null
   }
   await save()
   console.log(`Portadas: ${Math.min(i + 100, pending.length)}/${pending.length}`)
