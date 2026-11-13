@@ -35,7 +35,12 @@
   "Metropolis": {
     "image": "https://static.wikia.nocookie.net/marvel_dc/images/b/bb/Metropolis_001.jpg/revision/latest/scale-to-width-down/600?cb=20170822195321",
     "title": "Metropolis",
-    "page": "https://dc.fandom.com/wiki/Metropolis"
+    "page": "https://dc.fandom.com/wiki/Metropolis",
+    "base": {
+      "image": "https://i.pinimg.com/736x/7d/ac/d8/7dacd88ef1dd69e02449a83a49d1d6cb.jpg",
+      "title": "Metropolis",
+      "page": "https://dc.fandom.com/wiki/Metropolis"
+    }
   },
   "Scarsdale, Arizona": null,
   "Oa": {
@@ -431,7 +436,12 @@
   "Metropolis, Earth, 21st Century, formerly Gotham City, 25th Century": {
     "image": "https://static.wikia.nocookie.net/marvel_dc/images/b/bb/Metropolis_001.jpg/revision/latest/scale-to-width-down/600?cb=20170822195321",
     "title": "Metropolis",
-    "page": "https://dc.fandom.com/wiki/Metropolis"
+    "page": "https://dc.fandom.com/wiki/Metropolis",
+    "base": {
+      "image": "https://i.pinimg.com/736x/7d/ac/d8/7dacd88ef1dd69e02449a83a49d1d6cb.jpg",
+      "title": "Metropolis",
+      "page": "https://dc.fandom.com/wiki/Metropolis"
+    }
   },
   "Base of operations unknown": null,
   "British Columbia": {
@@ -626,9 +636,9 @@
     ]
   },
   "Hell's Kitchen, New York, New York, Shadowland": {
-    "image": "https://static.wikia.nocookie.net/marveldatabase/images/a/aa/Hell%27s_Kitchen_from_Dark_Reign_The_List_-_Daredevil_Vol_1_1_001.jpg/revision/latest/scale-to-width-down/600?cb=20091211140726",
+    "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/12/124259/7711256-rco014_1606318733.jpg",
     "title": "Hell's Kitchen",
-    "page": "https://marvel.fandom.com/wiki/Hell's_Kitchen"
+    "page": "https://comicvine.gamespot.com/hells-kitchen/4020-42295/"
   },
   "Paris, France  Moscow, USSR": {
     "image": "https://static.wikia.nocookie.net/marveldatabase/images/d/d1/Daredevil_Vol_2_90_Textless.jpg/revision/latest/scale-to-width-down/600?cb=20130109014804",
@@ -771,9 +781,10 @@
   },
   "SMASH HQ, Antarctica, Earth": null,
   "New York, formerly Valley of the Sleeping Dragon in China": {
-    "image": "https://static.wikia.nocookie.net/marveldatabase/images/7/7e/NYork.gif/revision/latest?cb=20060909003052",
-    "title": "New York (State)",
-    "page": "https://marvel.fandom.com/wiki/New_York_(State)"
+    "coords": [
+      40.71273,
+      -74.00602
+    ]
   },
   "New Mexico": {
     "coords": [
@@ -1485,9 +1496,10 @@
     ]
   },
   "New York City, New York State  formerly New York City, New York": {
-    "image": "https://static.wikia.nocookie.net/marveldatabase/images/e/e1/New_York_City_from_Fear_Itself_Vol_1_1_002.jpg/revision/latest/scale-to-width-down/600?cb=20200321070656",
-    "title": "New York City",
-    "page": "https://marvel.fandom.com/wiki/New_York_City"
+    "coords": [
+      40.71273,
+      -74.00602
+    ]
   },
   "Ultimate Universe": null,
   "Unnamed Atlantean outpost": null,
@@ -1541,7 +1553,12 @@
   "Metropolis, formerly Gotham City": {
     "image": "https://static.wikia.nocookie.net/marvel_dc/images/b/bb/Metropolis_001.jpg/revision/latest/scale-to-width-down/600?cb=20170822195321",
     "title": "Metropolis",
-    "page": "https://dc.fandom.com/wiki/Metropolis"
+    "page": "https://dc.fandom.com/wiki/Metropolis",
+    "base": {
+      "image": "https://i.pinimg.com/736x/7d/ac/d8/7dacd88ef1dd69e02449a83a49d1d6cb.jpg",
+      "title": "Metropolis",
+      "page": "https://dc.fandom.com/wiki/Metropolis"
+    }
   },
   "Apokalips": null,
   "Springdale, Connecticut": {
@@ -2086,5 +2103,10 @@
     "image": "https://static.wikia.nocookie.net/marvel_dc/images/9/91/Earth-Prime.JPG/revision/latest/scale-to-width-down/600?cb=20230625140424",
     "title": "Earth-Prime",
     "page": "https://dc.fandom.com/wiki/Earth-Prime"
+  },
+  "Xandar": {
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/e/ee/Xandar_from_Imperial_Vol_1_3_0001.jpeg/revision/latest/scale-to-width-down/600?cb=20250820102416",
+    "title": "Xandar",
+    "page": "https://marvel.fandom.com/wiki/Xandar"
   }
 }

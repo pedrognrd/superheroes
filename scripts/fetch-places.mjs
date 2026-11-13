@@ -61,6 +61,26 @@ const MANUAL = [
       page: 'https://en.wikipedia.org/wiki/Smallville_(comics)',
     },
   },
+  // Hell's Kitchen: la imagen principal de su ficha de lugar en Comic Vine (vertical)
+  {
+    match: /^Hell's Kitchen\b/,
+    image: 'https://comicvine.gamespot.com/a/uploads/scale_medium/12/124259/7711256-rco014_1606318733.jpg',
+    title: "Hell's Kitchen",
+    page: 'https://comicvine.gamespot.com/hells-kitchen/4020-42295/',
+  },
+  // Metropolis: la de Fandom; en Base, una viñeta vertical con el Daily Planet
+  {
+    match: /^Metropolis\b/,
+    host: 'dc.fandom.com',
+    file: 'Metropolis 001.jpg',
+    title: 'Metropolis',
+    page: 'Metropolis',
+    base: {
+      image: 'https://i.pinimg.com/736x/7d/ac/d8/7dacd88ef1dd69e02449a83a49d1d6cb.jpg',
+      title: 'Metropolis',
+      page: 'https://dc.fandom.com/wiki/Metropolis',
+    },
+  },
   {
     match: 'Bizarro World',
     image: 'https://static.dc.com/dc/files/default_images/1567_400x600.jpg?w=600',
@@ -130,6 +150,8 @@ const MANUAL = [
   },
 ]
 const manualFor = (q) => MANUAL.find((m) => (typeof m.match === 'string' ? m.match === q : m.match.test(q)))
+// Lugares que siempre van al mapa aunque tengan página en Fandom
+const ALWAYS_MAP = /^new york( city)?\b/i
 const PLACE_CATEGORY = /(locations?|planets?|moons?|cities|city|places|worlds?|star systems?|countries|regions|space stations?|buildings)\b/i
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
@@ -281,7 +303,8 @@ let i = 0
 for (const [q, host] of todo) {
   i++
   try {
-    const geo = await geocode(q)
+    // New York / New York City: se busca solo ese nombre ("New York, formerly China…" no lo encuentra)
+    const geo = await geocode(ALWAYS_MAP.test(q) ? q.match(ALWAYS_MAP)[0] : q)
     // Marvel/DC: si el lugar tiene página en Fandom y el mapa no es fiable, imagen de Fandom
     let comic = null
     for (const wiki of host ?? []) {
@@ -289,7 +312,7 @@ for (const [q, host] of todo) {
       if (comic) break
     }
     let entry = null
-    if (geo && (!comic || trustworthy(q, geo))) entry = { coords: geo.coords }
+    if (geo && (!comic || ALWAYS_MAP.test(q) || trustworthy(q, geo))) entry = { coords: geo.coords }
     else if (comic) entry = comic
     out[q] = entry
     console.log(`[${i}/${todo.length}] ${q} → ${entry?.coords ? 'mapa' : entry ? `Fandom: ${entry.title}` : 'nada'}`)
