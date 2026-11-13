@@ -97,7 +97,8 @@ export default function App() {
       </main>
 
       <footer className="app__footer">
-        Data: <a href="https://www.superheroapi.com/">SuperHero API</a> · Maps: © OpenStreetMap · Covers: <a href="https://comicvine.gamespot.com/">Comic Vine</a>, <a href="https://www.fandom.com/">Fandom</a>, <a href="https://en.wikipedia.org/">Wikipedia</a> · Icon: <a href="https://www.flaticon.com/free-icons/strong" title="strong icons">Puckung – Flaticon</a> · Design: Pasajero Gráfico
+        Data: <a href="https://www.superheroapi.com/">SuperHero API</a> · Maps: © OpenStreetMap · Covers: <a href="https://comicvine.gamespot.com/">Comic Vine</a>, <a href="https://www.fandom.com/">Fandom</a>, <a href="https://en.wikipedia.org/">Wikipedia</a>, <a href="https://www.themoviedb.org/">TMDB</a> · Icon: <a href="https://www.flaticon.com/free-icons/strong" title="strong icons">Puckung – Flaticon</a> · Design: Pasajero Gráfico
+        <p className="app__footer-note">This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
       </footer>
     </div>
   )

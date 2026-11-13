@@ -46,7 +46,16 @@ npm run fetch:covers:wikipedia            # los que falten
 npm run fetch:covers:wikipedia -- 418 7   # rehacer esos ids
 ```
 
-Prioridad final: `MANUAL` → Wikipedia → Comic Vine → Fandom. Para añadir un personaje nuevo de cine/TV, añade su id a `wikipediaWorks.ts` y ejecuta el script.
+Para añadir un personaje nuevo, añade su id a `screenWorks.ts` (cine/TV) o `wikipediaWorks.ts` (libros, videojuegos…) y ejecuta el script correspondiente.
+
+Cine y televisión: pósters de [TMDB](https://www.themoviedb.org/) (de la película, o de la temporada en la que aparece el personaje). La tabla héroe → obra (título, año, temporada) está en `src/data/screenWorks.ts`. Necesita `TMDB_API_KEY` en `.env.local` (cuenta gratuita → Settings → API; vale la API Key o el Read Access Token):
+
+```bash
+npm run fetch:covers:tmdb            # los que falten
+npm run fetch:covers:tmdb -- 418 87  # rehacer esos ids
+```
+
+Prioridad final: `MANUAL` → TMDB → Wikipedia → Comic Vine → Fandom.
 
 ### Actualizar todo (héroes nuevos + portadas)
 

@@ -3316,6 +3316,20 @@
   "issueNumber": "1"
  },
  "617": null,
+ "618": {
+  "character": "Spider-Girl (Parker)",
+  "characterId": 3365,
+  "score": 5,
+  "issueId": 34897,
+  "issueNumber": "31"
+ },
+ "619": {
+  "character": "Gwen Stacy",
+  "characterId": 1480,
+  "score": 7,
+  "issueId": 8228,
+  "issueNumber": "31"
+ },
  "620": {
   "character": "Spider-Man",
   "characterId": 1443,
@@ -3325,5 +3339,199 @@
   "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11/117763/2431998-amazingfantasy15.jpg",
   "title": "Amazing Fantasy #15",
   "coverDate": "1962-08-31"
+ },
+ "621": {
+  "character": "Spider-Man 2099",
+  "characterId": 40524,
+  "score": 7,
+  "issueId": 269985,
+  "issueNumber": "1"
+ },
+ "622": {
+  "character": "Miles Morales",
+  "characterId": 79420,
+  "score": 9,
+  "issueId": 283008,
+  "issueNumber": "4"
+ },
+ "623": {
+  "character": "Spider-Woman",
+  "characterId": 1453,
+  "score": 8,
+  "issueId": 17194,
+  "issueNumber": "32"
+ },
+ "624": null,
+ "625": null,
+ "626": {
+  "character": "Charlotte Witter",
+  "characterId": 45770,
+  "score": 7,
+  "issueId": 113436,
+  "issueNumber": "5"
+ },
+ "627": null,
+ "628": {
+  "character": "Spyke",
+  "characterId": 47514,
+  "score": 8,
+  "issueId": 193679,
+  "issueNumber": "110"
+ },
+ "629": {
+  "character": "Stacy X",
+  "characterId": 11517,
+  "score": 5,
+  "issueId": 65188,
+  "issueNumber": "399"
+ },
+ "630": {
+  "character": "Star-Lord",
+  "characterId": 10957,
+  "score": 10,
+  "issueId": 16009,
+  "issueNumber": "4"
+ },
+ "631": {
+  "character": "Stardust",
+  "characterId": 7491,
+  "score": 5,
+  "issueId": 123207,
+  "issueNumber": "1"
+ },
+ "632": {
+  "character": "Starfire",
+  "characterId": 2389,
+  "score": 10,
+  "issueId": 20700,
+  "issueNumber": "26"
+ },
+ "633": {
+  "character": "Stargirl",
+  "characterId": 4897,
+  "score": 6,
+  "issueId": 174969,
+  "issueNumber": "1"
+ },
+ "634": {
+  "character": "Static",
+  "characterId": 26578,
+  "score": 8,
+  "issueId": 143408,
+  "issueNumber": "1"
+ },
+ "635": {
+  "character": "Steel",
+  "characterId": 2031,
+  "score": 8,
+  "issueId": 496565,
+  "issueNumber": "67"
+ },
+ "636": null,
+ "637": {
+  "character": "Steppenwolf",
+  "characterId": 37500,
+  "score": 7,
+  "issueId": 11975,
+  "issueNumber": "7"
+ },
+ "638": {
+  "character": "Storm",
+  "characterId": 1444,
+  "score": 10,
+  "issueId": 14890,
+  "issueNumber": "1"
+ },
+ "639": null,
+ "640": {
+  "character": "Sunspot",
+  "characterId": 4644,
+  "score": 5,
+  "issueId": 761944,
+  "issueNumber": "20"
+ },
+ "641": null,
+ "642": {
+  "character": "Kal-El I",
+  "characterId": 65293,
+  "score": 5,
+  "issueId": 21639,
+  "issueNumber": "3"
+ },
+ "643": {
+  "character": "Supergirl",
+  "characterId": 2351,
+  "score": 8,
+  "issueId": 105683,
+  "issueNumber": "252"
+ },
+ "644": {
+  "character": "Superman",
+  "characterId": 1807,
+  "score": 7,
+  "issueId": 105403,
+  "issueNumber": "1"
+ },
+ "645": {
+  "character": "Swamp Thing",
+  "characterId": 15809,
+  "score": 10,
+  "issueId": 12549,
+  "issueNumber": "1"
+ },
+ "646": {
+  "character": "Swarm",
+  "characterId": 1945,
+  "score": 10,
+  "issueId": 17594,
+  "issueNumber": "14"
+ },
+ "647": null,
+ "648": {
+  "character": "Synch",
+  "characterId": 10576,
+  "score": 10,
+  "issueId": 65737,
+  "issueNumber": "36"
+ },
+ "649": null,
+ "650": null,
+ "651": null,
+ "652": null,
+ "653": {
+  "character": "Taskmaster",
+  "characterId": 4578,
+  "score": 8,
+  "issueId": 20380,
+  "issueNumber": "195"
+ },
+ "654": {
+  "character": "Tempest",
+  "characterId": 42192,
+  "score": 5,
+  "issueId": 231845,
+  "issueNumber": "1"
+ },
+ "655": {
+  "character": "Thanos",
+  "characterId": 7607,
+  "score": 10,
+  "issueId": 12928,
+  "issueNumber": "55"
+ },
+ "656": null,
+ "657": {
+  "character": "The Comedian",
+  "characterId": 44193,
+  "score": 8,
+  "issueId": 177271,
+  "issueNumber": "1"
+ },
+ "658": {
+  "character": "Thing",
+  "characterId": 2114,
+  "score": 8,
+  "issueId": 5558,
+  "issueNumber": "1"
  }
 }

@@ -12,7 +12,8 @@
     "fetch:covers": "node --env-file=.env.local scripts/fetch-covers.mjs",
     "fetch:covers:fandom": "node scripts/fetch-covers-fandom.mjs",
     "update:data": "node scripts/update-data.mjs",
-    "fetch:covers:wikipedia": "node scripts/fetch-covers-wikipedia.mjs"
+    "fetch:covers:wikipedia": "node scripts/fetch-covers-wikipedia.mjs",
+    "fetch:covers:tmdb": "node --env-file=.env.local scripts/fetch-covers-tmdb.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
