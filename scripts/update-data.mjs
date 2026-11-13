@@ -2,6 +2,7 @@
 //   1. héroes nuevos en superheroapi.com      (fetch-heroes.mjs)
 //   2. portadas de Comic Vine que falten       (fetch-covers.mjs)
 //   3. portadas de Fandom para lo que quede    (fetch-covers-fandom.mjs)
+//   4. pósters de Wikipedia (cine/TV)          (fetch-covers-wikipedia.mjs)
 //   4. informe: héroes sin portada
 //
 // Uso: npm run update:data
@@ -35,10 +36,11 @@ const readJson = async (rel, fallback) => {
 
 const before = new Set((await readJson('../src/data/heroes.json', [])).map((h) => h.id))
 
-run('1/3 Héroes', 'fetch-heroes.mjs')
+run('1/4 Héroes', 'fetch-heroes.mjs')
 if (!skipCovers) {
-  run('2/3 Portadas · Comic Vine', 'fetch-covers.mjs')
-  run('3/3 Portadas · Fandom', 'fetch-covers-fandom.mjs')
+  run('2/4 Portadas · Comic Vine', 'fetch-covers.mjs')
+  run('3/4 Portadas · Fandom', 'fetch-covers-fandom.mjs')
+  run('4/4 Pósters · Wikipedia', 'fetch-covers-wikipedia.mjs')
 }
 
 // ── Informe ──────────────────────────────────────────────
@@ -46,10 +48,11 @@ const allHeroes = await readJson('../src/data/heroes.json', [])
 const heroes = allHeroes.filter((h) => !isDuplicate(h.id))
 const cv = await readJson('../src/data/covers.json', {})
 const fandom = await readJson('../src/data/covers-fandom.json', {})
+const wiki = await readJson('../src/data/covers-wikipedia.json', {})
 const coversTs = await readFile(new URL('../src/data/covers.ts', import.meta.url), 'utf8')
 const manualIds = new Set([...coversTs.matchAll(/^\s*'?(\d+)'?\s*:\s*\{/gm)].map((m) => m[1]))
 
-const hasCover = (id) => manualIds.has(id) || cv[id]?.image || fandom[id]?.image
+const hasCover = (id) => manualIds.has(id) || wiki[id]?.image || cv[id]?.image || fandom[id]?.image
 const fresh = allHeroes.filter((h) => !before.has(h.id))
 const without = heroes.filter((h) => !hasCover(h.id))
 
@@ -68,7 +71,7 @@ for (const h of heroes) {
 }
 
 const count = (src) => heroes.filter((h) => src[h.id]?.image).length
-console.log(`Portadas: Comic Vine ${count(cv)} · Fandom ${count(fandom)} · manuales ${manualIds.size}`)
+console.log(`Portadas: Wikipedia ${count(wiki)} · Comic Vine ${count(cv)} · Fandom ${count(fandom)} · manuales ${manualIds.size}`)
 console.log(`Sin portada: ${without.length}`)
 
 const byPublisher = {}

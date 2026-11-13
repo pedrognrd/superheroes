@@ -39,6 +39,15 @@ npm run fetch:covers:fandom -- 95 69  # solo esos ids
 
 Interpreta el texto de primera aparición ("Marvel Family #1 (December, 1945)"), busca la página del número ("The Marvel Family Vol 1 1"), exige que el año cuadre y guarda la portada en `covers-fandom.json`. Prioridad: `MANUAL` → Comic Vine → Fandom. Las imágenes de Fandom se cargan con `referrerPolicy="no-referrer"`, porque con Referer de otra web devuelven 404.
 
+Personajes de cine, TV, libros y videojuegos (Star Wars, Star Trek, Heroes…): la tabla héroe → artículo de la obra de primera aparición está en `src/data/wikipediaWorks.ts`, y el script toma la imagen del infobox (póster, carátula o portada) de la Wikipedia en inglés:
+
+```bash
+npm run fetch:covers:wikipedia            # los que falten
+npm run fetch:covers:wikipedia -- 418 7   # rehacer esos ids
+```
+
+Prioridad final: `MANUAL` → Wikipedia → Comic Vine → Fandom. Para añadir un personaje nuevo de cine/TV, añade su id a `wikipediaWorks.ts` y ejecuta el script.
+
 ### Actualizar todo (héroes nuevos + portadas)
 
 ```bash
