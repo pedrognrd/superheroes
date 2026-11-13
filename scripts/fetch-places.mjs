@@ -121,6 +121,12 @@ const MANUAL = [
     file: 'Graymalkin Prison from Uncanny X-Men Vol 6 27 001.jpg',
     title: "Xavier's School for Gifted Youngsters",
     page: "Xavier's_School_for_Gifted_Youngsters",
+    // En Base, la mansión X de la Wikipedia (viñeta)
+    base: {
+      image: 'https://upload.wikimedia.org/wikipedia/en/d/d3/Xmansion.jpg',
+      title: 'X-Mansion',
+      page: 'https://en.wikipedia.org/wiki/X-Mansion',
+    },
   },
 ]
 const manualFor = (q) => MANUAL.find((m) => (typeof m.match === 'string' ? m.match === q : m.match.test(q)))
