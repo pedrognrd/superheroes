@@ -129,6 +129,8 @@ const MANUAL = [
     title: 'Planet Vegeta',
     page: 'https://dragonball.fandom.com/wiki/Planet_Vegeta',
   },
+  // One Punch Man: Z-City (Nominatim lo confundía con un lugar real)
+  { match: 'Z-City', host: 'onepunchman.fandom.com', file: 'Z-city manga colored.jpg', title: 'Z-City', page: 'Z-City' },
   {
     match: 'Bizarro World',
     image: 'https://static.dc.com/dc/files/default_images/1567_400x600.jpg?w=600',

@@ -1563,10 +1563,9 @@
   "City of Asgard, Asgard": null,
   "Another Unknown World": null,
   "Z-City": {
-    "coords": [
-      53.16924,
-      15.41404
-    ]
+    "image": "https://static.wikia.nocookie.net/onepunchman/images/b/b8/Z-city_manga_colored.jpg/revision/latest/scale-to-width-down/600?cb=20191002005105",
+    "title": "Z-City",
+    "page": "https://onepunchman.fandom.com/wiki/Z-City"
   },
   "Central Park Citadel, Astral Fortress": null,
   "Metropolis, formerly Gotham City": {
