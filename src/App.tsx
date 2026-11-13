@@ -70,7 +70,6 @@ export default function App() {
 
         <section className="hero-info">
           <div className="section-head">
-            <span className="section-head__note">// Alignment: {hero.biography.alignment}</span>
             <h2 className="section-head__title">Superhero information</h2>
           </div>
           <div className="hero-info__grid">

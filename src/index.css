@@ -106,14 +106,6 @@ a { color: var(--accent); }
   margin: 0 -18px 16px 0;
 }
 
-.section-head__note {
-  color: var(--accent);
-  font-size: 1.4rem;
-  text-transform: uppercase;
-  margin-right: auto;
-  padding-top: 8px;
-}
-
 .section-head__title {
   margin: 0;
   background: var(--tab-light);
