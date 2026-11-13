@@ -3533,5 +3533,189 @@
   "score": 8,
   "issueId": 5558,
   "issueNumber": "1"
+ },
+ "659": {
+  "character": "Thor",
+  "characterId": 2268,
+  "score": 10,
+  "issueId": 6023,
+  "issueNumber": "83"
+ },
+ "660": {
+  "character": "Thor Girl",
+  "characterId": 12335,
+  "score": 10,
+  "issueId": 75668,
+  "issueNumber": "22"
+ },
+ "661": {
+  "character": "Thunderbird",
+  "characterId": 2174,
+  "score": 10,
+  "issueId": 14890,
+  "issueNumber": "1"
+ },
+ "662": null,
+ "663": null,
+ "664": {
+  "character": "Thunderstrike",
+  "characterId": 7611,
+  "score": 8,
+  "issueId": 29602,
+  "issueNumber": "391"
+ },
+ "665": {
+  "character": "Thundra",
+  "characterId": 7235,
+  "score": 10,
+  "issueId": 12737,
+  "issueNumber": "129"
+ },
+ "666": {
+  "character": "Tiger Shark",
+  "characterId": 6815,
+  "score": 10,
+  "issueId": 109020,
+  "issueNumber": "5"
+ },
+ "667": {
+  "character": "Tigra",
+  "characterId": 21188,
+  "score": 10,
+  "issueId": 12644,
+  "issueNumber": "1"
+ },
+ "668": {
+  "character": "Tinkerer",
+  "characterId": 3144,
+  "score": 10,
+  "issueId": 6503,
+  "issueNumber": "2"
+ },
+ "669": null,
+ "670": {
+  "character": "Toad",
+  "characterId": 1470,
+  "score": 10,
+  "issueId": 7032,
+  "issueNumber": "4"
+ },
+ "671": {
+  "character": "Toxin",
+  "characterId": 40783,
+  "score": 7,
+  "issueId": 105908,
+  "issueNumber": "1"
+ },
+ "672": {
+  "character": "Eddie Brock",
+  "characterId": 6733,
+  "score": 7,
+  "issueId": 27191,
+  "issueNumber": "18"
+ },
+ "673": null,
+ "674": {
+  "character": "Trickster (Jesse)",
+  "characterId": 10460,
+  "score": 9,
+  "issueId": 4837,
+  "issueNumber": "113"
+ },
+ "675": {
+  "character": "Trigon",
+  "characterId": 5310,
+  "score": 5,
+  "issueId": 20839,
+  "issueNumber": "2"
+ },
+ "676": null,
+ "677": {
+  "character": "Triton",
+  "characterId": 11428,
+  "score": 10,
+  "issueId": 8231,
+  "issueNumber": "45"
+ },
+ "678": {
+  "character": "Two-Face",
+  "characterId": 5555,
+  "score": 8,
+  "issueId": 112174,
+  "issueNumber": "66"
+ },
+ "679": {
+  "character": "Ultragirl",
+  "characterId": 40827,
+  "score": 8,
+  "issueId": 125021,
+  "issueNumber": "1"
+ },
+ "680": {
+  "character": "Ultron",
+  "characterId": 2242,
+  "score": 10,
+  "issueId": 106382,
+  "issueNumber": "54"
+ },
+ "681": {
+  "character": "Utgard-Loki",
+  "characterId": 195087,
+  "score": 5,
+  "issueId": 1010047,
+  "issueNumber": "1"
+ },
+ "682": {
+  "character": "Vagabond",
+  "characterId": 41288,
+  "score": 10,
+  "issueId": 27673,
+  "issueNumber": "325"
+ },
+ "683": null,
+ "684": {
+  "character": "Valkyrie",
+  "characterId": 6809,
+  "score": 5,
+  "issueId": 8884,
+  "issueNumber": "133"
+ },
+ "685": {
+  "character": "Vanisher",
+  "characterId": 6756,
+  "score": 7,
+  "issueId": 6787,
+  "issueNumber": "2"
+ },
+ "686": {
+  "character": "Vegeta",
+  "characterId": 40722,
+  "score": 8,
+  "issueId": 530940,
+  "issueNumber": "1041"
+ },
+ "687": {
+  "character": "Eddie Brock",
+  "characterId": 6733,
+  "score": 9,
+  "issueId": 27191,
+  "issueNumber": "18"
+ },
+ "688": {
+  "character": "Angelo Fortunato",
+  "characterId": 6769,
+  "score": 7,
+  "issueId": 96926,
+  "issueNumber": "6"
+ },
+ "689": null,
+ "690": null,
+ "691": null,
+ "692": {
+  "character": "Vibe",
+  "characterId": 11278,
+  "score": 6,
+  "issueId": 344998,
+  "issueNumber": "2"
  }
 }

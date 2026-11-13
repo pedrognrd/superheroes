@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { CircleMarker, MapContainer, TileLayer, useMap } from 'react-leaflet'
+import { CircleMarker, MapContainer, TileLayer, useMap, ZoomControl } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import { useGeocode, type LatLng } from '../hooks/useGeocode'
 import { placeLabel, primaryPlace } from '../utils/parse'
@@ -33,6 +33,8 @@ export function MapPanel({ title, place, variant, align, className = '' }: MapPa
       <div className="map-panel__map">
         {coords ? (
           <MapContainer center={coords} zoom={11} zoomControl={false} attributionControl scrollWheelZoom={false}>
+            {/* Botones +/−; la rueda sigue desactivada para no atrapar el scroll de la página */}
+            <ZoomControl position="topright" zoomInTitle="Zoom in" zoomOutTitle="Zoom out" />
             <TileLayer
               url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -42,8 +44,17 @@ export function MapPanel({ title, place, variant, align, className = '' }: MapPa
             <Recenter coords={coords} />
           </MapContainer>
         ) : (
-          <div className="map-panel__empty">
-            {status === 'loading' ? 'Locating…' : query ? 'Location not found' : 'No known location'}
+          <div className={`map-panel__empty${!query ? ' map-panel__empty--unknown' : ''}`}>
+            {status === 'loading' ? (
+              'Locating…'
+            ) : query ? (
+              'Location not found'
+            ) : (
+              <>
+                <span className="map-panel__globe" aria-hidden="true" />
+                No known location
+              </>
+            )}
           </div>
         )}
       </div>
