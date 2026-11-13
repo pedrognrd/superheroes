@@ -1,26 +1,18 @@
 import { useState, type ReactNode } from 'react'
 import { getCover } from '../data/covers'
 import { publisherLink } from '../data/publisherLinks'
+import { publisherLogo } from '../data/publisherLogos'
 import type { Hero } from '../types'
 import { isEmpty } from '../utils/parse'
+import { MaskIcon } from './icons'
 import { Panel } from './Panel'
 
-// Logos provisionales hechos con CSS. Cuando tengas los de Fandom, guárdalos en
-// src/assets/publishers/ y sustituye este componente por un <img>.
-function PublisherLogo({ publisher }: { publisher: string }) {
-  if (publisher === 'Marvel Comics') return <span className="logo logo--marvel">MARVEL</span>
-  if (publisher === 'DC Comics') return <span className="logo logo--dc">DC</span>
-  if (publisher === 'Dark Horse Comics')
-    return (
-      <span className="logo logo--darkhorse">
-        DARK
-        <br />
-        HORSE
-      </span>
-    )
-  return <span className="logo">{publisher}</span>
+/** Logo de la editorial (src/assets/publishers), o su nombre si no hay logo */
+function PublisherLogo({ publisher, heroId }: { publisher: string; heroId: string }) {
+  const logo = publisherLogo(publisher, heroId)
+  if (!logo) return <span className="logo">{publisher}</span>
+  return <MaskIcon src={logo} width={190} height={120} className="logo logo--image" label={publisher} />
 }
-
 /** Enlace externo a la fuente, o el contenido tal cual si no hay enlace */
 function SourceLink({ href, title, children }: { href?: string | null; title: string; children: ReactNode }) {
   if (!href) return <>{children}</>
@@ -37,7 +29,7 @@ export function PublisherPanel({ hero }: { hero: Hero }) {
     <Panel title="Publisher" align="center" className="publisher">
       <div className="center-box">
         <SourceLink href={publisherLink(publisher)} title={`${publisher} · Wikipedia`}>
-          <PublisherLogo publisher={publisher} />
+          <PublisherLogo publisher={publisher} heroId={hero.id} />
         </SourceLink>
       </div>
     </Panel>

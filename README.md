@@ -88,6 +88,10 @@ src/
 ├── data/heroes.ts           carga los héroes y lista de editoriales
 ├── data/publisherFixes.ts   corrige editoriales mal etiquetadas en la API
 ├── data/covers.ts           portadas (Comic Vine + Fandom + correcciones)
+├── data/publisherLogos.ts   editorial → logo de src/assets/publishers
+├── data/biographyFixes.ts   corrige lugares de nacimiento de la API
+├── assets/                  SVG monocromos del proyecto anterior: publishers/, groups/,
+│                            icons/ (se pintan con máscara CSS en el color del HUD, MaskIcon)
 ├── utils/parse.ts           convierte los textos de la API (grupos, familiares, lugares)
 ├── utils/filters.ts         buscador y desplegables
 ├── hooks/useGeocode.ts      texto → coordenadas (Nominatim, con caché)
@@ -104,7 +108,4 @@ src/
 
 ## Pendiente
 
-- Logos reales de editoriales (Fandom) → `src/assets/publishers/`
 - Revisar portadas sin coincidencia en `src/data/covers.json` (valor `null`)
-- Iconos de grupos (Flaticon, con atribución) → `GroupBadge.tsx`
-- Ciudades ficticias (Gotham, Metropolis…) → coordenadas de una ciudad real

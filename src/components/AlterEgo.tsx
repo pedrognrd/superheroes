@@ -22,7 +22,7 @@ export function AppearancePanel({ hero }: { hero: Hero }) {
   return (
     <div className="appearance">
       <div className="appearance__figure">
-        <Silhouette />
+        <Silhouette gender={a.gender} />
         <div className="appearance__lines" aria-hidden="true">
           {Array.from({ length: 12 }, (_, i) => (
             <span key={i} />

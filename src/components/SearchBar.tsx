@@ -8,7 +8,7 @@ import {
   PUBLISHER_OPTIONS,
   type Filters,
 } from '../utils/filters'
-import { ChevronIcon, SearchIcon } from './icons'
+import { ChevronIcon, CloseIcon, SearchIcon } from './icons'
 import './SearchBar.css'
 
 interface FilterSelectProps {
@@ -76,6 +76,11 @@ export function SearchBar({ onSelect }: { onSelect: (id: string) => void }) {
             if (e.key === 'Escape') setOpen(false)
           }}
         />
+        {filters.query && (
+          <button type="button" className="searchbar__clear" onClick={() => set('query')('')} aria-label="Clear search">
+            <CloseIcon />
+          </button>
+        )}
         <SearchIcon />
       </div>
 

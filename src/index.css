@@ -29,6 +29,19 @@ body {
 
 a { color: var(--accent); }
 
+/* SVG monocromo pintado con máscara (MaskIcon) */
+.mask-icon {
+  display: inline-block;
+  flex-shrink: 0;
+  background-color: currentColor;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+}
+
 .app {
   max-width: 1680px;
   margin: 0 auto;
@@ -204,34 +217,7 @@ a { color: var(--accent); }
 }
 
 .logo { font-size: 1.6rem; font-weight: 700; text-align: center; }
-.logo--marvel {
-  background: #ec1d24;
-  color: #fff;
-  font-family: Impact, 'Arial Black', sans-serif;
-  font-size: 2.6rem;
-  letter-spacing: -0.02em;
-  padding: 0 10px;
-  line-height: 1.15;
-  border: 2px solid #fff;
-}
-.logo--dc {
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  background: #0476f2;
-  color: #fff;
-  font-size: 2.8rem;
-  border: 4px solid #fff;
-}
-.logo--darkhorse {
-  color: #fff;
-  font-size: 1.8rem;
-  line-height: 0.95;
-  border: 3px solid #fff;
-  padding: 6px 12px;
-}
+.logo--image { color: var(--text); max-width: 100%; }
 
 .cover { max-width: 100%; max-height: 190px; }
 
@@ -279,7 +265,8 @@ a { color: var(--accent); }
   gap: 10px;
   flex-shrink: 0;
 }
-.silhouette { width: 90px; height: 240px; filter: drop-shadow(0 0 12px rgba(58, 160, 216, 0.5)); }
+.silhouette { display: block; width: 110px; height: 240px; filter: drop-shadow(0 0 12px rgba(58, 160, 216, 0.5)); }
+.silhouette__shape { display: block; background: linear-gradient(#3aa0d8f2, #0b3a5ce6); }
 .appearance__lines { display: grid; gap: 14px; width: 80px; }
 .appearance__lines span { border-top: 2px dashed var(--line-soft); }
 .appearance__data {

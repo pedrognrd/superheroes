@@ -1,5 +1,10 @@
-// Iconos SVG propios (sin dependencias ni atribuciones). Se pueden sustituir
-// más adelante por los de Flaticon guardándolos en src/assets/icons.
+// Iconos de la interfaz. Calavera, corazón y prohibido son SVG propios; el resto
+// son los SVG de src/assets/icons (proyecto anterior de Pasajero Gráfico).
+import closeSvg from '../assets/icons/close.svg'
+import dropdownSvg from '../assets/icons/dropdown.svg'
+import manSvg from '../assets/icons/man.svg'
+import searchSvg from '../assets/icons/search.svg'
+import womanSvg from '../assets/icons/woman.svg'
 
 type IconProps = { color?: string; size?: number }
 
@@ -35,37 +40,49 @@ export function BanIcon({ color = '#4ee08a', size = 30 }: IconProps) {
   )
 }
 
-export function SearchIcon({ size = 24 }: IconProps) {
+/**
+ * Icono SVG monocromo pintado con máscara CSS: toma el color del texto (currentColor)
+ * o el que se le pase. Lo usan los logos de editoriales y grupos y los iconos de
+ * interfaz de src/assets (del proyecto anterior de Pasajero Gráfico).
+ */
+export function MaskIcon({
+  src,
+  width = 24,
+  height = width,
+  color,
+  className = '',
+  label,
+}: {
+  src: string
+  width?: number | string
+  height?: number | string
+  color?: string
+  className?: string
+  /** Texto alternativo; sin él el icono es decorativo */
+  label?: string
+}) {
+  const mask = `url("${src}")`
   return (
-    <svg viewBox="0 0 24 24" width={size} height={size} aria-hidden="true">
-      <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" strokeWidth="2.2" />
-      <path stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" d="M15.5 15.5 21 21" />
-    </svg>
+    <span
+      className={`mask-icon ${className}`.trim()}
+      style={{ width, height, color, maskImage: mask, WebkitMaskImage: mask }}
+      role={label ? 'img' : undefined}
+      aria-label={label}
+      aria-hidden={label ? undefined : true}
+    />
   )
 }
 
-export function ChevronIcon({ size = 18 }: IconProps) {
-  return (
-    <svg viewBox="0 0 24 24" width={size} height={size} aria-hidden="true">
-      <path fill="none" stroke="currentColor" strokeWidth="2.5" d="m5 9 7 7 7-7" />
-    </svg>
-  )
-}
+export const SearchIcon = ({ size = 22 }: IconProps) => <MaskIcon src={searchSvg} width={size} />
+export const ChevronIcon = ({ size = 14 }: IconProps) => <MaskIcon src={dropdownSvg} width={size} height={size * 0.6} />
+export const CloseIcon = ({ size = 16 }: IconProps) => <MaskIcon src={closeSvg} width={size} />
 
-/** Silueta humana para el panel de apariencia */
-export function Silhouette() {
+/** Silueta para el panel de apariencia: mujer o hombre según el género */
+export function Silhouette({ gender }: { gender: string }) {
+  const female = /^female$/i.test(gender)
   return (
-    <svg viewBox="0 0 120 300" className="silhouette" aria-hidden="true">
-      <defs>
-        <linearGradient id="sil" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stopColor="#3aa0d8" stopOpacity="0.95" />
-          <stop offset="1" stopColor="#0b3a5c" stopOpacity="0.9" />
-        </linearGradient>
-      </defs>
-      <path
-        fill="url(#sil)"
-        d="M60 6c-11 0-18 9-18 20 0 10 6 19 18 19s18-9 18-19C78 15 71 6 60 6Zm-17 44c-14 3-22 10-24 24l-7 72c-1 7 9 9 11 2l9-62 2 2-3 56 4 6-2 132c0 8 13 9 14 1l9-120h8l9 120c1 8 14 7 14-1l-2-132 4-6-3-56 2-2 9 62c2 7 12 5 11-2l-7-72c-2-14-10-21-24-24-6 3-11 4-17 4s-11-1-17-4Z"
-      />
-    </svg>
+    <span className="silhouette" aria-hidden="true">
+      <MaskIcon src={female ? womanSvg : manSvg} width="100%" height="100%" className="silhouette__shape" />
+    </span>
   )
 }
