@@ -78,6 +78,11 @@ export function parseRelatives(text: string): Relative[] {
 }
 
 // ---------- Lugares ----------
+/** Lugares descritos con una frase → lugar que se muestra (y se busca en el mapa) */
+const PLACE_ALIASES: Record<string, string> = {
+  'a castle on the Hudson River in upstate New York that is owned by the High Evolutionary': 'New York', // Quicksilver
+}
+
 /** Primer lugar utilizable de un texto como "Mobile; formerly Manhattan, Hellcarrier" */
 export function primaryPlace(text: string): string | null {
   if (isEmpty(text)) return null
@@ -100,7 +105,7 @@ export function primaryPlace(text: string): string | null {
   }
   // "Mobile", "unrevealed, formerly Asteroid M"… no es un lugar
   if (!first || /^(mobile|unrevealed|unknown)$/i.test(first.split(',')[0].trim())) return null
-  return first
+  return PLACE_ALIASES[first] ?? first
 }
 
 /** Ciudad corta para la etiqueta del mapa: "New York, New York" → "New York" */
