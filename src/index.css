@@ -457,7 +457,7 @@ a { color: var(--accent); }
   clip-path: polygon(99.4% 1%, 94% 11%, 94% 86%, 7% 86%, 0.6% 98.8%, 99.4% 99.8%);
 }
 
-.hero-info .section-head { position: relative; top: 12px; right: 9px; }
+.hero-info .section-head { position: relative; top: 24px; right: 9px; }
 .hero-info .section-head__title,
 .alter-ego .section-head__title {
   font-size: 2rem;
@@ -479,7 +479,7 @@ a { color: var(--accent); }
    y la columna de Base, que va debajo del título, baja lo mismo para no montarse */
 @media (min-width: 1665px) {
   .hero-info__grid { top: -30px; left: -12px; min-width: 1200px; }
-  .hero-info .base-map { margin-top: 3rem; }
+  .hero-info .base-map { margin-top: 3.9rem; }
 }
 
 /* Paneles sin marco: solo pestaña y contenido */
@@ -530,7 +530,7 @@ a { color: var(--accent); }
 .hero-info .panel__tab--center .panel__tab-label { flex: 1; text-align: center; padding: 0.1rem; min-width: 100px; }
 .hero-info .panel__tab--center .panel__tab-fill { display: none; }
 /* A la derecha (Base): cuadradito + etiqueta de medio ancho */
-.hero-info .panel__tab--right { justify-content: flex-end; margin-left: 0; }
+.hero-info .panel__tab--right { justify-content: flex-end; margin-left: 0; position: relative; right: 1px; }
 .hero-info .panel__tab--right .panel__tab-label { flex: 0 0 50%; text-align: right; padding: 0.1rem 0.6rem; }
 .hero-info .panel__tab--right .panel__tab-fill { flex: 0 0 0.6rem; min-width: 0; margin: 0 -1px 0 0; background: var(--tab-dark); }
 .hero-info .panel__tab--right .panel__tab-fill::after { display: none; }
@@ -637,19 +637,21 @@ a { color: var(--accent); }
   height: 2.4rem;
   margin-left: calc(0.6rem - 1px);
   margin-right: 13px;
-  padding: 0 0.6rem;
+  padding: 0.6rem;
   border: 1px solid var(--line);
   background: var(--tab-dark);
   color: var(--label);
   font-size: 1.8rem;
-  line-height: 2.2rem;
+  line-height: 1.2rem;
+  position: relative;
+  top: -1px;
   letter-spacing: 0.12rem;
 }
 .hero-info .base-map .panel__body::after {
   content: '';
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 1px;
   width: 0.5rem;
   height: 2.25rem;
   border: 1px solid var(--line);

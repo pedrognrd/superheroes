@@ -3,16 +3,17 @@ import { parseGroups } from '../utils/parse'
 import { GroupBadge } from './GroupBadge'
 import { Panel } from './Panel'
 
-// Filas visibles sin scroll: con más, la lista se desplaza
+// Filas fijas de cada lista: con más elementos, la lista se desplaza
 const CONNECTIONS_VISIBLE = 3
 const ALIASES_ROWS = 5
 
 export function ConnectionsPanel({ hero }: { hero: Hero }) {
   const groups = parseGroups(hero.connections['group-affiliation'])
+  // Siempre 3 filas: se completan con filas vacías (la primera avisa si no hay ninguna)
+  const fillers = Math.max(0, CONNECTIONS_VISIBLE - groups.length)
   return (
     <Panel title="Connections" className="list-panel connections">
       <ul className={`rows${groups.length > CONNECTIONS_VISIBLE ? ' rows--scroll' : ''}`}>
-        {groups.length === 0 && <li className="rows__empty">No known groups</li>}
         {groups.map((g, i) => (
           <li key={i} className="rows__item">
             <span className="rows__text" title={g.name}>
@@ -21,6 +22,12 @@ export function ConnectionsPanel({ hero }: { hero: Hero }) {
             <span className="rows__icon">
               <GroupBadge name={g.name} formerly={g.formerly} />
             </span>
+          </li>
+        ))}
+        {Array.from({ length: fillers }, (_, i) => (
+          <li key={`empty-${i}`} className="rows__item rows__item--empty" aria-hidden={groups.length > 0 || i > 0}>
+            <span className="rows__text">{groups.length === 0 && i === 0 ? 'No known groups' : '\u00a0'}</span>
+            <span className="rows__icon" />
           </li>
         ))}
       </ul>
