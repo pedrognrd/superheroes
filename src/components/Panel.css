@@ -47,3 +47,5 @@
   min-height: 0;
   position: relative;
 }
+
+.panel__tab-fill { display: none; }

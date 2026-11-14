@@ -11,7 +11,9 @@ export function ConnectionsPanel({ hero }: { hero: Hero }) {
         {groups.length === 0 && <li className="rows__empty">No known groups</li>}
         {groups.map((g, i) => (
           <li key={i} className="rows__item">
-            <span className="rows__text">{g.name}</span>
+            <span className="rows__text" title={g.name}>
+              {g.name}
+            </span>
             <span className="rows__icon">
               <GroupBadge name={g.name} formerly={g.formerly} />
             </span>
@@ -30,7 +32,9 @@ export function AliasesPanel({ hero }: { hero: Hero }) {
         {aliases.length === 0 && <li className="rows__empty">No known aliases</li>}
         {aliases.map((a) => (
           <li key={a} className="rows__item">
-            <span className="rows__text">"{a}"</span>
+            <span className="rows__text" title={a}>
+              "{a}"
+            </span>
           </li>
         ))}
       </ul>

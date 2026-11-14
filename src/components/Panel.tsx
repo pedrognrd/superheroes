@@ -14,7 +14,13 @@ interface PanelProps {
 export function Panel({ title, variant = 'dark', align = 'left', className = '', children }: PanelProps) {
   return (
     <section className={`panel panel--${variant} ${className}`}>
-      {title && <h2 className={`panel__tab panel__tab--${align}`}>{title}</h2>}
+      {title && (
+        <h2 className={`panel__tab panel__tab--${align}`}>
+          <span className="panel__tab-label">{title}</span>
+          {/* Celda de relleno de la pestaña (solo visible en el diseño de Superhero information) */}
+          <span className="panel__tab-fill" aria-hidden="true" />
+        </h2>
+      )}
       <div className="panel__body">{children}</div>
     </section>
   )

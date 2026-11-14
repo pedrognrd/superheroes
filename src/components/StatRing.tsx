@@ -7,7 +7,9 @@ interface StatRingProps {
   color: string
 }
 
-const R = 40
+// Anillo fino como el de circle-progress del diseño original (grosor 4 sobre 85 px)
+const STROKE = 4.7
+const R = 50 - STROKE / 2
 const CIRCUMFERENCE = 2 * Math.PI * R
 const DURATION = 1200 // ms
 const DELAY = 200 // ms: tras el fundido de entrada del panel
@@ -58,7 +60,7 @@ export function StatRing({ label, value, color }: StatRingProps) {
           // Sin trazo mientras vale 0 (el extremo redondeado dejaría un punto)
           opacity={shown > 0.5 ? 1 : 0}
         />
-        <text x="50" y="52" style={{ fill: 'var(--text)' }} aria-hidden="true">
+        <text x="50" y="55" style={{ fill: 'var(--line)' }} aria-hidden="true">
           {value == null ? '?' : Math.round(shown)}
         </text>
       </svg>

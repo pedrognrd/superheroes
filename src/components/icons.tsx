@@ -2,7 +2,7 @@
 // son los SVG de src/assets/icons (proyecto anterior de Pasajero Gráfico).
 import closeSvg from '../assets/icons/close.svg'
 import dropdownSvg from '../assets/icons/dropdown.svg'
-import manSvg from '../assets/icons/man_alt.svg'
+import manSvg from '../assets/icons/man.svg'
 import searchSvg from '../assets/icons/search.svg'
 import womanSvg from '../assets/icons/woman.svg'
 

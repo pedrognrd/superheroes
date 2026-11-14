@@ -7,35 +7,36 @@
 }
 
 .stat-ring svg {
-  width: 84px;
-  height: 84px;
+  width: 5.3rem;
+  height: 5.3rem;
 }
 
 .stat-ring__track {
   fill: none;
-  stroke: var(--line-soft);
-  stroke-width: 4;
+  stroke: var(--tab-dark);
+  stroke-width: 4.7;
 }
 
 .stat-ring__value {
   fill: none;
-  stroke-width: 4;
-  stroke-linecap: round;
-  transform: rotate(-90deg);
+  stroke-width: 4.7;
+  stroke-linecap: butt;
+  /* Empieza a las 9 en punto, como circle-progress */
+  transform: rotate(180deg);
   transform-origin: 50% 50%;
 }
 
 .stat-ring text {
   font-family: var(--font);
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 1px;
   text-anchor: middle;
   dominant-baseline: middle;
 }
 
 .stat-ring figcaption {
-  font-size: 1.15rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--accent);
+  color: var(--line);
 }

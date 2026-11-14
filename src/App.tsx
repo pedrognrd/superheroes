@@ -59,7 +59,15 @@ export default function App() {
   return (
     <div className="app">
       <header className="app__header">
-        <div className="app__deco" aria-hidden="true" />
+        {/* Adorno de círculos y líneas que conecta con la barra */}
+        <div className="header-deco" aria-hidden="true">
+          <span className="header-deco__out">
+            <span className="header-deco__in" />
+          </span>
+          <span className="header-deco__line header-deco__line--1" />
+          <span className="header-deco__line header-deco__line--2" />
+          <span className="header-deco__line header-deco__line--3" />
+        </div>
         <SearchBar onSelect={select} />
       </header>
 
@@ -69,6 +77,10 @@ export default function App() {
         </aside>
 
         <section className="hero-info">
+          {/* Escuadra decorativa de la esquina inferior derecha */}
+          <span className="hero-info__corner" aria-hidden="true">
+            <span />
+          </span>
           <div className="section-head">
             <h2 className="section-head__title">Superhero information</h2>
           </div>

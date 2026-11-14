@@ -20,7 +20,7 @@ interface FilterSelectProps {
 
 function FilterSelect({ label, value, options, onChange }: FilterSelectProps) {
   return (
-    <label className="filter">
+    <label className={`searchbar__field filter filter--${label.toLowerCase().replace(/\s+/g, '-')}`}>
       <select value={value} onChange={(e) => onChange(e.target.value)} aria-label={label}>
         <option value="">{label}</option>
         {options.map((o) => (
@@ -39,7 +39,7 @@ const opts = (values: string[]) => values.map((v) => ({ value: v, label: v }))
 export function SearchBar({ onSelect }: { onSelect: (id: string) => void }) {
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS)
   const [open, setOpen] = useState(false)
-  const ref = useRef<HTMLDivElement>(null)
+  const ref = useRef<HTMLElement>(null)
   const results = useMemo(() => applyFilters(filters), [filters])
   const sortBy = filters.sortBy
 
@@ -62,9 +62,12 @@ export function SearchBar({ onSelect }: { onSelect: (id: string) => void }) {
   }
 
   return (
-    <div className="searchbar" ref={ref}>
+    <nav className="searchbar" ref={ref} aria-label="Search and filters">
+      {/* Esquina decorativa superior izquierda */}
+      <span className="searchbar__frame" aria-hidden="true" />
       <div className="searchbar__group searchbar__group--search">
         <span className="searchbar__key">Search</span>
+        <div className="searchbar__field searchbar__field--search">
         <input
           type="search"
           placeholder="Insert name"
@@ -82,24 +85,31 @@ export function SearchBar({ onSelect }: { onSelect: (id: string) => void }) {
           </button>
         )}
         <SearchIcon />
+        </div>
+        <span className="searchbar__sep" aria-hidden="true" />
       </div>
 
       <div className="searchbar__group searchbar__group--filters">
         <span className="searchbar__key">Filter by</span>
+        <span className="searchbar__sep" aria-hidden="true" />
         <FilterSelect
           label="Powerstats"
           value={filters.sortBy}
           options={STAT_KEYS.map((k) => ({ value: k, label: `Top ${k}` }))}
           onChange={set('sortBy')}
         />
+        <span className="searchbar__sep" aria-hidden="true" />
         <FilterSelect label="Group affiliation" value={filters.group} options={opts(GROUP_OPTIONS)} onChange={set('group')} />
+        <span className="searchbar__sep" aria-hidden="true" />
         <FilterSelect label="Base" value={filters.base} options={opts(BASE_OPTIONS)} onChange={set('base')} />
+        <span className="searchbar__sep" aria-hidden="true" />
         <FilterSelect
           label="Publisher"
           value={filters.publisher}
           options={PUBLISHER_OPTIONS}
           onChange={set('publisher')}
         />
+        <span className="searchbar__sep" aria-hidden="true" />
       </div>
 
       {open && (
@@ -127,6 +137,6 @@ export function SearchBar({ onSelect }: { onSelect: (id: string) => void }) {
           </ul>
         </div>
       )}
-    </div>
+    </nav>
   )
 }
