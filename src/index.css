@@ -586,7 +586,7 @@ a { color: var(--accent); }
 .hero-info .rows__text {
   align-self: stretch;
   padding: 0.2rem 0.4rem 0 0.6rem;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 2.3rem;
 }
 .hero-info .rows__icon {
