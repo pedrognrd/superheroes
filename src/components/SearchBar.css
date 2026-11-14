@@ -7,7 +7,7 @@
   height: 4.8rem;
   padding: 1.35rem 0 0 1.2rem;
   border: 1px solid var(--line);
-  background: linear-gradient(180deg, black 0%, #1c485e 86%);
+  background: linear-gradient(180deg, black 0%, #1c485e 96%);
   font-size: 1.9rem;
   line-height: 1.2;
 }
@@ -16,11 +16,11 @@
 .searchbar__frame {
   position: absolute;
   top: 0;
-  left: 0;
+  left: -1px;
   width: 23rem;
   height: 4.6rem;
   background: var(--line);
-  clip-path: polygon(100% 0%, 0 0%, 0 100%, 2.6% 86%, 2.6% 12%, 96% 12%);
+  clip-path: polygon(100% 0%, 0 0%, 0 102%, 2.6% 86%, 2.6% 12%, 96% 12%);
   pointer-events: none;
   z-index: 2;
 }

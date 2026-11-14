@@ -116,7 +116,7 @@ a { color: var(--accent); }
     'identity info'
     'identity alter';
   gap: 28px;
-  margin-top: 28px;
+  margin-top: 20px;
   animation: fade-in 0.4s ease;
 }
 
@@ -398,11 +398,11 @@ a { color: var(--accent); }
 }
 .hero-info::before {
   background: var(--line);
-  clip-path: polygon(100% 0%, 0 0%, 0 100%, 3% 92%, 3% 10%, 97% 10%);
+  clip-path: polygon(100% 0%, 0 0%, 0 101.5%, 3% 93%, 3% 10.5%, 97% 10.5%);
 }
 .hero-info::after {
   top: 0;
-  left: 0;
+  left: -1px;
   width: calc(min(28rem, 70%) - 1px);
   background: var(--tab-dark);
   clip-path: polygon(99.4% 0%, 0.4% 0%, 0.4% 98%, 2.6% 92%, 2.6% 9%, 96.8% 9%);
@@ -431,7 +431,7 @@ a { color: var(--accent); }
   clip-path: polygon(99.4% 1%, 94% 11%, 94% 86%, 7% 86%, 0.6% 98.8%, 99.4% 99.8%);
 }
 
-.hero-info .section-head { margin: 1rem -0.6rem 1.2rem 0; }
+.hero-info .section-head { margin: 1rem -0.6rem 0 0; }
 .hero-info .section-head__title,
 .alter-ego .section-head__title {
   font-size: 2rem;
@@ -448,6 +448,12 @@ a { color: var(--accent); }
   gap: 1.6rem;
   position: relative;
   z-index: 2;
+}
+/* Cuatro columnas: los paneles suben a la altura del título "Superhero information"
+   y la columna de Base, que va debajo del título, baja lo mismo para no montarse */
+@media (min-width: 1501px) {
+  .hero-info__grid { top: -30px; left: -12px; }
+  .hero-info .base-map { margin-top: 2.6rem; }
 }
 
 /* Paneles sin marco: solo pestaña y contenido */
