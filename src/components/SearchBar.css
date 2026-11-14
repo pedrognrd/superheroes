@@ -119,7 +119,62 @@
   outline: none;
   text-overflow: ellipsis;
 }
-.filter select option { background: var(--field); color: var(--text); text-transform: none; font-size: 1rem; }
+.filter select option { background: var(--field); color: var(--line); }
+
+/* Lista desplegada con el mismo aspecto que el campo (select personalizable:
+   Chrome/Edge 135+; Safari y Firefox siguen mostrando la lista del sistema) */
+@supports (appearance: base-select) {
+  .filter select,
+  .filter select::picker(select) {
+    appearance: base-select;
+  }
+  /* El campo conserva su aspecto: sin la flecha propia del navegador (ya hay una) */
+  .filter select {
+    display: block;
+    border-radius: 0;
+    line-height: calc(2.8rem - 2px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .filter select::picker-icon { display: none; }
+
+  .filter select::picker(select) {
+    margin-top: -1px;
+    min-width: anchor-size(width);
+    max-height: 24rem;
+    padding: 0;
+    border: 1px solid var(--line);
+    border-radius: 0;
+    background: var(--field);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+    scrollbar-color: var(--label) var(--field);
+  }
+  .filter select option {
+    padding: 0.2rem 0.6rem;
+    border-bottom: 1px solid var(--line-soft);
+    background: var(--field);
+    color: var(--line);
+    font: inherit;
+    letter-spacing: inherit;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  .filter select option:last-child { border-bottom: 0; }
+  .filter select option::checkmark { display: none; }
+  .filter select option:hover,
+  .filter select option:focus-visible {
+    background: var(--tab-dark);
+    color: var(--label);
+    outline: none;
+  }
+  /* Opción elegida: como la etiqueta clara "Filter by" */
+  .filter select option:checked {
+    background: var(--label);
+    color: var(--field);
+  }
+}
 .filter .mask-icon { position: absolute; right: 0.6rem; width: 1.5rem !important; height: 0.9rem !important; pointer-events: none; color: var(--line); }
 
 .results {
@@ -199,4 +254,5 @@
   .searchbar__group--filters .searchbar__key { flex-basis: 100%; height: 2.4rem; }
   .searchbar__group--filters .searchbar__sep { display: none; }
   .filter { flex: 1 1 45%; height: 2.6rem; margin-top: -1px; }
+  .filter select { line-height: calc(2.6rem - 2px); }
 }
