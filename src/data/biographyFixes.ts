@@ -1,4 +1,4 @@
-// Correcciones de SuperHero API (lugar de nacimiento y familiares), sin tocar
+// Correcciones de SuperHero API (lugar de nacimiento, familiares y aliases), sin tocar
 // heroes.json: sobreviven a una nueva descarga con `npm run fetch:heroes`.
 // id del héroe → lugar correcto
 const PLACE_OF_BIRTH: Record<string, string> = {
@@ -23,4 +23,25 @@ const RELATIVES: Record<string, string> = {
 
 export function fixRelatives(id: string, relatives: string): string {
   return RELATIVES[id] ?? relatives
+}
+
+// id del héroe → aliases correctos
+const ALIASES: Record<string, string[]> = {
+  // Martian Manhunter: la API los junta en un solo texto y le falta la J de "John Jones"
+  '432': [
+    'John Jones',
+    "J'Onn J'Onzz (alternate spelling)",
+    'Big Green Buddy',
+    'J.J.',
+    'Jolly Green Giant',
+    'Light to the Light',
+    'Manhunter',
+    'Manhunter from Mars',
+    'Son of Mars',
+    'Bronze Wraith',
+  ],
+}
+
+export function fixAliases(id: string, aliases: string[]): string[] {
+  return ALIASES[id] ?? aliases
 }
