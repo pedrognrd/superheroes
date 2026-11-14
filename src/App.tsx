@@ -8,6 +8,7 @@ import { MapPanel } from './components/MapPanel'
 import { PowerStatsPanel } from './components/PowerStatsPanel'
 import { FirstAppearancePanel, PublisherPanel } from './components/PublisherPanel'
 import { SearchBar } from './components/SearchBar'
+import { DesignOverlay } from './components/DesignOverlay'
 
 const DEFAULT_ID = '620' // Spider-Man
 const pickOne = <T,>(list: readonly T[]) => list[Math.floor(Math.random() * list.length)]
@@ -58,6 +59,7 @@ export default function App() {
 
   return (
     <div className="app">
+      <DesignOverlay />
       <header className="app__header">
         {/* Adorno de círculos y líneas que conecta con la barra */}
         <div className="header-deco" aria-hidden="true">
