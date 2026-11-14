@@ -6,8 +6,8 @@
 }
 
 .identity__frame {
-  border: 1px solid var(--line);
-  padding: 14px;
+  border: 2px solid var(--line);
+  padding: 0;
   background: var(--bg-panel);
 }
 

@@ -162,7 +162,7 @@ a { color: var(--accent); }
   justify-content: flex-end;
   align-items: center;
   gap: 24px;
-  margin: 0 -18px 16px 0;
+  margin: -3px 0 18px 0;
 }
 
 .section-head__title {
@@ -201,7 +201,7 @@ a { color: var(--accent); }
   gap: 18px;
   min-width: 0;
 }
-.stack > .panel { flex: 1; }
+.stack > .panel { flex: 0; }
 
 /* ---------- Powerstats ---------- */
 .powerstats__grid {
@@ -407,7 +407,7 @@ a { color: var(--accent); }
   position: relative;
   border-color: var(--line);
   background: linear-gradient(90deg, #000 40%, rgb(26, 55, 80) 100%);
-  padding: 0 1.6rem 1.6rem 2rem;
+  padding: 0 0 0 2rem;
 }
 
 /* Escuadra arriba a la izquierda (contorno azul relleno de oscuro) */
@@ -457,7 +457,7 @@ a { color: var(--accent); }
   clip-path: polygon(99.4% 1%, 94% 11%, 94% 86%, 7% 86%, 0.6% 98.8%, 99.4% 99.8%);
 }
 
-.hero-info .section-head { margin: 1rem -0.6rem 0 0; }
+.hero-info .section-head { position: relative; top: 12px; right: 9px; }
 .hero-info .section-head__title,
 .alter-ego .section-head__title {
   font-size: 2rem;
@@ -465,7 +465,7 @@ a { color: var(--accent); }
   letter-spacing: 0.12rem;
   line-height: 2.2rem;
   padding: 0 0.4rem;
-  min-width: 18rem;
+  min-width: 17.6rem;
   text-align: right;
 }
 
@@ -475,17 +475,18 @@ a { color: var(--accent); }
   position: relative;
   z-index: 2;
 }
-/* Cuatro columnas: los paneles suben a la altura del título "Superhero information"
+/* Cuatro columnas (desde 1665px): los paneles suben a la altura del título "Superhero information"
    y la columna de Base, que va debajo del título, baja lo mismo para no montarse */
-@media (min-width: 1501px) {
-  .hero-info__grid { top: -30px; left: -12px; }
-  .hero-info .base-map { margin-top: 2.6rem; }
+@media (min-width: 1665px) {
+  .hero-info__grid { top: -30px; left: -12px; min-width: 1200px; }
+  .hero-info .base-map { margin-top: 3rem; }
 }
 
 /* Paneles sin marco: solo pestaña y contenido */
 .hero-info .panel {
   border: 0;
   background: none;
+  height: 409px;
 }
 
 /* Pestaña en dos piezas: etiqueta oscura + celda de relleno con una marca vertical */
@@ -503,7 +504,7 @@ a { color: var(--accent); }
   color: var(--label);
 }
 .hero-info .panel__tab-label {
-  min-width: 170px;
+  min-width: 186px;
   padding: 0.1rem 1.4rem 0.1rem 0.6rem;
   border: 1px solid var(--line);
   background: var(--tab-dark);
@@ -522,11 +523,11 @@ a { color: var(--accent); }
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 0.65rem;
+  right: 0.55rem;
   border-left: 1px solid var(--line);
 }
 /* Centrada (Publisher, First appearance): etiqueta a todo el ancho */
-.hero-info .panel__tab--center .panel__tab-label { flex: 1; text-align: center; padding: 0.1rem; }
+.hero-info .panel__tab--center .panel__tab-label { flex: 1; text-align: center; padding: 0.1rem; min-width: 100px; }
 .hero-info .panel__tab--center .panel__tab-fill { display: none; }
 /* A la derecha (Base): cuadradito + etiqueta de medio ancho */
 .hero-info .panel__tab--right { justify-content: flex-end; margin-left: 0; }
@@ -535,7 +536,7 @@ a { color: var(--accent); }
 .hero-info .panel__tab--right .panel__tab-fill::after { display: none; }
 
 /* Powerstats */
-.hero-info .powerstats__grid { padding: 0.4rem 0; gap: 0.6rem 0.4rem; }
+.hero-info .powerstats__grid { padding: 1.5rem 1rem; gap: 0.8rem 0.6rem; }
 
 /* Connections y Aliases: filas con celdas enmarcadas y barra de scroll visible */
 .hero-info .stack { gap: 0.6rem; }
@@ -543,6 +544,7 @@ a { color: var(--accent); }
   overflow-y: scroll;
   max-height: calc(2.7rem * 3);
   padding-right: 0;
+  border: 1px solid var(--line);
 }
 .hero-info .aliases .rows { max-height: 13.27rem; border: 1px solid var(--line); }
 /* Barra de scroll del diseño original: carril enmarcado y tirador azul claro.
@@ -570,27 +572,21 @@ a { color: var(--accent); }
 .hero-info .rows__item {
   min-height: 2.7rem;
   border: 0;
-  border-bottom: 1px solid var(--line);
+  border-right: 1px solid var(--line);
   margin-bottom: -1px;
 }
+/* Cada celda lleva su propia línea inferior */
 .hero-info .rows__text {
   align-self: stretch;
-  display: block;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
   padding: 0.2rem 0.4rem 0 0.6rem;
-  min-width: 0;
-  border: none;
-  color: var(--line);
+  border-bottom: 1px solid var(--line);
   font-size: 1.6rem;
-  letter-spacing: 0.12rem;
   line-height: 2.3rem;
 }
 .hero-info .rows__icon {
-  width: 2.9rem;
-  margin-left: -1px;
-  border: 1px solid var(--line);
+  width: 2.8rem;
+  border-left: 1px solid var(--line);
+  border-bottom: 2px solid var(--line);
   background: var(--field);
 }
 .hero-info .rows__empty { color: var(--line); font-size: 1.4rem; }
@@ -599,7 +595,7 @@ a { color: var(--accent); }
 .hero-info .publisher,
 .hero-info .first-appearance {
   position: relative;
-  padding-right: 1.2rem;
+  padding-right: 0.26em;
 }
 .hero-info .publisher::after,
 .hero-info .first-appearance::after {
@@ -608,7 +604,7 @@ a { color: var(--accent); }
   top: 0;
   right: 5px;
   bottom: 0;
-  width: 0.8rem;
+  width: 0.6rem;
   border: 1px solid var(--line);
 }
 .hero-info .publisher .panel__tab,
@@ -616,12 +612,12 @@ a { color: var(--accent); }
 .hero-info .center-box {
   border: 1px solid var(--line);
   background: var(--field);
-  min-height: 7rem;
-  padding: 0.6rem;
+  min-height: 8rem;
+  padding: 0.6rem 1.2rem 0.6rem 0.6rem;
 }
 
 /* Base: mapa con la esquina recortada y nombre con cuadradito a la izquierda */
-.hero-info .base-map .panel__body { padding: 0; gap: 0.6rem; position: relative; }
+.hero-info .base-map .panel__body { padding: 0; gap: 0; position: relative; }
 .hero-info .base-map .map-panel__map {
   border: 0;
   background: var(--line);
@@ -636,6 +632,7 @@ a { color: var(--accent); }
 .hero-info .base-map .map-panel__label {
   height: 2.4rem;
   margin-left: calc(0.6rem - 1px);
+  margin-right: 13px;
   padding: 0 0.6rem;
   border: 1px solid var(--line);
   background: var(--tab-dark);
@@ -649,15 +646,18 @@ a { color: var(--accent); }
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 0.6rem;
-  height: 2.4rem;
+  width: 0.5rem;
+  height: 2.25rem;
   border: 1px solid var(--line);
   background: var(--tab-dark);
 }
 
 /* ---------- Responsive ---------- */
-@media (max-width: 1500px) {
+/* Superhero information: las cuatro columnas (min-width 1200px) solo caben desde 1665px */
+@media (max-width: 1664px) {
   .hero-info__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 1500px) {
   .alter-ego__grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-template-areas:
