@@ -1,6 +1,8 @@
 import type { Hero } from '../types'
 import { parseGroups } from '../utils/parse'
-import { GroupBadge } from './GroupBadge'
+import unknownIcon from '../assets/icons/unknown.png'
+import { BADGE_SIZE, GroupBadge } from './GroupBadge'
+import { MaskIcon } from './icons'
 import { Panel } from './Panel'
 
 // Filas fijas de cada lista: con más elementos, la lista se desplaza
@@ -27,7 +29,9 @@ export function ConnectionsPanel({ hero }: { hero: Hero }) {
         {Array.from({ length: fillers }, (_, i) => (
           <li key={`empty-${i}`} className="rows__item rows__item--empty" aria-hidden={groups.length > 0 || i > 0}>
             <span className="rows__text">{groups.length === 0 && i === 0 ? 'No known groups' : '\u00a0'}</span>
-            <span className="rows__icon" />
+            <span className="rows__icon">
+              {groups.length === 0 && i === 0 && <MaskIcon src={unknownIcon} width={BADGE_SIZE} color="var(--line)" />}
+            </span>
           </li>
         ))}
       </ul>

@@ -457,7 +457,7 @@ a { color: var(--accent); }
   clip-path: polygon(99.4% 1%, 94% 11%, 94% 86%, 7% 86%, 0.6% 98.8%, 99.4% 99.8%);
 }
 
-.hero-info .section-head { position: relative; top: 24px; right: 9px; }
+.hero-info .section-head { position: relative; margin: 1rem 0 1.2rem; }
 .hero-info .section-head__title,
 .alter-ego .section-head__title {
   font-size: 2rem;
@@ -480,6 +480,7 @@ a { color: var(--accent); }
 @media (min-width: 1665px) {
   .hero-info__grid { top: -30px; left: -12px; min-width: 1200px; }
   .hero-info .base-map { margin-top: 3.9rem; }
+  .hero-info .section-head { top: 24px; right: 9px; margin: -3px 0 18px; }
 }
 
 /* Paneles sin marco: solo pestaña y contenido */
@@ -571,14 +572,15 @@ a { color: var(--accent); }
 @supports not (-moz-appearance: none) {
   .hero-info .rows { scrollbar-color: auto; }
 }
-/* Una sola línea inferior por fila (en el li), así texto e icono siempre coinciden;
-   la última se solapa con el borde de la lista */
+/* Una sola línea inferior por fila (en el li), así texto e icono siempre coinciden.
+   Sin margen negativo: si no, el fondo de la celda del icono de la fila siguiente
+   tapaba la línea. La última fila no la lleva (ya está el borde de la lista) */
 .hero-info .rows__item {
   min-height: 2.7rem;
   border: 0;
   border-bottom: 1px solid var(--line);
-  margin-bottom: -1px;
 }
+.hero-info .rows__item:last-child { border-bottom: 0; }
 /* Con scroll, la fila se cierra a la derecha contra la barra */
 .hero-info .rows--scroll .rows__item { border-right: 1px solid var(--line); }
 .hero-info .rows__text {

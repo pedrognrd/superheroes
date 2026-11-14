@@ -27,8 +27,11 @@ const KNOWN_GROUPS: { match: RegExp; logo: string; color: string }[] = [
   { match: /suicide squad/i, logo: others, color: '#f0c58a' },
 ]
 
+/** Tamaño común de todos los iconos de Connections (logos, "formerly" y desconocido) */
+export const BADGE_SIZE = 26
+
 export function GroupBadge({ name, formerly }: { name: string; formerly: boolean }) {
-  if (formerly) return <BanIcon />
+  if (formerly) return <BanIcon size={BADGE_SIZE} />
   const known = KNOWN_GROUPS.find((g) => g.match.test(name))
-  return <MaskIcon src={known?.logo ?? others} width={32} height={30} color={known?.color ?? 'var(--accent)'} />
+  return <MaskIcon src={known?.logo ?? others} width={BADGE_SIZE} height={BADGE_SIZE} color={known?.color ?? 'var(--accent)'} />
 }

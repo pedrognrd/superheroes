@@ -33,7 +33,8 @@ export function HeartIcon({ color = '#ff5a8a', size = 30 }: IconProps) {
 
 export function BanIcon({ color = '#4ee08a', size = 30 }: IconProps) {
   return (
-    <svg viewBox="0 0 32 32" width={size} height={size} aria-hidden="true">
+    // viewBox ajustado al círculo: a igual tamaño ocupa lo mismo que los logos de grupo
+    <svg viewBox="3.5 3.5 25 25" width={size} height={size} aria-hidden="true">
       <circle cx="16" cy="16" r="11" fill="none" stroke={color} strokeWidth="3" />
       <path stroke={color} strokeWidth="3" d="M8.5 23.5l15-15" />
     </svg>

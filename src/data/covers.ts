@@ -66,6 +66,7 @@ const MANUAL: Record<string, Cover> = {
 const COMIC_VINE_IGNORED = new Set([
   'History of the DC Universe #2', // Booster Gold, Captain Atom, Kilowog
   'DC Spotlight #1', // Ozymandias
+  'The Comic Reader #100', // Punisher (fanzine de 1973; debutó en Amazing Spider-Man #129)
 ])
 
 export function getCover(heroId: string): Cover | null {

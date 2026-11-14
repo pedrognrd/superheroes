@@ -251,8 +251,8 @@ const MANUAL = [
   },
 ]
 const manualFor = (q) => MANUAL.find((m) => (typeof m.match === 'string' ? m.match === q : m.match.test(q)))
-// Lugares que siempre van al mapa aunque tengan página en Fandom
-const ALWAYS_MAP = /^new york( city)?\b/i
+// Lugares que siempre van al mapa aunque tengan página en Fandom (se busca solo ese nombre)
+const ALWAYS_MAP = /^(new york( city)?|san francisco)\b/i
 const PLACE_CATEGORY = /(locations?|planets?|moons?|cities|city|places|worlds?|star systems?|countries|regions|space stations?|buildings)\b/i
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))

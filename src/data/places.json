@@ -1124,9 +1124,10 @@
     "page": "https://marvel.fandom.com/wiki/Fort_Washington"
   },
   "San Francisco, formerly Los Angeles, Keystone City, Manchester, Alabama": {
-    "image": "https://static.wikia.nocookie.net/marvel_dc/images/c/cf/San_Francisco_01.jpg/revision/latest/scale-to-width-down/600?cb=20191229033955",
-    "title": "San Francisco",
-    "page": "https://dc.fandom.com/wiki/San_Francisco"
+    "coords": [
+      37.78794,
+      -122.40752
+    ]
   },
   "Princeton, New Jersey": {
     "coords": [
