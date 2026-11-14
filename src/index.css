@@ -69,14 +69,14 @@ a { color: var(--accent); }
 /* Maqueta original para comparar (tecla D), con las medidas de .img_bg del diseño */
 .img_bg {
   position: absolute;
-  top: 16px;
+  top: 676px;
   left: clamp(16px, 2vw, 32px);
   width: 1611px;
   height: 960px;
   background-repeat: no-repeat;
   pointer-events: none;
 }
-.img_bg--under { z-index: -1; }
+.img_bg--under { z-index: 1; }
 .img_bg--over { z-index: 50; opacity: 0.5; }
 .img_bg__badge {
   position: fixed;
