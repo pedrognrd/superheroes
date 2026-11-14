@@ -447,7 +447,7 @@ a { color: var(--accent); }
   bottom: -1px;
   z-index: 1;
   background: var(--line);
-  clip-path: polygon(100% 0%, 94% 11%, 94% 84%, 7% 84%, 0% 99%, 100% 100%);
+  clip-path: polygon(100% 0%, 94% 8%, 94% 84%, 7% 84%, -1% 98%, 100% 98%);
 }
 .hero-info__corner > span {
   top: 0;
