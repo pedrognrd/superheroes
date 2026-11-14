@@ -15,7 +15,7 @@ function PublisherLogo({ publisher, heroId }: { publisher: string; heroId: strin
     <MaskIcon
       src={logo}
       width={190}
-      height={120}
+      height={80}
       className="logo logo--image"
       color={publisherColor(publisher)}
       label={publisher}
