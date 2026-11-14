@@ -545,22 +545,22 @@ a { color: var(--accent); }
   padding-right: 0;
 }
 .hero-info .aliases .rows { max-height: 13.27rem; border: 1px solid var(--line); }
-/* Barra de scroll del diseño original: carril enmarcado y tirador azul claro,
-   más estrecho que el carril (borde transparente + background-clip) */
-.hero-info .rows::-webkit-scrollbar { width: 0.8rem; }
+/* Barra de scroll del diseño original: carril enmarcado y tirador azul claro.
+   Para dejar hueco alrededor del tirador, sube el borde transparente del thumb (background-clip) */
+.hero-info .rows::-webkit-scrollbar { width: 0.6rem; }
 .hero-info .rows::-webkit-scrollbar-track {
   border: 1px solid var(--line);
   background: var(--field);
 }
 .hero-info .rows::-webkit-scrollbar-thumb {
-  min-height: 2.7rem;
-  border: 2px solid transparent;
+  min-height: 2rem;
+  border: 0 solid transparent;
   background: var(--label) padding-box;
 }
 .hero-info .rows::-webkit-scrollbar-thumb:hover { background: var(--tab-light) padding-box; }
 .hero-info .rows::-webkit-scrollbar-button { display: none; }
-/* Aliases ya tiene su propio marco: el carril solo necesita la línea que lo separa de las filas */
-.hero-info .aliases .rows::-webkit-scrollbar-track { border-width: 0 0 0 1px; }
+/* Aliases ya tiene su propio marco: el carril va sin borde */
+.hero-info .aliases .rows::-webkit-scrollbar-track { border-width: 0; }
 @supports (-moz-appearance: none) {
   .hero-info .rows { scrollbar-color: var(--label) var(--field); scrollbar-width: thin; }
 }
