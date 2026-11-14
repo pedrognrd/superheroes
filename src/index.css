@@ -540,13 +540,15 @@ a { color: var(--accent); }
 
 /* Connections y Aliases: filas con celdas enmarcadas y barra de scroll visible */
 .hero-info .stack { gap: 0.6rem; }
+/* Sin scroll hasta pasar de 3 connections / 5 aliases (clase rows--scroll) */
 .hero-info .rows {
-  overflow-y: scroll;
-  max-height: calc(2.7rem * 3);
+  overflow: hidden;
+  max-height: none;
   padding-right: 0;
   border: 1px solid var(--line);
 }
-.hero-info .aliases .rows { max-height: 13.27rem; border: 1px solid var(--line); }
+.hero-info .rows--scroll { overflow-y: scroll; max-height: calc(2.7rem * 3); }
+.hero-info .aliases .rows--scroll { max-height: 13.27rem; }
 /* Barra de scroll del diseño original: carril enmarcado y tirador azul claro.
    Para dejar hueco alrededor del tirador, sube el borde transparente del thumb (background-clip) */
 .hero-info .rows::-webkit-scrollbar { width: 0.6rem; }
@@ -569,26 +571,28 @@ a { color: var(--accent); }
 @supports not (-moz-appearance: none) {
   .hero-info .rows { scrollbar-color: auto; }
 }
+/* Una sola línea inferior por fila (en el li), así texto e icono siempre coinciden;
+   la última se solapa con el borde de la lista */
 .hero-info .rows__item {
   min-height: 2.7rem;
   border: 0;
-  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
   margin-bottom: -1px;
 }
-/* Cada celda lleva su propia línea inferior */
+/* Con scroll, la fila se cierra a la derecha contra la barra */
+.hero-info .rows--scroll .rows__item { border-right: 1px solid var(--line); }
 .hero-info .rows__text {
   align-self: stretch;
   padding: 0.2rem 0.4rem 0 0.6rem;
-  border-bottom: 1px solid var(--line);
   font-size: 1.6rem;
   line-height: 2.3rem;
 }
 .hero-info .rows__icon {
   width: 2.8rem;
   border-left: 1px solid var(--line);
-  border-bottom: 2px solid var(--line);
   background: var(--field);
 }
+.hero-info .rows__item--empty .rows__text { color: var(--line); opacity: 0.7; }
 .hero-info .rows__empty { color: var(--line); font-size: 1.4rem; }
 
 /* Publisher y First appearance: caja enmarcada + barra vertical a la derecha */
