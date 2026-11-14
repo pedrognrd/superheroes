@@ -6,12 +6,12 @@ import { MaskIcon } from './icons'
 import { Panel } from './Panel'
 
 // Filas fijas de cada lista: con más elementos, la lista se desplaza
-const CONNECTIONS_VISIBLE = 3
-const ALIASES_ROWS = 5
+const CONNECTIONS_VISIBLE = 4
+const ALIASES_ROWS = 4
 
 export function ConnectionsPanel({ hero }: { hero: Hero }) {
   const groups = parseGroups(hero.connections['group-affiliation'])
-  // Siempre 3 filas: se completan con filas vacías (la primera avisa si no hay ninguna)
+  // Siempre 4 filas: se completan con filas vacías (la primera avisa si no hay ninguna)
   const fillers = Math.max(0, CONNECTIONS_VISIBLE - groups.length)
   return (
     <Panel title="Connections" className="list-panel connections">
@@ -41,7 +41,7 @@ export function ConnectionsPanel({ hero }: { hero: Hero }) {
 
 export function AliasesPanel({ hero }: { hero: Hero }) {
   const aliases = hero.biography.aliases.filter((a) => a && a !== '-')
-  // Siempre 5 filas: se completan con filas vacías (la primera avisa si no hay ninguno)
+  // Siempre 4 filas: se completan con filas vacías (la primera avisa si no hay ninguno)
   const fillers = Math.max(0, ALIASES_ROWS - aliases.length)
   return (
     <Panel title="Aliases" className="list-panel aliases">

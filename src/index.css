@@ -487,7 +487,7 @@ a { color: var(--accent); }
 .hero-info .panel {
   border: 0;
   background: none;
-  height: 409px;
+  height: 420px;
 }
 
 /* Pestaña en dos piezas: etiqueta oscura + celda de relleno con una marca vertical */
@@ -541,15 +541,14 @@ a { color: var(--accent); }
 
 /* Connections y Aliases: filas con celdas enmarcadas y barra de scroll visible */
 .hero-info .stack { gap: 0.6rem; }
-/* Sin scroll hasta pasar de 3 connections / 5 aliases (clase rows--scroll) */
+/* Sin scroll hasta pasar de 4 connections / 4 aliases (clase rows--scroll) */
 .hero-info .rows {
   overflow: hidden;
   max-height: none;
   padding-right: 0;
   border: 1px solid var(--line);
 }
-.hero-info .rows--scroll { overflow-y: scroll; max-height: calc(2.7rem * 3); }
-.hero-info .aliases .rows--scroll { max-height: 13.27rem; }
+.hero-info .rows--scroll { overflow-y: scroll; max-height: calc(2.7rem * 4); }
 /* Barra de scroll del diseño original: carril enmarcado y tirador azul claro.
    Para dejar hueco alrededor del tirador, sube el borde transparente del thumb (background-clip) */
 .hero-info .rows::-webkit-scrollbar { width: 0.6rem; }
@@ -576,17 +575,19 @@ a { color: var(--accent); }
    Sin margen negativo: si no, el fondo de la celda del icono de la fila siguiente
    tapaba la línea. La última fila no la lleva (ya está el borde de la lista) */
 .hero-info .rows__item {
+  width: 97.5%;
   min-height: 2.7rem;
   border: 0;
   border-bottom: 1px solid var(--line);
+  border-right: 1px solid var(--line);
 }
 .hero-info .rows__item:last-child { border-bottom: 0; }
 /* Con scroll, la fila se cierra a la derecha contra la barra */
-.hero-info .rows--scroll .rows__item { border-right: 1px solid var(--line); }
+.hero-info .rows--scroll .rows__item { width: 100%; border-right: 1px solid var(--line); }
 .hero-info .rows__text {
   align-self: stretch;
   padding: 0.2rem 0.4rem 0 0.6rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 2.3rem;
 }
 .hero-info .rows__icon {
@@ -619,7 +620,7 @@ a { color: var(--accent); }
   border: 1px solid var(--line);
   background: var(--field);
   min-height: 8rem;
-  padding: 0.6rem 1.2rem 0.6rem 0.6rem;
+  padding: 1.4rem;
 }
 
 /* Base: mapa con la esquina recortada y nombre con cuadradito a la izquierda */
