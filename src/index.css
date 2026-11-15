@@ -148,7 +148,7 @@ a { color: var(--accent); }
 .header-deco--vertical .header-deco__line--2 { left: 42px; height: 105px; }
 .header-deco--vertical .header-deco__line--3 { left: 52px; height: 75px; }
 .header-deco--vertical .header-deco__out { left: 19px; top: 176px; width: 48px; height: 48px; }
-.header-deco--vertical .header-deco__in { left: -2.5px; top: -2.5px; width: 37px; height: 37px; }
+.header-deco--vertical .header-deco__in { left: 0.5px; top: -0.5px; width: 37px; height: 37px; }
 
 .app__header .searchbar { flex: 1; }
 
@@ -161,12 +161,21 @@ a { color: var(--accent); }
     'identity alter';
   gap: 28px;
   margin-top: 20px;
+  /* Para medir desde el nombre del héroe el hueco libre a la izquierda de Alter-ego (cqw) */
+  container-type: inline-size;
   animation: fade-in 0.4s ease;
 }
 
 .dashboard__identity { grid-area: identity; position: relative; top: 50px; }
 .hero-info { grid-area: info; }
-.alter-ego { grid-area: alter; }
+.alter-ego {
+  grid-area: alter;
+  position: relative;
+  /* Más estrecho que Superhero information y pegado a la derecha, como en el diseño */
+  justify-self: end;
+  width: 1000px;
+  max-width: 100%;
+}
 
 .hero-info,
 .alter-ego {
@@ -203,7 +212,7 @@ a { color: var(--accent); }
 
 .alter-ego__grid {
   display: grid;
-  grid-template-columns: minmax(240px, 1fr) minmax(300px, 1.25fr) minmax(280px, 1.2fr);
+  grid-template-columns: minmax(240px, 1fr) minmax(250px, 1.5fr) minmax(250px, 1fr);
   grid-template-areas:
     'birth appearance relatives'
     'occupation occupation relatives';
@@ -239,7 +248,7 @@ a { color: var(--accent); }
   overflow-y: auto;
   scrollbar-color: var(--line) transparent;
 }
-.relatives .rows { max-height: 330px; }
+.relatives .rows { max-height: calc(42px * 6); }
 
 .rows__item {
   display: flex;
@@ -373,11 +382,11 @@ a { color: var(--accent); }
   display: block;
   height: 280px;
   flex-shrink: 0;
-  filter: url(#silhouette-outline) drop-shadow(0 0 4px #3aa0d880);
+  filter: url(#silhouette-outline) drop-shadow(0 0 0 #3aa0d880);
 }
 .silhouette__shape {
   display: block;
-  background: radial-gradient(ellipse 70% 55% at 50% 42%, #010508 35%, #0b2f4a 100%);
+  background: radial-gradient(60% 35% at 50% 40%, #010508 -175%, #0b2f4a 160%);
 }
 .silhouette__defs { position: absolute; width: 0; height: 0; }
 /* Líneas discontinuas que arrancan pegadas al contorno de la figura */
@@ -392,11 +401,11 @@ a { color: var(--accent); }
 .appearance__circles {
   position: absolute;
   left: calc(100% + 14px);
-  width: 3.4rem;
-  height: 3.4rem;
+  width: 3rem;
+  height: 3rem;
 }
-.appearance__circles .header-deco__out { top: 0; }
-.appearance__circles .header-deco__in { left: -0.15rem; top: -0.15rem; }
+.appearance__circles .header-deco__out { top: 0; width: 2.6rem; height: 2.6rem; }
+.appearance__circles .header-deco__in { left: -0.05rem; top: 0.05rem; width: 1.8rem; height: 1.8rem; }
 .appearance__data {
   position: relative;
   /* Bajo los círculos de la línea de la cabeza, como en el diseño */
@@ -475,7 +484,9 @@ a { color: var(--accent); }
 
 /* Escuadra arriba a la izquierda (contorno azul relleno de oscuro) */
 .hero-info::before,
-.hero-info::after {
+.hero-info::after,
+.alter-ego::before,
+.alter-ego::after {
   content: '';
   position: absolute;
   top: -1px;
@@ -485,11 +496,13 @@ a { color: var(--accent); }
   pointer-events: none;
   z-index: 1;
 }
-.hero-info::before {
+.hero-info::before,
+.alter-ego::before {
   background: var(--line);
   clip-path: polygon(100% 0%, 0 0%, 0 101.5%, 3% 93%, 3% 10.5%, 97% 10.5%);
 }
-.hero-info::after {
+.hero-info::after,
+.alter-ego::after {
   top: 0;
   left: -1px;
   width: calc(min(28rem, 70%) - 1px);
@@ -722,6 +735,81 @@ a { color: var(--accent); }
   height: 2.25rem;
   border: 1px solid var(--line);
   background: var(--tab-dark);
+}
+
+/* ---------- Alter-ego information (marcos y cuadraditos del diseño) ---------- */
+.alter-ego { border-color: var(--line); }
+
+/* Cuadradito a la derecha (como .hero-info .panel__tab-fill::after): una línea vertical
+   cerca del borde derecho de la caja */
+.identity__name,
+.identity__fullname-value,
+.alter-ego .panel__tab--left,
+.alter-ego .map-panel__label,
+.occupation__value {
+  position: relative;
+  padding-right: calc(0.55rem + 14px);
+}
+.identity__name::after,
+.identity__fullname-value::after,
+.alter-ego .panel__tab--left::after,
+.alter-ego .map-panel__label::after,
+.occupation__value::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0.55rem;
+  border-left: 1px solid var(--line);
+}
+.occupation__value { flex: 1; }
+
+/* Place of birth: sin marco propio; pestaña, mapa y etiqueta llevan el suyo */
+.alter-ego .birth-map { border: 0; background: none; }
+.alter-ego .birth-map .panel__tab { border: 1px solid var(--line); margin-bottom: -1px; }
+.alter-ego .birth-map .map-panel__map { min-height: 0; border-color: var(--line); }
+.alter-ego .birth-map .map-panel__label { margin-top: -1px; }
+
+/* Relatives: tira estrecha a la izquierda en toda su altura (como .base-map .panel__body::after) */
+.alter-ego .relatives { position: relative; margin-left: 0.5rem; }
+.alter-ego .relatives::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+  left: -0.5rem;
+  width: 0.5rem;
+  border: 1px solid var(--line);
+  background: var(--tab-dark);
+}
+.alter-ego .relatives .rows__item--empty .rows__text { color: var(--line); opacity: 0.7; }
+/* Una sola línea por familiar para que las 6 filas midan siempre lo mismo (el nombre completo, en el title) */
+.alter-ego .relatives .rows__text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* Tres columnas (desde 1501px): el título va arriba a la derecha, sobre Relatives, y el mapa
+   sube hasta el marco superior; su lado izquierdo sigue el contorno de la escuadra */
+@media (min-width: 1501px) {
+  .alter-ego { padding-left: 20px; }
+  .alter-ego .section-head { position: absolute; top: 10px; right: 18px; margin: 0; z-index: 2; }
+  .alter-ego__grid { padding-top: 20px; }
+  .alter-ego .relatives { margin-top: 42px; }
+  .alter-ego .birth-map { height: 280px; } /* lo mismo que .appearance__figure */
+  .alter-ego .occupation { justify-self: start; margin-left: -10px; }
+  .alter-ego .birth-map .map-panel__label { margin-left: -10px; }
+  .alter-ego .birth-map .map-panel__map {
+    margin-left: -10px;
+    border: 0;
+    background: var(--line);
+    clip-path: polygon(10px 0, 100% 0, 100% 100%, 0 100%, 0 var(--notch-end), 10px var(--notch-start));
+  }
+  .alter-ego .birth-map .map-panel__map > * {
+    position: absolute;
+    inset: 1px;
+    height: auto;
+    min-height: 0;
+    clip-path: polygon(10px 0, 100% 0, 100% 100%, 0 100%, 0 calc(var(--notch-end) - 0.5px), 10px calc(var(--notch-start) - 0.5px));
+  }
+  .alter-ego .birth-map { --notch-start: 61px; --notch-end: 70px; }
 }
 
 /* ---------- Responsive ---------- */

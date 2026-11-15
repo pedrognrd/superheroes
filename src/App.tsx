@@ -95,6 +95,10 @@ export default function App() {
         </section>
 
         <section className="alter-ego">
+          {/* Escuadra decorativa de la esquina inferior derecha, como en Superhero information */}
+          <span className="hero-info__corner" aria-hidden="true">
+            <span />
+          </span>
           <div className="section-head">
             <h2 className="section-head__title">Alter-ego information</h2>
           </div>

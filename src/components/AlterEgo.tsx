@@ -131,12 +131,17 @@ function RelativeName({ name, relation, hero, onSelect }: RelativeNameProps) {
       {relation && ` (${relation})`}
     </>
   )
-  if (!match) return <span className="rows__text rows__text--right">{text}</span>
+  const full = relation ? `${name} (${relation})` : name
+  if (!match) return (
+    <span className="rows__text rows__text--right" title={full}>
+      {text}
+    </span>
+  )
   return (
     <a
       className="rows__text rows__text--right rows__link"
       href={window.location.pathname}
-      title={`Go to ${match.name}`}
+      title={`${full} · Go to ${match.name}`}
       onClick={(e) => {
         e.preventDefault()
         onSelect(match.id)
@@ -147,18 +152,32 @@ function RelativeName({ name, relation, hero, onSelect }: RelativeNameProps) {
   )
 }
 
+const RELATIVES_ROWS = 6
+
 export function RelativesPanel({ hero, onSelect }: { hero: Hero; onSelect: (id: string) => void }) {
   const relatives = parseRelatives(hero.connections.relatives)
   return (
     <Panel title="Relatives" align="right" className="list-panel relatives">
-      <ul className="rows">
-        {relatives.length === 0 && <li className="rows__empty">No known relatives</li>}
+      <ul className={`rows${relatives.length > RELATIVES_ROWS ? ' rows--scroll' : ''}`}>
         {relatives.map((r, i) => (
           <li key={i} className="rows__item rows__item--icon-left">
             <span className="rows__icon" title={r.status}>
               {STATUS_ICON[r.status]}
             </span>
             <RelativeName name={r.name} relation={r.relation} hero={hero} onSelect={onSelect} />
+          </li>
+        ))}
+        {/* Siempre 6 filas: se completan con filas vacías (la primera avisa si no hay ninguno) */}
+        {Array.from({ length: Math.max(0, RELATIVES_ROWS - relatives.length) }, (_, i) => (
+          <li
+            key={`empty-${i}`}
+            className="rows__item rows__item--icon-left rows__item--empty"
+            aria-hidden={relatives.length > 0 || i > 0}
+          >
+            <span className="rows__icon" />
+            <span className="rows__text rows__text--right">
+              {relatives.length === 0 && i === 0 ? 'No known relatives' : '\u00a0'}
+            </span>
           </li>
         ))}
       </ul>
