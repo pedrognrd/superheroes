@@ -285,7 +285,7 @@ a { color: var(--accent); }
 .logo { font-size: 1.6rem; font-weight: 700; text-align: center; }
 .logo--image { color: var(--text); max-width: 100%; }
 
-.cover { max-width: 100%; max-height: 190px; }
+.cover { max-width: 100%; max-height: 150px; }
 
 /* Portada + año y título debajo */
 .cover-figure {
@@ -297,7 +297,7 @@ a { color: var(--accent); }
   max-width: 100%;
 }
 .cover-caption {
-  font-size: 1.15rem;
+  font-size: 1rem;
   line-height: 1.15;
   text-align: center;
   text-transform: uppercase;
@@ -391,6 +391,14 @@ a { color: var(--accent); }
   text-align: center;
 }
 
+.app__footer a {
+  color: var(--line);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.app__footer a:hover,
+.app__footer a:focus-visible { color: var(--label); }
+
 .app__footer-note {
   margin: 4px 0 0;
   font-size: 0.85rem;
@@ -411,8 +419,11 @@ a { color: var(--accent); }
 }
 
 /* Escuadra arriba a la izquierda (contorno azul relleno de oscuro) */
+/* (las mismas escuadras van en el retrato: .identity__portrait) */
 .hero-info::before,
-.hero-info::after {
+.hero-info::after,
+.identity__portrait::before,
+.identity__portrait::after {
   content: '';
   position: absolute;
   top: -1px;
@@ -422,11 +433,13 @@ a { color: var(--accent); }
   pointer-events: none;
   z-index: 1;
 }
-.hero-info::before {
+.hero-info::before,
+.identity__portrait::before {
   background: var(--line);
   clip-path: polygon(100% 0%, 0 0%, 0 101.5%, 3% 93%, 3% 10.5%, 97% 10.5%);
 }
-.hero-info::after {
+.hero-info::after,
+.identity__portrait::after {
   top: 0;
   left: -1px;
   width: calc(min(28rem, 70%) - 1px);
@@ -447,7 +460,7 @@ a { color: var(--accent); }
   bottom: -1px;
   z-index: 1;
   background: var(--line);
-  clip-path: polygon(100% 0%, 94% 8%, 94% 84%, 7% 84%, -1% 98%, 100% 98%);
+  clip-path: polygon(101% -4%, 93% 10%, 93% 85%, 6% 85%, 0% 98%, 100% 98%);
 }
 .hero-info__corner > span {
   top: 0;
@@ -487,7 +500,7 @@ a { color: var(--accent); }
 .hero-info .panel {
   border: 0;
   background: none;
-  height: 420px;
+  height: 377px;
 }
 
 /* Pestaña en dos piezas: etiqueta oscura + celda de relleno con una marca vertical */
@@ -620,7 +633,7 @@ a { color: var(--accent); }
   border: 1px solid var(--line);
   background: var(--field);
   min-height: 8rem;
-  padding: 1.4rem;
+  padding: 1.35rem;
 }
 
 /* Base: mapa con la esquina recortada y nombre con cuadradito a la izquierda */

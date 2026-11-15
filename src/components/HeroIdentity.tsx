@@ -29,6 +29,10 @@ export function HeroIdentity({ hero }: { hero: Hero }) {
             <span className="identity__badge-key">Alignment</span>
             <span className={`identity__badge-value is-${alignment}`}>{alignment}</span>
           </div>
+          {/* Escuadra inferior derecha, como la de Superhero information */}
+          <span className="hero-info__corner" aria-hidden="true">
+            <span />
+          </span>
         </div>
       </div>
 

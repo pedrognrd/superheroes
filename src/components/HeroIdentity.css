@@ -37,7 +37,7 @@
 .identity__badge,
 .identity__fullname {
   display: flex;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
@@ -45,7 +45,7 @@
 .identity__badge {
   position: absolute;
   left: 14px;
-  bottom: 14px;
+  bottom: 25px;
   right: 30%;
 }
 
@@ -53,7 +53,6 @@
   background: var(--tab-dark);
   color: var(--text);
   padding: 0 10px;
-  border: 1px solid var(--line);
 }
 
 .identity__badge-value {
@@ -61,6 +60,7 @@
   background: var(--tab-light);
   color: var(--tab-text);
   padding: 0 10px;
+  border: 1px solid var(--tab-dark);
 }
 .identity__badge-value.is-bad { background: #e58a8a; }
 .identity__badge-value.is-neutral { background: #d8d39a; }

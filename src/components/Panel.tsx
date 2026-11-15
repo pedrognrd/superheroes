@@ -16,9 +16,11 @@ export function Panel({ title, variant = 'dark', align = 'left', className = '',
     <section className={`panel panel--${variant} ${className}`}>
       {title && (
         <h2 className={`panel__tab panel__tab--${align}`}>
+          {/* Celda de relleno (solo visible en Superhero information): antes de la etiqueta
+              en las pestañas a la derecha (el cuadradito de Base), después en el resto */}
+          {align === 'right' && <span className="panel__tab-fill" aria-hidden="true" />}
           <span className="panel__tab-label">{title}</span>
-          {/* Celda de relleno de la pestaña (solo visible en el diseño de Superhero information) */}
-          <span className="panel__tab-fill" aria-hidden="true" />
+          {align !== 'right' && <span className="panel__tab-fill" aria-hidden="true" />}
         </h2>
       )}
       <div className="panel__body">{children}</div>

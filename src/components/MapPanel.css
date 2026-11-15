@@ -7,7 +7,7 @@
 
 .map-panel__map {
   flex: 1;
-  min-height: 220px;
+  min-height: 270px;
   border: 1px solid var(--line-soft);
   position: relative;
   /* Leaflet usa z-index 400-1000 en sus capas: los encerramos aquí para que
