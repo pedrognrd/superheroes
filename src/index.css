@@ -69,14 +69,14 @@ a { color: var(--accent); }
 /* Maqueta original para comparar (tecla D), con las medidas de .img_bg del diseño */
 .img_bg {
   position: absolute;
-  top: 676px;
+  top: 736px;
   left: clamp(16px, 2vw, 32px);
   width: 1611px;
   height: 960px;
   background-repeat: no-repeat;
   pointer-events: none;
 }
-.img_bg--under { z-index: 1; }
+.img_bg--under { z-index: -1; }
 .img_bg--over { z-index: 50; opacity: 0.5; }
 .img_bg__badge {
   position: fixed;
@@ -132,6 +132,24 @@ a { color: var(--accent); }
 .header-deco__line--2 { left: 5.05rem; top: 2.1rem; width: 3.6rem; }
 .header-deco__line--3 { left: 7.25rem; top: 2.75rem; width: 1.6rem; }
 
+/* El mismo adorno colgando del retrato: líneas hacia abajo que acaban en los círculos */
+.header-deco--vertical {
+  width: 72px;
+  height: 224px;
+  margin-top: -18px;
+}
+.header-deco--vertical .header-deco__line {
+  top: 0;
+  width: 0;
+  border-bottom: 0;
+  border-left: 0.18rem solid var(--line);
+}
+.header-deco--vertical .header-deco__line--1 { left: 32px; height: 177px; }
+.header-deco--vertical .header-deco__line--2 { left: 42px; height: 105px; }
+.header-deco--vertical .header-deco__line--3 { left: 52px; height: 75px; }
+.header-deco--vertical .header-deco__out { left: 19px; top: 176px; width: 48px; height: 48px; }
+.header-deco--vertical .header-deco__in { left: -2.5px; top: -2.5px; width: 37px; height: 37px; }
+
 .app__header .searchbar { flex: 1; }
 
 /* ---------- Layout principal ---------- */
@@ -152,6 +170,7 @@ a { color: var(--accent); }
 
 .hero-info,
 .alter-ego {
+  background: linear-gradient(90deg, #000 30%, #1a3750 100%);
   border: 1px solid var(--line-soft);
   padding: 0 18px 18px;
   min-width: 0;
@@ -340,22 +359,49 @@ a { color: var(--accent); }
 /* ---------- Apariencia ---------- */
 .appearance {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 20px;
   min-width: 0;
 }
 .appearance__figure {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+  position: relative;
   flex-shrink: 0;
 }
-.silhouette { display: block; width: 110px; height: 240px; filter: drop-shadow(0 0 12px rgba(58, 160, 216, 0.5)); }
-.silhouette__shape { display: block; background: linear-gradient(#3aa0d8f2, #0b3a5ce6); }
-.appearance__lines { display: grid; gap: 14px; width: 80px; }
-.appearance__lines span { border-top: 2px dashed var(--line-soft); }
+/* Figura oscura con contorno azul (filtro #silhouette-outline de icons.tsx) y halo */
+.silhouette {
+  position: relative;
+  display: block;
+  height: 280px;
+  flex-shrink: 0;
+  filter: url(#silhouette-outline) drop-shadow(0 0 4px #3aa0d880);
+}
+.silhouette__shape {
+  display: block;
+  background: radial-gradient(ellipse 70% 55% at 50% 42%, #010508 35%, #0b2f4a 100%);
+}
+.silhouette__defs { position: absolute; width: 0; height: 0; }
+/* Líneas discontinuas que arrancan pegadas al contorno de la figura */
+.appearance__lines { position: absolute; inset: 0; pointer-events: none; }
+.appearance__lines > span:not(.appearance__circles) {
+  position: absolute;
+  right: 0;
+  border-top: 2px dashed var(--line-soft);
+}
+/* La primera, a la altura de la cabeza, más viva y hasta los círculos */
+.appearance__lines .is-head { right: -16px; border-top-color: var(--line); }
+.appearance__circles {
+  position: absolute;
+  left: calc(100% + 14px);
+  width: 3.4rem;
+  height: 3.4rem;
+}
+.appearance__circles .header-deco__out { top: 0; }
+.appearance__circles .header-deco__in { left: -0.15rem; top: -0.15rem; }
 .appearance__data {
-  margin: 0;
+  position: relative;
+  /* Bajo los círculos de la línea de la cabeza, como en el diseño */
+  margin: 48px 0 0;
+  padding-bottom: 20px;
   padding-left: 14px;
   border-left: 2px solid var(--line);
   font-size: 1.3rem;
@@ -363,6 +409,15 @@ a { color: var(--accent); }
   color: var(--accent);
   display: grid;
   gap: 8px;
+}
+/* Segunda línea vertical, más corta, a la izquierda de la de los datos */
+.appearance__data::before {
+  content: '';
+  position: absolute;
+  left: -9px;
+  top: 0;
+  height: 58%;
+  border-left: 2px solid var(--line);
 }
 .appearance__data div { display: flex; gap: 6px; }
 .appearance__data dt { white-space: nowrap; }
@@ -419,11 +474,8 @@ a { color: var(--accent); }
 }
 
 /* Escuadra arriba a la izquierda (contorno azul relleno de oscuro) */
-/* (las mismas escuadras van en el retrato: .identity__portrait) */
 .hero-info::before,
-.hero-info::after,
-.identity__portrait::before,
-.identity__portrait::after {
+.hero-info::after {
   content: '';
   position: absolute;
   top: -1px;
@@ -433,13 +485,11 @@ a { color: var(--accent); }
   pointer-events: none;
   z-index: 1;
 }
-.hero-info::before,
-.identity__portrait::before {
+.hero-info::before {
   background: var(--line);
   clip-path: polygon(100% 0%, 0 0%, 0 101.5%, 3% 93%, 3% 10.5%, 97% 10.5%);
 }
-.hero-info::after,
-.identity__portrait::after {
+.hero-info::after {
   top: 0;
   left: -1px;
   width: calc(min(28rem, 70%) - 1px);
@@ -707,7 +757,7 @@ a { color: var(--accent); }
     grid-template-areas: 'birth' 'appearance' 'relatives' 'occupation';
   }
   .appearance { justify-content: center; }
-  .appearance__lines { display: none; }
+  .appearance__lines, .appearance__circles { display: none; }
   .occupation { flex-direction: column; font-size: 1.3rem; }
   .occupation__key { border-right: 0; border-bottom: 1px solid var(--line); }
 }

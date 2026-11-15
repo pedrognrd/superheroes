@@ -1,11 +1,85 @@
-import type { ReactNode } from 'react'
+import { useEffect, useState, type ReactNode } from 'react'
 import { findRelativeHero } from '../data/heroLookup'
 import type { Hero } from '../types'
 import { isEmpty, parseRelatives, type RelativeStatus } from '../utils/parse'
-import { HeartIcon, Silhouette, SkullIcon } from './icons'
+import { HeartIcon, Silhouette, silhouetteOf, SkullIcon } from './icons'
 import { Panel } from './Panel'
 
 const show = (v: string) => (isEmpty(v) ? 'Unknown' : v)
+
+// Figura de Alter-ego: alto de la silueta y líneas discontinuas a su derecha
+const FIGURE_H = 280
+const LINES_W = 90 // hueco a la derecha de la figura donde terminan las líneas
+const LINE_TOP = 3 // la primera línea, a la altura de la cabeza
+const LINE_STEP = 17
+const LINE_COUNT = 15
+const LINE_GAP = 8 // separación entre el contorno y el inicio de cada línea
+const lineY = (i: number) => LINE_TOP + i * LINE_STEP
+
+/**
+ * Borde derecho de la figura a la altura de cada línea (en px desde su izquierda).
+ * Dibuja el SVG en un canvas y busca el último píxel opaco en una franja de ±5 px,
+ * para que las líneas arranquen pegadas al contorno (hombros, brazos, piernas…).
+ */
+function useRightContour(src: string, width: number) {
+  const [edges, setEdges] = useState<{ src: string; xs: number[] } | null>(null)
+  useEffect(() => {
+    let alive = true
+    const img = new Image()
+    img.src = src
+    img
+      .decode()
+      .then(() => {
+        const w = Math.round(width)
+        const canvas = document.createElement('canvas')
+        canvas.width = w
+        canvas.height = FIGURE_H
+        const ctx = canvas.getContext('2d', { willReadFrequently: true })
+        if (!ctx) return
+        ctx.drawImage(img, 0, 0, w, FIGURE_H)
+        const { data } = ctx.getImageData(0, 0, w, FIGURE_H)
+        const xs = Array.from({ length: LINE_COUNT }, (_, i) => {
+          let right = -1
+          const y0 = Math.max(0, lineY(i) - 5)
+          const y1 = Math.min(FIGURE_H - 1, lineY(i) + 5)
+          for (let y = y0; y <= y1; y++)
+            for (let x = w - 1; x > right; x--)
+              if (data[(y * w + x) * 4 + 3] > 40) {
+                right = x
+                break
+              }
+          return right < 0 ? w / 2 : right
+        })
+        if (alive) setEdges({ src, xs })
+      })
+      .catch(() => {})
+    return () => {
+      alive = false
+    }
+  }, [src, width])
+  return edges?.src === src ? edges.xs : null
+}
+
+function AppearanceFigure({ gender }: { gender: string }) {
+  const { src, ratio } = silhouetteOf(gender)
+  const figW = FIGURE_H * ratio
+  const edges = useRightContour(src, figW)
+  return (
+    <div className="appearance__figure" style={{ width: figW + LINES_W, height: FIGURE_H }}>
+      <Silhouette gender={gender} height={FIGURE_H} />
+      <div className="appearance__lines" aria-hidden="true">
+        {edges?.map((x, i) => (
+          <span key={i} className={i === 0 ? 'is-head' : undefined} style={{ top: lineY(i), left: x + LINE_GAP }} />
+        ))}
+        <span className="appearance__circles" style={{ top: lineY(0) - 8 }}>
+          <span className="header-deco__out">
+            <span className="header-deco__in" />
+          </span>
+        </span>
+      </div>
+    </div>
+  )
+}
 
 /** Silueta + atributos físicos */
 export function AppearancePanel({ hero }: { hero: Hero }) {
@@ -22,14 +96,7 @@ export function AppearancePanel({ hero }: { hero: Hero }) {
   ]
   return (
     <div className="appearance">
-      <div className="appearance__figure">
-        <Silhouette gender={a.gender} />
-        <div className="appearance__lines" aria-hidden="true">
-          {Array.from({ length: 12 }, (_, i) => (
-            <span key={i} />
-          ))}
-        </div>
-      </div>
+      <AppearanceFigure gender={a.gender} />
       <dl className="appearance__data">
         {rows.map(([k, v]) => (
           <div key={k}>

@@ -8,6 +8,7 @@ import { MapPanel } from './components/MapPanel'
 import { PowerStatsPanel } from './components/PowerStatsPanel'
 import { FirstAppearancePanel, PublisherPanel } from './components/PublisherPanel'
 import { SearchBar } from './components/SearchBar'
+import { HeaderDeco } from './components/HeaderDeco'
 import { DesignOverlay } from './components/DesignOverlay'
 
 const DEFAULT_ID = '620' // Spider-Man
@@ -62,14 +63,7 @@ export default function App() {
       <DesignOverlay />
       <header className="app__header">
         {/* Adorno de círculos y líneas que conecta con la barra */}
-        <div className="header-deco" aria-hidden="true">
-          <span className="header-deco__out">
-            <span className="header-deco__in" />
-          </span>
-          <span className="header-deco__line header-deco__line--1" />
-          <span className="header-deco__line header-deco__line--2" />
-          <span className="header-deco__line header-deco__line--3" />
-        </div>
+        <HeaderDeco />
         <SearchBar onSelect={select} />
       </header>
 

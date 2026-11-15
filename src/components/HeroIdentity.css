@@ -6,9 +6,56 @@
 }
 
 .identity__frame {
+  position: relative;
+  margin: 13px 0 0 13px;
   border: 2px solid var(--line);
   padding: 0;
   background: var(--bg-panel);
+}
+
+/* Escuadras superiores del retrato (medidas del diseño, en px):
+   - la exterior (.identity__frame) queda por fuera, separada del marco;
+   - la interior (.identity__portrait) entra en la imagen, con el tramo vertical
+     más ancho que el horizontal y los extremos cortados en diagonal.
+   Cada una es un contorno azul (::before) con un relleno oscuro encima (::after). */
+.identity__frame::before,
+.identity__frame::after,
+.identity__portrait::before,
+.identity__portrait::after {
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+}
+.identity__frame::before,
+.identity__frame::after {
+  top: -15px;
+  left: -15px;
+  width: 166px;
+  height: 136px;
+}
+.identity__frame::before {
+  background: var(--line);
+  clip-path: polygon(0 0, 157px 0, 166px 9px, 8px 9px, 8px 136px, 0 128px);
+}
+.identity__frame::after {
+  background: var(--tab-dark);
+  clip-path: polygon(1.5px 1.5px, 156.4px 1.5px, 162.4px 7.5px, 6.5px 7.5px, 6.5px 131px, 1.5px 126px);
+}
+.identity__portrait::before,
+.identity__portrait::after {
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 104px;
+}
+.identity__portrait::before {
+  background: var(--line);
+  clip-path: polygon(0 0, 200px 0, 191px 9px, 11px 9px, 11px 82px, 0 104px);
+}
+.identity__portrait::after {
+  background: var(--tab-dark);
+  clip-path: polygon(0 0, 196.4px 0, 189.4px 7px, 9px 7px, 9px 81.5px, 0 99.5px);
 }
 
 .identity__portrait {
@@ -65,14 +112,6 @@
 .identity__badge-value.is-bad { background: #e58a8a; }
 .identity__badge-value.is-neutral { background: #d8d39a; }
 
-.identity__deco {
-  height: 60px;
-  margin-left: 24px;
-  border-left: 3px solid var(--line);
-  border-right: 0;
-  width: 0;
-}
-
 .identity__name {
   margin: 0;
   padding: 4px 14px;
@@ -99,6 +138,6 @@
 }
 
 @media (max-width: 1100px) {
-  .identity__deco { display: none; }
+  .header-deco--vertical { display: none; }
   .identity__frame { max-width: 380px; }
 }

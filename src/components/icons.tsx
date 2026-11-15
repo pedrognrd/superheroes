@@ -79,11 +79,32 @@ export const ChevronIcon = ({ size = 14 }: IconProps) => <MaskIcon src={dropdown
 export const CloseIcon = ({ size = 16 }: IconProps) => <MaskIcon src={closeSvg} width={size} />
 
 /** Silueta para el panel de apariencia: mujer o hombre según el género */
-export function Silhouette({ gender }: { gender: string }) {
+/** Figura de hombre o mujer según el género, con sus proporciones (viewBox de cada SVG) */
+export function silhouetteOf(gender: string) {
   const female = /^female$/i.test(gender)
+  return female ? { src: womanSvg, ratio: 315.1 / 596 } : { src: manSvg, ratio: 169.2 / 596 }
+}
+
+/**
+ * Silueta oscura con contorno azul: el filtro dilata la forma 1,5 px, la pinta de
+ * azul y deja la figura encima, así el borde sigue el contorno exacto del SVG.
+ */
+export function Silhouette({ gender, height }: { gender: string; height: number }) {
+  const { src, ratio } = silhouetteOf(gender)
   return (
-    <span className="silhouette" aria-hidden="true">
-      <MaskIcon src={female ? womanSvg : manSvg} width="100%" height="100%" className="silhouette__shape" />
+    <span className="silhouette" style={{ width: height * ratio, height }} aria-hidden="true">
+      <svg className="silhouette__defs" focusable="false">
+        <filter id="silhouette-outline" x="-10%" y="-5%" width="120%" height="110%">
+          <feMorphology in="SourceAlpha" operator="dilate" radius="1.5" result="grown" />
+          <feFlood floodColor="#3aa0d8" />
+          <feComposite in2="grown" operator="in" result="outline" />
+          <feMerge>
+            <feMergeNode in="outline" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+      </svg>
+      <MaskIcon src={src} width="100%" height="100%" className="silhouette__shape" />
     </span>
   )
 }

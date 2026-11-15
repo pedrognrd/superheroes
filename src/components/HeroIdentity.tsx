@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { HeaderDeco } from './HeaderDeco'
 import { PORTRAITS } from '../data/portraits'
 import type { Hero } from '../types'
 import { isEmpty } from '../utils/parse'
@@ -36,7 +37,8 @@ export function HeroIdentity({ hero }: { hero: Hero }) {
         </div>
       </div>
 
-      <div className="identity__deco" aria-hidden="true" />
+      {/* Líneas y círculos que cuelgan del retrato (el adorno de la cabecera, en vertical) */}
+      <HeaderDeco className="header-deco--vertical" />
 
       <h1 className="identity__name">{hero.name}</h1>
       <div className="identity__fullname">
