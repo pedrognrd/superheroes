@@ -9,7 +9,7 @@
   --tab-dark: #0e242f; /* pestañas oscuras */
   --tab-light: #a9d3e8; /* barras de título */
   --label: #72b4d5; /* etiquetas claras ("Search", "Filter by") y texto destacado */
-  --tab-text: #0e242f;
+  --tab-text: #1c3241;
   --text: #72b4d5;
   --accent: #3484ad;
   --ring: #3aeabb; /* anillos de powerstats */
@@ -37,7 +37,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background: radial-gradient(circle, #1c485e 0%, #000 100%) fixed;
+  background: radial-gradient(circle, #1c485e 0%, #000 70%) fixed;
   font: normal 125%/1.2 var(--font);
   color: var(--line);
   letter-spacing: 0.12rem;
@@ -173,7 +173,7 @@ a { color: var(--accent); }
   position: relative;
   /* Más estrecho que Superhero information y pegado a la derecha, como en el diseño */
   justify-self: end;
-  width: 1000px;
+  width: 1080px;
   max-width: 100%;
 }
 
@@ -212,15 +212,15 @@ a { color: var(--accent); }
 
 .alter-ego__grid {
   display: grid;
-  grid-template-columns: minmax(240px, 1fr) minmax(250px, 1.5fr) minmax(250px, 1fr);
+  grid-template-columns: minmax(250px, 0.8fr) minmax(250px, 1.5fr) minmax(280px, 1.2fr);
   grid-template-areas:
     'birth appearance relatives'
     'occupation occupation relatives';
-  gap: 18px;
+  column-gap: 18px;
 }
 .birth-map { grid-area: birth; }
 .appearance { grid-area: appearance; }
-.relatives { grid-area: relatives; }
+.relatives { grid-area: relatives; height: 290px; margin-right: 5px; }
 .occupation { grid-area: occupation; }
 
 .stack {
@@ -371,6 +371,7 @@ a { color: var(--accent); }
   align-items: flex-start;
   gap: 20px;
   min-width: 0;
+  margin: 20px;
 }
 .appearance__figure {
   position: relative;
@@ -397,7 +398,8 @@ a { color: var(--accent); }
   border-top: 2px dashed var(--line-soft);
 }
 /* La primera, a la altura de la cabeza, más viva y hasta los círculos */
-.appearance__lines .is-head { right: -16px; border-top-color: var(--line); }
+/* …y entra en el círculo de fuera hasta tocar el de dentro */
+.appearance__lines .is-head { right: -20px; border-top-color: var(--line); }
 .appearance__circles {
   position: absolute;
   left: calc(100% + 14px);
@@ -413,7 +415,7 @@ a { color: var(--accent); }
   padding-bottom: 20px;
   padding-left: 14px;
   border-left: 2px solid var(--line);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   color: var(--accent);
   display: grid;
@@ -443,10 +445,11 @@ a { color: var(--accent); }
 .occupation__key {
   background: var(--tab-dark);
   padding: 0 14px;
+  line-height: 2rem;
   border-right: 1px solid var(--line);
   white-space: nowrap;
 }
-.occupation__value { padding: 0 14px; }
+.occupation__value { padding: 0 14px; line-height: 2rem; }
 
 .app__footer {
   margin-top: 28px;
@@ -759,8 +762,10 @@ a { color: var(--accent); }
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 0.55rem;
+  right: 0;
+  width: 0.55rem;
   border-left: 1px solid var(--line);
+  background: #000; /* la columnita, negra */
 }
 .occupation__value { flex: 1; }
 
@@ -783,6 +788,29 @@ a { color: var(--accent); }
   background: var(--tab-dark);
 }
 .alter-ego .relatives .rows__item--empty .rows__text { color: var(--line); opacity: 0.7; }
+/* Cabecera de Relatives: a la izquierda de la pestaña, un bloque negro hasta la tira */
+.alter-ego .relatives .panel__tab--right { position: relative; }
+.alter-ego .relatives .panel__tab--right::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: -1px;
+  right: 100%;
+  width: calc((100% + 1px) * 56 / 44);
+  background: #000;
+  border-bottom: 1px solid var(--line);
+}
+
+/* En el retrato la escuadra llega hasta el borde del marco, sin dejar asomar la imagen */
+.identity__portrait .hero-info__corner {
+  right: 0;
+  bottom: 0;
+  clip-path: polygon(101% -4%, 93% 10%, 93% 86%, 6% 86%, 0 100%, 101% 100%);
+}
+.identity__portrait .hero-info__corner > span {
+  clip-path: polygon(101% 1%, 94% 11%, 94% 87%, 7% 87%, 0.8% 100%, 101% 100%);
+}
+
 /* Una sola línea por familiar para que las 6 filas midan siempre lo mismo (el nombre completo, en el title) */
 .alter-ego .relatives .rows__text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
@@ -792,8 +820,8 @@ a { color: var(--accent); }
   .alter-ego { padding-left: 20px; }
   .alter-ego .section-head { position: absolute; top: 10px; right: 18px; margin: 0; z-index: 2; }
   .alter-ego__grid { padding-top: 20px; }
-  .alter-ego .relatives { margin-top: 42px; }
-  .alter-ego .birth-map { height: 280px; } /* lo mismo que .appearance__figure */
+  .alter-ego .relatives { margin-top: 52px; }
+  .alter-ego .birth-map { height: 310px; }
   .alter-ego .occupation { justify-self: start; margin-left: -10px; }
   .alter-ego .birth-map .map-panel__label { margin-left: -10px; }
   .alter-ego .birth-map .map-panel__map {

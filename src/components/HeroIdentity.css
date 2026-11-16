@@ -116,13 +116,13 @@
    y va a la derecha): 100cqw es el ancho de .dashboard */
 .identity__name { margin: 13px 0 0 13px; }
 .identity__fullname { margin-left: 13px; }
-.identity__name { width: min(440px, max(100% - 13px, 100cqw - 1050px)); }
-.identity__fullname { width: min(320px, max(100% - 13px, 100cqw - 1050px)); }
+.identity__name { width: min(480px, max(100% - 13px, 100cqw - 1130px)); }
+.identity__fullname { width: min(360px, max(100% - 13px, 100cqw - 1130px)); }
 
 .identity__name {
   padding: 4px 14px;
   border: 1px solid var(--line);
-  background: var(--bg-panel);
+  background: #1c3241;
   color: #7e9fb5;
   font-size: clamp(2.6rem, 4.5vw, 4.2rem);
   font-weight: 600;
@@ -134,9 +134,11 @@
 .identity__fullname .identity__badge-key {
   background: var(--tab-light);
   color: var(--tab-text);
+  min-width: 150px;
 }
 
 .identity__fullname-value {
+  background: #000;
   flex: 1;
   padding: 0 12px;
   border: 1px solid var(--line);

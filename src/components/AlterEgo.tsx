@@ -3,6 +3,7 @@ import { findRelativeHero } from '../data/heroLookup'
 import type { Hero } from '../types'
 import { isEmpty, parseRelatives, type RelativeStatus } from '../utils/parse'
 import { HeartIcon, Silhouette, silhouetteOf, SkullIcon } from './icons'
+import { HeroText } from './HeroText'
 import { Panel } from './Panel'
 
 const show = (v: string) => (isEmpty(v) ? 'Unknown' : v)
@@ -11,10 +12,11 @@ const show = (v: string) => (isEmpty(v) ? 'Unknown' : v)
 const FIGURE_H = 280
 const LINES_W = 90 // hueco a la derecha de la figura donde terminan las líneas
 const LINE_TOP = 3 // la primera línea, a la altura de la cabeza
-const LINE_STEP = 17
-const LINE_COUNT = 15
+const LINE_COUNT = 16
+const LINE_BOTTOM = FIGURE_H - 12 // la última, a la altura del pie que queda más arriba
+const LINE_STEP = (LINE_BOTTOM - LINE_TOP) / (LINE_COUNT - 1)
 const LINE_GAP = 8 // separación entre el contorno y el inicio de cada línea
-const lineY = (i: number) => LINE_TOP + i * LINE_STEP
+const lineY = (i: number) => Math.round(LINE_TOP + i * LINE_STEP)
 
 /**
  * Borde derecho de la figura a la altura de cada línea (en px desde su izquierda).
@@ -185,11 +187,13 @@ export function RelativesPanel({ hero, onSelect }: { hero: Hero; onSelect: (id: 
   )
 }
 
-export function OccupationBar({ hero }: { hero: Hero }) {
+export function OccupationBar({ hero, onSelect }: { hero: Hero; onSelect: (id: string) => void }) {
   return (
     <div className="occupation">
       <span className="occupation__key">Occupation</span>
-      <span className="occupation__value">{show(hero.work.occupation)}</span>
+      <span className="occupation__value">
+        <HeroText text={show(hero.work.occupation)} hero={hero} onSelect={onSelect} />
+      </span>
     </div>
   )
 }

@@ -83,8 +83,8 @@ export default function App() {
           <div className="hero-info__grid">
             <PowerStatsPanel hero={hero} />
             <div className="stack">
-              <ConnectionsPanel hero={hero} />
-              <AliasesPanel hero={hero} />
+              <ConnectionsPanel hero={hero} onSelect={select} />
+              <AliasesPanel hero={hero} onSelect={select} />
             </div>
             <div className="stack">
               <PublisherPanel hero={hero} />
@@ -110,7 +110,7 @@ export default function App() {
             />
             <AppearancePanel hero={hero} />
             <RelativesPanel hero={hero} onSelect={select} />
-            <OccupationBar hero={hero} />
+            <OccupationBar hero={hero} onSelect={select} />
           </div>
         </section>
       </main>

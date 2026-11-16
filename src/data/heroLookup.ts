@@ -43,3 +43,50 @@ export function findRelativeHero(name: string, alias: string, context: Hero): He
   if (n.length < 3 || !/^[A-Z0-9"]/.test(name.trim())) return null
   return pick(byName.get(n), context) ?? pick(byName.get(a), context) ?? pick(byFullName.get(n), context)
 }
+
+// ---- Menciones de personajes en texto libre (Occupation, Connections, Aliases) ----
+// Nombres (y nombres reales de dos o más palabras) tal como están escritos en la base de
+// datos: se buscan respetando mayúsculas y como palabra completa ("Batman Family" → Batman,
+// pero no "storm chaser" → Storm). Los más largos primero, para que "Spider-Woman" gane a "Spider".
+const escape = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+const mentionKeys = new Map<string, Hero[]>()
+for (const h of heroes) {
+  const keys = [h.name]
+  const full = h.biography['full-name']
+  if (!isEmpty(full) && full.trim().includes(' ')) keys.push(full.trim())
+  for (const k of keys) {
+    if (k.length < 3 || !/^[A-Z0-9]/.test(k)) continue
+    mentionKeys.set(k, [...(mentionKeys.get(k) ?? []), h])
+  }
+}
+const mentionRe = new RegExp(
+  `(?<![\\w-])(${[...mentionKeys.keys()].sort((a, b) => b.length - a.length).map(escape).join('|')})(?![\\w-])`,
+  'g',
+)
+
+// Frases hechas que contienen el nombre de otro personaje
+const NOT_A_MENTION = [/Man of Steel$/, /\bas [^ ]+$/] // "(pre-Crisis as Superboy)": él mismo con otro nombre
+
+export type MentionPart = string | { text: string; hero: Hero }
+
+/** Trocea el texto en partes sueltas y menciones a otros personajes de la base de datos */
+export function splitHeroMentions(text: string, context: Hero): MentionPart[] {
+  const parts: MentionPart[] = []
+  let last = 0
+  for (const m of text.matchAll(mentionRe)) {
+    const end = m.index + m[1].length
+    // Parte de un nombre más largo ("Justice League", "Legion of Super-Heroes", "Nova Corps")
+    if (/^\s+(of\b|[A-Z])/.test(text.slice(end))) continue
+    if (NOT_A_MENTION.some((re) => re.test(text.slice(0, end)))) continue
+    const list = mentionKeys.get(m[1])
+    // El propio personaje (o uno que se llama igual) no enlaza: "Batman" en la ficha de Batman
+    if (list?.some((h) => h.id === context.id) || m[1] === context.name) continue
+    const hero = pick(list, context)
+    if (!hero) continue
+    if (m.index > last) parts.push(text.slice(last, m.index))
+    parts.push({ text: m[1], hero })
+    last = m.index + m[1].length
+  }
+  if (last < text.length) parts.push(text.slice(last))
+  return parts
+}

@@ -3,13 +3,14 @@ import { parseGroups } from '../utils/parse'
 import unknownIcon from '../assets/icons/unknown.png'
 import { BADGE_SIZE, GroupBadge } from './GroupBadge'
 import { MaskIcon } from './icons'
+import { HeroText } from './HeroText'
 import { Panel } from './Panel'
 
 // Filas fijas de cada lista: con más elementos, la lista se desplaza
 const CONNECTIONS_VISIBLE = 4
 const ALIASES_ROWS = 4
 
-export function ConnectionsPanel({ hero }: { hero: Hero }) {
+export function ConnectionsPanel({ hero, onSelect }: { hero: Hero; onSelect: (id: string) => void }) {
   const groups = parseGroups(hero.connections['group-affiliation'])
   // Siempre 4 filas: se completan con filas vacías (la primera avisa si no hay ninguna)
   const fillers = Math.max(0, CONNECTIONS_VISIBLE - groups.length)
@@ -19,7 +20,7 @@ export function ConnectionsPanel({ hero }: { hero: Hero }) {
         {groups.map((g, i) => (
           <li key={i} className="rows__item">
             <span className="rows__text" title={g.name}>
-              {g.name}
+              <HeroText text={g.name} hero={hero} onSelect={onSelect} />
             </span>
             <span className="rows__icon">
               <GroupBadge name={g.name} formerly={g.formerly} />
@@ -39,7 +40,7 @@ export function ConnectionsPanel({ hero }: { hero: Hero }) {
   )
 }
 
-export function AliasesPanel({ hero }: { hero: Hero }) {
+export function AliasesPanel({ hero, onSelect }: { hero: Hero; onSelect: (id: string) => void }) {
   const aliases = hero.biography.aliases.filter((a) => a && a !== '-')
   // Siempre 4 filas: se completan con filas vacías (la primera avisa si no hay ninguno)
   const fillers = Math.max(0, ALIASES_ROWS - aliases.length)
@@ -49,7 +50,7 @@ export function AliasesPanel({ hero }: { hero: Hero }) {
         {aliases.map((a) => (
           <li key={a} className="rows__item">
             <span className="rows__text" title={a}>
-              "{a}"
+              "<HeroText text={a} hero={hero} onSelect={onSelect} />"
             </span>
           </li>
         ))}
