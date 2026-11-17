@@ -412,6 +412,7 @@ a { color: var(--accent); }
   position: absolute;
   right: 0;
   border-top: 2px dashed var(--line-soft);
+  transform: translateX(10px);
 }
 /* La primera, a la altura de la cabeza, más viva y hasta los círculos */
 /* …y entra en el círculo de fuera hasta tocar el de dentro */
