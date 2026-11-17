@@ -84,7 +84,7 @@ export default function App() {
             <PowerStatsPanel hero={hero} />
             <div className="stack">
               <ConnectionsPanel hero={hero} onSelect={select} />
-              <AliasesPanel hero={hero} />
+              <AliasesPanel hero={hero} onSelect={select} />
             </div>
             <div className="stack">
               <PublisherPanel hero={hero} />
