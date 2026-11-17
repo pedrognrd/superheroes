@@ -798,10 +798,11 @@ a { color: var(--accent); }
   position: absolute;
   top: 0;
   bottom: -1px;
-  right: 100%;
+  right: 98%;
   width: calc((100% + 1px) * 56 / 44);
   background: #000;
   border-bottom: 1px solid var(--line);
+  border-right: 1px solid var(--line);
 }
 
 /* En el retrato la escuadra llega hasta el borde del marco, sin dejar asomar la imagen */
