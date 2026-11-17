@@ -1,4 +1,4 @@
-import { useEffect, useState, type ReactNode } from 'react'
+import { useEffect, useRef, useState, type ReactNode } from 'react'
 import { fixHeight } from '../data/biographyFixes'
 import { findRelativeHero } from '../data/heroLookup'
 import type { Hero } from '../types'
@@ -188,11 +188,62 @@ export function RelativesPanel({ hero, onSelect }: { hero: Hero; onSelect: (id: 
   )
 }
 
+// Desplazamiento del texto largo de Occupation: px por segundo y pausa en cada extremo
+const MARQUEE_SPEED = 25
+const MARQUEE_PAUSE = 2
+
+/** Texto en una línea; si no cabe, se desplaza despacio de derecha a izquierda y vuelve a empezar */
+function Marquee({ text }: { text: string }) {
+  const boxRef = useRef<HTMLSpanElement>(null)
+  const textRef = useRef<HTMLSpanElement>(null)
+  const [overflow, setOverflow] = useState(0)
+  useEffect(() => {
+    const box = boxRef.current
+    const inner = textRef.current
+    if (!box || !inner) return
+    const measure = () => setOverflow(Math.max(0, Math.ceil(inner.scrollWidth - box.clientWidth)))
+    measure()
+    const ro = new ResizeObserver(measure)
+    ro.observe(box)
+    // La fuente puede cargar después: vuelve a medir
+    document.fonts?.ready.then(measure)
+    return () => ro.disconnect()
+  }, [text])
+  useEffect(() => {
+    const inner = textRef.current
+    if (!inner || !overflow || matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    // Pausa al principio, recorrido a velocidad constante, pausa al final y vuelta a empezar
+    const move = overflow / MARQUEE_SPEED
+    const total = move + MARQUEE_PAUSE * 2
+    const start = MARQUEE_PAUSE / total
+    const end = (MARQUEE_PAUSE + move) / total
+    const anim = inner.animate(
+      [
+        { transform: 'translateX(0)', offset: 0 },
+        { transform: 'translateX(0)', offset: start },
+        { transform: `translateX(-${overflow}px)`, offset: end },
+        { transform: `translateX(-${overflow}px)`, offset: 1 },
+      ],
+      { duration: total * 1000, iterations: Infinity },
+    )
+    return () => anim.cancel()
+  }, [overflow, text])
+  return (
+    <span ref={boxRef} className={`marquee${overflow ? ' is-long' : ''}`} title={overflow ? text : undefined}>
+      <span ref={textRef} className="marquee__text">
+        {text}
+      </span>
+    </span>
+  )
+}
+
 export function OccupationBar({ hero }: { hero: Hero }) {
   return (
     <div className="occupation">
       <span className="occupation__key">Occupation</span>
-      <span className="occupation__value">{show(hero.work.occupation)}</span>
+      <span className="occupation__value">
+        <Marquee text={show(hero.work.occupation)} />
+      </span>
     </div>
   )
 }

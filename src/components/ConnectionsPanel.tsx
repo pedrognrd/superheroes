@@ -5,6 +5,7 @@ import { BADGE_SIZE, GroupBadge } from './GroupBadge'
 import { MaskIcon } from './icons'
 import { HeroText } from './HeroText'
 import { Panel } from './Panel'
+import { ScrollRows } from './ScrollRows'
 
 // Filas fijas de cada lista: con más elementos, la lista se desplaza
 const CONNECTIONS_VISIBLE = 4
@@ -16,7 +17,7 @@ export function ConnectionsPanel({ hero, onSelect }: { hero: Hero; onSelect: (id
   const fillers = Math.max(0, CONNECTIONS_VISIBLE - groups.length)
   return (
     <Panel title="Connections" className="list-panel connections">
-      <ul className={`rows${groups.length > CONNECTIONS_VISIBLE ? ' rows--scroll' : ''}`}>
+      <ScrollRows scroll={groups.length > CONNECTIONS_VISIBLE}>
         {groups.map((g, i) => (
           <li key={i} className="rows__item">
             <span className="rows__text" title={g.name}>
@@ -35,12 +36,12 @@ export function ConnectionsPanel({ hero, onSelect }: { hero: Hero; onSelect: (id
             </span>
           </li>
         ))}
-      </ul>
+      </ScrollRows>
     </Panel>
   )
 }
 
-export function AliasesPanel({ hero, onSelect }: { hero: Hero; onSelect: (id: string) => void }) {
+export function AliasesPanel({ hero }: { hero: Hero }) {
   // Sin comillas: algunos alias de la API vienen entrecomillados ("Frankie")
   const aliases = hero.biography.aliases
     .map((a) => a.replace(/["“”]/g, '').trim())
@@ -49,11 +50,11 @@ export function AliasesPanel({ hero, onSelect }: { hero: Hero; onSelect: (id: st
   const fillers = Math.max(0, ALIASES_ROWS - aliases.length)
   return (
     <Panel title="Aliases" className="list-panel aliases">
-      <ul className={`rows${aliases.length > ALIASES_ROWS ? ' rows--scroll' : ''}`}>
+      <ScrollRows scroll={aliases.length > ALIASES_ROWS}>
         {aliases.map((a) => (
           <li key={a} className="rows__item">
             <span className="rows__text" title={a}>
-              <HeroText text={a} hero={hero} onSelect={onSelect} />
+              {a}
             </span>
           </li>
         ))}
@@ -62,7 +63,7 @@ export function AliasesPanel({ hero, onSelect }: { hero: Hero; onSelect: (id: st
             <span className="rows__text">{aliases.length === 0 && i === 0 ? 'No known aliases' : '\u00a0'}</span>
           </li>
         ))}
-      </ul>
+      </ScrollRows>
     </Panel>
   )
 }

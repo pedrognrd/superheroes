@@ -645,29 +645,35 @@ a { color: var(--accent); }
   padding-right: 0;
   border: 1px solid var(--line);
 }
-.hero-info .rows--scroll { overflow-y: scroll; max-height: calc(2.7rem * 4); }
-/* Barra de scroll del diseño original: carril enmarcado y tirador azul claro.
-   Para dejar hueco alrededor del tirador, sube el borde transparente del thumb (background-clip) */
-.hero-info .rows::-webkit-scrollbar { width: 0.6rem; }
-.hero-info .rows::-webkit-scrollbar-track {
-  border: 1px solid var(--line);
+.hero-info .rows--scroll {
+  overflow-y: scroll;
+  max-height: calc(2.7rem * 4);
+  padding-right: 0.6rem;
+  scrollbar-width: none;
+}
+.hero-info .rows--scroll::-webkit-scrollbar { display: none; }
+/* Barra de scroll propia (ScrollRows.tsx), del diseño original: carril oscuro dentro del
+   marco de la lista y tirador azul claro del alto de una fila */
+.hero-info .rows-wrap { position: relative; }
+.hero-info .rows__track {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  width: 0.6rem;
   background: var(--field);
+  cursor: pointer;
 }
-.hero-info .rows::-webkit-scrollbar-thumb {
-  min-height: 2rem;
-  border: 0 solid transparent;
-  background: var(--label) padding-box;
+.hero-info .rows__thumb {
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  background: var(--label);
+  cursor: grab;
+  touch-action: none;
 }
-.hero-info .rows::-webkit-scrollbar-thumb:hover { background: var(--tab-light) padding-box; }
-.hero-info .rows::-webkit-scrollbar-button { display: none; }
-/* Aliases ya tiene su propio marco: el carril va sin borde */
-.hero-info .aliases .rows::-webkit-scrollbar-track { border-width: 0; }
-@supports (-moz-appearance: none) {
-  .hero-info .rows { scrollbar-color: var(--label) var(--field); scrollbar-width: thin; }
-}
-@supports not (-moz-appearance: none) {
-  .hero-info .rows { scrollbar-color: auto; }
-}
+.hero-info .rows__thumb:hover { background: var(--tab-light); }
+.hero-info .rows__thumb:active { cursor: grabbing; }
 /* Una sola línea inferior por fila (en el li), así texto e icono siempre coinciden.
    Sin margen negativo: si no, el fondo de la celda del icono de la fila siguiente
    tapaba la línea. La última fila no la lleva (ya está el borde de la lista) */
@@ -788,7 +794,15 @@ a { color: var(--accent); }
   border-left: 1px solid var(--line);
   background: #000; /* la columnita, negra */
 }
-.occupation__value { flex: 1; }
+.occupation__value { width: 350px; max-width: 100%; min-width: 0; }
+/* Texto largo de Occupation: se desplaza de derecha a izquierda (Marquee en AlterEgo.tsx) */
+.marquee { display: block; overflow: hidden; white-space: nowrap; }
+.marquee__text { display: inline-block; }
+/* Con movimiento reducido no se desplaza: se corta con puntos suspensivos */
+@media (prefers-reduced-motion: reduce) {
+  .marquee { text-overflow: ellipsis; }
+  .marquee__text { display: inline; }
+}
 
 /* Place of birth: sin marco propio; pestaña, mapa y etiqueta llevan el suyo */
 .alter-ego .birth-map { border: 0; background: none; }
