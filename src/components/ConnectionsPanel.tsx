@@ -40,7 +40,7 @@ export function ConnectionsPanel({ hero, onSelect }: { hero: Hero; onSelect: (id
   )
 }
 
-export function AliasesPanel({ hero, onSelect }: { hero: Hero; onSelect: (id: string) => void }) {
+export function AliasesPanel({ hero }: { hero: Hero }) {
   // Sin comillas: algunos alias de la API vienen entrecomillados ("Frankie")
   const aliases = hero.biography.aliases
     .map((a) => a.replace(/["“”]/g, '').trim())
@@ -53,7 +53,7 @@ export function AliasesPanel({ hero, onSelect }: { hero: Hero; onSelect: (id: st
         {aliases.map((a) => (
           <li key={a} className="rows__item">
             <span className="rows__text" title={a}>
-              <HeroText text={a} hero={hero} onSelect={onSelect} />
+              {a}
             </span>
           </li>
         ))}
