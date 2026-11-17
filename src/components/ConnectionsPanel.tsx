@@ -3,7 +3,8 @@ import { parseGroups } from '../utils/parse'
 import unknownIcon from '../assets/icons/unknown.png'
 import { BADGE_SIZE, GroupBadge } from './GroupBadge'
 import { MaskIcon } from './icons'
-import { HeroText } from './HeroText'
+import { aliasHero } from '../data/heroLookup'
+import { HeroLink, HeroText } from './HeroText'
 import { Panel } from './Panel'
 import { ScrollRows } from './ScrollRows'
 
@@ -41,6 +42,12 @@ export function ConnectionsPanel({ hero, onSelect }: { hero: Hero; onSelect: (id
   )
 }
 
+/** Alias que enlaza a la ficha del personaje solo si el alias entero es ese personaje */
+function AliasText({ alias, hero, onSelect }: { alias: string; hero: Hero; onSelect: (id: string) => void }) {
+  const target = aliasHero(alias, hero)
+  return target ? <HeroLink hero={target} onSelect={onSelect}>{alias}</HeroLink> : <>{alias}</>
+}
+
 export function AliasesPanel({ hero, onSelect }: { hero: Hero; onSelect: (id: string) => void }) {
   // Sin comillas: algunos alias de la API vienen entrecomillados ("Frankie")
   const aliases = hero.biography.aliases
@@ -54,7 +61,7 @@ export function AliasesPanel({ hero, onSelect }: { hero: Hero; onSelect: (id: st
         {aliases.map((a) => (
           <li key={a} className="rows__item">
             <span className="rows__text" title={a}>
-              <HeroText text={a} hero={hero} onSelect={onSelect} whole />
+              <AliasText alias={a} hero={hero} onSelect={onSelect} />
             </span>
           </li>
         ))}

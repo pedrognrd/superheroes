@@ -25,13 +25,10 @@ export function HeroLink({ hero, onSelect, children, className = 'rows__link', t
 }
 
 /** Texto en el que cada personaje de la base de datos que se nombra enlaza a su ficha */
-/** Con `whole`, solo enlaza si el texto entero es el nombre de un personaje (alias como "Dark Angel" no enlazan "Angel"). */
-export function HeroText({ text, hero, onSelect, whole = false }: { text: string; hero: Hero; onSelect: (id: string) => void; whole?: boolean }) {
-  let parts = splitHeroMentions(text, hero)
-  if (whole && !(parts.length === 1 && typeof parts[0] !== 'string')) parts = [text]
+export function HeroText({ text, hero, onSelect }: { text: string; hero: Hero; onSelect: (id: string) => void }) {
   return (
     <>
-      {parts.map((part, i) =>
+      {splitHeroMentions(text, hero).map((part, i) =>
         typeof part === 'string' ? (
           part
         ) : (

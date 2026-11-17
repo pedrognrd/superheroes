@@ -90,3 +90,31 @@ export function splitHeroMentions(text: string, context: Hero): MentionPart[] {
   if (last < text.length) parts.push(text.slice(last))
   return parts
 }
+
+// Alias que enlazan a otra ficha o no deben enlazar: "id del héroe|alias" → id de destino, o null
+const ALIAS_LINKS: Record<string, string | null> = {
+  '313|Goliath': '291', // Hawkeye: su etapa de Goliath es Clint Barton, no Erik Josten (#290)
+  '568|Goliath': '291', // Ronin (Clint Barton)
+  '30|Goliath': null, // Ant-Man: el Goliath de Hank Pym no está en la base
+  '304|Vindicator': '694', // Guardian es James Hudson, no Heather (#693)
+  '545|Speedy': '616', // Red Arrow es Roy Harper, no Thea Queen (#615)
+  '25|Angel': null, // Angel Dust: su propio alias, no Warren Worthington
+  '259|Angel': null, // Firestar: su propio alias
+  '369|Guardian': null, // John Wraith
+  '369|Vindicator': null,
+  '540|Raven': null, // Rambo: no es Rachel Roth
+  '550|John Smith': null, // Red Skull: no es Red Tornado
+  '586|Ariel': null, // Shadowcat: su propio alias
+  '586|Cat': null, // Shadowcat: no es Shirlee Bryant
+}
+
+/** Personaje al que enlaza un alias: solo si el alias entero es su nombre (o una corrección de ALIAS_LINKS) */
+export function aliasHero(alias: string, context: Hero): Hero | null {
+  const key = `${context.id}|${alias}`
+  if (key in ALIAS_LINKS) {
+    const id = ALIAS_LINKS[key]
+    return id ? (heroes.find((h) => h.id === id) ?? null) : null
+  }
+  const parts = splitHeroMentions(alias, context)
+  return parts.length === 1 && typeof parts[0] !== 'string' ? parts[0].hero : null
+}
