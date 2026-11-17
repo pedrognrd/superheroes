@@ -513,7 +513,11 @@
       -73.98553
     ]
   },
-  "Lighthouse, Earth Orbit": null,
+  "Lighthouse, Earth Orbit": {
+    "image": "https://static.wikia.nocookie.net/headhuntersholosuite/images/b/be/Braddock_Lighthouse.jpg/revision/latest?cb=20190405192726",
+    "title": "Braddock Lighthouse",
+    "page": "https://headhuntersholosuite.fandom.com/wiki/Braddock_Lighthouse"
+  },
   "Braddock Manor, England": {
     "image": "https://static.wikia.nocookie.net/marveldatabase/images/2/23/Braddock_Manor_from_Uncanny_X-Men_Vol_1_448_0001.jpg/revision/latest/scale-to-width-down/600?cb=20191230192431",
     "title": "Braddock Manor",

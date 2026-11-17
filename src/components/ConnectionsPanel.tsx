@@ -54,7 +54,7 @@ export function AliasesPanel({ hero, onSelect }: { hero: Hero; onSelect: (id: st
         {aliases.map((a) => (
           <li key={a} className="rows__item">
             <span className="rows__text" title={a}>
-              <HeroText text={a} hero={hero} onSelect={onSelect} />
+              <HeroText text={a} hero={hero} onSelect={onSelect} whole />
             </span>
           </li>
         ))}

@@ -59,6 +59,14 @@ const MANUAL: Record<string, Cover> = {
     page: 'https://en.wikipedia.org/wiki/Captain_Atom',
     source: 'Wikipedia',
   },
+  // Anti-Monitor: Crisis on Infinite Earths #2 (mayo de 1985); la API dice #4 y Comic Vine
+  // daba una reedición alemana (Superman Taschenbuch #71)
+  '32': {
+    image: 'https://static.wikia.nocookie.net/marvel_dc/images/8/82/Crisis_on_Infinite_Earths_2.jpg/revision/latest?cb=20060521153332',
+    title: 'Crisis on Infinite Earths #2 (1985)',
+    page: 'https://dc.fandom.com/wiki/Crisis_on_Infinite_Earths_Vol_1_2',
+    source: 'Fandom',
+  },
 }
 
 // Números de Comic Vine que no son primeras apariciones (resúmenes o promocionales

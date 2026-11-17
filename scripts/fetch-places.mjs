@@ -53,6 +53,13 @@ const MANUAL = [
     title: 'Triskelion',
     page: 'https://marvel.fandom.com/wiki/Triskelion_(New_York_City)',
   },
+  // Lighthouse (Captain Britain): el Braddock Lighthouse (imagen principal de su página de Fandom)
+  {
+    match: /^Lighthouse\b/,
+    image: 'https://static.wikia.nocookie.net/headhuntersholosuite/images/b/be/Braddock_Lighthouse.jpg/revision/latest?cb=20190405192726',
+    title: 'Braddock Lighthouse',
+    page: 'https://headhuntersholosuite.fandom.com/wiki/Braddock_Lighthouse',
+  },
   // Krypton: el mapa de "The Krypton Chronicles" (a 900 px desde el original de 1920 px),
   // horizontal para Place of birth; en Base, la imagen vertical de Fandom
   {
