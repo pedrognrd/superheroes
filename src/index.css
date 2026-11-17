@@ -712,6 +712,9 @@ a { color: var(--accent); }
 .hero-info .base-map .map-panel__map > * {
   position: absolute;
   inset: 1px;
+  /* Sin esto "No known location" (min-height 220px) estira la caja y la diagonal se ensancha */
+  height: auto;
+  min-height: 0;
   background: var(--field);
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2.4rem), calc(100% - 0.8rem) calc(100% - 1.9rem), calc(100% - 0.8rem) 100%, 0 100%);
 }
@@ -835,6 +838,7 @@ a { color: var(--accent); }
     inset: 1px;
     height: auto;
     min-height: 0;
+    background: var(--field); /* sin fondo se veía el azul del contorno */
     clip-path: polygon(10px 0, 100% 0, 100% 100%, 0 100%, 0 calc(var(--notch-end) - 0.5px), 10px calc(var(--notch-start) - 0.5px));
   }
   .alter-ego .birth-map { --notch-start: 61px; --notch-end: 70px; }

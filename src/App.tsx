@@ -110,7 +110,7 @@ export default function App() {
             />
             <AppearancePanel hero={hero} />
             <RelativesPanel hero={hero} onSelect={select} />
-            <OccupationBar hero={hero} onSelect={select} />
+            <OccupationBar hero={hero} />
           </div>
         </section>
       </main>

@@ -41,7 +41,10 @@ export function ConnectionsPanel({ hero, onSelect }: { hero: Hero; onSelect: (id
 }
 
 export function AliasesPanel({ hero, onSelect }: { hero: Hero; onSelect: (id: string) => void }) {
-  const aliases = hero.biography.aliases.filter((a) => a && a !== '-')
+  // Sin comillas: algunos alias de la API vienen entrecomillados ("Frankie")
+  const aliases = hero.biography.aliases
+    .map((a) => a.replace(/["“”]/g, '').trim())
+    .filter((a) => a && a !== '-')
   // Siempre 4 filas: se completan con filas vacías (la primera avisa si no hay ninguno)
   const fillers = Math.max(0, ALIASES_ROWS - aliases.length)
   return (
@@ -50,7 +53,7 @@ export function AliasesPanel({ hero, onSelect }: { hero: Hero; onSelect: (id: st
         {aliases.map((a) => (
           <li key={a} className="rows__item">
             <span className="rows__text" title={a}>
-              "<HeroText text={a} hero={hero} onSelect={onSelect} />"
+              <HeroText text={a} hero={hero} onSelect={onSelect} />
             </span>
           </li>
         ))}

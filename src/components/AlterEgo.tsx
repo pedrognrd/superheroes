@@ -3,7 +3,6 @@ import { findRelativeHero } from '../data/heroLookup'
 import type { Hero } from '../types'
 import { isEmpty, parseRelatives, type RelativeStatus } from '../utils/parse'
 import { HeartIcon, Silhouette, silhouetteOf, SkullIcon } from './icons'
-import { HeroText } from './HeroText'
 import { Panel } from './Panel'
 
 const show = (v: string) => (isEmpty(v) ? 'Unknown' : v)
@@ -187,13 +186,11 @@ export function RelativesPanel({ hero, onSelect }: { hero: Hero; onSelect: (id: 
   )
 }
 
-export function OccupationBar({ hero, onSelect }: { hero: Hero; onSelect: (id: string) => void }) {
+export function OccupationBar({ hero }: { hero: Hero }) {
   return (
     <div className="occupation">
       <span className="occupation__key">Occupation</span>
-      <span className="occupation__value">
-        <HeroText text={show(hero.work.occupation)} hero={hero} onSelect={onSelect} />
-      </span>
+      <span className="occupation__value">{show(hero.work.occupation)}</span>
     </div>
   )
 }
