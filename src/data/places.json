@@ -854,10 +854,9 @@
   },
   "Hibbardsville, Kansas": null,
   "Central City, Missouri": {
-    "coords": [
-      37.08575,
-      -94.58345
-    ]
+    "image": "https://static.wikia.nocookie.net/the-justice-league/images/1/19/1190846-central_city_%281%29.jpg/revision/latest?cb=20190614154635",
+    "title": "Central City",
+    "page": "https://the-justice-league.fandom.com/wiki/Central_City"
   },
   "Fallville, Iowa": {
     "image": "https://static.wikia.nocookie.net/marvel_dc/images/6/68/Fallville%2C_Iowa.png/revision/latest/scale-to-width-down/600?cb=20110220225431",
@@ -1027,9 +1026,9 @@
     ]
   },
   "Central City": {
-    "image": "https://static.wikia.nocookie.net/marvel_dc/images/c/c5/Central_City_001.jpg/revision/latest/scale-to-width-down/600?cb=20121004104104",
+    "image": "https://static.wikia.nocookie.net/the-justice-league/images/1/19/1190846-central_city_%281%29.jpg/revision/latest?cb=20190614154635",
     "title": "Central City",
-    "page": "https://dc.fandom.com/wiki/Central_City"
+    "page": "https://the-justice-league.fandom.com/wiki/Central_City"
   },
   "San Francisco, CA USA": {
     "coords": [

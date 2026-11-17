@@ -53,6 +53,13 @@ const MANUAL = [
     title: 'Triskelion',
     page: 'https://marvel.fandom.com/wiki/Triskelion_(New_York_City)',
   },
+  // Central City de DC (Flash, Heat Wave): ciudad ficticia, aunque Nominatim encuentre una en Missouri
+  {
+    match: /^Central City(, Missouri)?$/,
+    image: 'https://static.wikia.nocookie.net/the-justice-league/images/1/19/1190846-central_city_%281%29.jpg/revision/latest?cb=20190614154635',
+    title: 'Central City',
+    page: 'https://the-justice-league.fandom.com/wiki/Central_City',
+  },
   // Lighthouse (Captain Britain): el Braddock Lighthouse (imagen principal de su página de Fandom)
   {
     match: /^Lighthouse\b/,

@@ -723,7 +723,7 @@ a { color: var(--accent); }
   border: 1px solid var(--line);
   background: var(--field);
   min-height: 8rem;
-  padding: 1.35rem;
+  padding: .6rem;
 }
 
 /* Base: mapa con la esquina recortada y nombre con cuadradito a la izquierda */

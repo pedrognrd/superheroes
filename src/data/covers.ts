@@ -67,6 +67,13 @@ const MANUAL: Record<string, Cover> = {
     page: 'https://dc.fandom.com/wiki/Crisis_on_Infinite_Earths_Vol_1_2',
     source: 'Fandom',
   },
+  // Weapon XI: Weapon X (Vol. 2) #23 (mayo de 2004); la API no la trae
+  '710': {
+    image: 'https://static.wikia.nocookie.net/marveldatabase/images/4/4d/Weapon_X_Vol_2_23.jpg/revision/latest?cb=20180402030805',
+    title: 'Weapon X (Vol. 2) #23 (2004)',
+    page: 'https://marvel.fandom.com/wiki/Weapon_X_Vol_2_23',
+    source: 'Fandom',
+  },
 }
 
 // Números de Comic Vine que no son primeras apariciones (resúmenes o promocionales

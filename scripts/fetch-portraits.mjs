@@ -82,6 +82,7 @@ const MANUAL = {
   683: one('https://image.tmdb.org/t/p/w500/cqpuXsZcJe6esQTitqWyhN0eXtZ.jpg'), // Valerie Hart: póster de Team Epic (TMDB; la actriz no tiene foto)
   693: one('https://static.wikia.nocookie.net/marveldatabase/images/3/3a/Heather_McNeil_%28Earth-616%29_from_Alpha_Flight_Vol_5_3_Homage_Variant_cover.jpg/revision/latest?cb=20231025184124'), // Vindicator: Heather Hudson (Marvel Fandom)
   694: one('https://static.wikia.nocookie.net/marveldatabase/images/3/39/James_Hudson_%28Earth-616%29_from_Amazing_X-Men_Vol_2_8_001.jpg/revision/latest?cb=20170610173027'), // Vindicator: James Hudson (Marvel Fandom)
+  721: one('https://static.wikia.nocookie.net/marveldatabase/images/9/93/Jubilation_Lee_%28Earth-616%29_from_New_Warriors_Vol_4_1_001.jpg/revision/latest?cb=20201220175544'), // Wondra: Jubilation Lee en New Warriors #1 (Marvel Fandom)
   712: one('https://static.wikia.nocookie.net/marveldatabase/images/4/42/X-Men_United_Vol_1_1_Chew_Virgin_Variant.jpg/revision/latest?cb=20260310031410'), // White Queen: Emma Frost (Marvel Fandom)
 }
 
