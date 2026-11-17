@@ -416,7 +416,8 @@ a { color: var(--accent); }
 }
 /* La primera, a la altura de la cabeza, más viva y hasta los círculos */
 /* …y entra en el círculo de fuera hasta tocar el de dentro */
-.appearance__lines .is-head { right: -20px; border-top-color: var(--line); }
+/* Mismo peso que la regla general (y va después) para que se aplique; con el translateX de 10px acaba en el círculo de dentro */
+.appearance__lines > span.is-head { right: -8px; border-top-color: var(--line); }
 .appearance__circles {
   position: absolute;
   left: calc(100% + 14px);
