@@ -14,7 +14,8 @@
     "update:data": "node scripts/update-data.mjs",
     "fetch:covers:wikipedia": "node scripts/fetch-covers-wikipedia.mjs",
     "fetch:covers:tmdb": "node --env-file=.env.local scripts/fetch-covers-tmdb.mjs",
-    "fetch:places": "node scripts/fetch-places.mjs"
+    "fetch:places": "node scripts/fetch-places.mjs",
+    "fetch:portraits": "node --env-file=.env.local scripts/fetch-portraits.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

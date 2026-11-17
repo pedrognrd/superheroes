@@ -70,6 +70,7 @@
 
 .searchbar input {
   flex: 1;
+  caret-color: var(--text);
   min-width: 0;
   height: 100%;
   background: transparent;
@@ -234,7 +235,9 @@
 }
 .results li button:hover,
 .results li button:focus-visible { border-color: var(--accent); outline: none; }
-.results img { grid-row: span 2; width: 40px; height: 52px; object-fit: cover; background: #0b2234; }
+.results img,
+.results__noimg { grid-row: span 2; width: 40px; height: 52px; object-fit: cover; background: #0b2234; }
+.results__noimg { display: block; border: 1px solid var(--line-soft); }
 .results__name { font-size: 1.2rem; text-transform: uppercase; line-height: 1.1; }
 .results__meta { font-size: 0.95rem; color: var(--accent); text-transform: capitalize; }
 

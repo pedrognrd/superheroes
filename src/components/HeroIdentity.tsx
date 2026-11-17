@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { HeaderDeco } from './HeaderDeco'
+import { fallbackImage } from '../data/portraitFallbacks'
 import { PORTRAITS } from '../data/portraits'
 import type { Hero } from '../types'
 import { isEmpty } from '../utils/parse'
@@ -7,21 +8,23 @@ import './HeroIdentity.css'
 
 /** Columna izquierda: retrato + alineación + nombre + nombre real */
 export function HeroIdentity({ hero }: { hero: Hero }) {
-  const [failed, setFailed] = useState<string | null>(null)
+  // Urls que no han cargado: primero el retrato de superherodb, luego el de Comic Vine
+  const [failed, setFailed] = useState<string[]>([])
   const alignment = isEmpty(hero.biography.alignment) ? 'unknown' : hero.biography.alignment
   const fullName = isEmpty(hero.biography['full-name']) ? hero.name : hero.biography['full-name']
-  const showImage = failed !== hero.image.url
+  const src = [hero.image.url, fallbackImage(hero.id)].find((u) => u && !failed.includes(u))
 
   return (
     <div className="identity">
       <div className="identity__frame">
         <div className="identity__portrait">
-          {showImage ? (
+          {src ? (
             <img
-              src={hero.image.url}
+              src={src}
               alt={hero.name}
-              style={{ objectPosition: PORTRAITS[hero.id]?.position }}
-              onError={() => setFailed(hero.image.url)}
+              referrerPolicy={src === hero.image.url ? undefined : 'no-referrer'}
+              style={{ objectPosition: src === hero.image.url ? PORTRAITS[hero.id]?.position : undefined }}
+              onError={() => setFailed((f) => [...f, src])}
             />
           ) : (
             <div className="identity__noimg">No image</div>

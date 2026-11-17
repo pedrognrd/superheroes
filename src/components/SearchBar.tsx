@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { STAT_KEYS } from '../types'
+import { fallbackThumb } from '../data/portraitFallbacks'
+import { STAT_KEYS, type Hero } from '../types'
 import {
   applyFilters,
   BASE_OPTIONS,
@@ -36,15 +37,31 @@ function FilterSelect({ label, value, options, onChange }: FilterSelectProps) {
 
 const opts = (values: string[]) => values.map((v) => ({ value: v, label: v }))
 
+// Resultados que se pintan de golpe; al acercarse al final del scroll se añaden más
+const PAGE = 60
+
+/** Miniatura del resultado: si el retrato no carga, la de Comic Vine; si tampoco, un hueco */
+function ResultImage({ hero }: { hero: Hero }) {
+  const [step, setStep] = useState(0)
+  const src = step === 0 ? hero.image.url : step === 1 ? fallbackThumb(hero.id) : undefined
+  if (!src) return <span className="results__noimg" aria-hidden="true" />
+  return <img src={src} alt="" loading="lazy" referrerPolicy={step === 0 ? undefined : 'no-referrer'} onError={() => setStep((s) => s + 1)} />
+}
+
 export function SearchBar({ onSelect }: { onSelect: (id: string) => void }) {
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS)
   const [open, setOpen] = useState(false)
+  const [limit, setLimit] = useState(PAGE)
   const ref = useRef<HTMLElement>(null)
+  const inputRef = useRef<HTMLInputElement>(null)
+  // Tras elegir un héroe el foco vuelve al buscador (cursor parpadeando) sin reabrir la lista
+  const keepClosed = useRef(false)
   const results = useMemo(() => applyFilters(filters), [filters])
   const sortBy = filters.sortBy
 
   const set = (key: keyof Filters) => (value: string) => {
     setFilters((f) => ({ ...f, [key]: value }))
+    setLimit(PAGE)
     setOpen(true)
   }
 
@@ -56,9 +73,13 @@ export function SearchBar({ onSelect }: { onSelect: (id: string) => void }) {
     return () => document.removeEventListener('mousedown', close)
   }, [])
 
-  const pick = (id: string) => {
-    onSelect(id)
+  const pick = (hero: Hero) => {
+    onSelect(hero.id)
+    // El nombre elegido queda escrito en el buscador (con la X para borrarlo)
+    setFilters((f) => ({ ...f, query: hero.name }))
     setOpen(false)
+    keepClosed.current = true
+    inputRef.current?.focus()
   }
 
   return (
@@ -71,11 +92,16 @@ export function SearchBar({ onSelect }: { onSelect: (id: string) => void }) {
         <input
           type="search"
           placeholder="Insert name"
+          ref={inputRef}
           value={filters.query}
           onChange={(e) => set('query')(e.target.value)}
-          onFocus={() => setOpen(true)}
+          onFocus={() => {
+            if (keepClosed.current) keepClosed.current = false
+            else setOpen(true)
+          }}
+          onClick={() => setOpen(true)}
           onKeyDown={(e) => {
-            if (e.key === 'Enter' && results[0]) pick(results[0].id)
+            if (e.key === 'Enter' && results[0]) pick(results[0])
             if (e.key === 'Escape') setOpen(false)
           }}
         />
@@ -117,16 +143,21 @@ export function SearchBar({ onSelect }: { onSelect: (id: string) => void }) {
           <div className="results__head">
             <span>{results.length} {results.length === 1 ? 'hero' : 'heroes'}</span>
             {filters !== EMPTY_FILTERS && (
-              <button type="button" onClick={() => setFilters(EMPTY_FILTERS)}>
+              <button type="button" onClick={() => { setFilters(EMPTY_FILTERS); setLimit(PAGE) }}>
                 Clear filters
               </button>
             )}
           </div>
-          <ul>
-            {results.slice(0, 60).map((h) => (
+          <ul
+            onScroll={(e) => {
+              const el = e.currentTarget
+              if (limit < results.length && el.scrollTop + el.clientHeight > el.scrollHeight - 200) setLimit((l) => l + PAGE)
+            }}
+          >
+            {results.slice(0, limit).map((h) => (
               <li key={h.id}>
-                <button type="button" onClick={() => pick(h.id)}>
-                  <img src={h.image.url} alt="" loading="lazy" />
+                <button type="button" onClick={() => pick(h)}>
+                  <ResultImage hero={h} />
                   <span className="results__name">{h.name}</span>
                   <span className="results__meta">
                     {sortBy ? `${sortBy}: ${h.powerstats[sortBy]}` : h.biography.publisher.replace(' Comics', '')}
