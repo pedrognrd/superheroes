@@ -337,6 +337,20 @@ a { color: var(--accent); }
 .cover-caption__creators { display: block; margin-top: 4px; color: var(--accent); text-transform: none; letter-spacing: 0; }
 
 /* Portada y logo enlazados a su fuente */
+/* Enlaces a los creadores: mismo subrayado que los enlaces a personajes (.rows__link) */
+.creator-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 2px;
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+.creator-link:hover,
+.creator-link:focus-visible {
+  color: #fff;
+  text-decoration-color: var(--accent);
+  outline: none;
+}
 .source-link {
   display: inline-flex;
   max-width: 100%;

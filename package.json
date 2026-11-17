@@ -16,7 +16,8 @@
     "fetch:covers:tmdb": "node --env-file=.env.local scripts/fetch-covers-tmdb.mjs",
     "fetch:places": "node scripts/fetch-places.mjs",
     "fetch:portraits": "node --env-file=.env.local scripts/fetch-portraits.mjs",
-    "fetch:creators": "node --env-file=.env.local scripts/fetch-creators.mjs"
+    "fetch:creators": "node --env-file=.env.local scripts/fetch-creators.mjs",
+    "fetch:creator-links": "node scripts/fetch-creator-links.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

@@ -1,6 +1,6 @@
 import { useState, type ReactNode } from 'react'
 import { getCover } from '../data/covers'
-import { creatorsText } from '../data/creators'
+import { creatorsOf, type Creator } from '../data/creators'
 import { publisherLink } from '../data/publisherLinks'
 import { publisherColor, publisherLogo } from '../data/publisherLogos'
 import type { Hero } from '../types'
@@ -46,6 +46,27 @@ export function PublisherPanel({ hero }: { hero: Hero }) {
   )
 }
 
+/** "By Stan Lee & Jack Kirby", cada nombre enlazado a su página de autor si la hay */
+function CreatorsLine({ creators }: { creators: Creator[] }) {
+  return (
+    <>
+      By{' '}
+      {creators.map((c, i) => (
+        <span key={c.name}>
+          {i > 0 && (i === creators.length - 1 ? ' & ' : ', ')}
+          {c.href ? (
+            <a className="creator-link" href={c.href} target="_blank" rel="noopener noreferrer" title={`${c.name} · ${c.source}`}>
+              {c.name}
+            </a>
+          ) : (
+            c.name
+          )}
+        </span>
+      ))}
+    </>
+  )
+}
+
 /** Año del texto de primera aparición de la API ("Casino Royale, 1953 novel" → 1953) */
 const yearInText = (text: string) => text.match(/\b(1[89]\d\d|20\d\d)\b/)?.[1]
 
@@ -55,7 +76,7 @@ export function FirstAppearancePanel({ hero }: { hero: Hero }) {
   const [failed, setFailed] = useState<string | null>(null)
   const showCover = cover && failed !== cover.image
   const year = cover?.year ?? (isEmpty(text) ? undefined : yearInText(text))
-  const creators = creatorsText(hero.id)
+  const creators = creatorsOf(hero.id, hero.biography.publisher)
   return (
     <Panel title="First appearance" align="center" className="first-appearance">
       <div className="center-box">
@@ -74,7 +95,11 @@ export function FirstAppearancePanel({ hero }: { hero: Hero }) {
             <figcaption className="cover-caption">
               {year && <span className="cover-caption__year">{year}</span>}
               <span className="cover-caption__title">{cover.title}</span>
-              {creators && <span className="cover-caption__creators">By {creators}</span>}
+              {creators.length > 0 && (
+                <span className="cover-caption__creators">
+                  <CreatorsLine creators={creators} />
+                </span>
+              )}
             </figcaption>
           </figure>
         ) : (
@@ -82,7 +107,11 @@ export function FirstAppearancePanel({ hero }: { hero: Hero }) {
             <span>{isEmpty(text) ? 'Unknown' : text}</span>
           </div>
         )}
-        {!showCover && creators && <p className="cover-caption cover-caption__creators">By {creators}</p>}
+        {!showCover && creators.length > 0 && (
+          <p className="cover-caption cover-caption__creators">
+            <CreatorsLine creators={creators} />
+          </p>
+        )}
       </div>
     </Panel>
   )

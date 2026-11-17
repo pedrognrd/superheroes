@@ -91,5 +91,11 @@ if (rest.length && !KEY) {
   }
 }
 
+// 3. A mano (scripts/creators-manual.json): Fandom de Marvel/DC para los que no tienen ficha de
+// Comic Vine y creadores de la obra para series, películas y novelas. Solo rellena huecos.
+const manual = JSON.parse(await readFile(new URL('./creators-manual.json', import.meta.url), 'utf8'))
+for (const [heroId, names] of Object.entries(manual)) if (!out[heroId]?.length) out[heroId] = names
+await save()
+
 const withNames = Object.values(out).filter((n) => n.length).length
-console.log(`Listo: ${withNames} héroes con creadores (de ${Object.keys(covers).length})`)
+console.log(`Listo: ${withNames} héroes con creadores`)

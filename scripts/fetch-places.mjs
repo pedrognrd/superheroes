@@ -46,6 +46,13 @@ const MANUAL = [
     title: 'Holy Ghost Church',
     page: 'https://comicvine.gamespot.com/holy-ghost-church/4020-57020/',
   },
+  // S.H.I.E.L.D. Headquarters: el Triskelion de Nueva York (imagen principal de su página de Fandom)
+  {
+    match: /^S\.H\.I\.E\.L\.D\. Headquarters\b/,
+    image: 'https://static.wikia.nocookie.net/marveldatabase/images/a/a1/Triskelion_from_Avengers_Vol_5_41.jpg/revision/latest/scale-to-width-down/600?cb=20150205022214',
+    title: 'Triskelion',
+    page: 'https://marvel.fandom.com/wiki/Triskelion_(New_York_City)',
+  },
   // Krypton: el mapa de "The Krypton Chronicles" (a 900 px desde el original de 1920 px),
   // horizontal para Place of birth; en Base, la imagen vertical de Fandom
   {

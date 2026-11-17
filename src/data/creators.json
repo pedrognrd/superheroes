@@ -1,4 +1,12 @@
 {
+  "1": [
+    "Stan Lee",
+    "Jack Kirby"
+  ],
+  "2": [
+    "Mike Mignola",
+    "John Byrne"
+  ],
   "3": [
     "Gil Kane",
     "John Broome"
@@ -15,6 +23,9 @@
     "Stan Lee",
     "Jack Kirby"
   ],
+  "7": [
+    "Tim Kring"
+  ],
   "8": [
     "Julius Schwartz",
     "Murphy Anderson"
@@ -22,6 +33,10 @@
   "9": [
     "Jack Kirby",
     "Stan Lee"
+  ],
+  "10": [
+    "Fabian Nicieza",
+    "Reilly Brown"
   ],
   "11": [
     "Charles Nicholas",
@@ -39,10 +54,21 @@
     "Bill Finger",
     "Martin Nodell"
   ],
+  "15": [
+    "Radical Entertainment"
+  ],
+  "16": [
+    "Tim Kring"
+  ],
   "17": [
     "Bob Kane",
     "Bill Finger",
     "Jerry Robinson"
+  ],
+  "18": [
+    "Dan O'Bannon",
+    "Ronald Shusett",
+    "H. R. Giger"
   ],
   "19": [
     "H. Rider Haggard"
@@ -54,6 +80,13 @@
   "21": [
     "Ann Nocenti",
     "John Romita Jr."
+  ],
+  "22": [
+    "Tim Kring"
+  ],
+  "23": [
+    "Joss Whedon",
+    "David Greenwalt"
   ],
   "24": [
     "Stan Lee",
@@ -67,6 +100,10 @@
     "Ethan Van Sciver",
     "Grant Morrison"
   ],
+  "27": [
+    "Neil Gaiman",
+    "Todd McFarlane"
+  ],
   "28": [
     "Carmine Infantino",
     "Dave Wood"
@@ -79,6 +116,10 @@
     "Jack Kirby",
     "Larry Lieber",
     "Stan Lee"
+  ],
+  "31": [
+    "David Michelinie",
+    "John Byrne"
   ],
   "32": [
     "Jerry Ordway",
@@ -100,12 +141,20 @@
     "Bob Haney",
     "Nick Cardy"
   ],
+  "37": [
+    "Robert Bernstein",
+    "Ramona Fradon"
+  ],
   "38": [
     "Mort Weisinger",
     "Paul Norris"
   ],
   "39": [
     "Mike Zeck"
+  ],
+  "40": [
+    "Stan Lee",
+    "Jack Kirby"
   ],
   "41": [
     "Chris Claremont"
@@ -120,7 +169,9 @@
     "Jack Kirby",
     "Stan Lee"
   ],
-  "44": [],
+  "44": [
+    "Jo Duffy"
+  ],
   "45": [
     "John Cassaday",
     "Joss Whedon"
@@ -139,12 +190,27 @@
   "49": [
     "Jack Kirby"
   ],
+  "50": [
+    "Ben Flinton",
+    "Bill O'Connor"
+  ],
+  "51": [
+    "Ben Flinton",
+    "Bill O'Connor"
+  ],
+  "52": [
+    "Jerry Siegel",
+    "Jim Mooney"
+  ],
   "53": [
     "Julius Schwartz",
     "Gardner Fox",
     "Gil Kane"
   ],
-  "54": [],
+  "54": [
+    "John Ostrander",
+    "Luke McDonnell"
+  ],
   "55": [
     "Gail Simone",
     "Grant Morrison"
@@ -159,6 +225,10 @@
   ],
   "58": [
     "Marv Wolfman"
+  ],
+  "59": [
+    "Jerry Siegel",
+    "Bernard Baily"
   ],
   "60": [
     "Doug Moench",
@@ -179,9 +249,21 @@
     "Bill Finger",
     "Sheldon Moldoff"
   ],
+  "64": [
+    "Bill Finger",
+    "Sheldon Moldoff"
+  ],
+  "65": [
+    "Joey Cavalieri",
+    "Joe Staton"
+  ],
   "66": [
     "Kelley Puckett",
     "Damion Scott"
+  ],
+  "67": [
+    "Gail Simone",
+    "Nicola Scott"
   ],
   "68": [
     "Chuck Dixon",
@@ -204,6 +286,14 @@
     "Mark Gruenwald",
     "Paul Neary"
   ],
+  "73": [
+    "Geoff Johns",
+    "Grant Morrison",
+    "Greg Rucka",
+    "Mark Waid",
+    "Keith Giffen",
+    "Ken Lashley"
+  ],
   "74": [
     "Ethan Van Sciver",
     "Grant Morrison"
@@ -215,6 +305,13 @@
   "76": [
     "Arnold Drake",
     "Bob Brown"
+  ],
+  "77": [
+    "Stan Lee",
+    "Carl Burgos"
+  ],
+  "78": [
+    "Man of Action"
   ],
   "79": [
     "Walt Simonson"
@@ -232,6 +329,10 @@
     "Stan Lee",
     "Steve Ditko"
   ],
+  "84": [
+    "Zak Penn",
+    "Michael Karnow"
+  ],
   "85": [
     "Todd McFarlane"
   ],
@@ -239,12 +340,25 @@
     "Gene Colan",
     "Roy Thomas"
   ],
+  "87": [
+    "Kenneth Johnson"
+  ],
   "88": [
     "Bret Blevins",
     "June Brigman",
     "Louise Jones Simonson"
   ],
-  "89": [],
+  "89": [
+    "Wally Wood",
+    "Bob Powell"
+  ],
+  "90": [
+    "Mary Jo Duffy",
+    "Gene Colan"
+  ],
+  "91": [
+    "Alex Toth"
+  ],
   "92": [
     "John Byrne",
     "Whilce Portacio"
@@ -253,7 +367,10 @@
     "Otto Binder",
     "George Papp"
   ],
-  "94": [],
+  "94": [
+    "Cary Burkett",
+    "Greg LaRocque"
+  ],
   "95": [
     "Otto Binder",
     "C. C. Beck"
@@ -283,7 +400,14 @@
     "Don Heck",
     "Stan Lee"
   ],
-  "103": [],
+  "102": [
+    "Roy Thomas",
+    "John Buscema"
+  ],
+  "103": [
+    "Tony Isabella",
+    "Trevor von Eeden"
+  ],
   "104": [
     "Mark Gruenwald",
     "George Pérez",
@@ -310,7 +434,10 @@
     "Howard Mackie",
     "Javier Saltares"
   ],
-  "110": [],
+  "110": [
+    "Gerry Conway",
+    "Don Heck"
+  ],
   "111": [
     "Angel Medina",
     "Glenn Herdling"
@@ -319,7 +446,10 @@
     "Gene Colan",
     "Marv Wolfman"
   ],
-  "113": [],
+  "113": [
+    "Jeph Loeb",
+    "Ian Churchill"
+  ],
   "114": [
     "Peter Milligan",
     "Salvador Larroca"
@@ -328,10 +458,19 @@
     "Scott Lobdell",
     "Joe Madureira"
   ],
-  "116": [],
+  "116": [
+    "Stan Lee",
+    "Robert Bernstein",
+    "Don Heck"
+  ],
   "117": [
     "Bob Layton",
     "David Michelinie",
+    "Mark Bright"
+  ],
+  "118": [
+    "David Michelinie",
+    "Bob Layton",
     "Mark Bright"
   ],
   "119": [
@@ -346,7 +485,29 @@
     "John Francis Moore",
     "Ron Lim"
   ],
-  "122": [],
+  "122": [
+    "Roy Thomas",
+    "Dann Thomas",
+    "Tony DeZuniga"
+  ],
+  "123": [
+    "Charles Nicholas"
+  ],
+  "124": [
+    "Charles Nicholas"
+  ],
+  "125": [
+    "Steve Ditko",
+    "Gary Friedrich"
+  ],
+  "126": [
+    "Keith Giffen",
+    "John Rogers",
+    "Cully Hamner"
+  ],
+  "127": [
+    "George Lucas"
+  ],
   "128": [
     "Tom Grummett",
     "Howard Mackie"
@@ -357,11 +518,18 @@
   "130": [
     "Al Milgrom"
   ],
-  "131": [],
+  "131": [
+    "Jim Shooter",
+    "Al Milgrom"
+  ],
   "132": [
     "Dan Jurgens"
   ],
   "133": [
+    "John Byrne"
+  ],
+  "134": [
+    "Chris Claremont",
     "John Byrne"
   ],
   "135": [
@@ -374,6 +542,18 @@
   "137": [
     "Jerry Siegel",
     "Jim Mooney"
+  ],
+  "138": [
+    "Stan Lee",
+    "Len Wein",
+    "John Romita Sr."
+  ],
+  "139": [
+    "David Cronenberg",
+    "Charles Edward Pogue"
+  ],
+  "140": [
+    "Joss Whedon"
   ],
   "141": [
     "Marv Wolfman",
@@ -400,6 +580,10 @@
     "Chris Claremont",
     "Paul Smith"
   ],
+  "147": [
+    "Zak Penn",
+    "Michael Karnow"
+  ],
   "148": [
     "Bob McLeod",
     "Chris Claremont"
@@ -421,6 +605,14 @@
     "Carmine Infantino",
     "John Broome"
   ],
+  "154": [
+    "Trey Parker",
+    "Matt Stone"
+  ],
+  "155": [
+    "Stan Lee",
+    "Gene Colan"
+  ],
   "156": [
     "C. C. Beck",
     "Bill Parker"
@@ -428,6 +620,19 @@
   "157": [
     "Gene Colan",
     "Roy Thomas"
+  ],
+  "158": [
+    "Ed Herron",
+    "C.C. Beck",
+    "Mac Raboy"
+  ],
+  "159": [
+    "Robert M. Burtt",
+    "Wilfred G. Moore"
+  ],
+  "160": [
+    "Ted Turner",
+    "Barbara Pyle"
   ],
   "161": [
     "Bill Mantlo",
@@ -437,7 +642,14 @@
     "David Michelinie",
     "Erik Larsen"
   ],
-  "163": [],
+  "163": [
+    "Linda Fite",
+    "Marie Severin"
+  ],
+  "164": [
+    "Linda Fite",
+    "Marie Severin"
+  ],
   "165": [
     "Bob Kane",
     "Bill Finger"
@@ -463,6 +675,10 @@
     "Stan Lee",
     "Steve Ditko"
   ],
+  "171": [
+    "Roy Thomas",
+    "Werner Roth"
+  ],
   "172": [
     "Harry G. Peter",
     "William Moulton Marston"
@@ -471,8 +687,15 @@
     "Gerry Conway",
     "Jose Delbo"
   ],
+  "174": [
+    "Len Wein",
+    "George Pérez"
+  ],
   "177": [
     "Alex Ross"
+  ],
+  "178": [
+    "Tim Kring"
   ],
   "179": [
     "Stan Lee",
@@ -490,6 +713,9 @@
     "Neil Gaiman",
     "Todd McFarlane"
   ],
+  "183": [
+    "Michael Carroll"
+  ],
   "184": [
     "Jerry Siegel",
     "Jim Mooney"
@@ -505,8 +731,13 @@
     "Chris Claremont",
     "Dave Cockrum"
   ],
-  "188": [],
-  "189": [],
+  "188": [
+    "Mark Gruenwald",
+    "Paul Neary"
+  ],
+  "189": [
+    "Alan Davis"
+  ],
   "190": [
     "Stan Lee",
     "Don Heck",
@@ -541,6 +772,13 @@
     "Ed Hannigan",
     "Bill Mantlo"
   ],
+  "199": [
+    "Michael Carroll"
+  ],
+  "200": [
+    "Greg Berlanti",
+    "Jon Harmon Feldman"
+  ],
   "201": [
     "Stan Lee",
     "Bill Everett"
@@ -555,8 +793,30 @@
     "Tom DeFalco",
     "Wellinton Alves"
   ],
+  "203": [
+    "Sam Raimi"
+  ],
   "204": [
     "Jack Kirby"
+  ],
+  "205": [
+    "Tetsuya Nomura"
+  ],
+  "206": [
+    "Tony Isabella",
+    "George Tuska"
+  ],
+  "207": [
+    "George Lucas"
+  ],
+  "208": [
+    "George Lucas"
+  ],
+  "209": [
+    "Brad Bird"
+  ],
+  "210": [
+    "Gene Roddenberry"
   ],
   "211": [
     "Tom DeFalco",
@@ -594,6 +854,9 @@
   "219": [
     "Archie Goodwin",
     "George Tuska"
+  ],
+  "220": [
+    "Tim Kring"
   ],
   "221": [
     "Herb Trimpe",
@@ -641,6 +904,10 @@
     "Stan Lee",
     "Steve Ditko"
   ],
+  "233": [
+    "Alan Moore",
+    "Dave Gibbons"
+  ],
   "234": [
     "Jim Starlin",
     "Mike Friedrich"
@@ -649,12 +916,18 @@
     "Stan Lee",
     "Jack Kirby"
   ],
+  "236": [
+    "Brad Bird"
+  ],
   "237": [
     "Stan Lee",
     "Steve Ditko"
   ],
   "238": [
     "Frank Miller"
+  ],
+  "239": [
+    "Tim Kring"
   ],
   "240": [
     "Carmine Infantino",
@@ -668,10 +941,24 @@
     "Bob Haney",
     "Howard Purcell"
   ],
+  "243": [
+    "Michael Carroll"
+  ],
+  "244": [
+    "Cary Bates",
+    "Dave Cockrum"
+  ],
+  "245": [
+    "David Koepp",
+    "Robert Towne"
+  ],
   "246": [
     "Jack Kirby"
   ],
-  "247": [],
+  "247": [
+    "Daniel Way",
+    "Salvador Espin"
+  ],
   "248": [
     "Danny Fingeroth"
   ],
@@ -679,10 +966,17 @@
     "Scott Lobdell",
     "Joe Quesada"
   ],
-  "250": [],
+  "250": [
+    "Chris Claremont",
+    "Jim Lee"
+  ],
   "251": [
     "Gene Colan",
     "Stan Lee"
+  ],
+  "252": [
+    "Keith Giffen",
+    "Ron Lim"
   ],
   "253": [
     "Cary Bates",
@@ -739,6 +1033,10 @@
     "Carmine Infantino",
     "John Broome"
   ],
+  "267": [
+    "Mark Waid",
+    "Mike Wieringo"
+  ],
   "268": [
     "Chris Claremont"
   ],
@@ -755,6 +1053,11 @@
     "Bob Layton",
     "Keith Pollard"
   ],
+  "272": [
+    "Stan Lee",
+    "Robert Bernstein",
+    "Joe Sinnott"
+  ],
   "273": [
     "Stan Lee",
     "Jack Kirby"
@@ -770,20 +1073,35 @@
   "276": [
     "Aaron Lopresti"
   ],
+  "277": [
+    "Zak Penn",
+    "Michael Karnow"
+  ],
   "278": [
     "George Papp",
     "Robert Bernstein"
   ],
-  "279": [],
+  "279": [
+    "Fabian Nicieza",
+    "Rob Liefeld"
+  ],
   "280": [
     "Gary Friedrich",
     "Roy Thomas",
     "Mike Ploog"
   ],
+  "281": [
+    "Howard Mackie",
+    "Javier Saltares"
+  ],
   "282": [
     "Jack Kirby",
     "Larry Lieber",
     "Stan Lee"
+  ],
+  "283": [
+    "Stan Lee",
+    "Don Heck"
   ],
   "284": [
     "William Moulton Marston"
@@ -791,6 +1109,15 @@
   "285": [
     "Chris Claremont",
     "Dave Cockrum"
+  ],
+  "286": [
+    "Chris Claremont",
+    "Paul Smith"
+  ],
+  "287": [
+    "Tomoyuki Tanaka",
+    "Ishirō Honda",
+    "Eiji Tsuburaya"
   ],
   "288": [
     "Alex Ross",
@@ -800,10 +1127,23 @@
   "289": [
     "Akira Toriyama"
   ],
+  "290": [
+    "Stan Lee",
+    "Jack Kirby",
+    "Don Heck"
+  ],
+  "291": [
+    "Stan Lee",
+    "Don Heck"
+  ],
   "292": [
     "Jack Kirby",
     "Larry Lieber",
     "Stan Lee"
+  ],
+  "293": [
+    "Stan Lee",
+    "Don Heck"
   ],
   "294": [
     "Carmine Infantino",
@@ -816,6 +1156,9 @@
     "Mike Norton",
     "Sean McKeever"
   ],
+  "297": [
+    "George Lucas"
+  ],
   "298": [
     "George Papp",
     "Mort Weisinger"
@@ -823,6 +1166,18 @@
   "299": [
     "Stan Lee",
     "Steve Ditko"
+  ],
+  "300": [
+    "Stan Lee",
+    "Steve Ditko"
+  ],
+  "301": [
+    "Len Wein",
+    "Ross Andru"
+  ],
+  "302": [
+    "Terry Kavanagh",
+    "Steven Butler"
   ],
   "303": [
     "Stan Lee",
@@ -842,9 +1197,18 @@
     "Gil Kane",
     "John Broome"
   ],
+  "307": [
+    "George Lucas"
+  ],
+  "308": [
+    "Vincent Ngo"
+  ],
   "309": [
     "Bruce Timm",
     "Paul Dini"
+  ],
+  "310": [
+    "J. K. Rowling"
   ],
   "311": [
     "Don Heck",
@@ -857,6 +1221,10 @@
   "313": [
     "Don Heck",
     "Stan Lee"
+  ],
+  "314": [
+    "Allan Heinberg",
+    "Jim Cheung"
   ],
   "315": [
     "David S. Goyer",
@@ -873,6 +1241,14 @@
     "Dennis Neville",
     "Gardner Fox",
     "Sheldon Moldoff"
+  ],
+  "318": [
+    "John Ostrander",
+    "Graham Nolan"
+  ],
+  "319": [
+    "Gardner Fox",
+    "Joe Kubert"
   ],
   "320": [
     "Carmine Infantino",
@@ -897,6 +1273,13 @@
   "325": [
     "Jack Kirby",
     "Stan Lee"
+  ],
+  "326": [
+    "Tim Kring"
+  ],
+  "327": [
+    "Mark Millar",
+    "John Romita Jr."
   ],
   "328": [
     "Roger Stern",
@@ -932,7 +1315,10 @@
     "Larry Hama",
     "Tony Daniel"
   ],
-  "336": [],
+  "336": [
+    "Evan Skolnick",
+    "Patrick Zircher"
+  ],
   "337": [
     "Dennis O'Neil"
   ],
@@ -944,8 +1330,19 @@
     "Stan Lee",
     "Jack Kirby"
   ],
+  "340": [
+    "Mark Waid",
+    "Mike Wieringo"
+  ],
+  "341": [
+    "George Lucas"
+  ],
   "342": [
     "Ivan Reis"
+  ],
+  "343": [
+    "Marc Guggenheim",
+    "Yanick Paquette"
   ],
   "344": [
     "Stan Lee",
@@ -970,12 +1367,34 @@
     "Lou Scheimer",
     "Norm Prescott"
   ],
+  "349": [
+    "Joel Surnow",
+    "Robert Cochran"
+  ],
   "350": [
     "Bill Mantlo",
     "Keith Giffen"
   ],
+  "351": [
+    "Brad Bird"
+  ],
+  "352": [
+    "Ian Fleming"
+  ],
+  "353": [
+    "Gene Roddenberry"
+  ],
+  "354": [
+    "George Lucas"
+  ],
+  "355": [
+    "Robert Ludlum"
+  ],
   "356": [
     "Stan Lee"
+  ],
+  "357": [
+    "Gene Roddenberry"
   ],
   "358": [
     "Steve Gerber",
@@ -992,9 +1411,23 @@
     "Brian Michael Bendis",
     "David Mack"
   ],
+  "362": [
+    "Tim Kring"
+  ],
   "363": [
     "Len Wein",
     "Ross Andru"
+  ],
+  "364": [
+    "Greg Berlanti",
+    "Jon Harmon Feldman"
+  ],
+  "365": [
+    "Greg Berlanti",
+    "Jon Harmon Feldman"
+  ],
+  "366": [
+    "Mike Mignola"
   ],
   "367": [
     "Alan Moore",
@@ -1039,12 +1472,39 @@
     "Don Heck",
     "Gerry Conway"
   ],
+  "377": [
+    "John Knoll",
+    "Gary Whitta"
+  ],
+  "378": [
+    "John Knoll",
+    "Gary Whitta"
+  ],
   "379": [
     "Stan Lee",
     "Jack Kirby"
   ],
+  "380": [
+    "Rick Berman",
+    "Michael Piller",
+    "Jeri Taylor"
+  ],
+  "381": [
+    "Suzanne Collins"
+  ],
+  "382": [
+    "Man of Action"
+  ],
   "383": [
     "Mark Millar"
+  ],
+  "384": [
+    "John Broome",
+    "Carmine Infantino"
+  ],
+  "385": [
+    "Mark Waid",
+    "Mike Wieringo"
   ],
   "386": [
     "Gerry Conway",
@@ -1056,6 +1516,10 @@
   "388": [
     "Steve Englehart",
     "Joe Staton"
+  ],
+  "389": [
+    "Merian C. Cooper",
+    "Edgar Wallace"
   ],
   "390": [
     "Karl Kesel"
@@ -1072,6 +1536,9 @@
     "Roy Thomas",
     "Stan Lee"
   ],
+  "393": [
+    "Marvin Potts"
+  ],
   "394": [
     "J.M. DeMatteis",
     "Luke Ross"
@@ -1086,6 +1553,11 @@
   "397": [
     "Darryl Banks",
     "Ron Marz"
+  ],
+  "398": [
+    "J. J. Abrams",
+    "Lawrence Kasdan",
+    "Michael Arndt"
   ],
   "399": [
     "Ed Brubaker",
@@ -1107,9 +1579,17 @@
     "Chris Claremont",
     "Bill Sienkiewicz"
   ],
+  "404": [
+    "Kevin Eastman",
+    "Peter Laird"
+  ],
   "405": [
     "Jerry Siegel",
     "Joe Shuster"
+  ],
+  "406": [
+    "Edmond Hamilton",
+    "John Forte"
   ],
   "407": [
     "Otto Binder",
@@ -1127,6 +1607,10 @@
     "Herb Trimpe",
     "Marie Severin",
     "Stan Lee"
+  ],
+  "411": [
+    "Mike Mignola",
+    "John Byrne"
   ],
   "412": [
     "Stan Lee",
@@ -1147,6 +1631,12 @@
     "Archie Goodwin",
     "John Romita Sr.",
     "George Tuska"
+  ],
+  "417": [
+    "Tim Kring"
+  ],
+  "418": [
+    "George Lucas"
   ],
   "419": [
     "John Byrne"
@@ -1172,7 +1662,9 @@
   "425": [
     "Jim Starlin"
   ],
-  "426": [],
+  "426": [
+    "Todd McFarlane"
+  ],
   "427": [
     "Frank Robbins",
     "Julius Schwartz",
@@ -1199,8 +1691,19 @@
     "Joe Certa",
     "Joe Samachson"
   ],
+  "433": [
+    "Chris Claremont",
+    "John Byrne",
+    "John Romita Jr."
+  ],
+  "435": [
+    "Bungie"
+  ],
   "436": [
     "Ron Marz"
+  ],
+  "437": [
+    "Tim Kring"
   ],
   "438": [
     "Jim Lee"
@@ -1209,9 +1712,16 @@
     "Roger Stern",
     "George Pérez"
   ],
+  "440": [
+    "Tim Kring"
+  ],
   "441": [
     "Stan Lee",
     "Jack Kirby"
+  ],
+  "442": [
+    "Jim Shooter",
+    "Al Milgrom"
   ],
   "443": [
     "Stan Lee",
@@ -1228,9 +1738,19 @@
     "Bob Haney",
     "Ramona Fradon"
   ],
-  "447": [],
+  "447": [
+    "Marv Wolfman",
+    "Frank Robbins"
+  ],
   "448": [
     "Jack Kirby"
+  ],
+  "449": [
+    "Tim Kring"
+  ],
+  "450": [
+    "Kevin Eastman",
+    "Peter Laird"
   ],
   "451": [
     "Jim Shooter",
@@ -1240,12 +1760,23 @@
     "Stan Lee",
     "Jack Kirby"
   ],
+  "453": [
+    "Bram Stoker"
+  ],
   "454": [
     "Gail Simone"
   ],
   "455": [
     "Geoff Johns",
     "Tony Daniel"
+  ],
+  "456": [
+    "Stan Lee",
+    "Jack Kirby"
+  ],
+  "457": [
+    "Dave Wood",
+    "Sheldon Moldoff"
   ],
   "458": [
     "Brian Michael Bendis",
@@ -1255,13 +1786,28 @@
     "Jerry Siegel",
     "Joe Shuster"
   ],
+  "460": [
+    "Chris Claremont",
+    "Marc Silvestri"
+  ],
+  "461": [
+    "Alan Grant",
+    "Norm Breyfogle"
+  ],
   "462": [
     "Len Wein",
     "Neal Adams"
   ],
+  "463": [
+    "Jack Kirby",
+    "Stan Lee"
+  ],
   "464": [
     "Alan Moore",
     "Dave Gibbons"
+  ],
+  "465": [
+    "Tim Kring"
   ],
   "466": [
     "Dennis O'Neil",
@@ -1271,7 +1817,13 @@
     "Stan Lee",
     "Steve Ditko"
   ],
-  "468": [],
+  "468": [
+    "Joe Gill",
+    "Steve Ditko"
+  ],
+  "469": [
+    "Tim Kring"
+  ],
   "470": [
     "Don Perlin",
     "Doug Moench"
@@ -1291,10 +1843,21 @@
     "Gerry Conway",
     "Ross Andru"
   ],
+  "475": [
+    "John Byrne"
+  ],
+  "476": [
+    "Brad Bird"
+  ],
   "477": [
     "Mark Gruenwald",
     "Mike Carlin",
     "Ron Wilson"
+  ],
+  "478": [
+    "Len Wein",
+    "Chris Claremont",
+    "John Buscema"
   ],
   "479": [
     "Stan Lee",
@@ -1319,6 +1882,9 @@
   "485": [
     "Masashi Kishimoto"
   ],
+  "486": [
+    "Tim Kring"
+  ],
   "487": [
     "Roger Stern",
     "John Buscema"
@@ -1337,6 +1903,17 @@
   "491": [
     "Bob Kane",
     "Bill Finger"
+  ],
+  "492": [
+    "Tim Kring"
+  ],
+  "493": [
+    "Zak Penn",
+    "Michael Karnow"
+  ],
+  "494": [
+    "Alan Moore",
+    "Dave Gibbons"
   ],
   "495": [
     "John Byrne",
@@ -1378,7 +1955,14 @@
     "Brenden Fletcher",
     "Cameron Stewart"
   ],
-  "506": [],
+  "506": [
+    "Geoff Johns",
+    "Grant Morrison",
+    "Greg Rucka",
+    "Mark Waid",
+    "Keith Giffen",
+    "Drew Johnson"
+  ],
   "507": [
     "Todd McFarlane",
     "Rob Liefeld"
@@ -1391,10 +1975,28 @@
     "Gail Simone",
     "Jack Kirby"
   ],
-  "511": [],
+  "510": [
+    "Kevin James",
+    "Nick Bakay"
+  ],
+  "511": [
+    "Scott Lobdell",
+    "Chris Bachalo"
+  ],
+  "512": [
+    "Scott Lobdell",
+    "Chris Bachalo"
+  ],
+  "513": [
+    "Roger Stern",
+    "Steve Ditko"
+  ],
   "514": [
     "Bob Kane",
     "Bill Finger"
+  ],
+  "515": [
+    "Lee Falk"
   ],
   "516": [
     "Jerry Siegel",
@@ -1402,6 +2004,14 @@
   ],
   "517": [
     "Stan Lee"
+  ],
+  "518": [
+    "Stan Lee",
+    "Dick Ayers"
+  ],
+  "519": [
+    "Mark Waid",
+    "Frank Quitely"
   ],
   "520": [
     "Jack Cole"
@@ -1429,12 +2039,20 @@
     "John Romita Sr.",
     "George Tuska"
   ],
+  "526": [
+    "Jim Thomas",
+    "John Thomas"
+  ],
   "527": [
     "Stan Lee"
   ],
   "528": [
     "Carmine Infantino",
     "John Broome"
+  ],
+  "529": [
+    "Chris Claremont",
+    "Herb Trimpe"
   ],
   "530": [
     "Gerry Conway",
@@ -1448,6 +2066,12 @@
   "532": [
     "John Byrne",
     "Chris Claremont"
+  ],
+  "533": [
+    "Gene Roddenberry"
+  ],
+  "534": [
+    "Michael Carroll"
   ],
   "535": [
     "Steve Ditko"
@@ -1466,7 +2090,17 @@
     "Dennis O'Neil",
     "Neal Adams"
   ],
-  "541": [],
+  "539": [
+    "Zak Penn",
+    "Michael Karnow"
+  ],
+  "540": [
+    "David Morrell"
+  ],
+  "541": [
+    "Kevin Eastman",
+    "Peter Laird"
+  ],
   "542": [
     "Marv Wolfman",
     "George Pérez"
@@ -1474,6 +2108,10 @@
   "543": [
     "Jack C. Harris",
     "Joe Quesada"
+  ],
+  "544": [
+    "Doug Moench",
+    "Gene Day"
   ],
   "545": [
     "Mort Weisinger",
@@ -1484,6 +2122,10 @@
     "Judd Winick",
     "Gerry Conway",
     "Don Newton"
+  ],
+  "547": [
+    "Jeph Loeb",
+    "Ed McGuinness"
   ],
   "548": [
     "John Romita Jr.",
@@ -1502,10 +2144,20 @@
     "Dick Dillin",
     "Gardner Fox"
   ],
-  "552": [],
+  "552": [
+    "Todd McFarlane"
+  ],
   "553": [
     "Greg Capullo",
     "Todd McFarlane"
+  ],
+  "554": [
+    "Michael Carroll"
+  ],
+  "555": [
+    "J. J. Abrams",
+    "Lawrence Kasdan",
+    "Michael Arndt"
   ],
   "556": [
     "Stan Lee",
@@ -1555,6 +2207,10 @@
     "Chris Claremont",
     "Michael Golden"
   ],
+  "568": [
+    "Stan Lee",
+    "Don Heck"
+  ],
   "569": [
     "Alan Moore",
     "Dave Gibbons"
@@ -1575,12 +2231,23 @@
     "John Byrne",
     "Chris Claremont"
   ],
+  "574": [
+    "J. R. R. Tolkien"
+  ],
   "575": [
     "Erik Larsen"
   ],
   "576": [
     "Bob Kane",
     "Bill Finger"
+  ],
+  "577": [
+    "Gerry Conway",
+    "Ross Andru"
+  ],
+  "578": [
+    "Terry Kavanagh",
+    "Steven Butler"
   ],
   "579": [
     "Stan Lee",
@@ -1658,6 +2325,10 @@
     "Alan Moore",
     "Dave Gibbons"
   ],
+  "597": [
+    "Alan Moore",
+    "Dave Gibbons"
+  ],
   "598": [
     "Jack Kirby"
   ],
@@ -1676,6 +2347,10 @@
     "Bob Haney",
     "Nick Cardy"
   ],
+  "603": [
+    "Devin Grayson",
+    "Mark Buckingham"
+  ],
   "604": [
     "Chris Claremont",
     "Steve Leialoha"
@@ -1685,10 +2360,19 @@
     "Jackson Butch Guice",
     "Ron Garney"
   ],
-  "606": [],
+  "606": [
+    "Louise Simonson",
+    "Paul Neary"
+  ],
   "607": [
     "John Byrne",
     "Chris Claremont"
+  ],
+  "608": [
+    "Geoff Johns",
+    "Grant Morrison",
+    "Greg Rucka",
+    "Mark Waid"
   ],
   "609": [
     "Alfred Bester",
@@ -1698,6 +2382,9 @@
     "Mark Gruenwald",
     "John Byrne",
     "Ralph Macchio"
+  ],
+  "611": [
+    "Alex Toth"
   ],
   "612": [
     "Alan Moore",
@@ -1717,7 +2404,14 @@
     "Greg Berlanti",
     "Marc Guggenheim"
   ],
-  "616": [],
+  "616": [
+    "Mort Weisinger",
+    "George Papp"
+  ],
+  "617": [
+    "Tom DeFalco",
+    "Pat Olliffe"
+  ],
   "618": [
     "Ron Frenz",
     "Tom DeFalco"
@@ -1742,14 +2436,28 @@
     "Archie Goodwin",
     "Marie Severin"
   ],
+  "624": [
+    "Jim Shooter",
+    "Mike Zeck"
+  ],
+  "625": [
+    "John Byrne",
+    "Rafael Kayanan"
+  ],
   "626": [
     "John Byrne",
     "Howard Mackie"
   ],
+  "627": [
+    "Gene Roddenberry"
+  ],
   "628": [
     "Steve Gordon"
   ],
-  "629": [],
+  "629": [
+    "Joe Casey",
+    "Tom Raney"
+  ],
   "630": [
     "Keith Giffen",
     "Ron Lim"
@@ -1774,6 +2482,10 @@
     "Jon Bogdanove",
     "Louise Simonson"
   ],
+  "636": [
+    "Greg Berlanti",
+    "Jon Harmon Feldman"
+  ],
   "637": [
     "Jack Kirby"
   ],
@@ -1781,9 +2493,17 @@
     "Len Wein",
     "Dave Cockrum"
   ],
+  "639": [
+    "George Lucas",
+    "Ralph McQuarrie"
+  ],
   "640": [
     "Bob McLeod",
     "Chris Claremont"
+  ],
+  "641": [
+    "Karl Kesel",
+    "Tom Grummett"
   ],
   "642": [
     "Curt Swan",
@@ -1808,20 +2528,45 @@
     "John Byrne",
     "Bill Mantlo"
   ],
+  "647": [
+    "Tim Kring"
+  ],
   "648": [
     "Chris Bachalo",
     "Scott Lobdell",
     "Fabian Nicieza"
   ],
+  "649": [
+    "James Cameron",
+    "William Wisher"
+  ],
+  "650": [
+    "James Cameron",
+    "Gale Anne Hurd"
+  ],
+  "651": [
+    "John Brancato",
+    "Michael Ferris"
+  ],
+  "652": [
+    "John Brancato",
+    "Michael Ferris"
+  ],
   "653": [
     "David Michelinie",
     "George Pérez"
   ],
-  "654": [],
+  "654": [
+    "Grant Morrison",
+    "Ethan Van Sciver"
+  ],
   "655": [
     "Zak Penn",
     "Joss Whedon",
     "Jim Starlin"
+  ],
+  "656": [
+    "Tom Wheeler"
   ],
   "657": [
     "Alan Moore",
@@ -1844,6 +2589,14 @@
     "Dave Cockrum",
     "Len Wein"
   ],
+  "662": [
+    "Chris Claremont",
+    "Sal Buscema"
+  ],
+  "663": [
+    "Chris Claremont",
+    "Leinil Francis Yu"
+  ],
   "664": [
     "Ron Frenz",
     "Tom DeFalco"
@@ -1864,6 +2617,9 @@
     "Stan Lee",
     "Steve Ditko"
   ],
+  "669": [
+    "Michael Carroll"
+  ],
   "670": [
     "Stan Lee",
     "Jack Kirby"
@@ -1876,6 +2632,9 @@
     "David Michelinie",
     "Todd McFarlane"
   ],
+  "673": [
+    "Tim Kring"
+  ],
   "674": [
     "Carmine Infantino",
     "John Broome"
@@ -1883,6 +2642,10 @@
   "675": [
     "Marv Wolfman",
     "George Perez"
+  ],
+  "676": [
+    "Jerry Siegel",
+    "Jim Mooney"
   ],
   "677": [
     "Stan Lee",
@@ -1927,12 +2690,34 @@
     "Mark Millar",
     "Terry Dodson"
   ],
+  "689": [
+    "Stan Lee",
+    "Steve Ditko"
+  ],
+  "690": [
+    "Kabam"
+  ],
+  "691": [
+    "Chris Claremont",
+    "Michael Golden"
+  ],
   "692": [
     "Gerry Conway",
     "Chuck Patton"
   ],
+  "693": [
+    "Chris Claremont",
+    "John Byrne"
+  ],
+  "694": [
+    "Chris Claremont",
+    "John Byrne"
+  ],
   "695": [
     "Todd McFarlane"
+  ],
+  "696": [
+    "Brad Bird"
   ],
   "697": [
     "Roy Thomas",
@@ -1954,7 +2739,10 @@
     "Stan Lee",
     "Steve Ditko"
   ],
-  "702": [],
+  "702": [
+    "Peter Gillis",
+    "Alan Kupperberg"
+  ],
   "703": [
     "David Michelinie",
     "John Byrne",
@@ -1985,8 +2773,16 @@
     "Stan Lee",
     "Jack Kirby"
   ],
+  "710": [
+    "Frank Tieri",
+    "Tom Mandrake"
+  ],
   "711": [
     "Gail Simone"
+  ],
+  "712": [
+    "Chris Claremont",
+    "John Byrne"
   ],
   "713": [
     "Cary Bates",
@@ -1995,6 +2791,10 @@
   "714": [
     "Jack Kirby",
     "Joe Simon"
+  ],
+  "715": [
+    "Louise Simonson",
+    "Jon Bogdanove"
   ],
   "716": [
     "Bob McLeod",
@@ -2015,6 +2815,10 @@
     "Elizabeth Holloway Marston",
     "William Moulton Marston",
     "H. G. Peter"
+  ],
+  "721": [
+    "Chris Claremont",
+    "Marc Silvestri"
   ],
   "722": [
     "Stan Lee",
@@ -2037,12 +2841,29 @@
     "Larry Lieber",
     "Stan Lee"
   ],
-  "728": [],
+  "727": [
+    "Roger Stern",
+    "John Buscema"
+  ],
+  "728": [
+    "Robert E. Howard",
+    "Stan Lee",
+    "Jack Kirby"
+  ],
+  "729": [
+    "George Lucas"
+  ],
   "730": [
     "Murphy Anderson",
     "Gardner Fox"
   ],
   "731": [
     "Scott Kolins"
+  ],
+  "732": [
+    "Stan Lee",
+    "Larry Lieber",
+    "Don Heck",
+    "Jack Kirby"
   ]
 }
