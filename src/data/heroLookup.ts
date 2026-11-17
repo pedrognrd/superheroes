@@ -41,6 +41,13 @@ export function findRelativeHero(name: string, alias: string, context: Hero): He
   const a = norm(alias)
   // Solo nombres propios: "offspring", "unnamed son"… no se enlazan
   if (n.length < 3 || !/^[A-Z0-9"]/.test(name.trim())) return null
+  // "Gabriel Summers (Vulcan)" (con la relación en otro paréntesis aparte): el alias va dentro
+  // del nombre. Las versiones de otra realidad ("Scott Summers (Earth-1298)") no enlazan.
+  const inner = name.match(/^(.+?)\s*\(([^()]+)\)\s*$/)
+  if (inner) {
+    if (/^Earth-/i.test(inner[2].trim())) return null
+    return findRelativeHero(inner[1], inner[2], context)
+  }
   return pick(byName.get(n), context) ?? pick(byName.get(a), context) ?? pick(byFullName.get(n), context)
 }
 

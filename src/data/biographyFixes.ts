@@ -19,6 +19,8 @@ const RELATIVES: Record<string, string> = {
     'A\'Lars (father); Sui-San (mother, deceased); Eros (brother); Kronos (paternal grandfather, deceased); ' +
     'Daina (paternal grandmother, deceased); Zuras (uncle, deceased); Thena (cousin); Gamora (foster daughter); ' +
     'Nebula (alleged granddaughter); Rot ("child" by Death)',
+  // The Comedian: su hija Laurie es Silk Spectre II (#597); "Silk Spectre" es su madre Sally
+  '657': 'Silk Spectre II (Laurel "Laurie" Juspeczyk) (daughter)',
 }
 
 export function fixRelatives(id: string, relatives: string): string {
