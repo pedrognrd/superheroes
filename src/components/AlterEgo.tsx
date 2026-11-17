@@ -1,4 +1,5 @@
 import { useEffect, useState, type ReactNode } from 'react'
+import { fixHeight } from '../data/biographyFixes'
 import { findRelativeHero } from '../data/heroLookup'
 import type { Hero } from '../types'
 import { isEmpty, parseRelatives, type RelativeStatus } from '../utils/parse'
@@ -86,7 +87,8 @@ function AppearanceFigure({ gender }: { gender: string }) {
 /** Silueta + atributos físicos */
 export function AppearancePanel({ hero }: { hero: Hero }) {
   const a = hero.appearance
-  const height = a.height.filter((v) => !isEmpty(v) && !/^0/.test(v)).join(' / ')
+  // Solo medidas: un texto sin cifras (p. ej. un lugar) no es una altura
+  const height = fixHeight(hero.id, a.height).filter((v) => !isEmpty(v) && !/^0/.test(v) && /\d/.test(v)).join(' / ')
   const weight = a.weight.filter((v) => !isEmpty(v) && !/^0/.test(v)).join(' / ')
   const rows: [string, string][] = [
     ['Gender', show(a.gender)],

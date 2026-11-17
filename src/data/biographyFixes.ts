@@ -45,3 +45,12 @@ const ALIASES: Record<string, string[]> = {
 export function fixAliases(id: string, aliases: string[]): string[] {
   return ALIASES[id] ?? aliases
 }
+
+// id del héroe → altura correcta (mismo formato que la API: [pies, cm])
+const HEIGHT: Record<string, string[]> = {
+  '198': ["5'5", '165 cm'], // Dagger: la API trae su lugar de nacimiento ("Shaker Heights, Ohio")
+}
+
+export function fixHeight(id: string, height: string[]): string[] {
+  return HEIGHT[id] ?? height
+}
