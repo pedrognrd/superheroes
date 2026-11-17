@@ -9,7 +9,8 @@ const show = (v: string) => (isEmpty(v) ? 'Unknown' : v)
 
 // Figura de Alter-ego: alto de la silueta y líneas discontinuas a su derecha
 const FIGURE_H = 280
-const LINES_W = 90 // hueco a la derecha de la figura donde terminan las líneas
+const FIGURE_W = 170 // ancho de figura + líneas
+const LINES_MIN_W = 60 // la silueta de mujer es más ancha: las líneas nunca se quedan en nada
 const LINE_TOP = 3 // la primera línea, a la altura de la cabeza
 const LINE_COUNT = 16
 const LINE_BOTTOM = FIGURE_H - 12 // la última, a la altura del pie que queda más arriba
@@ -66,7 +67,7 @@ function AppearanceFigure({ gender }: { gender: string }) {
   const figW = FIGURE_H * ratio
   const edges = useRightContour(src, figW)
   return (
-    <div className="appearance__figure" style={{ width: figW + LINES_W, height: FIGURE_H }}>
+    <div className="appearance__figure" style={{ width: Math.max(FIGURE_W, figW + LINES_MIN_W), height: FIGURE_H }}>
       <Silhouette gender={gender} height={FIGURE_H} />
       <div className="appearance__lines" aria-hidden="true">
         {edges?.map((x, i) => (
