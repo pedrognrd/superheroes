@@ -1,5 +1,6 @@
 import { useState, type ReactNode } from 'react'
 import { getCover } from '../data/covers'
+import { creatorsText } from '../data/creators'
 import { publisherLink } from '../data/publisherLinks'
 import { publisherColor, publisherLogo } from '../data/publisherLogos'
 import type { Hero } from '../types'
@@ -54,6 +55,7 @@ export function FirstAppearancePanel({ hero }: { hero: Hero }) {
   const [failed, setFailed] = useState<string | null>(null)
   const showCover = cover && failed !== cover.image
   const year = cover?.year ?? (isEmpty(text) ? undefined : yearInText(text))
+  const creators = creatorsText(hero.id)
   return (
     <Panel title="First appearance" align="center" className="first-appearance">
       <div className="center-box">
@@ -72,6 +74,7 @@ export function FirstAppearancePanel({ hero }: { hero: Hero }) {
             <figcaption className="cover-caption">
               {year && <span className="cover-caption__year">{year}</span>}
               <span className="cover-caption__title">{cover.title}</span>
+              {creators && <span className="cover-caption__creators">By {creators}</span>}
             </figcaption>
           </figure>
         ) : (
@@ -79,6 +82,7 @@ export function FirstAppearancePanel({ hero }: { hero: Hero }) {
             <span>{isEmpty(text) ? 'Unknown' : text}</span>
           </div>
         )}
+        {!showCover && creators && <p className="cover-caption cover-caption__creators">By {creators}</p>}
       </div>
     </Panel>
   )

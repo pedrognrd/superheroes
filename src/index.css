@@ -333,6 +333,8 @@ a { color: var(--accent); }
   color: var(--text);
 }
 .cover-caption__year { color: var(--accent); margin-right: 6px; }
+/* Creadores del personaje, en línea aparte bajo el título */
+.cover-caption__creators { display: block; margin-top: 4px; color: var(--accent); text-transform: none; letter-spacing: 0; }
 
 /* Portada y logo enlazados a su fuente */
 .source-link {

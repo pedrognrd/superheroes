@@ -39,6 +39,13 @@ const WIKI = {
 // Con `base` (mismo formato) se usa otra imagen en el panel Base, que es vertical.
 // Con `coords` se muestra el mapa en ese punto (cuando Nominatim no acierta).
 const MANUAL = [
+  // Holy Ghost Church (Cloak y Dagger): la imagen de Comic Vine, elegida por el usuario
+  {
+    match: /^Holy Ghost Church\b/,
+    image: 'https://comicvine.gamespot.com/a/uploads/scale_medium/7/74867/1362320-holy_ghost_church.jpg',
+    title: 'Holy Ghost Church',
+    page: 'https://comicvine.gamespot.com/holy-ghost-church/4020-57020/',
+  },
   // Krypton: el mapa de "The Krypton Chronicles" (a 900 px desde el original de 1920 px),
   // horizontal para Place of birth; en Base, la imagen vertical de Fandom
   {
