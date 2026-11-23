@@ -126,6 +126,20 @@ const MANUAL = {
   673: one('https://static.wikia.nocookie.net/heroes/images/c/c4/TracyStrauss.png/revision/latest?cb=20150921183440'), // Tracy Strauss (heroes.fandom.com)
   710: one('https://static.wikia.nocookie.net/marveldatabase/images/2/28/Weapon_XI_from_Weapon_X_Vol_2_23_001.png/revision/latest?cb=20230613025415'), // Weapon XI (Earth-616) (marvel.fandom.com)
   715: one('https://static.wikia.nocookie.net/marveldatabase/images/6/67/S.W.O.R.D._Vol_2_10_Lee_Variant_Textless.jpg/revision/latest?cb=20240515213428'), // Takeshi Matsuya (Earth-616) (marvel.fandom.com)
+  // Últimos sin imagen: Team Epic (póster de la serie), New Heroes (portada de la novela) y otros
+  153: one('https://image.tmdb.org/t/p/w500/cqpuXsZcJe6esQTitqWyhN0eXtZ.jpg'), // Captain Epic: póster de Team Epic (TMDB), como Valerie Hart
+  159: one('https://comicvine.gamespot.com/a/uploads/scale_large/3/31666/2983742-captainmidnight1.jpg'), // Captain Midnight (Comic Vine)
+  175: one('https://image.tmdb.org/t/p/w500/cqpuXsZcJe6esQTitqWyhN0eXtZ.jpg'), // Chromos: póster de Team Epic (TMDB), como Valerie Hart
+  183: one('https://covers.openlibrary.org/b/id/9796095-L.jpg'), // Colin Wagner: portada de The Quantum Prophecy, la novela de Michael Carroll (Open Library)
+  199: one('https://covers.openlibrary.org/b/id/9796095-L.jpg'), // Danny Cooper: portada de The Quantum Prophecy, la novela de Michael Carroll (Open Library)
+  243: one('https://covers.openlibrary.org/b/id/9796095-L.jpg'), // Energy: portada de The Quantum Prophecy, la novela de Michael Carroll (Open Library)
+  434: one('https://image.tmdb.org/t/p/w500/cqpuXsZcJe6esQTitqWyhN0eXtZ.jpg'), // Master Brood: póster de Team Epic (TMDB), como Valerie Hart
+  501: one('https://image.tmdb.org/t/p/w500/cqpuXsZcJe6esQTitqWyhN0eXtZ.jpg'), // Omniscient: póster de Team Epic (TMDB), como Valerie Hart
+  534: one('https://covers.openlibrary.org/b/id/9796095-L.jpg'), // Quantum: portada de The Quantum Prophecy, la novela de Michael Carroll (Open Library)
+  554: one('https://covers.openlibrary.org/b/id/9796095-L.jpg'), // Renata Soliz: portada de The Quantum Prophecy, la novela de Michael Carroll (Open Library)
+  617: one('https://static.wikia.nocookie.net/marveldatabase/images/e/e3/Absolute_Carnage_vs._Deadpool_Vol_1_3_Codex_Variant_Textless.jpg/revision/latest?cb=20260120170617'), // Spider-Carnage: Ben Reilly, imagen de la página "Ben Reilly" (Marvel Fandom)
+  669: one('https://covers.openlibrary.org/b/id/9796095-L.jpg'), // Titan: portada de The Quantum Prophecy, la novela de Michael Carroll (Open Library)
+  691: one('https://static.wikia.nocookie.net/marveldatabase/images/5/5a/Vertigo_%28Savage_Land_Mutate%29_%28Earth-616%29_from_Wolverine_Vol_8_9_001.jpg/revision/latest?cb=20250917150032'), // Vertigo II: Vertigo (Savage Land Mutate) (Marvel Fandom)
 }
 
 const out = {}
