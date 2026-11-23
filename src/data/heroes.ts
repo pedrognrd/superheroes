@@ -4,6 +4,15 @@ import { DUPLICATES, isDuplicate } from './duplicates'
 import { fixPublisher } from './publisherFixes'
 import { fixAliases, fixPlaceOfBirth, fixRelatives } from './biographyFixes'
 import { PORTRAITS } from './portraits'
+import akabab from './akabab-images.json'
+import { fallbackImage } from './portraitFallbacks'
+
+// superherodb.com bloquea ahora las imágenes enlazadas desde otras webs (Cloudflare, 403).
+// Las mismas, con el mismo id, están en el repositorio akabab/superhero-api servido por jsDelivr.
+const AKABAB = 'https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images'
+const SLUGS = akabab as Record<string, string>
+/** Retrato de akabab en tamaño md (miniaturas) o lg (ficha) */
+export const akababImage = (id: string, size: 'md' | 'lg') => (SLUGS[id] ? `${AKABAB}/${size}/${SLUGS[id]}.jpg` : undefined)
 
 /** Todos los héroes de la API (sin duplicados), con la editorial, el lugar de nacimiento y los familiares corregidos */
 export const heroes: Hero[] = (raw as Hero[])
@@ -17,7 +26,7 @@ export const heroes: Hero[] = (raw as Hero[])
       aliases: fixAliases(h.id, h.biography.aliases),
     },
     connections: { ...h.connections, relatives: fixRelatives(h.id, h.connections.relatives) },
-    image: PORTRAITS[h.id] ? { ...h.image, url: PORTRAITS[h.id].url } : h.image,
+    image: { ...h.image, url: PORTRAITS[h.id]?.url ?? akababImage(h.id, 'lg') ?? fallbackImage(h.id) ?? h.image.url },
   }))
 
 /** Editoriales ordenadas por número de héroes */

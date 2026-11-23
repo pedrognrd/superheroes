@@ -39,6 +39,10 @@
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/9760644-large-4889091.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/9760644-large-4889091.jpg"
   },
+  "16": {
+    "thumb": "https://static.wikia.nocookie.net/heroes/images/b/b4/Alex_Woolsley.jpg/revision/latest?cb=20090312231858",
+    "image": "https://static.wikia.nocookie.net/heroes/images/b/b4/Alex_Woolsley.jpg/revision/latest?cb=20090312231858"
+  },
   "17": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/8057339-e2lokwbxsaazhqn.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/8057339-e2lokwbxsaazhqn.jpg"
@@ -55,6 +59,10 @@
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/1202/89489-69199-ammo.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/0/1202/89489-69199-ammo.jpg"
   },
+  "22": {
+    "thumb": "https://static.wikia.nocookie.net/heroes/images/f/fc/AndoMasahashi.jpg/revision/latest?cb=20110531070605",
+    "image": "https://static.wikia.nocookie.net/heroes/images/f/fc/AndoMasahashi.jpg/revision/latest?cb=20110531070605"
+  },
   "24": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/9988592-angel.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/9988592-angel.jpg"
@@ -66,6 +74,10 @@
   "26": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/1953/91270-20550-angel-salvadore.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/0/1953/91270-20550-angel-salvadore.jpg"
+  },
+  "27": {
+    "thumb": "https://static.wikia.nocookie.net/marveldatabase/images/b/ba/Doctor_Strange_Vol_8_1_Fanyang_Virgin_Variant.jpg/revision/latest?cb=20251213181545",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/b/ba/Doctor_Strange_Vol_8_1_Fanyang_Virgin_Variant.jpg/revision/latest?cb=20251213181545"
   },
   "28": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/7892212-justice_league_dark_vol_2_20_textless.jpg",
@@ -195,9 +207,21 @@
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/10071325-barbara_gordon.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/10071325-barbara_gordon.jpg"
   },
+  "64": {
+    "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/b/b1/Flamebird_002.jpg/revision/latest?cb=20191207050030",
+    "image": "https://static.wikia.nocookie.net/marvel_dc/images/b/b1/Flamebird_002.jpg/revision/latest?cb=20191207050030"
+  },
+  "65": {
+    "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/8/87/Huntress_0007.jpg/revision/latest?cb=20130725162642",
+    "image": "https://static.wikia.nocookie.net/marvel_dc/images/8/87/Huntress_0007.jpg/revision/latest?cb=20130725162642"
+  },
   "66": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111564182/9444475-batgirl01_cvr_var-artgerm-min.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111564182/9444475-batgirl01_cvr_var-artgerm-min.jpg"
+  },
+  "67": {
+    "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/1/12/Misfit_01.jpg/revision/latest?cb=20071031144845",
+    "image": "https://static.wikia.nocookie.net/marvel_dc/images/1/12/Misfit_01.jpg/revision/latest?cb=20071031144845"
   },
   "68": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111564182/8691487-stephaniebrown.jpg",
@@ -230,6 +254,10 @@
   "76": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11161/111612243/8912349-1325762190-FuFtnhWWYAUk1ub.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/11161/111612243/8912349-1325762190-FuFtnhWWYAUk1ub.jpg"
+  },
+  "77": {
+    "thumb": "https://static.wikia.nocookie.net/marveldatabase/images/0/07/Abner_Jenkins_%28Earth-616%29_from_Thunderbolts_Vol_4_4_001.png/revision/latest?cb=20160901025546",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/0/07/Abner_Jenkins_%28Earth-616%29_from_Thunderbolts_Vol_4_4_001.png/revision/latest?cb=20160901025546"
   },
   "79": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/8075495-beta_ray_bill_vol_1_5.jpg",
@@ -266,6 +294,14 @@
   "89": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/1202/89593-162675-bird-man.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/0/1202/89593-162675-bird-man.jpg"
+  },
+  "90": {
+    "thumb": "https://static.wikia.nocookie.net/marveldatabase/images/5/5b/Achille_DiBacco_%28Earth-616%29_from_Daredevil_Vol_1_158_0001.jpg/revision/latest?cb=20180505171539",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/5/5b/Achille_DiBacco_%28Earth-616%29_from_Daredevil_Vol_1_158_0001.jpg/revision/latest?cb=20180505171539"
+  },
+  "91": {
+    "thumb": "https://static.wikia.nocookie.net/hanna-barbera/images/3/3f/Birdman.jpg/revision/latest?cb=20191009211941",
+    "image": "https://static.wikia.nocookie.net/hanna-barbera/images/3/3f/Birdman.jpg/revision/latest?cb=20191009211941"
   },
   "92": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111564182/9646582-timeslidebishopii.jpg",
@@ -391,6 +427,10 @@
     "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/4/47/Daniel_Garrett_Prime_Earth_0001.JPG/revision/latest?cb=20230905115934",
     "image": "https://static.wikia.nocookie.net/marvel_dc/images/4/47/Daniel_Garrett_Prime_Earth_0001.JPG/revision/latest?cb=20230905115934"
   },
+  "125": {
+    "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/2/28/Blue_Beetle_Ted_Kord_0001.jpg/revision/latest?cb=20060117032048",
+    "image": "https://static.wikia.nocookie.net/marvel_dc/images/2/28/Blue_Beetle_Ted_Kord_0001.jpg/revision/latest?cb=20060117032048"
+  },
   "128": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/376/78269-61710-bolt.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/0/376/78269-61710-bolt.jpg"
@@ -430,6 +470,10 @@
   "137": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11111/111113340/10196684-b5.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/11111/111113340/10196684-b5.jpg"
+  },
+  "138": {
+    "thumb": "https://static.wikia.nocookie.net/marveldatabase/images/b/b6/Jericho_Drumm_%28Earth-616%29_from_Storm_Earth%27s_Mightiest_Mutant_Vol_1_3_001.jpg/revision/latest?cb=20260423111055",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/b/b6/Jericho_Drumm_%28Earth-616%29_from_Storm_Earth%27s_Mightiest_Mutant_Vol_1_3_001.jpg/revision/latest?cb=20260423111055"
   },
   "141": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111564182/9103519-bullseyechechettoclone.jpg",
@@ -475,6 +519,10 @@
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/10/100647/6436322-7e19d32dbbf4d92a964a4f67b0820bb8.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/10/100647/6436322-7e19d32dbbf4d92a964a4f67b0820bb8.jpg"
   },
+  "155": {
+    "thumb": "https://static.wikia.nocookie.net/marveldatabase/images/8/80/Secret_Avengers_Vol_1_27_Textless.jpg/revision/latest?cb=20120314011719",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/8/80/Secret_Avengers_Vol_1_27_Textless.jpg/revision/latest?cb=20120314011719"
+  },
   "156": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/9069382-large-2738258.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/9069382-large-2738258.jpg"
@@ -494,6 +542,10 @@
   "163": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/1109503-shirlee.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/1109503-shirlee.jpg"
+  },
+  "164": {
+    "thumb": "https://static.wikia.nocookie.net/marveldatabase/images/a/ab/Shirlee_Bryant_%28Earth-616%29_from_The_Cat_Vol_1_2_001.jpg/revision/latest?cb=20201018201924",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/a/ab/Shirlee_Bryant_%28Earth-616%29_from_The_Cat_Vol_1_2_001.jpg/revision/latest?cb=20201018201924"
   },
   "165": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111564182/9945025-catwoman-85-main-fiumara-1.jpg",
@@ -835,6 +887,10 @@
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11144/111442876/9595672-ygkfkfg%3Bc.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/11144/111442876/9595672-ygkfkfg%3Bc.jpg"
   },
+  "272": {
+    "thumb": "https://static.wikia.nocookie.net/marveldatabase/images/6/61/Freyja_Freyrdottir_%28Earth-616%29_from_Thor_Vol_6_16_001.jpg/revision/latest?cb=20241227002530",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/6/61/Freyja_Freyrdottir_%28Earth-616%29_from_Thor_Vol_6_16_001.jpg/revision/latest?cb=20241227002530"
+  },
   "273": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/8067862-amazing_spider-man_vol_5_12_fantastic_four_villains_variant_textless.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/8067862-amazing_spider-man_vol_5_12_fantastic_four_villains_variant_textless.jpg"
@@ -862,6 +918,10 @@
   "280": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/8320481-fhqah2nvcaqfa9y.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/8320481-fhqah2nvcaqfa9y.jpg"
+  },
+  "281": {
+    "thumb": "https://static.wikia.nocookie.net/marveldatabase/images/6/66/Daniel_Ketch_%28Earth-616%29_from_Midnight_Sons_Blood_Hunt_Vol_1_1_0001.jpg/revision/latest?cb=20240914235209",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/6/66/Daniel_Ketch_%28Earth-616%29_from_Midnight_Sons_Blood_Hunt_Vol_1_1_0001.jpg/revision/latest?cb=20240914235209"
   },
   "282": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/9213988-rco023_1703686783.jpg",
@@ -899,6 +959,10 @@
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/9213988-rco023_1703686783.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/9213988-rco023_1703686783.jpg"
   },
+  "293": {
+    "thumb": "https://static.wikia.nocookie.net/marveldatabase/images/b/b4/William_Foster_%28Earth-616%29_from_Cable_%26_Deadpool_Vol_1_31_001.jpg/revision/latest?cb=20180131181814",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/b/b4/William_Foster_%28Earth-616%29_from_Cable_%26_Deadpool_Vol_1_31_001.jpg/revision/latest?cb=20180131181814"
+  },
   "294": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/10/101416/3291225-grodd.png",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/10/101416/3291225-grodd.png"
@@ -918,6 +982,14 @@
   "299": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/7758728-7653156-spiderman_850_parrillo_virgin_1024x1024.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/7758728-7653156-spiderman_850_parrillo_virgin_1024x1024.jpg"
+  },
+  "301": {
+    "thumb": "https://static.wikia.nocookie.net/marveldatabase/images/1/16/Barton_Hamilton_%28Earth-616%29_From_Clone_Conspiracy_Vol_1_2_001.png.png/revision/latest?cb=20211022174228",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/1/16/Barton_Hamilton_%28Earth-616%29_From_Clone_Conspiracy_Vol_1_2_001.png.png/revision/latest?cb=20211022174228"
+  },
+  "302": {
+    "thumb": "https://static.wikia.nocookie.net/marveldatabase/images/0/00/Phillip_Urich_%28Earth-616%29_from_Red_Goblin_Vol_1_1.jpg/revision/latest?cb=20230610112349",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/0/00/Phillip_Urich_%28Earth-616%29_from_Red_Goblin_Vol_1_1.jpg/revision/latest?cb=20230610112349"
   },
   "303": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/9153590-rco022_1689807090.jpg",
@@ -963,6 +1035,14 @@
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11112/111123579/7423401-hawkwoman1.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/11112/111123579/7423401-hawkwoman1.jpg"
   },
+  "318": {
+    "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/f/ff/Hawkwoman.jpg/revision/latest?cb=20101004141632",
+    "image": "https://static.wikia.nocookie.net/marvel_dc/images/f/ff/Hawkwoman.jpg/revision/latest?cb=20101004141632"
+  },
+  "319": {
+    "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/2/2c/Shayera_Thal_001.jpg/revision/latest?cb=20091029050228",
+    "image": "https://static.wikia.nocookie.net/marvel_dc/images/2/2c/Shayera_Thal_001.jpg/revision/latest?cb=20091029050228"
+  },
   "320": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/8205181-the_flash_vol_1_772_textless.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/8205181-the_flash_vol_1_772_textless.jpg"
@@ -986,6 +1066,10 @@
   "325": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/7817301-hercules_%28earth-616%29_from_avengers_no_road_home_vol_1_10_001.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/7817301-hercules_%28earth-616%29_from_avengers_no_road_home_vol_1_10_001.jpg"
+  },
+  "326": {
+    "thumb": "https://static.wikia.nocookie.net/heroes/images/7/7a/R106Hiro.png/revision/latest?cb=20171210213933",
+    "image": "https://static.wikia.nocookie.net/heroes/images/7/7a/R106Hiro.png/revision/latest?cb=20171210213933"
   },
   "328": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/8154772-spider-man_vol_1_237_textless.jpg",
@@ -1063,6 +1147,10 @@
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/13/132823/4248023-isis.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/13/132823/4248023-isis.jpg"
   },
+  "349": {
+    "thumb": "https://static.wikia.nocookie.net/24wikia/images/9/91/Jack_Bauer_%28Day_9%29.jpg/revision/latest?cb=20140502045236",
+    "image": "https://static.wikia.nocookie.net/24wikia/images/9/91/Jack_Bauer_%28Day_9%29.jpg/revision/latest?cb=20140502045236"
+  },
   "350": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/9987525-jack_of_hearts.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/1/15776/9987525-jack_of_hearts.jpg"
@@ -1087,6 +1175,10 @@
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/31666/5490535-jj-var-4-1.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/3/31666/5490535-jj-var-4-1.jpg"
   },
+  "362": {
+    "thumb": "https://static.wikia.nocookie.net/heroes/images/1/1b/Jessica.jpg/revision/latest?cb=20210531210822",
+    "image": "https://static.wikia.nocookie.net/heroes/images/1/1b/Jessica.jpg/revision/latest?cb=20210531210822"
+  },
   "363": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11/117763/3162542-jigsaw.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/11/117763/3162542-jigsaw.jpg"
@@ -1098,6 +1190,10 @@
   "365": {
     "thumb": "https://image.tmdb.org/t/p/w500/8ktMwTxDqgyiYKdIB5dWEuX2zG1.jpg",
     "image": "https://image.tmdb.org/t/p/w500/8ktMwTxDqgyiYKdIB5dWEuX2zG1.jpg"
+  },
+  "366": {
+    "thumb": "https://static.wikia.nocookie.net/hellboy/images/5/5e/Johann_Kraus_002.jpg/revision/latest?cb=20140103030020",
+    "image": "https://static.wikia.nocookie.net/hellboy/images/5/5e/Johann_Kraus_002.jpg/revision/latest?cb=20140103030020"
   },
   "367": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/7/71975/7393603-9523524405-c80f4.png",
@@ -1139,6 +1235,14 @@
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/5344/4256878-justice%2001.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/0/5344/4256878-justice%2001.jpg"
   },
+  "377": {
+    "thumb": "https://static.wikia.nocookie.net/starwars/images/b/b3/JynErsoPromo.png/revision/latest?cb=20180211063950",
+    "image": "https://static.wikia.nocookie.net/starwars/images/b/b3/JynErsoPromo.png/revision/latest?cb=20180211063950"
+  },
+  "378": {
+    "thumb": "https://static.wikia.nocookie.net/starwars/images/2/23/K2SO-SWBC35cvr.png/revision/latest?cb=20241112052810",
+    "image": "https://static.wikia.nocookie.net/starwars/images/2/23/K2SO-SWBC35cvr.png/revision/latest?cb=20241112052810"
+  },
   "379": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11144/111442876/8759833-thet.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/11144/111442876/8759833-thet.jpg"
@@ -1146,6 +1250,10 @@
   "383": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/10/100647/2642357-2642356-550w_comics_kick_ass_2_3_1.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/10/100647/2642357-2642356-550w_comics_kick_ass_2_3_1.jpg"
+  },
+  "385": {
+    "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/f/f4/Kid_Flash_Bart_Allen_0012.jpg/revision/latest?cb=20101014175832",
+    "image": "https://static.wikia.nocookie.net/marvel_dc/images/f/f4/Kid_Flash_Bart_Allen_0012.jpg/revision/latest?cb=20101014175832"
   },
   "386": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/15776/10140539-killer_croc.jpg",
@@ -1235,6 +1343,10 @@
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/148172-123031-living-tribunal.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/0/77/148172-123031-living-tribunal.jpg"
   },
+  "411": {
+    "thumb": "https://static.wikia.nocookie.net/hellboy/images/6/68/Liz_cover.jpg/revision/latest?cb=20191102205627",
+    "image": "https://static.wikia.nocookie.net/hellboy/images/6/68/Liz_cover.jpg/revision/latest?cb=20191102205627"
+  },
   "412": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11144/111442876/8791115-dfgeges.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/11144/111442876/8791115-dfgeges.jpg"
@@ -1254,6 +1366,10 @@
   "416": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/7773026-rco001_1583481104.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/7773026-rco001_1583481104.jpg"
+  },
+  "417": {
+    "thumb": "https://static.wikia.nocookie.net/heroes/images/e/e9/Luke_Campbell.jpg/revision/latest?cb=20090318070502",
+    "image": "https://static.wikia.nocookie.net/heroes/images/e/e9/Luke_Campbell.jpg/revision/latest?cb=20090318070502"
   },
   "419": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11112/111123579/7163872-luna_maximoff_%28earth-616%29_from_all-new_inhumans_vol_1_11_001.png.png",
@@ -1383,6 +1499,10 @@
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/31666/1079972-mogo_1.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/3/31666/1079972-mogo_1.jpg"
   },
+  "465": {
+    "thumb": "https://static.wikia.nocookie.net/heroes/images/5/54/Mohinder_Suresh.png/revision/latest?cb=20171213192323",
+    "image": "https://static.wikia.nocookie.net/heroes/images/5/54/Mohinder_Suresh.png/revision/latest?cb=20171213192323"
+  },
   "466": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/10/105954/2043528-moloch.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/10/105954/2043528-moloch.jpg"
@@ -1447,6 +1567,10 @@
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11117/111178336/5603895-dcc2d502-6c35-49c9-c93c-6eae7f44d551.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/11117/111178336/5603895-dcc2d502-6c35-49c9-c93c-6eae7f44d551.jpg"
   },
+  "486": {
+    "thumb": "https://static.wikia.nocookie.net/heroes/images/4/48/NathanPetrelli_%28promo%29.jpg/revision/latest?cb=20150921194834",
+    "image": "https://static.wikia.nocookie.net/heroes/images/4/48/NathanPetrelli_%28promo%29.jpg/revision/latest?cb=20150921194834"
+  },
   "487": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11174/111743204/8924003-nebula.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/11174/111743204/8924003-nebula.jpg"
@@ -1466,6 +1590,10 @@
   "491": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/9337371-nightwing-113-open-to-order-artist-spotlight-variant-lee.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/9337371-nightwing-113-open-to-order-artist-spotlight-variant-lee.jpg"
+  },
+  "494": {
+    "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/8/89/Daniel_Dreiberg_Watchmen_002.png/revision/latest?cb=20201211132026",
+    "image": "https://static.wikia.nocookie.net/marvel_dc/images/8/89/Daniel_Dreiberg_Watchmen_002.png/revision/latest?cb=20201211132026"
   },
   "495": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/1/14487/7559179-7d0dcfa4-4c92-488c-8f27-bff0ee335fae.jpeg",
@@ -1531,6 +1659,10 @@
     "thumb": "https://static.wikia.nocookie.net/marveldatabase/images/9/96/Monet_St._Croix_%28Earth-616%29_from_Giant-Size_X-Men_Storm_Vol_1_1_002.jpg/revision/latest?cb=20200917223338",
     "image": "https://static.wikia.nocookie.net/marveldatabase/images/9/96/Monet_St._Croix_%28Earth-616%29_from_Giant-Size_X-Men_Storm_Vol_1_1_002.jpg/revision/latest?cb=20200917223338"
   },
+  "513": {
+    "thumb": "https://static.wikia.nocookie.net/marveldatabase/images/8/81/Robert_Baldwin_%28Earth-616%29_from_New_Warriors_Vol_5_10.jpg/revision/latest?cb=20210924003338",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/8/81/Robert_Baldwin_%28Earth-616%29_from_New_Warriors_Vol_5_10.jpg/revision/latest?cb=20210924003338"
+  },
   "514": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/9040025-ezgif-4-ab0427aa2e.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/9040025-ezgif-4-ab0427aa2e.jpg"
@@ -1546,6 +1678,10 @@
   "517": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11174/111743204/9631969-snapinst.app_478483283_18489451930039453_2656336862039838358_n_1080.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/11174/111743204/9631969-snapinst.app_478483283_18489451930039453_2656336862039838358_n_1080.jpg"
+  },
+  "519": {
+    "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/6/6f/Offspring_01.jpg/revision/latest?cb=20100729010716",
+    "image": "https://static.wikia.nocookie.net/marvel_dc/images/6/6f/Offspring_01.jpg/revision/latest?cb=20100729010716"
   },
   "520": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111564182/9725624-justice-league-unlimited-10-redondo-spotlight.jpg",
@@ -1618,6 +1754,10 @@
   "543": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11114/111147698/5466941-jla.ray_.01.cover_preview3-600x911.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/11114/111147698/5466941-jla.ray_.01.cover_preview3-600x911.jpg"
+  },
+  "544": {
+    "thumb": "https://static.wikia.nocookie.net/marveldatabase/images/5/5a/Douglas_Scott_%28Earth-616%29_from_Deadpool_Assassin_Vol_1_2_001.jpg/revision/latest?cb=20180717230618",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/5/5a/Douglas_Scott_%28Earth-616%29_from_Deadpool_Assassin_Vol_1_2_001.jpg/revision/latest?cb=20180717230618"
   },
   "545": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/9096468-ezgif-1-fbc9c39e1e.jpg",
@@ -1799,6 +1939,10 @@
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/6/64586/2184151-silk_spectre_edit.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/6/64586/2184151-silk_spectre_edit.jpg"
   },
+  "597": {
+    "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/3/3b/Laurel_Juspeczyk_Watchmen_001.png/revision/latest?cb=20210107133701",
+    "image": "https://static.wikia.nocookie.net/marvel_dc/images/3/3b/Laurel_Juspeczyk_Watchmen_001.png/revision/latest?cb=20210107133701"
+  },
   "598": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/8469814-ezgif-4-76f99dd072.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/8469814-ezgif-4-76f99dd072.jpg"
@@ -1894,6 +2038,10 @@
   "623": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111564182/10179461-spider-woman_vol_7_11_textless.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111564182/10179461-spider-woman_vol_7_11_textless.jpg"
+  },
+  "624": {
+    "thumb": "https://static.wikia.nocookie.net/marveldatabase/images/7/74/Julia_Carpenter_%28Earth-616%29_from_Prowler_Vol_2_2_001.jpg/revision/latest?cb=20191006044458",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/7/74/Julia_Carpenter_%28Earth-616%29_from_Prowler_Vol_2_2_001.jpg/revision/latest?cb=20191006044458"
   },
   "626": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/0/77/153247-136954-charlotte-witter.jpg",
@@ -2007,6 +2155,10 @@
     "thumb": "https://static.wikia.nocookie.net/marveldatabase/images/0/05/Uncanny_X-Men_Vol_1_476_Textless.jpg/revision/latest?cb=20210517183725",
     "image": "https://static.wikia.nocookie.net/marveldatabase/images/0/05/Uncanny_X-Men_Vol_1_476_Textless.jpg/revision/latest?cb=20210517183725"
   },
+  "663": {
+    "thumb": "https://static.wikia.nocookie.net/marveldatabase/images/c/c1/Neal_Shaara_%28Earth-616%29_from_X-Men_Battle_of_the_Atom_%28video_game%29_001.jpg/revision/latest?cb=20171120002046",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/c/c1/Neal_Shaara_%28Earth-616%29_from_X-Men_Battle_of_the_Atom_%28video_game%29_001.jpg/revision/latest?cb=20171120002046"
+  },
   "664": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/3/31337/1553978-thor_11_19_10.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/3/31337/1553978-thor_11_19_10.jpg"
@@ -2038,6 +2190,10 @@
   "672": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/12/124259/9558823-large-7091255.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/12/124259/9558823-large-7091255.jpg"
+  },
+  "673": {
+    "thumb": "https://static.wikia.nocookie.net/heroes/images/c/c4/TracyStrauss.png/revision/latest?cb=20150921183440",
+    "image": "https://static.wikia.nocookie.net/heroes/images/c/c4/TracyStrauss.png/revision/latest?cb=20150921183440"
   },
   "674": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11114/111147698/6732177-fls-cv66.jpg",
@@ -2163,6 +2319,10 @@
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/10/100647/3678056-watchermoon.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/10/100647/3678056-watchermoon.jpg"
   },
+  "710": {
+    "thumb": "https://static.wikia.nocookie.net/marveldatabase/images/2/28/Weapon_XI_from_Weapon_X_Vol_2_23_001.png/revision/latest?cb=20230613025415",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/2/28/Weapon_XI_from_Weapon_X_Vol_2_23_001.png/revision/latest?cb=20230613025415"
+  },
   "711": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111564182/8691473-whitecanary.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111564182/8691473-whitecanary.jpg"
@@ -2178,6 +2338,10 @@
   "714": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11156/111564182/9646601-thunderbolts_vol_5_1_textless.jpg",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_large/11156/111564182/9646601-thunderbolts_vol_5_1_textless.jpg"
+  },
+  "715": {
+    "thumb": "https://static.wikia.nocookie.net/marveldatabase/images/6/67/S.W.O.R.D._Vol_2_10_Lee_Variant_Textless.jpg/revision/latest?cb=20240515213428",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/6/67/S.W.O.R.D._Vol_2_10_Lee_Variant_Textless.jpg/revision/latest?cb=20240515213428"
   },
   "716": {
     "thumb": "https://comicvine.gamespot.com/a/uploads/scale_avatar/11112/111123579/7198464-wolfsbane.jpg",

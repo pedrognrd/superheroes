@@ -8,7 +8,7 @@ import './HeroIdentity.css'
 
 /** Columna izquierda: retrato + alineación + nombre + nombre real */
 export function HeroIdentity({ hero }: { hero: Hero }) {
-  // Urls que no han cargado: primero el retrato de superherodb, luego el de Comic Vine
+  // Urls que no han cargado: primero el retrato (akabab, Fandom…), luego el de Comic Vine
   const [failed, setFailed] = useState<string[]>([])
   const alignment = isEmpty(hero.biography.alignment) ? 'unknown' : hero.biography.alignment
   const fullName = isEmpty(hero.biography['full-name']) ? hero.name : hero.biography['full-name']
@@ -22,7 +22,7 @@ export function HeroIdentity({ hero }: { hero: Hero }) {
             <img
               src={src}
               alt={hero.name}
-              referrerPolicy={src === hero.image.url ? undefined : 'no-referrer'}
+              referrerPolicy="no-referrer"
               style={{ objectPosition: src === hero.image.url ? PORTRAITS[hero.id]?.position : undefined }}
               onError={() => setFailed((f) => [...f, src])}
             />

@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { fallbackThumb } from '../data/portraitFallbacks'
+import { akababImage } from '../data/heroes'
 import { STAT_KEYS, type Hero } from '../types'
 import {
   applyFilters,
@@ -43,9 +44,9 @@ const PAGE = 60
 /** Miniatura del resultado: si el retrato no carga, la de Comic Vine; si tampoco, un hueco */
 function ResultImage({ hero }: { hero: Hero }) {
   const [step, setStep] = useState(0)
-  const src = step === 0 ? hero.image.url : step === 1 ? fallbackThumb(hero.id) : undefined
+  const src = step === 0 ? (akababImage(hero.id, 'md') ?? hero.image.url) : step === 1 ? fallbackThumb(hero.id) : undefined
   if (!src) return <span className="results__noimg" aria-hidden="true" />
-  return <img src={src} alt="" loading="lazy" referrerPolicy={step === 0 ? undefined : 'no-referrer'} onError={() => setStep((s) => s + 1)} />
+  return <img src={src} alt="" loading="lazy" referrerPolicy="no-referrer" onError={() => setStep((s) => s + 1)} />
 }
 
 export function SearchBar({ onSelect }: { onSelect: (id: string) => void }) {
